@@ -1,0 +1,2504 @@
+[
+  {
+    "name": "init_logger",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 3694,
+    "end": 3702
+  },
+  {
+    "name": "init_types",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 4012,
+    "end": 4020
+  },
+  {
+    "name": "init_markdown_frontmatter",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 4079,
+    "end": 4082
+  },
+  {
+    "name": "init_init",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 10129,
+    "end": 10199
+  },
+  {
+    "name": "init_store",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 10334,
+    "end": 10337
+  },
+  {
+    "name": "init_refresh",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 10410,
+    "end": 10432
+  },
+  {
+    "name": "init_file_lock",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 10500,
+    "end": 10511
+  },
+  {
+    "name": "init_refresh_session",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 10549,
+    "end": 10553
+  },
+  {
+    "name": "init_oauth",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 10990,
+    "end": 11007
+  },
+  {
+    "name": "init_provider_registry",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 11915,
+    "end": 12028
+  },
+  {
+    "name": "init_builtin",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 12030,
+    "end": 12034
+  },
+  {
+    "name": "init_matrix_gateway",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 12106,
+    "end": 12109
+  },
+  {
+    "name": "init_session_manager",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 12224,
+    "end": 12231
+  },
+  {
+    "name": "init_provider_graph",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 12369,
+    "end": 12378
+  },
+  {
+    "name": "init_provider_graph_store",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 12520,
+    "end": 12522
+  },
+  {
+    "name": "init_provider_curation",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 12603,
+    "end": 12607
+  },
+  {
+    "name": "init_token_provider",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 12755,
+    "end": 12758
+  },
+  {
+    "name": "init_src",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 12853,
+    "end": 12868
+  },
+  {
+    "name": "init_supported_models",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 12880,
+    "end": 12885
+  },
+  {
+    "name": "init_file_lock2",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 12992,
+    "end": 13003
+  },
+  {
+    "name": "init_outbox",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 13165,
+    "end": 13167
+  },
+  {
+    "name": "init_store2",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 13198,
+    "end": 13201
+  },
+  {
+    "name": "init_store3",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 13888,
+    "end": 13898
+  },
+  {
+    "name": "init_local_task_index",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 13981,
+    "end": 13999
+  },
+  {
+    "name": "init_store4",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 14699,
+    "end": 14709
+  },
+  {
+    "name": "init_delivery_proof",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 14741,
+    "end": 14743
+  },
+  {
+    "name": "init_path_policy",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 14871,
+    "end": 14886
+  },
+  {
+    "name": "init_store5",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 19694,
+    "end": 19696
+  },
+  {
+    "name": "init_content_store",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 19992,
+    "end": 20042
+  },
+  {
+    "name": "init_conflict_store",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 20136,
+    "end": 20152
+  },
+  {
+    "name": "init_legacy_department_associations",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 20386,
+    "end": 20390
+  },
+  {
+    "name": "init_revision_retention",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 20458,
+    "end": 20462
+  },
+  {
+    "name": "init_service",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 25338,
+    "end": 25379
+  },
+  {
+    "name": "init_proof_pins",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 25579,
+    "end": 25585
+  },
+  {
+    "name": "init_mutations",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 26402,
+    "end": 26419
+  },
+  {
+    "name": "init_tasks",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 28259,
+    "end": 28322
+  },
+  {
+    "name": "init_storage_cleanup",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 28587,
+    "end": 28617
+  },
+  {
+    "name": "init_runtime_stable_references",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 28689,
+    "end": 28691
+  },
+  {
+    "name": "init_config",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 29886,
+    "end": 29899
+  },
+  {
+    "name": "init_contract",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 29903,
+    "end": 29939
+  },
+  {
+    "name": "init_paths",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 29953,
+    "end": 29956
+  },
+  {
+    "name": "init_wake_counter",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 29999,
+    "end": 30001
+  },
+  {
+    "name": "init_protocol",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 30034,
+    "end": 30313
+  },
+  {
+    "name": "init_user_profile",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 30424,
+    "end": 30435
+  },
+  {
+    "name": "init_context_overflow",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 30549,
+    "end": 30556
+  },
+  {
+    "name": "init_context_window",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 30600,
+    "end": 30607
+  },
+  {
+    "name": "init_src2",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 30608,
+    "end": 30611
+  },
+  {
+    "name": "init_client",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 30758,
+    "end": 30769
+  },
+  {
+    "name": "init_brand_slug",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 30780,
+    "end": 30840
+  },
+  {
+    "name": "init_protocol_index",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 30853,
+    "end": 30855
+  },
+  {
+    "name": "init_gateway_catalog",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 31171,
+    "end": 31185
+  },
+  {
+    "name": "init_session_host_model_routing",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 31483,
+    "end": 31508
+  },
+  {
+    "name": "init_local_provider_graph",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 31917,
+    "end": 31921
+  },
+  {
+    "name": "init_store6",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 32675,
+    "end": 32681
+  },
+  {
+    "name": "init_app_server",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 32976,
+    "end": 32978
+  },
+  {
+    "name": "init_codex_catalog",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 33073,
+    "end": 33079
+  },
+  {
+    "name": "init_catalog",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 33389,
+    "end": 33398
+  },
+  {
+    "name": "init_user_profile_discovery",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 34238,
+    "end": 34292
+  },
+  {
+    "name": "init_manager",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 35551,
+    "end": 35588
+  },
+  {
+    "name": "init_focus",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 35609,
+    "end": 35611
+  },
+  {
+    "name": "init_autonomy",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 35659,
+    "end": 35663
+  },
+  {
+    "name": "init_aggregator",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 35729,
+    "end": 35731
+  },
+  {
+    "name": "init_policy",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 35755,
+    "end": 35759
+  },
+  {
+    "name": "init_registry",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 35903,
+    "end": 35908
+  },
+  {
+    "name": "init_ref_decay",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 36146,
+    "end": 36160
+  },
+  {
+    "name": "init_audit",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 36196,
+    "end": 36199
+  },
+  {
+    "name": "init_history",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 36212,
+    "end": 36214
+  },
+  {
+    "name": "init_render",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 36931,
+    "end": 36939
+  },
+  {
+    "name": "init_types2",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 37074,
+    "end": 37170
+  },
+  {
+    "name": "init_fire",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 37768,
+    "end": 37793
+  },
+  {
+    "name": "init_wake",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 37795,
+    "end": 37800
+  },
+  {
+    "name": "init_billing_actor",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 37802,
+    "end": 37814
+  },
+  {
+    "name": "init_store7",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 38213,
+    "end": 38217
+  },
+  {
+    "name": "init_image_processing",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 38403,
+    "end": 38420
+  },
+  {
+    "name": "init_client2",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 40381,
+    "end": 40438
+  },
+  {
+    "name": "init_character_assets",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 40688,
+    "end": 40691
+  },
+  {
+    "name": "init_integration_mentions",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 40825,
+    "end": 40836
+  },
+  {
+    "name": "init_turn_durability",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 40947,
+    "end": 40951
+  },
+  {
+    "name": "init_chat_routing",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 41040,
+    "end": 41060
+  },
+  {
+    "name": "init_src3",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 41061,
+    "end": 41063
+  },
+  {
+    "name": "init_inbox",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 41199,
+    "end": 41201
+  },
+  {
+    "name": "init_conflicts",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 41367,
+    "end": 41381
+  },
+  {
+    "name": "init_message_projection",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 41433,
+    "end": 41437
+  },
+  {
+    "name": "init_department_message_snapshot",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 41558,
+    "end": 41560
+  },
+  {
+    "name": "init_okr_snapshot",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 41594,
+    "end": 41596
+  },
+  {
+    "name": "init_task_snapshot",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 41626,
+    "end": 41629
+  },
+  {
+    "name": "init_workspace_config_snapshot",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 41645,
+    "end": 41647
+  },
+  {
+    "name": "init_apply",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 41834,
+    "end": 41842
+  },
+  {
+    "name": "init_pull",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 42007,
+    "end": 42012
+  },
+  {
+    "name": "init_push",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 42076,
+    "end": 42080
+  },
+  {
+    "name": "init_resolve",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 42298,
+    "end": 42305
+  },
+  {
+    "name": "init_response_language",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 42336,
+    "end": 42351
+  },
+  {
+    "name": "init_runtime_bootstrap",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 42471,
+    "end": 42475
+  },
+  {
+    "name": "init_slash_command_messages",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 42699,
+    "end": 42711
+  },
+  {
+    "name": "init_session_host_attachments",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 42941,
+    "end": 42945
+  },
+  {
+    "name": "init_context_window2",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 42956,
+    "end": 42959
+  },
+  {
+    "name": "init_tool_lifecycle",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 43211,
+    "end": 43219
+  },
+  {
+    "name": "init_session_host_support",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 43501,
+    "end": 43528
+  },
+  {
+    "name": "init_cron_expression",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 43654,
+    "end": 43660
+  },
+  {
+    "name": "init_manager2",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 43955,
+    "end": 43962
+  },
+  {
+    "name": "init_marketplace_integration_routes",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 43978,
+    "end": 43985
+  },
+  {
+    "name": "init_acquisition_handover",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 46723,
+    "end": 46733
+  },
+  {
+    "name": "init_paths3",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 46797,
+    "end": 46806
+  },
+  {
+    "name": "init_lifecycle",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 46831,
+    "end": 46837
+  },
+  {
+    "name": "init_config2",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 46958,
+    "end": 46966
+  },
+  {
+    "name": "init_oauth2",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 47043,
+    "end": 47046
+  },
+  {
+    "name": "init_selection",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 47101,
+    "end": 47104
+  },
+  {
+    "name": "init_types3",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 47115,
+    "end": 47141
+  },
+  {
+    "name": "init_outbound_proxy",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 47344,
+    "end": 47346
+  },
+  {
+    "name": "init_node_runtime_fetch",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 47638,
+    "end": 47839
+  },
+  {
+    "name": "init_downloader",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 48064,
+    "end": 48076
+  },
+  {
+    "name": "init_manifest",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 48167,
+    "end": 48170
+  },
+  {
+    "name": "init_signer",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 48233,
+    "end": 48237
+  },
+  {
+    "name": "init_version",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 48289,
+    "end": 48293
+  },
+  {
+    "name": "init_installer",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 48487,
+    "end": 48508
+  },
+  {
+    "name": "init_state_store",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 48575,
+    "end": 48578
+  },
+  {
+    "name": "init_subscription_auth_files",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 48775,
+    "end": 48781
+  },
+  {
+    "name": "init_codex_binary",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 48786,
+    "end": 48789
+  },
+  {
+    "name": "init_subscription_prompt",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 48801,
+    "end": 48804
+  },
+  {
+    "name": "init_subscription",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 48995,
+    "end": 49012
+  },
+  {
+    "name": "init_service2",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 49540,
+    "end": 49553
+  },
+  {
+    "name": "init_runtime_worker_models",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 49593,
+    "end": 49597
+  },
+  {
+    "name": "init_beliefs",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 49698,
+    "end": 49706
+  },
+  {
+    "name": "init_installs",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 50043,
+    "end": 50047
+  },
+  {
+    "name": "init_skill_catalog",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 50330,
+    "end": 50344
+  },
+  {
+    "name": "init_native",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 50599,
+    "end": 50603
+  },
+  {
+    "name": "init_core",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 50648,
+    "end": 50664
+  },
+  {
+    "name": "init_util",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 51237,
+    "end": 51267
+  },
+  {
+    "name": "init_errors",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 51386,
+    "end": 51391
+  },
+  {
+    "name": "init_parse",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 51482,
+    "end": 51498
+  },
+  {
+    "name": "init_regexes",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 51668,
+    "end": 51734
+  },
+  {
+    "name": "init_checks",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 51761,
+    "end": 52278
+  },
+  {
+    "name": "init_versions",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 52318,
+    "end": 52320
+  },
+  {
+    "name": "init_schemas",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 52733,
+    "end": 54201
+  },
+  {
+    "name": "init_ar",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 54326,
+    "end": 54328
+  },
+  {
+    "name": "init_az",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 54446,
+    "end": 54448
+  },
+  {
+    "name": "init_be",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 54625,
+    "end": 54627
+  },
+  {
+    "name": "init_bg",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 54782,
+    "end": 54784
+  },
+  {
+    "name": "init_ca",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 54898,
+    "end": 54900
+  },
+  {
+    "name": "init_cs",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 55024,
+    "end": 55026
+  },
+  {
+    "name": "init_da",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 55151,
+    "end": 55153
+  },
+  {
+    "name": "init_de",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 55267,
+    "end": 55269
+  },
+  {
+    "name": "init_el",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 55410,
+    "end": 55412
+  },
+  {
+    "name": "init_en",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 55529,
+    "end": 55531
+  },
+  {
+    "name": "init_eo",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 55645,
+    "end": 55647
+  },
+  {
+    "name": "init_es",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 55789,
+    "end": 55791
+  },
+  {
+    "name": "init_fa",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 55930,
+    "end": 55932
+  },
+  {
+    "name": "init_fi",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 56050,
+    "end": 56052
+  },
+  {
+    "name": "init_fr",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 56194,
+    "end": 56196
+  },
+  {
+    "name": "init_fr_CA",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 56312,
+    "end": 56314
+  },
+  {
+    "name": "init_he",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 56586,
+    "end": 56588
+  },
+  {
+    "name": "init_hr",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 56720,
+    "end": 56722
+  },
+  {
+    "name": "init_hu",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 56840,
+    "end": 56842
+  },
+  {
+    "name": "init_hy",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 56997,
+    "end": 56999
+  },
+  {
+    "name": "init_id",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 57113,
+    "end": 57115
+  },
+  {
+    "name": "init_is",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 57229,
+    "end": 57231
+  },
+  {
+    "name": "init_it",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 57345,
+    "end": 57347
+  },
+  {
+    "name": "init_ja",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 57471,
+    "end": 57473
+  },
+  {
+    "name": "init_ka",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 57615,
+    "end": 57617
+  },
+  {
+    "name": "init_km",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 57750,
+    "end": 57752
+  },
+  {
+    "name": "init_kh",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 57756,
+    "end": 57758
+  },
+  {
+    "name": "init_ko",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 57886,
+    "end": 57888
+  },
+  {
+    "name": "init_lt",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 58098,
+    "end": 58100
+  },
+  {
+    "name": "init_mk",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 58239,
+    "end": 58241
+  },
+  {
+    "name": "init_ms",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 58353,
+    "end": 58355
+  },
+  {
+    "name": "init_nl",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 58479,
+    "end": 58481
+  },
+  {
+    "name": "init_no",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 58595,
+    "end": 58597
+  },
+  {
+    "name": "init_ota",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 58711,
+    "end": 58713
+  },
+  {
+    "name": "init_ps",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 58837,
+    "end": 58839
+  },
+  {
+    "name": "init_pl",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 58965,
+    "end": 58967
+  },
+  {
+    "name": "init_pt",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 59081,
+    "end": 59083
+  },
+  {
+    "name": "init_ro",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 59211,
+    "end": 59213
+  },
+  {
+    "name": "init_ru",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 59392,
+    "end": 59394
+  },
+  {
+    "name": "init_sl",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 59510,
+    "end": 59512
+  },
+  {
+    "name": "init_sv",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 59630,
+    "end": 59632
+  },
+  {
+    "name": "init_ta",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 59774,
+    "end": 59776
+  },
+  {
+    "name": "init_th",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 59913,
+    "end": 59915
+  },
+  {
+    "name": "init_tr",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 60031,
+    "end": 60033
+  },
+  {
+    "name": "init_uk",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 60174,
+    "end": 60176
+  },
+  {
+    "name": "init_ua",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 60180,
+    "end": 60182
+  },
+  {
+    "name": "init_ur",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 60311,
+    "end": 60313
+  },
+  {
+    "name": "init_uz",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 60431,
+    "end": 60433
+  },
+  {
+    "name": "init_vi",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 60553,
+    "end": 60555
+  },
+  {
+    "name": "init_zh_CN",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 60676,
+    "end": 60678
+  },
+  {
+    "name": "init_zh_TW",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 60796,
+    "end": 60798
+  },
+  {
+    "name": "init_yo",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 60912,
+    "end": 60914
+  },
+  {
+    "name": "init_locales",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 60970,
+    "end": 61023
+  },
+  {
+    "name": "init_registries",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 61064,
+    "end": 61069
+  },
+  {
+    "name": "init_api",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 61773,
+    "end": 61779
+  },
+  {
+    "name": "init_to_json_schema",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 62083,
+    "end": 62085
+  },
+  {
+    "name": "init_json_schema_processors",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 62501,
+    "end": 62552
+  },
+  {
+    "name": "init_json_schema_generator",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 62606,
+    "end": 62609
+  },
+  {
+    "name": "init_core2",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 62889,
+    "end": 62905
+  },
+  {
+    "name": "init_checks2",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 62938,
+    "end": 62940
+  },
+  {
+    "name": "init_iso",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 62965,
+    "end": 62984
+  },
+  {
+    "name": "init_errors2",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 63012,
+    "end": 63018
+  },
+  {
+    "name": "init_parse2",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 63031,
+    "end": 63046
+  },
+  {
+    "name": "init_schemas2",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 63742,
+    "end": 64532
+  },
+  {
+    "name": "init_compat",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 64540,
+    "end": 64556
+  },
+  {
+    "name": "init_from_json_schema",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 64870,
+    "end": 64935
+  },
+  {
+    "name": "init_coerce",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 64959,
+    "end": 64962
+  },
+  {
+    "name": "init_external",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 65204,
+    "end": 65221
+  },
+  {
+    "name": "init_zod",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 65222,
+    "end": 65225
+  },
+  {
+    "name": "init_protocol2",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 65306,
+    "end": 65308
+  },
+  {
+    "name": "init_errors3",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 65361,
+    "end": 65390
+  },
+  {
+    "name": "init_query_shared",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 65792,
+    "end": 65796
+  },
+  {
+    "name": "init_query",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 66112,
+    "end": 66139
+  },
+  {
+    "name": "init_session",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 66558,
+    "end": 66560
+  },
+  {
+    "name": "init_util2",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 66596,
+    "end": 66673
+  },
+  {
+    "name": "init_ZodError",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 66675,
+    "end": 66777
+  },
+  {
+    "name": "init_en2",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 66910,
+    "end": 66914
+  },
+  {
+    "name": "init_errors4",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 66919,
+    "end": 66922
+  },
+  {
+    "name": "init_parseUtil",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 67002,
+    "end": 67006
+  },
+  {
+    "name": "init_errorUtil",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 67009,
+    "end": 67014
+  },
+  {
+    "name": "init_types4",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 67525,
+    "end": 69990
+  },
+  {
+    "name": "init_external2",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 69991,
+    "end": 69998
+  },
+  {
+    "name": "init_v3",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 69999,
+    "end": 70001
+  },
+  {
+    "name": "init_core3",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 70046,
+    "end": 70061
+  },
+  {
+    "name": "init_util3",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 70626,
+    "end": 70654
+  },
+  {
+    "name": "init_errors5",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 70704,
+    "end": 70709
+  },
+  {
+    "name": "init_parse3",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 70792,
+    "end": 70800
+  },
+  {
+    "name": "init_regexes2",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 70866,
+    "end": 70896
+  },
+  {
+    "name": "init_checks3",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 70914,
+    "end": 71285
+  },
+  {
+    "name": "init_versions2",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 71325,
+    "end": 71327
+  },
+  {
+    "name": "init_schemas3",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 71593,
+    "end": 72592
+  },
+  {
+    "name": "init_en3",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 72705,
+    "end": 72707
+  },
+  {
+    "name": "init_registries2",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 72749,
+    "end": 72754
+  },
+  {
+    "name": "init_api2",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 73169,
+    "end": 73172
+  },
+  {
+    "name": "init_to_json_schema2",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 73468,
+    "end": 73470
+  },
+  {
+    "name": "init_json_schema_processors2",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 73898,
+    "end": 73949
+  },
+  {
+    "name": "init_core4",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 73951,
+    "end": 73965
+  },
+  {
+    "name": "init_parse4",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 73966,
+    "end": 73968
+  },
+  {
+    "name": "init_schemas4",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 73974,
+    "end": 74015
+  },
+  {
+    "name": "init_external3",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 74019,
+    "end": 74028
+  },
+  {
+    "name": "init_v4_mini",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 74029,
+    "end": 74031
+  },
+  {
+    "name": "init_zod_compat",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 74156,
+    "end": 74159
+  },
+  {
+    "name": "init_checks5",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 74160,
+    "end": 74162
+  },
+  {
+    "name": "init_iso3",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 74187,
+    "end": 74206
+  },
+  {
+    "name": "init_errors6",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 74234,
+    "end": 74240
+  },
+  {
+    "name": "init_parse5",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 74253,
+    "end": 74268
+  },
+  {
+    "name": "init_schemas5",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 74452,
+    "end": 74954
+  },
+  {
+    "name": "init_compat2",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 74956,
+    "end": 74958
+  },
+  {
+    "name": "init_external4",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 74960,
+    "end": 74973
+  },
+  {
+    "name": "init_classic",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 74974,
+    "end": 74976
+  },
+  {
+    "name": "init_v4",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 74977,
+    "end": 74979
+  },
+  {
+    "name": "init_types5",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 75162,
+    "end": 75933
+  },
+  {
+    "name": "init_Options",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 75943,
+    "end": 75969
+  },
+  {
+    "name": "init_Refs",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 75991,
+    "end": 75993
+  },
+  {
+    "name": "init_array",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 76047,
+    "end": 76050
+  },
+  {
+    "name": "init_branded",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 76106,
+    "end": 76108
+  },
+  {
+    "name": "init_catch",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 76112,
+    "end": 76114
+  },
+  {
+    "name": "init_default",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 76149,
+    "end": 76151
+  },
+  {
+    "name": "init_effects",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 76155,
+    "end": 76158
+  },
+  {
+    "name": "init_intersection",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 76190,
+    "end": 76192
+  },
+  {
+    "name": "init_string",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 76502,
+    "end": 76530
+  },
+  {
+    "name": "init_record",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 76580,
+    "end": 76586
+  },
+  {
+    "name": "init_map",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 76603,
+    "end": 76607
+  },
+  {
+    "name": "init_never",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 76627,
+    "end": 76629
+  },
+  {
+    "name": "init_union",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 76694,
+    "end": 76703
+  },
+  {
+    "name": "init_nullable",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 76726,
+    "end": 76729
+  },
+  {
+    "name": "init_object",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 76836,
+    "end": 76838
+  },
+  {
+    "name": "init_optional",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 76849,
+    "end": 76852
+  },
+  {
+    "name": "init_pipeline",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 76863,
+    "end": 76865
+  },
+  {
+    "name": "init_promise",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 76869,
+    "end": 76871
+  },
+  {
+    "name": "init_set",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 76886,
+    "end": 76888
+  },
+  {
+    "name": "init_tuple",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 76911,
+    "end": 76913
+  },
+  {
+    "name": "init_undefined",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 76917,
+    "end": 76919
+  },
+  {
+    "name": "init_unknown",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 76923,
+    "end": 76925
+  },
+  {
+    "name": "init_readonly",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 76929,
+    "end": 76931
+  },
+  {
+    "name": "init_selectParser",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 77008,
+    "end": 77035
+  },
+  {
+    "name": "init_parseDef",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 77089,
+    "end": 77093
+  },
+  {
+    "name": "init_zodToJsonSchema",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 77161,
+    "end": 77165
+  },
+  {
+    "name": "init_esm",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 77166,
+    "end": 77199
+  },
+  {
+    "name": "init_zod_json_schema_compat",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 77231,
+    "end": 77235
+  },
+  {
+    "name": "init_protocol3",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 78049,
+    "end": 78053
+  },
+  {
+    "name": "init_ajv_provider",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 84538,
+    "end": 84541
+  },
+  {
+    "name": "init_server",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 84643,
+    "end": 84645
+  },
+  {
+    "name": "init_server2",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 84686,
+    "end": 85084
+  },
+  {
+    "name": "init_completable",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 85093,
+    "end": 85098
+  },
+  {
+    "name": "init_toolNameValidation",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 85155,
+    "end": 85157
+  },
+  {
+    "name": "init_zod2",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 85183,
+    "end": 85185
+  },
+  {
+    "name": "init_mcp",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 85883,
+    "end": 85893
+  },
+  {
+    "name": "init_mcp2",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 85939,
+    "end": 85943
+  },
+  {
+    "name": "init_types6",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 85958,
+    "end": 85996
+  },
+  {
+    "name": "init_src4",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 86019,
+    "end": 86025
+  },
+  {
+    "name": "init_cloudflare_mcp",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 86355,
+    "end": 86455
+  },
+  {
+    "name": "init_provider_mcp",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 86789,
+    "end": 86793
+  },
+  {
+    "name": "init_runtime_mcp",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 86810,
+    "end": 86822
+  },
+  {
+    "name": "init_runtime",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 89329,
+    "end": 89368
+  },
+  {
+    "name": "init_loader",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 90208,
+    "end": 90220
+  },
+  {
+    "name": "init_schedule_input",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 90420,
+    "end": 90424
+  },
+  {
+    "name": "init_tracker",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 90910,
+    "end": 90913
+  },
+  {
+    "name": "init_endpoint_registry",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 91076,
+    "end": 91079
+  },
+  {
+    "name": "init_task_link",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 91250,
+    "end": 91254
+  },
+  {
+    "name": "init_types7",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 91259,
+    "end": 91262
+  },
+  {
+    "name": "init_reader",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 91345,
+    "end": 91348
+  },
+  {
+    "name": "init_operational_next_step",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 91692,
+    "end": 91697
+  },
+  {
+    "name": "init_operational_view",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 91912,
+    "end": 91929
+  },
+  {
+    "name": "init_refresh_config",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 92579,
+    "end": 92592
+  },
+  {
+    "name": "init_derived",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 93100,
+    "end": 93119
+  },
+  {
+    "name": "init_task_input",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 93280,
+    "end": 93283
+  },
+  {
+    "name": "init_task_output_preview",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 93540,
+    "end": 93542
+  },
+  {
+    "name": "init_terminal",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 94624,
+    "end": 94628
+  },
+  {
+    "name": "init_synthetic_user_message",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 94663,
+    "end": 94714
+  },
+  {
+    "name": "init_activity",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 94991,
+    "end": 95000
+  },
+  {
+    "name": "init_transcript_history",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 95871,
+    "end": 95877
+  },
+  {
+    "name": "init_task_detail_transcript_source",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 96679,
+    "end": 96684
+  },
+  {
+    "name": "init_workspace_preview",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 96982,
+    "end": 96986
+  },
+  {
+    "name": "init_workspace_text_preview",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 97017,
+    "end": 97019
+  },
+  {
+    "name": "init_workspace_fs_list",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 97137,
+    "end": 97146
+  },
+  {
+    "name": "init_workspace_fs_search",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 97312,
+    "end": 97314
+  },
+  {
+    "name": "init_workspace_access",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 97359,
+    "end": 97395
+  },
+  {
+    "name": "init_caller_from_actor",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 97414,
+    "end": 97416
+  },
+  {
+    "name": "init_quiet_note_buffer",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 97505,
+    "end": 97507
+  },
+  {
+    "name": "init_social_accounts",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 97566,
+    "end": 97580
+  },
+  {
+    "name": "init_link_wallet",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 97874,
+    "end": 97882
+  },
+  {
+    "name": "init_maintenance_config",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 97955,
+    "end": 97960
+  },
+  {
+    "name": "init_billing_activity",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 98202,
+    "end": 98205
+  },
+  {
+    "name": "init_handler",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 110000,
+    "end": 110502
+  },
+  {
+    "name": "init_ws_trace",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 110537,
+    "end": 110541
+  },
+  {
+    "name": "init_bind_host",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 110583,
+    "end": 110585
+  },
+  {
+    "name": "init_server3",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 111010,
+    "end": 111021
+  },
+  {
+    "name": "init_token",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 111061,
+    "end": 111063
+  },
+  {
+    "name": "init_runtime_options",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 111084,
+    "end": 111089
+  },
+  {
+    "name": "init_server4",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 111212,
+    "end": 111217
+  },
+  {
+    "name": "init_cron",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 111234,
+    "end": 111237
+  },
+  {
+    "name": "init_user_cron_runner",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 111269,
+    "end": 111272
+  },
+  {
+    "name": "init_runner",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 112445,
+    "end": 112454
+  },
+  {
+    "name": "init_user_cron_ticker",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 112630,
+    "end": 112633
+  },
+  {
+    "name": "init_context",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 113223,
+    "end": 113331
+  },
+  {
+    "name": "init_system_model",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 113439,
+    "end": 113447
+  },
+  {
+    "name": "init_refresh_runner",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 113855,
+    "end": 113916
+  },
+  {
+    "name": "init_maintenance_scheduler",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 114152,
+    "end": 114164
+  },
+  {
+    "name": "init_ticker",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 114639,
+    "end": 114658
+  },
+  {
+    "name": "init_next_steps",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 114791,
+    "end": 114793
+  },
+  {
+    "name": "init_transcript_excerpt",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 114933,
+    "end": 114936
+  },
+  {
+    "name": "init_activity_probe",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 114994,
+    "end": 114996
+  },
+  {
+    "name": "init_gate",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 115097,
+    "end": 115099
+  },
+  {
+    "name": "init_gate_signals",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 115148,
+    "end": 115155
+  },
+  {
+    "name": "init_maintenance_runner",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 115510,
+    "end": 115521
+  },
+  {
+    "name": "init_installs_watcher",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 115793,
+    "end": 115797
+  },
+  {
+    "name": "init_validate2",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 115836,
+    "end": 115839
+  },
+  {
+    "name": "init_preflight",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 115883,
+    "end": 115886
+  },
+  {
+    "name": "init_inference_paths",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 115917,
+    "end": 115926
+  },
+  {
+    "name": "init_reapOrphanNi",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 116117,
+    "end": 116120
+  },
+  {
+    "name": "init_reapOrphanBrowser",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 116232,
+    "end": 116242
+  },
+  {
+    "name": "init_assistant_content_overlays",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 116799,
+    "end": 116802
+  },
+  {
+    "name": "init_catalog2",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 117242,
+    "end": 117246
+  },
+  {
+    "name": "init_chat_timeline_projector",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 117973,
+    "end": 117976
+  },
+  {
+    "name": "init_state_manager",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 120499,
+    "end": 120507
+  },
+  {
+    "name": "init_lease",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 120539,
+    "end": 120542
+  },
+  {
+    "name": "init_reconcile",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 120604,
+    "end": 120606
+  },
+  {
+    "name": "init_shutdown_budget",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 120611,
+    "end": 120613
+  },
+  {
+    "name": "init_shutdown_hosts",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 120664,
+    "end": 120667
+  },
+  {
+    "name": "init_wake_scheduler",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 120675,
+    "end": 120677
+  },
+  {
+    "name": "init_external_signal_gate",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 120694,
+    "end": 120702
+  },
+  {
+    "name": "init_canonical_chat_session_repair",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 120832,
+    "end": 120837
+  },
+  {
+    "name": "init_ni_lifecycle_policy",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 120860,
+    "end": 120876
+  },
+  {
+    "name": "init_runtime_integrations_refresh",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 120936,
+    "end": 120938
+  },
+  {
+    "name": "init_harvester",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 121452,
+    "end": 121469
+  },
+  {
+    "name": "init_openai_compat",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 122786,
+    "end": 122827
+  },
+  {
+    "name": "init_proxy",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 123107,
+    "end": 123117
+  },
+  {
+    "name": "init_dependency_unblock",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 123251,
+    "end": 123254
+  },
+  {
+    "name": "init_runtime_department_hosts",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 123433,
+    "end": 123438
+  },
+  {
+    "name": "init_department_message",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 123442,
+    "end": 123445
+  },
+  {
+    "name": "init_runtime_department_messages",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 124186,
+    "end": 124200
+  },
+  {
+    "name": "init_agent_context",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 124259,
+    "end": 124266
+  },
+  {
+    "name": "init_key_result_acquisition",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 124443,
+    "end": 124447
+  },
+  {
+    "name": "init_objective_awareness",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 124641,
+    "end": 124643
+  },
+  {
+    "name": "init_user_cron_mcp",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 125006,
+    "end": 125019
+  },
+  {
+    "name": "init_destructive_confirmation",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 125109,
+    "end": 125115
+  },
+  {
+    "name": "init_matrix_workspace_mcp",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 126061,
+    "end": 126180
+  },
+  {
+    "name": "init_okr_workspace_mcp",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 127127,
+    "end": 127221
+  },
+  {
+    "name": "init_receivable_mcp",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 128077,
+    "end": 128080
+  },
+  {
+    "name": "init_media_mcp",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 128657,
+    "end": 128698
+  },
+  {
+    "name": "init_file_provenance_mcp",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 129091,
+    "end": 129103
+  },
+  {
+    "name": "init_src5",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 129223,
+    "end": 129228
+  },
+  {
+    "name": "init_runtime_prompt_context",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 130855,
+    "end": 130924
+  },
+  {
+    "name": "init_orphan_transcript_merge",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 131185,
+    "end": 131189
+  },
+  {
+    "name": "init_transcript_contract",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 131448,
+    "end": 131537
+  },
+  {
+    "name": "init_user",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 131571,
+    "end": 131574
+  },
+  {
+    "name": "init_maintenance",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 131578,
+    "end": 131581
+  },
+  {
+    "name": "init_onboarding",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 131590,
+    "end": 131593
+  },
+  {
+    "name": "init_acquisition_handover2",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 131602,
+    "end": 131605
+  },
+  {
+    "name": "init_department_import_welcome",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 131617,
+    "end": 131620
+  },
+  {
+    "name": "init_internal_generation",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 131629,
+    "end": 131632
+  },
+  {
+    "name": "init_ordered_input_pump",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 131634,
+    "end": 131671
+  },
+  {
+    "name": "init_runtime_state_snapshot",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 131975,
+    "end": 131985
+  },
+  {
+    "name": "init_task_notification_xml",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 132089,
+    "end": 132094
+  },
+  {
+    "name": "init_runtime_file_provenance",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 132279,
+    "end": 132283
+  },
+  {
+    "name": "init_external_reconciler",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 132627,
+    "end": 132662
+  },
+  {
+    "name": "init_runtime_command_file_provenance",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 132840,
+    "end": 132846
+  },
+  {
+    "name": "init_worker_overlay_store",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 133014,
+    "end": 133023
+  },
+  {
+    "name": "init_runtime_worker_file_evidence",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 133686,
+    "end": 133693
+  },
+  {
+    "name": "init_session_host_lifecycle",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 134333,
+    "end": 134342
+  },
+  {
+    "name": "init_session_host_permissions",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 134595,
+    "end": 134600
+  },
+  {
+    "name": "init_session_host_query_runtime",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 135273,
+    "end": 135288
+  },
+  {
+    "name": "init_session_host_turn_outcome",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 135813,
+    "end": 135821
+  },
+  {
+    "name": "init_user_input_delivery",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 135833,
+    "end": 135835
+  },
+  {
+    "name": "init_context_ledger",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 135996,
+    "end": 135998
+  },
+  {
+    "name": "init_session_model_selection",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 136167,
+    "end": 136172
+  },
+  {
+    "name": "init_session_host",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 142610,
+    "end": 142679
+  },
+  {
+    "name": "init_session_runtime_manager",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 142877,
+    "end": 142882
+  },
+  {
+    "name": "init_runtime_session_orchestrator",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 143607,
+    "end": 143619
+  },
+  {
+    "name": "init_runtime_workspace_watchers",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 144231,
+    "end": 144260
+  },
+  {
+    "name": "init_nudge",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 144270,
+    "end": 144273
+  },
+  {
+    "name": "init_runtime_nudge_dispatch",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 144297,
+    "end": 144303
+  },
+  {
+    "name": "init_hook",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 144380,
+    "end": 144383
+  },
+  {
+    "name": "init_channel",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 145860,
+    "end": 145865
+  },
+  {
+    "name": "init_channel2",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 147387,
+    "end": 147392
+  },
+  {
+    "name": "init_runtime2",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 151372,
+    "end": 151472
+  },
+  {
+    "name": "init_process_identity",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 151500,
+    "end": 151511
+  },
+  {
+    "name": "init_owner_contract",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 151640,
+    "end": 151649
+  },
+  {
+    "name": "init_controller",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 151988,
+    "end": 151997
+  },
+  {
+    "name": "init_sidecar",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 152059,
+    "end": 152061
+  },
+  {
+    "name": "init_literal_escape_guard",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 152233,
+    "end": 152241
+  },
+  {
+    "name": "init_cli",
+    "file": "_analysis/extracted/neo-agent.fmt.js",
+    "start": 152691,
+    "end": 152696
+  }
+]

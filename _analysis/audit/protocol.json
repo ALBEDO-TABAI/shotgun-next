@@ -1,0 +1,4668 @@
+{
+  "source": "_analysis/extracted/neo-agent.fmt.js",
+  "methods": [
+    {
+      "constant": "WORKSPACE_LIST",
+      "name": "workspace.list",
+      "declaration": {
+        "value": "workspace.list",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30036,
+        "end": 30036
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 103706,
+        "end": 103722
+      },
+      "directlyReadParams": []
+    },
+    {
+      "constant": "WORKSPACE_CREATE",
+      "name": "workspace.create",
+      "declaration": {
+        "value": "workspace.create",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30037,
+        "end": 30037
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 103737,
+        "end": 103772
+      },
+      "directlyReadParams": [
+        "cyberpunkAddress",
+        "description",
+        "emailAddress",
+        "emailAddressSuggestion",
+        "focusDomainSlugs",
+        "integrationSlugs",
+        "name",
+        "onboardingObjective",
+        "preferredWorkerRuntimes",
+        "workspacePurpose",
+        "worldTemplate"
+      ]
+    },
+    {
+      "constant": "WORKSPACE_ONBOARDING_DRAFT_CREATE",
+      "name": "workspace.onboardingDraft.create",
+      "declaration": {
+        "value": "workspace.onboardingDraft.create",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30038,
+        "end": 30038
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 103773,
+        "end": 103822
+      },
+      "directlyReadParams": [
+        "cyberpunkAddress",
+        "departments",
+        "emailAddress",
+        "emailAddressSuggestion",
+        "focusDomainSlugs",
+        "inputFingerprint",
+        "integrationSlugs",
+        "name",
+        "onboardingObjective",
+        "preferredWorkerRuntimes",
+        "revision",
+        "workspacePurpose",
+        "worldTemplate"
+      ]
+    },
+    {
+      "constant": "WORKSPACE_ONBOARDING_DRAFT_UPDATE",
+      "name": "workspace.onboardingDraft.update",
+      "declaration": {
+        "value": "workspace.onboardingDraft.update",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30039,
+        "end": 30039
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 103858,
+        "end": 103874
+      },
+      "directlyReadParams": [
+        "id",
+        "inputFingerprint",
+        "worldTemplate"
+      ]
+    },
+    {
+      "constant": "WORKSPACE_ONBOARDING_DRAFT_FINALIZE",
+      "name": "workspace.onboardingDraft.finalize",
+      "declaration": {
+        "value": "workspace.onboardingDraft.finalize",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30040,
+        "end": 30040
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 103875,
+        "end": 103943
+      },
+      "directlyReadParams": [
+        "cyberpunkAddress",
+        "departments",
+        "emailAddress",
+        "emailAddressSuggestion",
+        "focusDomainSlugs",
+        "id",
+        "inputFingerprint",
+        "integrationSlugs",
+        "name",
+        "onboardingObjective",
+        "preferredWorkerRuntimes",
+        "responseLanguage",
+        "workspacePurpose",
+        "worldTemplate"
+      ]
+    },
+    {
+      "constant": "WORKSPACE_ONBOARDING_DRAFT_DISCARD",
+      "name": "workspace.onboardingDraft.discard",
+      "declaration": {
+        "value": "workspace.onboardingDraft.discard",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30041,
+        "end": 30041
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 103991,
+        "end": 104018
+      },
+      "directlyReadParams": [
+        "id",
+        "inputFingerprint"
+      ]
+    },
+    {
+      "constant": "WORKSPACE_RUNTIME_ONBOARDING_APPLY",
+      "name": "workspace.runtimeOnboarding.apply",
+      "declaration": {
+        "value": "workspace.runtimeOnboarding.apply",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30042,
+        "end": 30042
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 103944,
+        "end": 103990
+      },
+      "directlyReadParams": [
+        "cyberpunkAddress",
+        "departments",
+        "description",
+        "emailAddress",
+        "emailAddressSuggestion",
+        "focusDomainSlugs",
+        "integrationSlugs",
+        "name",
+        "onboardingObjective",
+        "preferredWorkerRuntimes",
+        "responseLanguage",
+        "workspacePurpose",
+        "worldTemplate"
+      ]
+    },
+    {
+      "constant": "WORKSPACE_BLUEPRINT_SUGGEST_OPTIONS",
+      "name": "workspace.blueprint.suggestOptions",
+      "declaration": {
+        "value": "workspace.blueprint.suggestOptions",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30043,
+        "end": 30043
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 103823,
+        "end": 103857
+      },
+      "directlyReadParams": [
+        "companyAttributes",
+        "departments",
+        "existingDraft",
+        "generationMode",
+        "locale",
+        "selectedName",
+        "sessionId",
+        "stage",
+        "vision",
+        "workspace"
+      ]
+    },
+    {
+      "constant": "WORKSPACE_SWITCH",
+      "name": "workspace.switch",
+      "declaration": {
+        "value": "workspace.switch",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30044,
+        "end": 30044
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 103723,
+        "end": 103736
+      },
+      "directlyReadParams": [
+        "id"
+      ]
+    },
+    {
+      "constant": "WORKSPACE_RENAME",
+      "name": "workspace.rename",
+      "declaration": {
+        "value": "workspace.rename",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30045,
+        "end": 30045
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 104019,
+        "end": 104030
+      },
+      "directlyReadParams": [
+        "id",
+        "name"
+      ]
+    },
+    {
+      "constant": "WORKSPACE_DELETE",
+      "name": "workspace.delete",
+      "declaration": {
+        "value": "workspace.delete",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30046,
+        "end": 30046
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 104031,
+        "end": 104051
+      },
+      "directlyReadParams": [
+        "id",
+        "permanent"
+      ]
+    },
+    {
+      "constant": "WORKSPACE_RESTORE",
+      "name": "workspace.restore",
+      "declaration": {
+        "value": "workspace.restore",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30047,
+        "end": 30047
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 104052,
+        "end": 104063
+      },
+      "directlyReadParams": [
+        "id"
+      ]
+    },
+    {
+      "constant": "WORKSPACE_PREPARE_ACQUISITION_HANDOVER",
+      "name": "workspace.prepareAcquisitionHandover",
+      "declaration": {
+        "value": "workspace.prepareAcquisitionHandover",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30048,
+        "end": 30048
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 104064,
+        "end": 104096
+      },
+      "directlyReadParams": [
+        "acquisition",
+        "waitForDepartmentWelcome",
+        "waitForPrimaryWelcome"
+      ]
+    },
+    {
+      "constant": "WORKSPACE_DISPATCH_ONBOARDING_OPENING",
+      "name": "workspace.dispatchOnboardingOpening",
+      "declaration": {
+        "value": "workspace.dispatchOnboardingOpening",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30049,
+        "end": 30049
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 104097,
+        "end": 104111
+      },
+      "directlyReadParams": [
+        "department",
+        "force",
+        "sessionId"
+      ]
+    },
+    {
+      "constant": "WORKSPACE_ACTIVATION_CHECKLIST_GET",
+      "name": "workspace.activationChecklist.get",
+      "declaration": {
+        "value": "workspace.activationChecklist.get",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30050,
+        "end": 30050
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 104112,
+        "end": 104114
+      },
+      "directlyReadParams": []
+    },
+    {
+      "constant": "WORKSPACE_ACTIVATION_CHECKLIST_COMPLETE_TASK",
+      "name": "workspace.activationChecklist.completeTask",
+      "declaration": {
+        "value": "workspace.activationChecklist.completeTask",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30051,
+        "end": 30051
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 104115,
+        "end": 104129
+      },
+      "directlyReadParams": [
+        "taskId"
+      ]
+    },
+    {
+      "constant": "WORKSPACE_ACTIVATION_CHECKLIST_MARK_EMAIL_GREETING_SENT",
+      "name": "workspace.activationChecklist.markEmailGreetingSent",
+      "declaration": {
+        "value": "workspace.activationChecklist.markEmailGreetingSent",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30052,
+        "end": 30053
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 104130,
+        "end": 104132
+      },
+      "directlyReadParams": []
+    },
+    {
+      "constant": "WORKSPACE_EMAIL_GET",
+      "name": "workspace.email.get",
+      "declaration": {
+        "value": "workspace.email.get",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30054,
+        "end": 30054
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 104133,
+        "end": 104137
+      },
+      "directlyReadParams": []
+    },
+    {
+      "constant": "WORKSPACE_EMAIL_SET",
+      "name": "workspace.email.set",
+      "declaration": {
+        "value": "workspace.email.set",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30055,
+        "end": 30055
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 104138,
+        "end": 104146
+      },
+      "directlyReadParams": [
+        "address"
+      ]
+    },
+    {
+      "constant": "LINK_WALLET_GET",
+      "name": "wallet.link.get",
+      "declaration": {
+        "value": "wallet.link.get",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30056,
+        "end": 30056
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 104147,
+        "end": 104150
+      },
+      "directlyReadParams": []
+    },
+    {
+      "constant": "LINK_WALLET_CONFIGURE",
+      "name": "wallet.link.configure",
+      "declaration": {
+        "value": "wallet.link.configure",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30057,
+        "end": 30057
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 104151,
+        "end": 104162
+      },
+      "directlyReadParams": [
+        "clientName"
+      ]
+    },
+    {
+      "constant": "SOCIAL_ACCOUNTS_LIST",
+      "name": "social.accounts.list",
+      "declaration": {
+        "value": "social.accounts.list",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30058,
+        "end": 30058
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 104163,
+        "end": 104172
+      },
+      "directlyReadParams": []
+    },
+    {
+      "constant": "SOCIAL_ACCOUNT_CONNECT",
+      "name": "social.account.connect",
+      "declaration": {
+        "value": "social.account.connect",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30059,
+        "end": 30059
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 104173,
+        "end": 104189
+      },
+      "directlyReadParams": [
+        "provider"
+      ]
+    },
+    {
+      "constant": "SOCIAL_ACCOUNT_REMOVE",
+      "name": "social.account.remove",
+      "declaration": {
+        "value": "social.account.remove",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30060,
+        "end": 30060
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 104190,
+        "end": 104192
+      },
+      "directlyReadParams": []
+    },
+    {
+      "constant": "COMPOSIO_INSTALLS_LIST",
+      "name": "composio.installs.list",
+      "declaration": {
+        "value": "composio.installs.list",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30061,
+        "end": 30061
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 104193,
+        "end": 104195
+      },
+      "directlyReadParams": []
+    },
+    {
+      "constant": "COMPOSIO_INSTALLS_UPSERT",
+      "name": "composio.installs.upsert",
+      "declaration": {
+        "value": "composio.installs.upsert",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30062,
+        "end": 30062
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 104196,
+        "end": 104212
+      },
+      "directlyReadParams": [
+        "record"
+      ]
+    },
+    {
+      "constant": "COMPOSIO_INSTALLS_PATCH",
+      "name": "composio.installs.patch",
+      "declaration": {
+        "value": "composio.installs.patch",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30063,
+        "end": 30063
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 104213,
+        "end": 104229
+      },
+      "directlyReadParams": [
+        "groupId",
+        "patch"
+      ]
+    },
+    {
+      "constant": "COMPOSIO_INSTALLS_REMOVE",
+      "name": "composio.installs.remove",
+      "declaration": {
+        "value": "composio.installs.remove",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30064,
+        "end": 30064
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 104230,
+        "end": 104245
+      },
+      "directlyReadParams": [
+        "groupId"
+      ]
+    },
+    {
+      "constant": "MATRIX_BROWSER_USER_PROFILE_PROCESS_OPEN",
+      "name": "matrixBrowser.userProfileProcess.open",
+      "declaration": {
+        "value": "matrixBrowser.userProfileProcess.open",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30065,
+        "end": 30065
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 104246,
+        "end": 104252
+      },
+      "directlyReadParams": [
+        "url"
+      ]
+    },
+    {
+      "constant": "WORKSPACE_FS_LIST",
+      "name": "workspace.fs.list",
+      "declaration": {
+        "value": "workspace.fs.list",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30066,
+        "end": 30066
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 104253,
+        "end": 104324
+      },
+      "directlyReadParams": [
+        "path"
+      ]
+    },
+    {
+      "constant": "WORKSPACE_FS_SEARCH",
+      "name": "workspace.fs.search",
+      "declaration": {
+        "value": "workspace.fs.search",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30067,
+        "end": 30067
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 104325,
+        "end": 104346
+      },
+      "directlyReadParams": [
+        "department",
+        "limit",
+        "query"
+      ]
+    },
+    {
+      "constant": "WORKSPACE_FS_METADATA",
+      "name": "workspace.fs.metadata",
+      "declaration": {
+        "value": "workspace.fs.metadata",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30068,
+        "end": 30068
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 104347,
+        "end": 104365
+      },
+      "directlyReadParams": [
+        "fileID",
+        "path"
+      ]
+    },
+    {
+      "constant": "WORKSPACE_FS_DEPARTMENT_ASSOCIATIONS",
+      "name": "workspace.fs.departmentAssociations",
+      "declaration": {
+        "value": "workspace.fs.departmentAssociations",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30069,
+        "end": 30069
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 104366,
+        "end": 104390
+      },
+      "directlyReadParams": [
+        "fileID",
+        "path"
+      ]
+    },
+    {
+      "constant": "WORKSPACE_FS_DEPARTMENT_ASSOCIATION_CONFIRM",
+      "name": "workspace.fs.departmentAssociations.confirm",
+      "declaration": {
+        "value": "workspace.fs.departmentAssociations.confirm",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30070,
+        "end": 30070
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 104391,
+        "end": 104413
+      },
+      "directlyReadParams": [
+        "departmentID",
+        "fileID"
+      ]
+    },
+    {
+      "constant": "WORKSPACE_FS_SUMMARIES",
+      "name": "workspace.fs.summaries",
+      "declaration": {
+        "value": "workspace.fs.summaries",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30071,
+        "end": 30071
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 104414,
+        "end": 104440
+      },
+      "directlyReadParams": [
+        "paths",
+        "relatedWorkDepartmentID"
+      ]
+    },
+    {
+      "constant": "WORKSPACE_FS_COLLABORATION_LIST",
+      "name": "workspace.fs.collaboration.list",
+      "declaration": {
+        "value": "workspace.fs.collaboration.list",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30072,
+        "end": 30072
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 104441,
+        "end": 104473
+      },
+      "directlyReadParams": [
+        "cursor",
+        "limit",
+        "projection"
+      ]
+    },
+    {
+      "constant": "WORKSPACE_FS_HISTORY",
+      "name": "workspace.fs.history",
+      "declaration": {
+        "value": "workspace.fs.history",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30073,
+        "end": 30073
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 104541,
+        "end": 104569
+      },
+      "directlyReadParams": [
+        "cursor",
+        "fileID",
+        "limit",
+        "path"
+      ]
+    },
+    {
+      "constant": "WORKSPACE_FS_ACCESS",
+      "name": "workspace.fs.access",
+      "declaration": {
+        "value": "workspace.fs.access",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30074,
+        "end": 30074
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 104570,
+        "end": 104596
+      },
+      "directlyReadParams": [
+        "fileID",
+        "limit",
+        "path"
+      ]
+    },
+    {
+      "constant": "WORKSPACE_FS_ACCESS_RECORD",
+      "name": "workspace.fs.access.record",
+      "declaration": {
+        "value": "workspace.fs.access.record",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30075,
+        "end": 30075
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 104597,
+        "end": 104625
+      },
+      "directlyReadParams": [
+        "_localActor",
+        "accessID",
+        "accessType",
+        "path",
+        "source"
+      ]
+    },
+    {
+      "constant": "WORKSPACE_FS_LINEAGE",
+      "name": "workspace.fs.lineage",
+      "declaration": {
+        "value": "workspace.fs.lineage",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30076,
+        "end": 30076
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 104626,
+        "end": 104652
+      },
+      "directlyReadParams": [
+        "fileID",
+        "limit",
+        "path"
+      ]
+    },
+    {
+      "constant": "WORKSPACE_FS_REVISION_DIFF",
+      "name": "workspace.fs.revision.diff",
+      "declaration": {
+        "value": "workspace.fs.revision.diff",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30077,
+        "end": 30077
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 104801,
+        "end": 104830
+      },
+      "directlyReadParams": [
+        "afterRevisionID",
+        "beforeRevisionID",
+        "fileID"
+      ]
+    },
+    {
+      "constant": "WORKSPACE_FS_REVISION_RESTORE",
+      "name": "workspace.fs.revision.restore",
+      "declaration": {
+        "value": "workspace.fs.revision.restore",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30078,
+        "end": 30078
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 104831,
+        "end": 104867
+      },
+      "directlyReadParams": [
+        "_localActor",
+        "expectedCurrentRevisionID",
+        "fileID",
+        "operationID",
+        "revisionID",
+        "source"
+      ]
+    },
+    {
+      "constant": "WORKSPACE_FS_REVISION_PINS",
+      "name": "workspace.fs.revision.pins",
+      "declaration": {
+        "value": "workspace.fs.revision.pins",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30079,
+        "end": 30079
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 104653,
+        "end": 104678
+      },
+      "directlyReadParams": [
+        "fileID",
+        "includeRemoved",
+        "revisionID"
+      ]
+    },
+    {
+      "constant": "WORKSPACE_FS_REVISION_PIN",
+      "name": "workspace.fs.revision.pin",
+      "declaration": {
+        "value": "workspace.fs.revision.pin",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30080,
+        "end": 30080
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 104679,
+        "end": 104711
+      },
+      "directlyReadParams": [
+        "_localActor",
+        "fileID",
+        "kind",
+        "label",
+        "pinID",
+        "referenceID",
+        "revisionID",
+        "source"
+      ]
+    },
+    {
+      "constant": "WORKSPACE_FS_REVISION_UNPIN",
+      "name": "workspace.fs.revision.unpin",
+      "declaration": {
+        "value": "workspace.fs.revision.unpin",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30081,
+        "end": 30081
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 104712,
+        "end": 104732
+      },
+      "directlyReadParams": [
+        "_localActor",
+        "pinID",
+        "source"
+      ]
+    },
+    {
+      "constant": "WORKSPACE_FS_DIRECTORY_PINS",
+      "name": "workspace.fs.directory.pins",
+      "declaration": {
+        "value": "workspace.fs.directory.pins",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30082,
+        "end": 30082
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 104733,
+        "end": 104756
+      },
+      "directlyReadParams": [
+        "directoryID",
+        "includeRemoved"
+      ]
+    },
+    {
+      "constant": "WORKSPACE_FS_DIRECTORY_PIN",
+      "name": "workspace.fs.directory.pin",
+      "declaration": {
+        "value": "workspace.fs.directory.pin",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30083,
+        "end": 30083
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 104757,
+        "end": 104779
+      },
+      "directlyReadParams": [
+        "_localActor",
+        "path",
+        "pinID",
+        "source"
+      ]
+    },
+    {
+      "constant": "WORKSPACE_FS_DIRECTORY_UNPIN",
+      "name": "workspace.fs.directory.unpin",
+      "declaration": {
+        "value": "workspace.fs.directory.unpin",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30084,
+        "end": 30084
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 104780,
+        "end": 104800
+      },
+      "directlyReadParams": [
+        "_localActor",
+        "pinID",
+        "source"
+      ]
+    },
+    {
+      "constant": "WORKSPACE_FS_WORKER_CONFLICTS",
+      "name": "workspace.fs.workerConflicts",
+      "declaration": {
+        "value": "workspace.fs.workerConflicts",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30085,
+        "end": 30085
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 104868,
+        "end": 104878
+      },
+      "directlyReadParams": [
+        "includeResolved"
+      ]
+    },
+    {
+      "constant": "WORKSPACE_FS_WORKER_CONFLICT_RESOLVE",
+      "name": "workspace.fs.workerConflicts.resolve",
+      "declaration": {
+        "value": "workspace.fs.workerConflicts.resolve",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30086,
+        "end": 30086
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 104879,
+        "end": 104904
+      },
+      "directlyReadParams": [
+        "_localActor",
+        "conflictID",
+        "operationID",
+        "resolution",
+        "source"
+      ]
+    },
+    {
+      "constant": "DEPARTMENT_LIST",
+      "name": "department.list",
+      "declaration": {
+        "value": "department.list",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30087,
+        "end": 30087
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 105781,
+        "end": 105829
+      },
+      "directlyReadParams": [
+        "mode"
+      ]
+    },
+    {
+      "constant": "DEPARTMENT_MESSAGE_THREAD",
+      "name": "department.message.thread",
+      "declaration": {
+        "value": "department.message.thread",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30088,
+        "end": 30088
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 105830,
+        "end": 105858
+      },
+      "directlyReadParams": [
+        "includeBodyFor",
+        "messageId"
+      ]
+    },
+    {
+      "constant": "DEPARTMENT_STATUS",
+      "name": "department.status",
+      "declaration": {
+        "value": "department.status",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30089,
+        "end": 30089
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 105859,
+        "end": 105876
+      },
+      "directlyReadParams": [
+        "department"
+      ]
+    },
+    {
+      "constant": "DEPARTMENT_ACTIVITY",
+      "name": "department.activity",
+      "declaration": {
+        "value": "department.activity",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30090,
+        "end": 30090
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 105877,
+        "end": 105928
+      },
+      "directlyReadParams": []
+    },
+    {
+      "constant": "DEPARTMENT_CREATE",
+      "name": "department.create",
+      "declaration": {
+        "value": "department.create",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30091,
+        "end": 30091
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 105941,
+        "end": 105972
+      },
+      "directlyReadParams": [
+        "coordinator",
+        "description",
+        "id",
+        "model",
+        "name",
+        "parentDepartmentId",
+        "profile"
+      ]
+    },
+    {
+      "constant": "DEPARTMENT_RENAME",
+      "name": "department.rename",
+      "declaration": {
+        "value": "department.rename",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30092,
+        "end": 30092
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 105991,
+        "end": 106008
+      },
+      "directlyReadParams": [
+        "department",
+        "name"
+      ]
+    },
+    {
+      "constant": "DEPARTMENT_DELETE",
+      "name": "department.delete",
+      "declaration": {
+        "value": "department.delete",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30093,
+        "end": 30093
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 105973,
+        "end": 105990
+      },
+      "directlyReadParams": [
+        "department"
+      ]
+    },
+    {
+      "constant": "DEPARTMENT_PREPARE_MARKETPLACE_HANDOFF",
+      "name": "department.prepareMarketplaceHandoff",
+      "declaration": {
+        "value": "department.prepareMarketplaceHandoff",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30094,
+        "end": 30094
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 105929,
+        "end": 105934
+      },
+      "directlyReadParams": [
+        "department"
+      ]
+    },
+    {
+      "constant": "DEPARTMENT_SKILLS_REFRESH",
+      "name": "department.skills.refresh",
+      "declaration": {
+        "value": "department.skills.refresh",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30095,
+        "end": 30095
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 105935,
+        "end": 105940
+      },
+      "directlyReadParams": [
+        "department"
+      ]
+    },
+    {
+      "constant": "DEPARTMENT_CONFIG_GET",
+      "name": "department.config.get",
+      "declaration": {
+        "value": "department.config.get",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30096,
+        "end": 30096
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 106009,
+        "end": 106028
+      },
+      "directlyReadParams": [
+        "department"
+      ]
+    },
+    {
+      "constant": "DEPARTMENT_CONFIG_UPDATE",
+      "name": "department.config.update",
+      "declaration": {
+        "value": "department.config.update",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30097,
+        "end": 30097
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 106029,
+        "end": 106131
+      },
+      "directlyReadParams": [
+        "config",
+        "department",
+        "model",
+        "updates"
+      ]
+    },
+    {
+      "constant": "OKR_STORE_GET",
+      "name": "okr.store.get",
+      "declaration": {
+        "value": "okr.store.get",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30098,
+        "end": 30098
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 106190,
+        "end": 106196
+      },
+      "directlyReadParams": []
+    },
+    {
+      "constant": "OKR_STORE_UPDATE",
+      "name": "okr.store.update",
+      "declaration": {
+        "value": "okr.store.update",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30099,
+        "end": 30099
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 106197,
+        "end": 106226
+      },
+      "directlyReadParams": [
+        "departmentId",
+        "scope",
+        "store"
+      ]
+    },
+    {
+      "constant": "OBJECTIVE_CREATE",
+      "name": "objective.create",
+      "declaration": {
+        "value": "objective.create",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30100,
+        "end": 30100
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 106227,
+        "end": 106246
+      },
+      "directlyReadParams": [
+        "objective"
+      ]
+    },
+    {
+      "constant": "OBJECTIVE_UPDATE",
+      "name": "objective.update",
+      "declaration": {
+        "value": "objective.update",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30101,
+        "end": 30101
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 106247,
+        "end": 106273
+      },
+      "directlyReadParams": [
+        "objective",
+        "objectiveId"
+      ]
+    },
+    {
+      "constant": "OBJECTIVE_DELETE",
+      "name": "objective.delete",
+      "declaration": {
+        "value": "objective.delete",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30102,
+        "end": 30102
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 106274,
+        "end": 106293
+      },
+      "directlyReadParams": [
+        "objectiveId"
+      ]
+    },
+    {
+      "constant": "OBJECTIVE_STATE_PATCH",
+      "name": "objective.state.patch",
+      "declaration": {
+        "value": "objective.state.patch",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30103,
+        "end": 30103
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 106294,
+        "end": 106320
+      },
+      "directlyReadParams": [
+        "objectiveId",
+        "patch"
+      ]
+    },
+    {
+      "constant": "KEY_RESULT_CREATE",
+      "name": "key_result.create",
+      "declaration": {
+        "value": "key_result.create",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30104,
+        "end": 30104
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 106321,
+        "end": 106340
+      },
+      "directlyReadParams": [
+        "keyResult"
+      ]
+    },
+    {
+      "constant": "KEY_RESULT_UPDATE",
+      "name": "key_result.update",
+      "declaration": {
+        "value": "key_result.update",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30105,
+        "end": 30105
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 106341,
+        "end": 106367
+      },
+      "directlyReadParams": [
+        "keyResult",
+        "keyResultId"
+      ]
+    },
+    {
+      "constant": "KEY_RESULT_DELETE",
+      "name": "key_result.delete",
+      "declaration": {
+        "value": "key_result.delete",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30106,
+        "end": 30106
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 106368,
+        "end": 106387
+      },
+      "directlyReadParams": [
+        "keyResultId"
+      ]
+    },
+    {
+      "constant": "KEY_RESULT_STATE_PATCH",
+      "name": "key_result.state.patch",
+      "declaration": {
+        "value": "key_result.state.patch",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30107,
+        "end": 30107
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 106388,
+        "end": 106415
+      },
+      "directlyReadParams": [
+        "keyResultId",
+        "patch"
+      ]
+    },
+    {
+      "constant": "OKR_TASK_LIST",
+      "name": "okr_task.list",
+      "declaration": {
+        "value": "okr_task.list",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30108,
+        "end": 30108
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 106416,
+        "end": 106418
+      },
+      "directlyReadParams": [
+        "department"
+      ]
+    },
+    {
+      "constant": "OKR_TASK_UPSERT",
+      "name": "okr_task.upsert",
+      "declaration": {
+        "value": "okr_task.upsert",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30109,
+        "end": 30109
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 106419,
+        "end": 106421
+      },
+      "directlyReadParams": [
+        "department",
+        "task"
+      ]
+    },
+    {
+      "constant": "OKR_TASK_CHECK_IN",
+      "name": "okr_task.check_in",
+      "declaration": {
+        "value": "okr_task.check_in",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30110,
+        "end": 30110
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 106422,
+        "end": 106424
+      },
+      "directlyReadParams": [
+        "checkIn",
+        "department",
+        "taskId"
+      ]
+    },
+    {
+      "constant": "DASHBOARD_CONFIG_GET",
+      "name": "dashboard.config.get",
+      "declaration": {
+        "value": "dashboard.config.get",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30111,
+        "end": 30111
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 106425,
+        "end": 106429
+      },
+      "directlyReadParams": []
+    },
+    {
+      "constant": "DASHBOARD_CONFIG_UPDATE",
+      "name": "dashboard.config.update",
+      "declaration": {
+        "value": "dashboard.config.update",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30112,
+        "end": 30112
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 106430,
+        "end": 106455
+      },
+      "directlyReadParams": [
+        "enabled",
+        "focus",
+        "frequency"
+      ]
+    },
+    {
+      "constant": "DASHBOARD_REFRESH_RUN",
+      "name": "dashboard.refresh.run",
+      "declaration": {
+        "value": "dashboard.refresh.run",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30113,
+        "end": 30113
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 106456,
+        "end": 106464
+      },
+      "directlyReadParams": []
+    },
+    {
+      "constant": "MEDIA_CHARACTER_ASSET_REGISTER",
+      "name": "media.characterAsset.register",
+      "declaration": {
+        "value": "media.characterAsset.register",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30114,
+        "end": 30114
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 106465,
+        "end": 106502
+      },
+      "directlyReadParams": [
+        "assetUri",
+        "description",
+        "imagePath",
+        "imageUrl",
+        "name"
+      ]
+    },
+    {
+      "constant": "SKILL_LIST",
+      "name": "skill.list",
+      "declaration": {
+        "value": "skill.list",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30115,
+        "end": 30115
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 108980,
+        "end": 109004
+      },
+      "directlyReadParams": [
+        "department"
+      ]
+    },
+    {
+      "constant": "SKILL_CREATE",
+      "name": "skill.create",
+      "declaration": {
+        "value": "skill.create",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30116,
+        "end": 30116
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 109005,
+        "end": 109050
+      },
+      "directlyReadParams": [
+        "category",
+        "content",
+        "department",
+        "description",
+        "files",
+        "name",
+        "symbolName",
+        "tagline"
+      ]
+    },
+    {
+      "constant": "SKILL_DELETE",
+      "name": "skill.delete",
+      "declaration": {
+        "value": "skill.delete",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30117,
+        "end": 30117
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 109051,
+        "end": 109069
+      },
+      "directlyReadParams": [
+        "department",
+        "skill"
+      ]
+    },
+    {
+      "constant": "SKILL_FILE_WRITE",
+      "name": "skill.file.write",
+      "declaration": {
+        "value": "skill.file.write",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30118,
+        "end": 30118
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 109070,
+        "end": 109092
+      },
+      "directlyReadParams": [
+        "content",
+        "department",
+        "path",
+        "skill"
+      ]
+    },
+    {
+      "constant": "SKILL_FILE_DELETE",
+      "name": "skill.file.delete",
+      "declaration": {
+        "value": "skill.file.delete",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30119,
+        "end": 30119
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 109093,
+        "end": 109112
+      },
+      "directlyReadParams": [
+        "department",
+        "path",
+        "skill"
+      ]
+    },
+    {
+      "constant": "MEMORY_LIST",
+      "name": "memory.list",
+      "declaration": {
+        "value": "memory.list",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30120,
+        "end": 30120
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 109456,
+        "end": 109527
+      },
+      "directlyReadParams": [
+        "department"
+      ]
+    },
+    {
+      "constant": "USER_PROFILE_GET",
+      "name": "userProfile.get",
+      "declaration": {
+        "value": "userProfile.get",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30121,
+        "end": 30121
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 103614,
+        "end": 103616
+      },
+      "directlyReadParams": []
+    },
+    {
+      "constant": "USER_PROFILE_UPDATE",
+      "name": "userProfile.update",
+      "declaration": {
+        "value": "userProfile.update",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30122,
+        "end": 30122
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 103617,
+        "end": 103634
+      },
+      "directlyReadParams": [
+        "content",
+        "expectedVersion"
+      ]
+    },
+    {
+      "constant": "USER_PROFILE_DISCOVER",
+      "name": "userProfile.discover",
+      "declaration": {
+        "value": "userProfile.discover",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30123,
+        "end": 30123
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 103635,
+        "end": 103689
+      },
+      "directlyReadParams": [
+        "includeBrowserHistory",
+        "previewOnly",
+        "requestId"
+      ]
+    },
+    {
+      "constant": "USER_PROFILE_DISCOVERY_CANCEL",
+      "name": "userProfile.discovery.cancel",
+      "declaration": {
+        "value": "userProfile.discovery.cancel",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30124,
+        "end": 30124
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 103690,
+        "end": 103705
+      },
+      "directlyReadParams": [
+        "requestId"
+      ]
+    },
+    {
+      "constant": "CHAT_SEND",
+      "name": "chat.send",
+      "declaration": {
+        "value": "chat.send",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30125,
+        "end": 30125
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 106920,
+        "end": 107127
+      },
+      "directlyReadParams": [
+        "attachments",
+        "department",
+        "requestId",
+        "sessionId",
+        "text"
+      ]
+    },
+    {
+      "constant": "CHAT_RERUN",
+      "name": "chat.rerun",
+      "declaration": {
+        "value": "chat.rerun",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30126,
+        "end": 30126
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 107128,
+        "end": 107195
+      },
+      "directlyReadParams": [
+        "attachments",
+        "department",
+        "requestId",
+        "sessionId",
+        "targetChatId",
+        "targetHistoryId",
+        "targetRequestId",
+        "text"
+      ]
+    },
+    {
+      "constant": "CHAT_ABORT",
+      "name": "chat.abort",
+      "declaration": {
+        "value": "chat.abort",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30127,
+        "end": 30127
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 107196,
+        "end": 107215
+      },
+      "directlyReadParams": [
+        "chatId",
+        "clearPending",
+        "department",
+        "requestId",
+        "sessionId"
+      ]
+    },
+    {
+      "constant": "CHAT_QUEUE_RESUME",
+      "name": "chat.queue.resume",
+      "declaration": {
+        "value": "chat.queue.resume",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30128,
+        "end": 30128
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 107216,
+        "end": 107230
+      },
+      "directlyReadParams": [
+        "department",
+        "sessionId"
+      ]
+    },
+    {
+      "constant": "CHAT_QUEUE_RETRY",
+      "name": "chat.queue.retry",
+      "declaration": {
+        "value": "chat.queue.retry",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30129,
+        "end": 30129
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 107231,
+        "end": 107247
+      },
+      "directlyReadParams": [
+        "department",
+        "sessionId"
+      ]
+    },
+    {
+      "constant": "CHAT_QUEUE_STEER",
+      "name": "chat.queue.steer",
+      "declaration": {
+        "value": "chat.queue.steer",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30130,
+        "end": 30130
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 107248,
+        "end": 107277
+      },
+      "directlyReadParams": [
+        "department",
+        "requestId",
+        "sessionId"
+      ]
+    },
+    {
+      "constant": "CHAT_QUEUE_CANCEL",
+      "name": "chat.queue.cancel",
+      "declaration": {
+        "value": "chat.queue.cancel",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30131,
+        "end": 30131
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 107278,
+        "end": 107302
+      },
+      "directlyReadParams": [
+        "department",
+        "requestId",
+        "sessionId"
+      ]
+    },
+    {
+      "constant": "CHAT_QUEUE_CLEAR",
+      "name": "chat.queue.clear",
+      "declaration": {
+        "value": "chat.queue.clear",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30132,
+        "end": 30132
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 107303,
+        "end": 107317
+      },
+      "directlyReadParams": [
+        "department",
+        "sessionId"
+      ]
+    },
+    {
+      "constant": "CHAT_HISTORY",
+      "name": "chat.history",
+      "declaration": {
+        "value": "chat.history",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30133,
+        "end": 30133
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 107429,
+        "end": 107474
+      },
+      "directlyReadParams": [
+        "after",
+        "around",
+        "before",
+        "department",
+        "forceHydrate",
+        "limit",
+        "sessionId"
+      ]
+    },
+    {
+      "constant": "CHAT_SEARCH",
+      "name": "chat.search",
+      "declaration": {
+        "value": "chat.search",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30134,
+        "end": 30134
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 107475,
+        "end": 107531
+      },
+      "directlyReadParams": [
+        "department",
+        "limit",
+        "query",
+        "sessionId"
+      ]
+    },
+    {
+      "constant": "TRANSCRIPT_EXPLAIN",
+      "name": "transcript.explain",
+      "declaration": {
+        "value": "transcript.explain",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30135,
+        "end": 30135
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 107532,
+        "end": 107560
+      },
+      "directlyReadParams": [
+        "department",
+        "sessionId"
+      ]
+    },
+    {
+      "constant": "CHAT_BOOTSTRAP",
+      "name": "chat.bootstrap",
+      "declaration": {
+        "value": "chat.bootstrap",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30136,
+        "end": 30136
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 107318,
+        "end": 107428
+      },
+      "directlyReadParams": [
+        "department",
+        "endpoint",
+        "forceHydrate",
+        "limit",
+        "prewarm",
+        "returnCurrentSnapshotOnHydrationTimeout",
+        "sessionId"
+      ]
+    },
+    {
+      "constant": "CHAT_LIVE_STATE",
+      "name": "chat.live_state",
+      "declaration": {
+        "value": "chat.live_state",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30137,
+        "end": 30137
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 107561,
+        "end": 107580
+      },
+      "directlyReadParams": [
+        "department",
+        "sessionId"
+      ]
+    },
+    {
+      "constant": "CHAT_REPLY_MODE_GET",
+      "name": "chat.reply_mode.get",
+      "declaration": {
+        "value": "chat.reply_mode.get",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30138,
+        "end": 30138
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 107581,
+        "end": 107589
+      },
+      "directlyReadParams": []
+    },
+    {
+      "constant": "CHAT_REPLY_MODE_SET",
+      "name": "chat.reply_mode.set",
+      "declaration": {
+        "value": "chat.reply_mode.set",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30139,
+        "end": 30139
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 107590,
+        "end": 107599
+      },
+      "directlyReadParams": [
+        "replyMode"
+      ]
+    },
+    {
+      "constant": "CHAT_ENDPOINT_ACK",
+      "name": "chat.endpoint.ack",
+      "declaration": {
+        "value": "chat.endpoint.ack",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30140,
+        "end": 30140
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 107609,
+        "end": 107630
+      },
+      "directlyReadParams": [
+        "department",
+        "endpoint",
+        "endpointId",
+        "seq"
+      ]
+    },
+    {
+      "constant": "CHAT_ENDPOINTS",
+      "name": "chat.endpoints",
+      "declaration": {
+        "value": "chat.endpoints",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30141,
+        "end": 30141
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 107600,
+        "end": 107608
+      },
+      "directlyReadParams": [
+        "department"
+      ]
+    },
+    {
+      "constant": "WECHAT_STATUS",
+      "name": "wechat.status",
+      "declaration": {
+        "value": "wechat.status",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30142,
+        "end": 30142
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 106503,
+        "end": 106506
+      },
+      "directlyReadParams": []
+    },
+    {
+      "constant": "WECHAT_CONFIGURE",
+      "name": "wechat.configure",
+      "declaration": {
+        "value": "wechat.configure",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30143,
+        "end": 30143
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 106507,
+        "end": 106512
+      },
+      "directlyReadParams": []
+    },
+    {
+      "constant": "WECHAT_CONNECT",
+      "name": "wechat.connect",
+      "declaration": {
+        "value": "wechat.connect",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30144,
+        "end": 30144
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 106513,
+        "end": 106518
+      },
+      "directlyReadParams": []
+    },
+    {
+      "constant": "WECHAT_STOP",
+      "name": "wechat.stop",
+      "declaration": {
+        "value": "wechat.stop",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30145,
+        "end": 30145
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 106519,
+        "end": 106522
+      },
+      "directlyReadParams": []
+    },
+    {
+      "constant": "WECHAT_SIGN_OUT",
+      "name": "wechat.sign_out",
+      "declaration": {
+        "value": "wechat.sign_out",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30146,
+        "end": 30146
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 106523,
+        "end": 106526
+      },
+      "directlyReadParams": []
+    },
+    {
+      "constant": "TELEGRAM_STATUS",
+      "name": "telegram.status",
+      "declaration": {
+        "value": "telegram.status",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30147,
+        "end": 30147
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 106527,
+        "end": 106530
+      },
+      "directlyReadParams": []
+    },
+    {
+      "constant": "TELEGRAM_CONFIGURE",
+      "name": "telegram.configure",
+      "declaration": {
+        "value": "telegram.configure",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30148,
+        "end": 30148
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 106531,
+        "end": 106534
+      },
+      "directlyReadParams": []
+    },
+    {
+      "constant": "TELEGRAM_CONNECT",
+      "name": "telegram.connect",
+      "declaration": {
+        "value": "telegram.connect",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30149,
+        "end": 30149
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 106535,
+        "end": 106538
+      },
+      "directlyReadParams": []
+    },
+    {
+      "constant": "TELEGRAM_STOP",
+      "name": "telegram.stop",
+      "declaration": {
+        "value": "telegram.stop",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30150,
+        "end": 30150
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 106539,
+        "end": 106542
+      },
+      "directlyReadParams": []
+    },
+    {
+      "constant": "TELEGRAM_SIGN_OUT",
+      "name": "telegram.sign_out",
+      "declaration": {
+        "value": "telegram.sign_out",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30151,
+        "end": 30151
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 106543,
+        "end": 106546
+      },
+      "directlyReadParams": []
+    },
+    {
+      "constant": "SESSION_CREATE",
+      "name": "session.create",
+      "declaration": {
+        "value": "session.create",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30152,
+        "end": 30152
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 106559,
+        "end": 106601
+      },
+      "directlyReadParams": [
+        "canonical",
+        "department",
+        "endpoint",
+        "sessionId"
+      ]
+    },
+    {
+      "constant": "SESSION_LIST",
+      "name": "session.list",
+      "declaration": {
+        "value": "session.list",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30153,
+        "end": 30153
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 106547,
+        "end": 106558
+      },
+      "directlyReadParams": [
+        "department"
+      ]
+    },
+    {
+      "constant": "SESSION_ATTACH",
+      "name": "session.attach",
+      "declaration": {
+        "value": "session.attach",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30154,
+        "end": 30154
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 106602,
+        "end": 106638
+      },
+      "directlyReadParams": [
+        "endpoint",
+        "sessionId"
+      ]
+    },
+    {
+      "constant": "SESSION_DETACH",
+      "name": "session.detach",
+      "declaration": {
+        "value": "session.detach",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30155,
+        "end": 30155
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 106639,
+        "end": 106676
+      },
+      "directlyReadParams": [
+        "sessionId"
+      ]
+    },
+    {
+      "constant": "SESSION_CLOSE",
+      "name": "session.close",
+      "declaration": {
+        "value": "session.close",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30156,
+        "end": 30156
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 106677,
+        "end": 106689
+      },
+      "directlyReadParams": [
+        "sessionId"
+      ]
+    },
+    {
+      "constant": "SESSION_SEND",
+      "name": "session.send",
+      "declaration": {
+        "value": "session.send",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30157,
+        "end": 30157
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 106690,
+        "end": 106770
+      },
+      "directlyReadParams": [
+        "attachments",
+        "requestId",
+        "sessionId",
+        "text"
+      ]
+    },
+    {
+      "constant": "SESSION_INTERRUPT",
+      "name": "session.interrupt",
+      "declaration": {
+        "value": "session.interrupt",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30158,
+        "end": 30158
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 106771,
+        "end": 106783
+      },
+      "directlyReadParams": [
+        "clearPending",
+        "sessionId"
+      ]
+    },
+    {
+      "constant": "SESSION_HISTORY",
+      "name": "session.history",
+      "declaration": {
+        "value": "session.history",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30159,
+        "end": 30159
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 106784,
+        "end": 106793
+      },
+      "directlyReadParams": [
+        "before",
+        "limit",
+        "sessionId"
+      ]
+    },
+    {
+      "constant": "SESSION_LIVE",
+      "name": "session.live",
+      "declaration": {
+        "value": "session.live",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30160,
+        "end": 30160
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 106794,
+        "end": 106806
+      },
+      "directlyReadParams": [
+        "sessionId"
+      ]
+    },
+    {
+      "constant": "SESSION_MODELS_LIST",
+      "name": "session.models.list",
+      "declaration": {
+        "value": "session.models.list",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30161,
+        "end": 30161
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 106807,
+        "end": 106818
+      },
+      "directlyReadParams": [
+        "refresh",
+        "sessionId"
+      ]
+    },
+    {
+      "constant": "SESSION_SET_MODEL",
+      "name": "session.set_model",
+      "declaration": {
+        "value": "session.set_model",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30162,
+        "end": 30162
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 106819,
+        "end": 106878
+      },
+      "directlyReadParams": [
+        "expectedRevision",
+        "model",
+        "provider",
+        "reasoningEffort",
+        "serviceTier",
+        "sessionId"
+      ]
+    },
+    {
+      "constant": "SESSION_REFRESH",
+      "name": "session.refresh",
+      "declaration": {
+        "value": "session.refresh",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30163,
+        "end": 30163
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 106879,
+        "end": 106892
+      },
+      "directlyReadParams": [
+        "sessionId"
+      ]
+    },
+    {
+      "constant": "SESSION_CONTEXT",
+      "name": "session.context",
+      "declaration": {
+        "value": "session.context",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30164,
+        "end": 30164
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 106903,
+        "end": 106911
+      },
+      "directlyReadParams": [
+        "sessionId"
+      ]
+    },
+    {
+      "constant": "SESSION_CACHE_STATS",
+      "name": "session.cache_stats",
+      "declaration": {
+        "value": "session.cache_stats",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30165,
+        "end": 30165
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 106912,
+        "end": 106919
+      },
+      "directlyReadParams": [
+        "sessionId"
+      ]
+    },
+    {
+      "constant": "SESSION_TOGGLE_PLAN_MODE",
+      "name": "session.toggle_plan_mode",
+      "declaration": {
+        "value": "session.toggle_plan_mode",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30166,
+        "end": 30166
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 106893,
+        "end": 106902
+      },
+      "directlyReadParams": [
+        "enabled",
+        "sessionId"
+      ]
+    },
+    {
+      "constant": "TASK_LIST",
+      "name": "task.list",
+      "declaration": {
+        "value": "task.list",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30167,
+        "end": 30167
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 107631,
+        "end": 107701
+      },
+      "directlyReadParams": [
+        "department"
+      ]
+    },
+    {
+      "constant": "TASK_STOP",
+      "name": "task.stop",
+      "declaration": {
+        "value": "task.stop",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30168,
+        "end": 30168
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 107702,
+        "end": 107831
+      },
+      "directlyReadParams": [
+        "department",
+        "sessionId",
+        "taskId"
+      ]
+    },
+    {
+      "constant": "TASK_INTERRUPT",
+      "name": "task.interrupt",
+      "declaration": {
+        "value": "task.interrupt",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30169,
+        "end": 30169
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 107832,
+        "end": 107857
+      },
+      "directlyReadParams": [
+        "department",
+        "sessionId"
+      ]
+    },
+    {
+      "constant": "TASK_STEER",
+      "name": "task.steer",
+      "declaration": {
+        "value": "task.steer",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30170,
+        "end": 30170
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 107858,
+        "end": 108258
+      },
+      "directlyReadParams": [
+        "department",
+        "sessionId",
+        "taskId",
+        "text"
+      ]
+    },
+    {
+      "constant": "TASK_MESSAGES",
+      "name": "task.messages",
+      "declaration": {
+        "value": "task.messages",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30171,
+        "end": 30171
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 108284,
+        "end": 108315
+      },
+      "directlyReadParams": [
+        "department",
+        "taskId"
+      ]
+    },
+    {
+      "constant": "TASK_DETAIL",
+      "name": "task.detail",
+      "declaration": {
+        "value": "task.detail",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30172,
+        "end": 30172
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 108316,
+        "end": 108356
+      },
+      "directlyReadParams": [
+        "department",
+        "includeTranscript",
+        "taskId"
+      ]
+    },
+    {
+      "constant": "TASK_PERMISSION_RESPOND",
+      "name": "task.permission.respond",
+      "declaration": {
+        "value": "task.permission.respond",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30173,
+        "end": 30173
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 108259,
+        "end": 108283
+      },
+      "directlyReadParams": [
+        "decision",
+        "reason",
+        "taskId",
+        "toolUseId",
+        "updatedInput"
+      ]
+    },
+    {
+      "constant": "POOL_METRICS",
+      "name": "pool.metrics",
+      "declaration": {
+        "value": "pool.metrics",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30174,
+        "end": 30174
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 108357,
+        "end": 108394
+      },
+      "directlyReadParams": [
+        "department"
+      ]
+    },
+    {
+      "constant": "RUNTIME_STREAM_LIST",
+      "name": "runtime.stream.list",
+      "declaration": {
+        "value": "runtime.stream.list",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30175,
+        "end": 30175
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 108395,
+        "end": 108398
+      },
+      "directlyReadParams": []
+    },
+    {
+      "constant": "RUNTIME_STREAM_EVENTS",
+      "name": "runtime.stream.events",
+      "declaration": {
+        "value": "runtime.stream.events",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30176,
+        "end": 30176
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 108399,
+        "end": 108407
+      },
+      "directlyReadParams": [
+        "afterSeq",
+        "limit",
+        "streamId",
+        "tail"
+      ]
+    },
+    {
+      "constant": "CONFIG_PROVIDERS_LIST",
+      "name": "config.providers.list",
+      "declaration": {
+        "value": "config.providers.list",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30177,
+        "end": 30177
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 108408,
+        "end": 108408
+      },
+      "directlyReadParams": []
+    },
+    {
+      "constant": "CONFIG_PROVIDERS_GET",
+      "name": "config.providers.get",
+      "declaration": {
+        "value": "config.providers.get",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30178,
+        "end": 30178
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 108421,
+        "end": 108421
+      },
+      "directlyReadParams": []
+    },
+    {
+      "constant": "CONFIG_PROVIDERS_SET",
+      "name": "config.providers.set",
+      "declaration": {
+        "value": "config.providers.set",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30179,
+        "end": 30179
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 108429,
+        "end": 108429
+      },
+      "directlyReadParams": []
+    },
+    {
+      "constant": "CONFIG_PROVIDERS_OPENROUTER_MODELS_SEARCH",
+      "name": "config.providers.openrouter.models.search",
+      "declaration": {
+        "value": "config.providers.openrouter.models.search",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30180,
+        "end": 30180
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 108443,
+        "end": 108456
+      },
+      "directlyReadParams": [
+        "apiKey",
+        "baseUrl",
+        "limit",
+        "query"
+      ]
+    },
+    {
+      "constant": "CONFIG_PROVIDERS_DELETE",
+      "name": "config.providers.delete",
+      "declaration": {
+        "value": "config.providers.delete",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30181,
+        "end": 30181
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 108457,
+        "end": 108457
+      },
+      "directlyReadParams": []
+    },
+    {
+      "constant": "CONFIG_PROVIDERS_SET_ACTIVE",
+      "name": "config.providers.set_active",
+      "declaration": {
+        "value": "config.providers.set_active",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30182,
+        "end": 30182
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 108466,
+        "end": 108466
+      },
+      "directlyReadParams": []
+    },
+    {
+      "constant": "CONFIG_PROVIDERS_OAUTH_START",
+      "name": "config.providers.oauth.start",
+      "declaration": {
+        "value": "config.providers.oauth.start",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30183,
+        "end": 30183
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 108482,
+        "end": 108482
+      },
+      "directlyReadParams": []
+    },
+    {
+      "constant": "CONFIG_PROVIDERS_OAUTH_COMPLETE",
+      "name": "config.providers.oauth.complete",
+      "declaration": {
+        "value": "config.providers.oauth.complete",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30184,
+        "end": 30184
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 108495,
+        "end": 108495
+      },
+      "directlyReadParams": []
+    },
+    {
+      "constant": "CONFIG_PROVIDERS_OAUTH_SIGN_OUT",
+      "name": "config.providers.oauth.sign_out",
+      "declaration": {
+        "value": "config.providers.oauth.sign_out",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30185,
+        "end": 30185
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 108540,
+        "end": 108540
+      },
+      "directlyReadParams": []
+    },
+    {
+      "constant": "CONFIG_TEST_CONNECTION",
+      "name": "config.test_connection",
+      "declaration": {
+        "value": "config.test_connection",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30186,
+        "end": 30186
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 108564,
+        "end": 108585
+      },
+      "directlyReadParams": [
+        "credential",
+        "provider"
+      ]
+    },
+    {
+      "constant": "CODEX_SERVICE_STATUS",
+      "name": "codex.service.status",
+      "declaration": {
+        "value": "codex.service.status",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30187,
+        "end": 30187
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 108586,
+        "end": 108586
+      },
+      "directlyReadParams": []
+    },
+    {
+      "constant": "CODEX_SERVICE_LOGIN_START",
+      "name": "codex.service.login.start",
+      "declaration": {
+        "value": "codex.service.login.start",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30188,
+        "end": 30188
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 108593,
+        "end": 108602
+      },
+      "directlyReadParams": []
+    },
+    {
+      "constant": "CODEX_SERVICE_LOGIN_CANCEL",
+      "name": "codex.service.login.cancel",
+      "declaration": {
+        "value": "codex.service.login.cancel",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30189,
+        "end": 30189
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 108603,
+        "end": 108613
+      },
+      "directlyReadParams": []
+    },
+    {
+      "constant": "CODEX_SERVICE_CONNECT",
+      "name": "codex.service.connect",
+      "declaration": {
+        "value": "codex.service.connect",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30190,
+        "end": 30190
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 108614,
+        "end": 108647
+      },
+      "directlyReadParams": [
+        "activateDefault"
+      ]
+    },
+    {
+      "constant": "CODEX_SERVICE_IMPORT_USER_DEFAULT",
+      "name": "codex.service.import_user_default",
+      "declaration": {
+        "value": "codex.service.import_user_default",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30191,
+        "end": 30191
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 108648,
+        "end": 108671
+      },
+      "directlyReadParams": [
+        "activateDefault"
+      ]
+    },
+    {
+      "constant": "CODEX_SERVICE_DISCONNECT",
+      "name": "codex.service.disconnect",
+      "declaration": {
+        "value": "codex.service.disconnect",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30192,
+        "end": 30192
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 108672,
+        "end": 108701
+      },
+      "directlyReadParams": []
+    },
+    {
+      "constant": "CODEX_SERVICE_SIGN_OUT",
+      "name": "codex.service.sign_out",
+      "declaration": {
+        "value": "codex.service.sign_out",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30193,
+        "end": 30193
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 108702,
+        "end": 108725
+      },
+      "directlyReadParams": []
+    },
+    {
+      "constant": "RUNTIME_CAPABILITIES",
+      "name": "runtime.capabilities",
+      "declaration": {
+        "value": "runtime.capabilities",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30194,
+        "end": 30194
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 105612,
+        "end": 105614
+      },
+      "directlyReadParams": []
+    },
+    {
+      "constant": "RUNTIME_INTEGRATIONS_REFRESH",
+      "name": "runtime.integrations.refresh",
+      "declaration": {
+        "value": "runtime.integrations.refresh",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30195,
+        "end": 30195
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 105615,
+        "end": 105620
+      },
+      "directlyReadParams": []
+    },
+    {
+      "constant": "RUNTIME_LIST",
+      "name": "runtime.list",
+      "declaration": {
+        "value": "runtime.list",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30196,
+        "end": 30196
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 108726,
+        "end": 108730
+      },
+      "directlyReadParams": []
+    },
+    {
+      "constant": "RUNTIME_WORKER_MODELS_LIST",
+      "name": "runtime.worker_models.list",
+      "declaration": {
+        "value": "runtime.worker_models.list",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30197,
+        "end": 30197
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 108731,
+        "end": 108745
+      },
+      "directlyReadParams": [
+        "sessionId"
+      ]
+    },
+    {
+      "constant": "RUNTIME_INSTALL",
+      "name": "runtime.install",
+      "declaration": {
+        "value": "runtime.install",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30198,
+        "end": 30198
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 108746,
+        "end": 108754
+      },
+      "directlyReadParams": [
+        "kind"
+      ]
+    },
+    {
+      "constant": "RUNTIME_CANCEL_INSTALL",
+      "name": "runtime.cancel_install",
+      "declaration": {
+        "value": "runtime.cancel_install",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30199,
+        "end": 30199
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 108755,
+        "end": 108763
+      },
+      "directlyReadParams": [
+        "kind"
+      ]
+    },
+    {
+      "constant": "RUNTIME_UNINSTALL",
+      "name": "runtime.uninstall",
+      "declaration": {
+        "value": "runtime.uninstall",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30200,
+        "end": 30200
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 108764,
+        "end": 108772
+      },
+      "directlyReadParams": [
+        "kind"
+      ]
+    },
+    {
+      "constant": "RUNTIME_SET_BILLING",
+      "name": "runtime.set_billing",
+      "declaration": {
+        "value": "runtime.set_billing",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30201,
+        "end": 30201
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 108773,
+        "end": 108783
+      },
+      "directlyReadParams": [
+        "billing",
+        "kind"
+      ]
+    },
+    {
+      "constant": "RUNTIME_SET_MODEL",
+      "name": "runtime.set_model",
+      "declaration": {
+        "value": "runtime.set_model",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30202,
+        "end": 30202
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 108784,
+        "end": 108796
+      },
+      "directlyReadParams": [
+        "kind",
+        "modelId",
+        "provider"
+      ]
+    },
+    {
+      "constant": "BILLING_ACTIVITY",
+      "name": "billing.activity",
+      "declaration": {
+        "value": "billing.activity",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30203,
+        "end": 30203
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 108797,
+        "end": 108808
+      },
+      "directlyReadParams": [
+        "limit",
+        "since",
+        "workspace"
+      ]
+    },
+    {
+      "constant": "RUNTIME_SIGN_IN",
+      "name": "runtime.sign_in",
+      "declaration": {
+        "value": "runtime.sign_in",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30204,
+        "end": 30204
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 108809,
+        "end": 108825
+      },
+      "directlyReadParams": [
+        "kind"
+      ]
+    },
+    {
+      "constant": "RUNTIME_SIGN_OUT",
+      "name": "runtime.sign_out",
+      "declaration": {
+        "value": "runtime.sign_out",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30205,
+        "end": 30205
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 108826,
+        "end": 108836
+      },
+      "directlyReadParams": [
+        "kind"
+      ]
+    },
+    {
+      "constant": "RUNTIME_IMPORT_USER_DEFAULT_AUTH",
+      "name": "runtime.import_user_default_auth",
+      "declaration": {
+        "value": "runtime.import_user_default_auth",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30206,
+        "end": 30206
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 108837,
+        "end": 108851
+      },
+      "directlyReadParams": [
+        "kind"
+      ]
+    },
+    {
+      "constant": "RUNTIME_SIGN_IN_PROVIDE_CODE",
+      "name": "runtime.sign_in.provide_code",
+      "declaration": {
+        "value": "runtime.sign_in.provide_code",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30207,
+        "end": 30207
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 108852,
+        "end": 108866
+      },
+      "directlyReadParams": [
+        "code",
+        "kind"
+      ]
+    },
+    {
+      "constant": "RUNTIME_SIGN_IN_CANCEL",
+      "name": "runtime.sign_in.cancel",
+      "declaration": {
+        "value": "runtime.sign_in.cancel",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30208,
+        "end": 30208
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 108867,
+        "end": 108874
+      },
+      "directlyReadParams": [
+        "kind"
+      ]
+    },
+    {
+      "constant": "CONFIG_MODELS_LIST",
+      "name": "config.models.list",
+      "declaration": {
+        "value": "config.models.list",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30209,
+        "end": 30209
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 108875,
+        "end": 108885
+      },
+      "directlyReadParams": [
+        "refresh"
+      ]
+    },
+    {
+      "constant": "CONFIG_MODELS_SET_ENABLED",
+      "name": "config.models.set_enabled",
+      "declaration": {
+        "value": "config.models.set_enabled",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30210,
+        "end": 30210
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 108886,
+        "end": 108926
+      },
+      "directlyReadParams": [
+        "enabled",
+        "expectedRevision",
+        "modelId",
+        "provider"
+      ]
+    },
+    {
+      "constant": "CONFIG_MODELS_SET_DEFAULT",
+      "name": "config.models.set_default",
+      "declaration": {
+        "value": "config.models.set_default",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30211,
+        "end": 30211
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 108927,
+        "end": 108979
+      },
+      "directlyReadParams": [
+        "expectedRevision",
+        "modelId",
+        "provider",
+        "updateExisting"
+      ]
+    },
+    {
+      "constant": "CRON_LIST",
+      "name": "cron.list",
+      "declaration": {
+        "value": "cron.list",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30212,
+        "end": 30212
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 109113,
+        "end": 109121
+      },
+      "directlyReadParams": [
+        "department"
+      ]
+    },
+    {
+      "constant": "CRON_CREATE",
+      "name": "cron.create",
+      "declaration": {
+        "value": "cron.create",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30213,
+        "end": 30213
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 109122,
+        "end": 109193
+      },
+      "directlyReadParams": [
+        "activeHours",
+        "department",
+        "enabled",
+        "keyResultId",
+        "prompt",
+        "purpose",
+        "recurring",
+        "schedule",
+        "sourceRefs",
+        "taskId"
+      ]
+    },
+    {
+      "constant": "CRON_UPDATE",
+      "name": "cron.update",
+      "declaration": {
+        "value": "cron.update",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30214,
+        "end": 30214
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 109194,
+        "end": 109284
+      },
+      "directlyReadParams": [
+        "activeHours",
+        "department",
+        "enabled",
+        "id",
+        "keyResultId",
+        "prompt",
+        "purpose",
+        "recurring",
+        "schedule",
+        "sourceRefs",
+        "taskId"
+      ]
+    },
+    {
+      "constant": "CRON_DELETE",
+      "name": "cron.delete",
+      "declaration": {
+        "value": "cron.delete",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30215,
+        "end": 30215
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 109285,
+        "end": 109307
+      },
+      "directlyReadParams": [
+        "department",
+        "id"
+      ]
+    },
+    {
+      "constant": "CRON_HISTORY",
+      "name": "cron.history",
+      "declaration": {
+        "value": "cron.history",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30216,
+        "end": 30216
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 109308,
+        "end": 109323
+      },
+      "directlyReadParams": [
+        "department",
+        "id",
+        "limit"
+      ]
+    },
+    {
+      "constant": "CRON_TRIGGER",
+      "name": "cron.trigger",
+      "declaration": {
+        "value": "cron.trigger",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30217,
+        "end": 30217
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 109324,
+        "end": 109339
+      },
+      "directlyReadParams": [
+        "department",
+        "force",
+        "id",
+        "prompt"
+      ]
+    },
+    {
+      "constant": "HOOKS_LIST",
+      "name": "hooks.list",
+      "declaration": {
+        "value": "hooks.list",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30218,
+        "end": 30218
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 109388,
+        "end": 109402
+      },
+      "directlyReadParams": [
+        "department"
+      ]
+    },
+    {
+      "constant": "HOOKS_UPDATE",
+      "name": "hooks.update",
+      "declaration": {
+        "value": "hooks.update",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30219,
+        "end": 30219
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 109403,
+        "end": 109415
+      },
+      "directlyReadParams": [
+        "department",
+        "hooks"
+      ]
+    },
+    {
+      "constant": "HOOK_WORK_LIST",
+      "name": "hook.work.list",
+      "declaration": {
+        "value": "hook.work.list",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30220,
+        "end": 30220
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 109416,
+        "end": 109455
+      },
+      "directlyReadParams": [
+        "activeOnly",
+        "department",
+        "limit"
+      ]
+    },
+    {
+      "constant": "WAKE_HISTORY",
+      "name": "wake.history",
+      "declaration": {
+        "value": "wake.history",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30221,
+        "end": 30221
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 109340,
+        "end": 109346
+      },
+      "directlyReadParams": [
+        "limit"
+      ]
+    },
+    {
+      "constant": "NUDGE_DECISIONS_LIST",
+      "name": "nudge.decisions.list",
+      "declaration": {
+        "value": "nudge.decisions.list",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30222,
+        "end": 30222
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 109347,
+        "end": 109367
+      },
+      "directlyReadParams": [
+        "department",
+        "limit"
+      ]
+    },
+    {
+      "constant": "FOCUS_BROADCAST",
+      "name": "focus.broadcast",
+      "declaration": {
+        "value": "focus.broadcast",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30223,
+        "end": 30223
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 109368,
+        "end": 109379
+      },
+      "directlyReadParams": [
+        "focusedDepartmentId"
+      ]
+    },
+    {
+      "constant": "ACTIVITY_BROADCAST",
+      "name": "activity.broadcast",
+      "declaration": {
+        "value": "activity.broadcast",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30224,
+        "end": 30224
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 109380,
+        "end": 109387
+      },
+      "directlyReadParams": [
+        "lastActivityMs"
+      ]
+    },
+    {
+      "constant": "WORKSPACE_FS_READ",
+      "name": "workspace.fs.read",
+      "declaration": {
+        "value": "workspace.fs.read",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30225,
+        "end": 30225
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 104940,
+        "end": 104960
+      },
+      "directlyReadParams": [
+        "_localActor",
+        "maxBytes",
+        "path",
+        "source"
+      ]
+    },
+    {
+      "constant": "WORKSPACE_FS_PREVIEW",
+      "name": "workspace.fs.preview",
+      "declaration": {
+        "value": "workspace.fs.preview",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30226,
+        "end": 30226
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 104989,
+        "end": 105008
+      },
+      "directlyReadParams": [
+        "path"
+      ]
+    },
+    {
+      "constant": "WORKSPACE_FS_READ_BINARY",
+      "name": "workspace.fs.readBinary",
+      "declaration": {
+        "value": "workspace.fs.readBinary",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30227,
+        "end": 30227
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 104961,
+        "end": 104988
+      },
+      "directlyReadParams": [
+        "maxBytes",
+        "path"
+      ]
+    },
+    {
+      "constant": "WORKSPACE_FS_WRITE",
+      "name": "workspace.fs.write",
+      "declaration": {
+        "value": "workspace.fs.write",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30228,
+        "end": 30228
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 105009,
+        "end": 105059
+      },
+      "directlyReadParams": [
+        "_localActor",
+        "content",
+        "create",
+        "expectedModifiedAt",
+        "path",
+        "source"
+      ]
+    },
+    {
+      "constant": "WORKSPACE_FS_MOVE",
+      "name": "workspace.fs.move",
+      "declaration": {
+        "value": "workspace.fs.move",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30229,
+        "end": 30229
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 105060,
+        "end": 105109
+      },
+      "directlyReadParams": [
+        "_localActor",
+        "destinationPath",
+        "source",
+        "sourcePath"
+      ]
+    },
+    {
+      "constant": "WORKSPACE_FS_COPY",
+      "name": "workspace.fs.copy",
+      "declaration": {
+        "value": "workspace.fs.copy",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30230,
+        "end": 30230
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 105110,
+        "end": 105161
+      },
+      "directlyReadParams": [
+        "_localActor",
+        "destinationPath",
+        "source",
+        "sourcePath"
+      ]
+    },
+    {
+      "constant": "WORKSPACE_FS_BATCH",
+      "name": "workspace.fs.batch",
+      "declaration": {
+        "value": "workspace.fs.batch",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30231,
+        "end": 30231
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 105162,
+        "end": 105213
+      },
+      "directlyReadParams": [
+        "_localActor",
+        "operations",
+        "source"
+      ]
+    },
+    {
+      "constant": "WORKSPACE_FS_TAG_ADD",
+      "name": "workspace.fs.tag.add",
+      "declaration": {
+        "value": "workspace.fs.tag.add",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30232,
+        "end": 30232
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 104905,
+        "end": 104905
+      },
+      "directlyReadParams": []
+    },
+    {
+      "constant": "WORKSPACE_FS_TAG_REMOVE",
+      "name": "workspace.fs.tag.remove",
+      "declaration": {
+        "value": "workspace.fs.tag.remove",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30233,
+        "end": 30233
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 104906,
+        "end": 104939
+      },
+      "directlyReadParams": [
+        "_localActor",
+        "operationID",
+        "path",
+        "source",
+        "tag"
+      ]
+    },
+    {
+      "constant": "WORKSPACE_FS_TRASH_PREPARE",
+      "name": "workspace.fs.trash.prepare",
+      "declaration": {
+        "value": "workspace.fs.trash.prepare",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30234,
+        "end": 30234
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 105214,
+        "end": 105233
+      },
+      "directlyReadParams": [
+        "_localActor",
+        "path",
+        "source"
+      ]
+    },
+    {
+      "constant": "WORKSPACE_FS_TRASH_COMMIT",
+      "name": "workspace.fs.trash.commit",
+      "declaration": {
+        "value": "workspace.fs.trash.commit",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30235,
+        "end": 30235
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 105234,
+        "end": 105275
+      },
+      "directlyReadParams": [
+        "operationID",
+        "path"
+      ]
+    },
+    {
+      "constant": "WORKSPACE_FS_TRASH_ABORT",
+      "name": "workspace.fs.trash.abort",
+      "declaration": {
+        "value": "workspace.fs.trash.abort",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30236,
+        "end": 30236
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 105276,
+        "end": 105292
+      },
+      "directlyReadParams": [
+        "operationID",
+        "path",
+        "reason"
+      ]
+    },
+    {
+      "constant": "WORKSPACE_FS_UPLOAD_BEGIN",
+      "name": "workspace.fs.upload.begin",
+      "declaration": {
+        "value": "workspace.fs.upload.begin",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30237,
+        "end": 30237
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 105293,
+        "end": 105350
+      },
+      "directlyReadParams": [
+        "_localActor",
+        "overwrite",
+        "path",
+        "size",
+        "source"
+      ]
+    },
+    {
+      "constant": "WORKSPACE_FS_UPLOAD_CHUNK",
+      "name": "workspace.fs.upload.chunk",
+      "declaration": {
+        "value": "workspace.fs.upload.chunk",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30238,
+        "end": 30238
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 105351,
+        "end": 105379
+      },
+      "directlyReadParams": [
+        "contentBase64",
+        "offset",
+        "uploadId"
+      ]
+    },
+    {
+      "constant": "WORKSPACE_FS_UPLOAD_COMMIT",
+      "name": "workspace.fs.upload.commit",
+      "declaration": {
+        "value": "workspace.fs.upload.commit",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30239,
+        "end": 30239
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 105380,
+        "end": 105431
+      },
+      "directlyReadParams": [
+        "uploadId"
+      ]
+    },
+    {
+      "constant": "WORKSPACE_FS_UPLOAD_ABORT",
+      "name": "workspace.fs.upload.abort",
+      "declaration": {
+        "value": "workspace.fs.upload.abort",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30240,
+        "end": 30240
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 105432,
+        "end": 105440
+      },
+      "directlyReadParams": [
+        "uploadId"
+      ]
+    },
+    {
+      "constant": "WORKSPACE_FS_IMPORT_DIRECTORY_BEGIN",
+      "name": "workspace.fs.importDirectory.begin",
+      "declaration": {
+        "value": "workspace.fs.importDirectory.begin",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30241,
+        "end": 30241
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 105441,
+        "end": 105516
+      },
+      "directlyReadParams": [
+        "_localActor",
+        "path",
+        "source"
+      ]
+    },
+    {
+      "constant": "WORKSPACE_FS_IMPORT_DIRECTORY_CHUNK",
+      "name": "workspace.fs.importDirectory.chunk",
+      "declaration": {
+        "value": "workspace.fs.importDirectory.chunk",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30242,
+        "end": 30242
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 105517,
+        "end": 105549
+      },
+      "directlyReadParams": [
+        "contentBase64",
+        "fileIndex",
+        "importId",
+        "offset"
+      ]
+    },
+    {
+      "constant": "WORKSPACE_FS_IMPORT_DIRECTORY_COMMIT",
+      "name": "workspace.fs.importDirectory.commit",
+      "declaration": {
+        "value": "workspace.fs.importDirectory.commit",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30243,
+        "end": 30243
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 105550,
+        "end": 105602
+      },
+      "directlyReadParams": [
+        "importId"
+      ]
+    },
+    {
+      "constant": "WORKSPACE_FS_IMPORT_DIRECTORY_ABORT",
+      "name": "workspace.fs.importDirectory.abort",
+      "declaration": {
+        "value": "workspace.fs.importDirectory.abort",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30244,
+        "end": 30244
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 105603,
+        "end": 105611
+      },
+      "directlyReadParams": [
+        "importId"
+      ]
+    },
+    {
+      "constant": "TERMINAL_RUN",
+      "name": "terminal.run",
+      "declaration": {
+        "value": "terminal.run",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30245,
+        "end": 30245
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 105621,
+        "end": 105659
+      },
+      "directlyReadParams": [
+        "command",
+        "cwd",
+        "department",
+        "timeoutMs"
+      ]
+    },
+    {
+      "constant": "TERMINAL_SESSION_CREATE",
+      "name": "terminal.session.create",
+      "declaration": {
+        "value": "terminal.session.create",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30246,
+        "end": 30246
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 105660,
+        "end": 105697
+      },
+      "directlyReadParams": [
+        "args",
+        "cols",
+        "command",
+        "cwd",
+        "department",
+        "rows",
+        "title"
+      ]
+    },
+    {
+      "constant": "TERMINAL_SESSION_LIST",
+      "name": "terminal.session.list",
+      "declaration": {
+        "value": "terminal.session.list",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30247,
+        "end": 30247
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 105698,
+        "end": 105705
+      },
+      "directlyReadParams": [
+        "department"
+      ]
+    },
+    {
+      "constant": "TERMINAL_SESSION_ATTACH",
+      "name": "terminal.session.attach",
+      "declaration": {
+        "value": "terminal.session.attach",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30248,
+        "end": 30248
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 105706,
+        "end": 105725
+      },
+      "directlyReadParams": [
+        "sessionId",
+        "sinceSeq"
+      ]
+    },
+    {
+      "constant": "TERMINAL_SESSION_INPUT",
+      "name": "terminal.session.input",
+      "declaration": {
+        "value": "terminal.session.input",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30249,
+        "end": 30249
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 105726,
+        "end": 105739
+      },
+      "directlyReadParams": [
+        "dataBase64",
+        "sessionId"
+      ]
+    },
+    {
+      "constant": "TERMINAL_SESSION_RESIZE",
+      "name": "terminal.session.resize",
+      "declaration": {
+        "value": "terminal.session.resize",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30250,
+        "end": 30250
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 105740,
+        "end": 105760
+      },
+      "directlyReadParams": [
+        "cols",
+        "rows",
+        "sessionId"
+      ]
+    },
+    {
+      "constant": "TERMINAL_SESSION_CLOSE",
+      "name": "terminal.session.close",
+      "declaration": {
+        "value": "terminal.session.close",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30251,
+        "end": 30251
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 105761,
+        "end": 105780
+      },
+      "directlyReadParams": [
+        "sessionId",
+        "signal"
+      ]
+    },
+    {
+      "constant": "TRACE_LIST",
+      "name": "trace.list",
+      "declaration": {
+        "value": "trace.list",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30252,
+        "end": 30252
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 109528,
+        "end": 109538
+      },
+      "directlyReadParams": [
+        "department",
+        "limit"
+      ]
+    },
+    {
+      "constant": "MAINTENANCE_CONFIG_GET",
+      "name": "maintenance.config.get",
+      "declaration": {
+        "value": "maintenance.config.get",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30253,
+        "end": 30253
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 109539,
+        "end": 109543
+      },
+      "directlyReadParams": []
+    },
+    {
+      "constant": "MAINTENANCE_CONFIG_UPDATE",
+      "name": "maintenance.config.update",
+      "declaration": {
+        "value": "maintenance.config.update",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30254,
+        "end": 30254
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 109544,
+        "end": 109573
+      },
+      "directlyReadParams": [
+        "crystallize"
+      ]
+    },
+    {
+      "constant": "MAINTENANCE_TRIGGER",
+      "name": "maintenance.trigger",
+      "declaration": {
+        "value": "maintenance.trigger",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30255,
+        "end": 30255
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 109574,
+        "end": 109602
+      },
+      "directlyReadParams": [
+        "action",
+        "department",
+        "departmentId"
+      ]
+    },
+    {
+      "constant": "PING",
+      "name": "ping",
+      "declaration": {
+        "value": "ping",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30256,
+        "end": 30256
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 109603,
+        "end": 109604
+      },
+      "directlyReadParams": []
+    },
+    {
+      "constant": "SYNC_STATUS",
+      "name": "sync.status",
+      "declaration": {
+        "value": "sync.status",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30257,
+        "end": 30257
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 109605,
+        "end": 109622
+      },
+      "directlyReadParams": []
+    },
+    {
+      "constant": "BENCH_MAIL_INJECT",
+      "name": "bench.mail.inject",
+      "declaration": {
+        "value": "bench.mail.inject",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30258,
+        "end": 30258
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 106132,
+        "end": 106152
+      },
+      "directlyReadParams": [
+        "benchVMs",
+        "body",
+        "department",
+        "from",
+        "subject"
+      ]
+    },
+    {
+      "constant": "BENCH_NUDGE_TICK",
+      "name": "bench.nudge.tick",
+      "declaration": {
+        "value": "bench.nudge.tick",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30259,
+        "end": 30259
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 106153,
+        "end": 106172
+      },
+      "directlyReadParams": [
+        "department",
+        "kind"
+      ]
+    },
+    {
+      "constant": "BENCH_CRON_TRIGGER",
+      "name": "bench.cron.trigger",
+      "declaration": {
+        "value": "bench.cron.trigger",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30260,
+        "end": 30260
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 106173,
+        "end": 106189
+      },
+      "directlyReadParams": [
+        "department",
+        "id"
+      ]
+    },
+    {
+      "constant": "SYNC_PUSH",
+      "name": "sync.push",
+      "declaration": {
+        "value": "sync.push",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30261,
+        "end": 30261
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 109623,
+        "end": 109673
+      },
+      "directlyReadParams": []
+    },
+    {
+      "constant": "SYNC_PULL",
+      "name": "sync.pull",
+      "declaration": {
+        "value": "sync.pull",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30262,
+        "end": 30262
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 109674,
+        "end": 109732
+      },
+      "directlyReadParams": []
+    },
+    {
+      "constant": "SYNC_APPLY",
+      "name": "sync.apply",
+      "declaration": {
+        "value": "sync.apply",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30263,
+        "end": 30263
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 109733,
+        "end": 109788
+      },
+      "directlyReadParams": []
+    },
+    {
+      "constant": "SYNC_CONFLICTS",
+      "name": "sync.conflicts",
+      "declaration": {
+        "value": "sync.conflicts",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30264,
+        "end": 30264
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 109789,
+        "end": 109825
+      },
+      "directlyReadParams": []
+    },
+    {
+      "constant": "SYNC_CONFLICT_RESOLVE",
+      "name": "sync.conflict.resolve",
+      "declaration": {
+        "value": "sync.conflict.resolve",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30265,
+        "end": 30265
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 109826,
+        "end": 109887
+      },
+      "directlyReadParams": [
+        "opId",
+        "resolution"
+      ]
+    },
+    {
+      "constant": "WORKSPACE_FS_COLLABORATION_RECENT",
+      "name": "workspace.fs.collaboration.recent",
+      "declaration": {
+        "value": "workspace.fs.collaboration.recent",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30266,
+        "end": 30266
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 104474,
+        "end": 104495
+      },
+      "directlyReadParams": [
+        "departmentID",
+        "limit",
+        "projection"
+      ]
+    },
+    {
+      "constant": "WORKSPACE_FS_COLLABORATION_DELTA",
+      "name": "workspace.fs.collaboration.delta",
+      "declaration": {
+        "value": "workspace.fs.collaboration.delta",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30267,
+        "end": 30267
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 104496,
+        "end": 104525
+      },
+      "directlyReadParams": [
+        "paths",
+        "projection"
+      ]
+    },
+    {
+      "constant": "WORKSPACE_FS_COLLABORATION_REBUILD",
+      "name": "workspace.fs.collaboration.rebuild",
+      "declaration": {
+        "value": "workspace.fs.collaboration.rebuild",
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 30268,
+        "end": 30268
+      },
+      "handler": {
+        "file": "_analysis/extracted/neo-agent.fmt.js",
+        "start": 104526,
+        "end": 104540
+      },
+      "directlyReadParams": []
+    }
+  ],
+  "events": {
+    "CHAT_MESSAGE": {
+      "value": "chat.message",
+      "file": "_analysis/extracted/neo-agent.fmt.js",
+      "start": 30271,
+      "end": 30271
+    },
+    "CHAT_DELTA": {
+      "value": "chat.delta",
+      "file": "_analysis/extracted/neo-agent.fmt.js",
+      "start": 30272,
+      "end": 30272
+    },
+    "CHAT_DELTA_DONE": {
+      "value": "chat.delta.done",
+      "file": "_analysis/extracted/neo-agent.fmt.js",
+      "start": 30273,
+      "end": 30273
+    },
+    "USER_INPUT_DELIVERY": {
+      "value": "user.input.delivery",
+      "file": "_analysis/extracted/neo-agent.fmt.js",
+      "start": 30274,
+      "end": 30274
+    },
+    "DEPARTMENT_STATUS": {
+      "value": "department.status",
+      "file": "_analysis/extracted/neo-agent.fmt.js",
+      "start": 30275,
+      "end": 30275
+    },
+    "DEPARTMENT_CATALOG_CHANGED": {
+      "value": "department.catalog.changed",
+      "file": "_analysis/extracted/neo-agent.fmt.js",
+      "start": 30276,
+      "end": 30276
+    },
+    "OKR_TASK_CHANGED": {
+      "value": "okr.task.changed",
+      "file": "_analysis/extracted/neo-agent.fmt.js",
+      "start": 30277,
+      "end": 30277
+    },
+    "WORKSPACE_FS_CHANGED": {
+      "value": "workspace.fs.changed",
+      "file": "_analysis/extracted/neo-agent.fmt.js",
+      "start": 30278,
+      "end": 30278
+    },
+    "WORKSPACE_FS_INDEXING_PROGRESS": {
+      "value": "workspace.fs.indexing.progress",
+      "file": "_analysis/extracted/neo-agent.fmt.js",
+      "start": 30279,
+      "end": 30279
+    },
+    "TASK_UPDATE": {
+      "value": "task.update",
+      "file": "_analysis/extracted/neo-agent.fmt.js",
+      "start": 30280,
+      "end": 30280
+    },
+    "TOOL_START": {
+      "value": "tool.start",
+      "file": "_analysis/extracted/neo-agent.fmt.js",
+      "start": 30281,
+      "end": 30281
+    },
+    "TOOL_UPDATE": {
+      "value": "tool.update",
+      "file": "_analysis/extracted/neo-agent.fmt.js",
+      "start": 30282,
+      "end": 30282
+    },
+    "TOOL_END": {
+      "value": "tool.end",
+      "file": "_analysis/extracted/neo-agent.fmt.js",
+      "start": 30283,
+      "end": 30283
+    },
+    "TASK_DELTA": {
+      "value": "task.delta",
+      "file": "_analysis/extracted/neo-agent.fmt.js",
+      "start": 30284,
+      "end": 30284
+    },
+    "TASK_DELTA_DONE": {
+      "value": "task.delta.done",
+      "file": "_analysis/extracted/neo-agent.fmt.js",
+      "start": 30285,
+      "end": 30285
+    },
+    "TASK_TOOL_START": {
+      "value": "task.tool.start",
+      "file": "_analysis/extracted/neo-agent.fmt.js",
+      "start": 30286,
+      "end": 30286
+    },
+    "TASK_TOOL_UPDATE": {
+      "value": "task.tool.update",
+      "file": "_analysis/extracted/neo-agent.fmt.js",
+      "start": 30287,
+      "end": 30287
+    },
+    "TASK_TOOL_END": {
+      "value": "task.tool.end",
+      "file": "_analysis/extracted/neo-agent.fmt.js",
+      "start": 30288,
+      "end": 30288
+    },
+    "TOOL_INPUT_DELTA": {
+      "value": "tool.input.delta",
+      "file": "_analysis/extracted/neo-agent.fmt.js",
+      "start": 30289,
+      "end": 30289
+    },
+    "THINKING_DELTA": {
+      "value": "thinking.delta",
+      "file": "_analysis/extracted/neo-agent.fmt.js",
+      "start": 30290,
+      "end": 30290
+    },
+    "TRACE_APPEND": {
+      "value": "trace.append",
+      "file": "_analysis/extracted/neo-agent.fmt.js",
+      "start": 30291,
+      "end": 30291
+    },
+    "RUNTIME_RAW_EVENT": {
+      "value": "runtime.raw.event",
+      "file": "_analysis/extracted/neo-agent.fmt.js",
+      "start": 30292,
+      "end": 30292
+    },
+    "TASK_PERMISSION_REQUEST": {
+      "value": "task.permission.request",
+      "file": "_analysis/extracted/neo-agent.fmt.js",
+      "start": 30293,
+      "end": 30293
+    },
+    "CRON_JOB_CHANGED": {
+      "value": "cron.job.changed",
+      "file": "_analysis/extracted/neo-agent.fmt.js",
+      "start": 30294,
+      "end": 30294
+    },
+    "CRON_RUN_STATUS": {
+      "value": "cron.run.status",
+      "file": "_analysis/extracted/neo-agent.fmt.js",
+      "start": 30295,
+      "end": 30295
+    },
+    "CHAT_ABORTED": {
+      "value": "chat.aborted",
+      "file": "_analysis/extracted/neo-agent.fmt.js",
+      "start": 30296,
+      "end": 30296
+    },
+    "TASK_CREATED": {
+      "value": "task.created",
+      "file": "_analysis/extracted/neo-agent.fmt.js",
+      "start": 30297,
+      "end": 30297
+    },
+    "TASK_UPDATED": {
+      "value": "task.updated",
+      "file": "_analysis/extracted/neo-agent.fmt.js",
+      "start": 30298,
+      "end": 30298
+    },
+    "HOOK_WORK_CHANGED": {
+      "value": "hook.work.changed",
+      "file": "_analysis/extracted/neo-agent.fmt.js",
+      "start": 30299,
+      "end": 30299
+    },
+    "RUNTIME_STATE_CHANGED": {
+      "value": "runtime.state_changed",
+      "file": "_analysis/extracted/neo-agent.fmt.js",
+      "start": 30300,
+      "end": 30300
+    },
+    "RUNTIME_PROGRESS": {
+      "value": "runtime.progress",
+      "file": "_analysis/extracted/neo-agent.fmt.js",
+      "start": 30301,
+      "end": 30301
+    },
+    "RUNTIME_SUBSCRIPTION_PROMPT": {
+      "value": "runtime.subscription_prompt",
+      "file": "_analysis/extracted/neo-agent.fmt.js",
+      "start": 30302,
+      "end": 30302
+    },
+    "WECHAT_STATUS_CHANGED": {
+      "value": "wechat.status_changed",
+      "file": "_analysis/extracted/neo-agent.fmt.js",
+      "start": 30303,
+      "end": 30303
+    },
+    "TELEGRAM_STATUS_CHANGED": {
+      "value": "telegram.status_changed",
+      "file": "_analysis/extracted/neo-agent.fmt.js",
+      "start": 30304,
+      "end": 30304
+    },
+    "BENCH_MAIL_INJECT": {
+      "value": "bench.mail.inject",
+      "file": "_analysis/extracted/neo-agent.fmt.js",
+      "start": 30305,
+      "end": 30305
+    },
+    "BENCH_NUDGE_TICK": {
+      "value": "bench.nudge.tick",
+      "file": "_analysis/extracted/neo-agent.fmt.js",
+      "start": 30306,
+      "end": 30306
+    },
+    "BENCH_CRON_TRIGGER": {
+      "value": "bench.cron.trigger",
+      "file": "_analysis/extracted/neo-agent.fmt.js",
+      "start": 30307,
+      "end": 30307
+    },
+    "TERMINAL_SESSION_OUTPUT": {
+      "value": "terminal.session.output",
+      "file": "_analysis/extracted/neo-agent.fmt.js",
+      "start": 30308,
+      "end": 30308
+    },
+    "TERMINAL_SESSION_STATUS": {
+      "value": "terminal.session.status",
+      "file": "_analysis/extracted/neo-agent.fmt.js",
+      "start": 30309,
+      "end": 30309
+    },
+    "USER_PROFILE_DISCOVERY_PROGRESS": {
+      "value": "userProfile.discovery.progress",
+      "file": "_analysis/extracted/neo-agent.fmt.js",
+      "start": 30310,
+      "end": 30310
+    },
+    "USER_PROFILE_DISCOVERY_RESULT": {
+      "value": "userProfile.discovery.result",
+      "file": "_analysis/extracted/neo-agent.fmt.js",
+      "start": 30311,
+      "end": 30311
+    }
+  }
+}

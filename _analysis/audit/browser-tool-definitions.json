@@ -1,0 +1,89 @@
+{
+  "source": "_analysis/app-copy/Matrix.app/Contents/Resources/matrix-browser/main.js",
+  "definitions": [
+    {
+      "name": "defaultOperationTimeoutMs",
+      "start": 1089140,
+      "end": 1089172,
+      "line": 96,
+      "expression": "defaultOperationTimeoutMs=600000"
+    },
+    {
+      "name": "maxBrowserOperationTimeoutMs",
+      "start": 1089173,
+      "end": 1089209,
+      "line": 96,
+      "expression": "maxBrowserOperationTimeoutMs=3600000"
+    },
+    {
+      "name": "registerScriptRunTool",
+      "start": 1269541,
+      "end": 1270157,
+      "line": 1148,
+      "expression": "function registerScriptRunTool(server){server.registerTool(\"browser.script.run\",{description:\"Run a browser automation script against the Matrix Browser runtime.\",inputSchema:ScriptRunInput.shape,outputSchema:ScriptRunOutput.shape,_meta:{\"neo/alwaysLoad\":true,\"neo/searchHint\":\"browser script run playwright webpage automation\"}},async(args,extra)=>{try{const result=await runtime.run({departmentId:departmentId(extra),script:args.script,timeoutMs:normalizeOperationTimeoutMs(args.timeoutMs),signal:extra.signal});return scriptRunResult(result)}catch(error48){return toolErrorResult(\"browser.script.run\",error48)}})}"
+    },
+    {
+      "name": "ScriptRunInput",
+      "start": 1270161,
+      "end": 1270175,
+      "line": 1148,
+      "expression": "ScriptRunInput"
+    },
+    {
+      "name": "ScriptRunOutput",
+      "start": 1270176,
+      "end": 1270191,
+      "line": 1148,
+      "expression": "ScriptRunOutput"
+    },
+    {
+      "name": "ScriptRunInput",
+      "start": 1270271,
+      "end": 1270402,
+      "line": 1148,
+      "expression": "ScriptRunInput=object2({script:string2().min(1),timeoutMs:number2().int().positive().max(maxBrowserOperationTimeoutMs).optional()})"
+    },
+    {
+      "name": "ScriptRunOutput",
+      "start": 1270403,
+      "end": 1270826,
+      "line": 1148,
+      "expression": "ScriptRunOutput=object2({result:object2({type:string2(),value:unknown(),preview:string2()}),displays:array(object2({imageBase64:string2().optional(),preview:string2(),type:string2()})),logs:array(object2({level:_enum2([\"log\",\"warn\",\"error\"]),message:string2()})),browserName:string2().optional(),currentTabId:string2().nullable(),currentUrl:string2().optional(),sessionName:string2().optional(),title:string2().optional()})"
+    },
+    {
+      "name": "registerTaskMessageTool",
+      "start": 4212503,
+      "end": 4213180,
+      "line": 1754,
+      "expression": "function registerTaskMessageTool(server){server.registerTool(\"browser.task.message\",{description:\"Send a message to the browser agent. Use taskId null to start a task; provide a taskId string for a follow-up message.\",inputSchema:TaskMessageInput.shape,outputSchema:TaskMessageOutput.shape,_meta:{\"neo/alwaysLoad\":true,\"neo/searchHint\":\"browser task message visual webpage interaction automation\"}},async(args,extra)=>{try{return taskMessageResult(await browserTaskManager.message({departmentId:departmentId2(extra),taskId:args.taskId,message:args.message,timeoutMs:args.timeoutMs,signal:extra.signal}))}catch(error51){return toolErrorResult(\"browser.task.message\",error51)}})}"
+    },
+    {
+      "name": "TaskMessageInput",
+      "start": 4213184,
+      "end": 4213200,
+      "line": 1754,
+      "expression": "TaskMessageInput"
+    },
+    {
+      "name": "TaskMessageOutput",
+      "start": 4213201,
+      "end": 4213218,
+      "line": 1754,
+      "expression": "TaskMessageOutput"
+    },
+    {
+      "name": "TaskMessageInput",
+      "start": 4213385,
+      "end": 4213592,
+      "line": 1754,
+      "expression": "TaskMessageInput=object2({taskId:string2().min(1).nullable().default(null),message:string2().min(1),timeoutMs:number2().int().positive().max(maxBrowserOperationTimeoutMs).default(defaultOperationTimeoutMs)})"
+    },
+    {
+      "name": "TaskMessageOutput",
+      "start": 4213593,
+      "end": 4213896,
+      "line": 1754,
+      "expression": "TaskMessageOutput=object2({taskId:string2(),ok:boolean2(),actionSummary:array(string2()).optional(),finalResponse:string2().optional(),browser:unknown().optional(),errorCode:string2().optional(),errorMessage:string2().optional(),retryable:boolean2().optional(),recoveryInstruction:string2().optional()})"
+    }
+  ]
+}

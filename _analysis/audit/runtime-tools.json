@@ -1,0 +1,816 @@
+{
+  "source": "_analysis/extracted/neo-intelligence.fmt.js",
+  "configuredNames": [
+    "Agent",
+    "TaskOutput",
+    "Bash",
+    "Glob",
+    "Grep",
+    "ExitPlanMode",
+    "Read",
+    "Edit",
+    "Write",
+    "WebFetch",
+    "TodoWrite",
+    "WebSearch",
+    "TaskStop",
+    "AskUserQuestion",
+    "Skill",
+    "EnterPlanMode",
+    "SendMessage",
+    "EnterWorktree",
+    "ExitWorktree",
+    "TeamCreate",
+    "TeamDelete",
+    "TaskCreate",
+    "TaskGet",
+    "TaskUpdate",
+    "TaskList",
+    "ToolSearch",
+    "LSP",
+    "Monitor",
+    "PowerShell"
+  ],
+  "foundNames": [
+    "PowerShell",
+    "Read",
+    "ToolSearch",
+    "Write",
+    "Grep",
+    "Glob",
+    "TodoWrite",
+    "Bash",
+    "Edit",
+    "Agent",
+    "AskUserQuestion",
+    "EnterPlanMode",
+    "EnterWorktree",
+    "ExitPlanMode",
+    "ExitWorktree",
+    "LSP",
+    "Skill",
+    "TaskCreate",
+    "TaskGet",
+    "TaskList",
+    "TaskOutput",
+    "TaskStop",
+    "TaskUpdate",
+    "WebFetch",
+    "WebSearch",
+    "TeamCreate",
+    "TeamDelete",
+    "SendMessage",
+    "Monitor"
+  ],
+  "missing": [],
+  "tools": [
+    {
+      "name": "PowerShell",
+      "objectStart": 199340,
+      "objectEnd": 199601,
+      "inputSchema": {
+        "start": 199369,
+        "end": 199371,
+        "expression": "get inputSchema() {\n      return C48();\n    }"
+      },
+      "outputSchema": {
+        "start": 199372,
+        "end": 199374,
+        "expression": "get outputSchema() {\n      return S48();\n    }"
+      },
+      "isEnabled": {
+        "start": 199394,
+        "end": 199396,
+        "expression": "isEnabled() {\n      return true;\n    }"
+      },
+      "dependencies": [
+        {
+          "name": "C48",
+          "start": 199289,
+          "end": 199289,
+          "expression": "mA(() => BJA ? ow1().omit({ run_in_background: true }) : ow1())"
+        }
+      ]
+    },
+    {
+      "name": "Read",
+      "objectStart": 202506,
+      "objectEnd": 202724,
+      "inputSchema": {
+        "start": 202524,
+        "end": 202526,
+        "expression": "get inputSchema() {\n        return G88();\n      }"
+      },
+      "outputSchema": {
+        "start": 202527,
+        "end": 202529,
+        "expression": "get outputSchema() {\n        return X88();\n      }"
+      },
+      "isEnabled": null,
+      "dependencies": [
+        {
+          "name": "G88",
+          "start": 202429,
+          "end": 202444,
+          "expression": "mA(() =>\n    j.strictObject({\n      file_path: j.string().describe(\n        \"The absolute path, or current-working-directory-relative path, to the file to read\",\n      ),\n      offset: Kz(j.number().int().nonnegative().optional()).describe(\n        \"The line number to start reading from. Only provide if the file is too large to read at once\",\n      ),\n      limit: Kz(j.number().int().positive().optional()).describe(\n        \"The number of lines to read. Only provide if the file is too large to read at once.\",\n      ),\n      pages: j.string().optional().describe(\n        `Page range for PDF files (e.g., \"1-5\", \"3\", \"10-20\"). Only applicable to PDF files. Maximum ${yo} pages per request.`,\n      ),\n    })\n  )"
+        }
+      ]
+    },
+    {
+      "name": "ToolSearch",
+      "objectStart": 202891,
+      "objectEnd": 202990,
+      "inputSchema": {
+        "start": 202909,
+        "end": 202911,
+        "expression": "get inputSchema() {\n      return mM1();\n    }"
+      },
+      "outputSchema": {
+        "start": 202912,
+        "end": 202914,
+        "expression": "get outputSchema() {\n      return cM1();\n    }"
+      },
+      "isEnabled": {
+        "start": 202892,
+        "end": 202894,
+        "expression": "isEnabled() {\n      return Hz();\n    }"
+      },
+      "dependencies": [
+        {
+          "name": "mM1",
+          "start": 202855,
+          "end": 202864,
+          "expression": "mA(() =>\n    j.object({\n      query: j.string().describe(\n        'Query to find deferred tools. Use \"select:<tool_name>\" for direct selection, or keywords to search.',\n      ),\n      max_results: j.number().optional().default(5).describe(\n        \"Maximum number of results to return (default: 5)\",\n      ),\n    })\n  )"
+        }
+      ]
+    },
+    {
+      "name": "Write",
+      "objectStart": 335928,
+      "objectEnd": 336142,
+      "inputSchema": {
+        "start": 335947,
+        "end": 335949,
+        "expression": "get inputSchema() {\n        return Gh8();\n      }"
+      },
+      "outputSchema": {
+        "start": 335950,
+        "end": 335952,
+        "expression": "get outputSchema() {\n        return Xh8();\n      }"
+      },
+      "isEnabled": null,
+      "dependencies": [
+        {
+          "name": "Gh8",
+          "start": 335906,
+          "end": 335913,
+          "expression": "mA(() =>\n    j.strictObject({\n      file_path: j.string().describe(\n        \"The absolute path to the file to write (must be absolute, not relative)\",\n      ),\n      content: j.string().describe(\"The content to write to the file\"),\n    })\n  )"
+        }
+      ]
+    },
+    {
+      "name": "Grep",
+      "objectStart": 336436,
+      "objectEnd": 336718,
+      "inputSchema": {
+        "start": 336452,
+        "end": 336454,
+        "expression": "get inputSchema() {\n        return Uh8();\n      }"
+      },
+      "outputSchema": {
+        "start": 336455,
+        "end": 336457,
+        "expression": "get outputSchema() {\n        return Bh8();\n      }"
+      },
+      "isEnabled": null,
+      "dependencies": [
+        {
+          "name": "Uh8",
+          "start": 336384,
+          "end": 336423,
+          "expression": "mA(() =>\n    j.strictObject({\n      pattern: j.string().describe(\"The regular expression pattern to search for in file contents\"),\n      path: j.string().optional().describe(\n        \"File or directory to search in (rg PATH). Defaults to current working directory.\",\n      ),\n      glob: j.string().optional().describe(\n        'Glob pattern to filter files (e.g. \"*.js\", \"*.{ts,tsx}\") - maps to rg --glob',\n      ),\n      output_mode: j.enum([\"content\", \"files_with_matches\", \"count\"]).optional().describe(\n        'Output mode: \"content\" shows matching lines (supports -A/-B/-C context, -n line numbers, head_limit), \"files_with_matches\" shows file paths (supports head_limit), \"count\" shows occurrence counts per file (rg --count-matches --with-filename; multiple matches on one line are counted separately; supports head_limit). Defaults to \"files_with_matches\".',\n      ),\n      \"-B\": Kz(j.number().optional()).describe(\n        'Number of lines to show before each match (rg -B). Requires output_mode: \"content\", ignored otherwise.',\n      ),\n      \"-A\": Kz(j.number().optional()).describe(\n        'Number of lines to show after each match (rg -A). Requires output_mode: \"content\", ignored otherwise.',\n      ),\n      \"-C\": Kz(j.number().optional()).describe(\"Alias for context.\"),\n      context: Kz(j.number().optional()).describe(\n        'Number of lines to show before and after each match (rg -C). Requires output_mode: \"content\", ignored otherwise.',\n      ),\n      \"-n\": FQ(j.boolean().optional()).describe(\n        'Show line numbers in output (rg -n). Requires output_mode: \"content\", ignored otherwise. Defaults to true.',\n      ),\n      \"-i\": FQ(j.boolean().optional()).describe(\"Case insensitive search (rg -i)\"),\n      type: j.string().optional().describe(\n        \"File type to search (rg --type). Common types: js, py, rust, go, java, etc. More efficient than include for standard file types.\",\n      ),\n      head_limit: Kz(j.number().optional()).describe(\n        'Limit output to first N lines/entries, equivalent to \"| head -N\". Works across all output modes: content (limits output lines), files_with_matches (limits file paths), count (limits count entries). Defaults to 250 when unspecified. Pass 0 for unlimited (use sparingly \\u2014 large result sets waste context).',\n      ),\n      offset: Kz(j.number().optional()).describe(\n        'Skip first N lines/entries before applying head_limit, equivalent to \"| tail -n +N | head -N\". Works across all output modes. Defaults to 0.',\n      ),\n      multiline: FQ(j.boolean().optional()).describe(\n        \"Enable multiline mode where . matches newlines and patterns can span lines (rg -U --multiline-dotall). Default: false.\",\n      ),\n    })\n  )"
+        }
+      ]
+    },
+    {
+      "name": "Glob",
+      "objectStart": 336790,
+      "objectEnd": 336898,
+      "inputSchema": {
+        "start": 336803,
+        "end": 336805,
+        "expression": "get inputSchema() {\n        return Eh8();\n      }"
+      },
+      "outputSchema": {
+        "start": 336806,
+        "end": 336808,
+        "expression": "get outputSchema() {\n        return Lh8();\n      }"
+      },
+      "isEnabled": null,
+      "dependencies": [
+        {
+          "name": "Eh8",
+          "start": 336774,
+          "end": 336781,
+          "expression": "mA(() =>\n    j.strictObject({\n      pattern: j.string().describe(\"The glob pattern to match files against\"),\n      path: j.string().optional().describe(\n        'The directory to search in. If not specified, the current working directory will be used. IMPORTANT: Omit this field to use the default directory. DO NOT enter \"undefined\" or \"null\" - simply omit it for the default behavior. Must be a valid directory path if provided.',\n      ),\n    })\n  )"
+        }
+      ]
+    },
+    {
+      "name": "TodoWrite",
+      "objectStart": 337376,
+      "objectEnd": 337432,
+      "inputSchema": {
+        "start": 337387,
+        "end": 337389,
+        "expression": "get inputSchema() {\n        return Rh8();\n      }"
+      },
+      "outputSchema": {
+        "start": 337390,
+        "end": 337392,
+        "expression": "get outputSchema() {\n        return bh8();\n      }"
+      },
+      "isEnabled": {
+        "start": 337397,
+        "end": 337399,
+        "expression": "isEnabled() {\n        return !aJ();\n      }"
+      },
+      "dependencies": [
+        {
+          "name": "Rh8",
+          "start": 337368,
+          "end": 337368,
+          "expression": "mA(() => j.strictObject({ todos: u2A().describe(\"The updated todo list\") }))"
+        }
+      ]
+    },
+    {
+      "name": "Bash",
+      "objectStart": 339573,
+      "objectEnd": 339877,
+      "inputSchema": {
+        "start": 339617,
+        "end": 339619,
+        "expression": "get inputSchema() {\n      return s17();\n    }"
+      },
+      "outputSchema": {
+        "start": 339620,
+        "end": 339622,
+        "expression": "get outputSchema() {\n      return Xu8();\n    }"
+      },
+      "isEnabled": null,
+      "dependencies": [
+        {
+          "name": "s17",
+          "start": 339501,
+          "end": 339505,
+          "expression": "mA(() =>\n      $TA\n        ? o17().omit({ run_in_background: true, _simulatedSedEdit: true })\n        : o17().omit({ _simulatedSedEdit: true })\n    )"
+        }
+      ]
+    },
+    {
+      "name": "Edit",
+      "objectStart": 339978,
+      "objectEnd": 340313,
+      "inputSchema": {
+        "start": 339995,
+        "end": 339997,
+        "expression": "get inputSchema() {\n      return s26();\n    }"
+      },
+      "outputSchema": {
+        "start": 339998,
+        "end": 340000,
+        "expression": "get outputSchema() {\n      return Z07();\n    }"
+      },
+      "isEnabled": null,
+      "dependencies": [
+        {
+          "name": "s26",
+          "start": 331226,
+          "end": 331237,
+          "expression": "mA(() =>\n    j.strictObject({\n      file_path: j.string().describe(\"The absolute path to the file to modify\"),\n      old_string: j.string().describe(\"The text to replace\"),\n      new_string: j.string().describe(\n        \"The text to replace it with (must be different from old_string)\",\n      ),\n      replace_all: FQ(j.boolean().default(false).optional()).describe(\n        \"Replace all occurrences of old_string (default false)\",\n      ),\n    })\n  )"
+        }
+      ]
+    },
+    {
+      "name": "Agent",
+      "objectStart": 388874,
+      "objectEnd": 390026,
+      "inputSchema": {
+        "start": 388898,
+        "end": 388900,
+        "expression": "get inputSchema() {\n      return uD0();\n    }"
+      },
+      "outputSchema": {
+        "start": 388901,
+        "end": 388903,
+        "expression": "get outputSchema() {\n      return U7K();\n    }"
+      },
+      "isEnabled": null,
+      "dependencies": [
+        {
+          "name": "uD0",
+          "start": 388770,
+          "end": 388773,
+          "expression": "mA(() => {\n      let A7 = W7K().omit({ cwd: true });\n      return lF6 || IN() ? A7.omit({ run_in_background: true }) : A7;\n    })"
+        }
+      ]
+    },
+    {
+      "name": "AskUserQuestion",
+      "objectStart": 390184,
+      "objectEnd": 390288,
+      "inputSchema": {
+        "start": 390199,
+        "end": 390201,
+        "expression": "get inputSchema() {\n      return M7K();\n    }"
+      },
+      "outputSchema": {
+        "start": 390202,
+        "end": 390204,
+        "expression": "get outputSchema() {\n      return $7K();\n    }"
+      },
+      "isEnabled": {
+        "start": 390208,
+        "end": 390210,
+        "expression": "isEnabled() {\n      return true;\n    }"
+      },
+      "dependencies": [
+        {
+          "name": "M7K",
+          "start": 390167,
+          "end": 390174,
+          "expression": "mA(() =>\n      j.strictObject({\n        questions: j.array(RF7()).min(1).max(4).describe(\n          \"Questions to ask the user (1-4 questions)\",\n        ),\n        ...w7K(),\n      }).refine(jF7.check, { message: jF7.message })\n    )"
+        }
+      ]
+    },
+    {
+      "name": "EnterPlanMode",
+      "objectStart": 392269,
+      "objectEnd": 392343,
+      "inputSchema": {
+        "start": 392279,
+        "end": 392281,
+        "expression": "get inputSchema() {\n        return N4K();\n      }"
+      },
+      "outputSchema": {
+        "start": 392282,
+        "end": 392284,
+        "expression": "get outputSchema() {\n        return D4K();\n      }"
+      },
+      "isEnabled": {
+        "start": 392289,
+        "end": 392291,
+        "expression": "isEnabled() {\n        return true;\n      }"
+      },
+      "dependencies": [
+        {
+          "name": "N4K",
+          "start": 392265,
+          "end": 392265,
+          "expression": "mA(() => j.strictObject({}))"
+        }
+      ]
+    },
+    {
+      "name": "EnterWorktree",
+      "objectStart": 392432,
+      "objectEnd": 392487,
+      "inputSchema": {
+        "start": 392442,
+        "end": 392444,
+        "expression": "get inputSchema() {\n        return w4K();\n      }"
+      },
+      "outputSchema": {
+        "start": 392445,
+        "end": 392447,
+        "expression": "get outputSchema() {\n        return M4K();\n      }"
+      },
+      "isEnabled": null,
+      "dependencies": [
+        {
+          "name": "w4K",
+          "start": 392412,
+          "end": 392424,
+          "expression": "mA(() =>\n    j.strictObject({\n      name: j.string().superRefine((A7, q) => {\n        try {\n          SYA(A7);\n        } catch (K) {\n          q.addIssue({ code: \"custom\", message: K.message });\n        }\n      }).optional().describe(\n        'Optional name for the worktree. Each \"/\"-separated segment may contain only letters, digits, dots, underscores, and dashes; max 64 chars total. A random name is generated if not provided.',\n      ),\n    })\n  )"
+        }
+      ]
+    },
+    {
+      "name": "ExitPlanMode",
+      "objectStart": 392679,
+      "objectEnd": 392902,
+      "inputSchema": {
+        "start": 392689,
+        "end": 392691,
+        "expression": "get inputSchema() {\n        return CV7();\n      }"
+      },
+      "outputSchema": {
+        "start": 392692,
+        "end": 392694,
+        "expression": "get outputSchema() {\n        return R4K();\n      }"
+      },
+      "isEnabled": {
+        "start": 392699,
+        "end": 392701,
+        "expression": "isEnabled() {\n        return true;\n      }"
+      },
+      "dependencies": [
+        {
+          "name": "CV7",
+          "start": 392643,
+          "end": 392649,
+          "expression": "mA(() =>\n      j.strictObject({\n        allowedPrompts: j.array(j4K()).optional().describe(\n          \"Prompt-based permissions needed to implement the plan. These describe categories of actions rather than specific commands.\",\n        ),\n      }).passthrough()\n    )"
+        }
+      ]
+    },
+    {
+      "name": "ExitWorktree",
+      "objectStart": 393026,
+      "objectEnd": 393159,
+      "inputSchema": {
+        "start": 393036,
+        "end": 393038,
+        "expression": "get inputSchema() {\n      return b4K();\n    }"
+      },
+      "outputSchema": {
+        "start": 393039,
+        "end": 393041,
+        "expression": "get outputSchema() {\n      return T4K();\n    }"
+      },
+      "isEnabled": null,
+      "dependencies": [
+        {
+          "name": "b4K",
+          "start": 393004,
+          "end": 393013,
+          "expression": "mA(() =>\n    j.strictObject({\n      action: j.enum([\"keep\", \"remove\"]).describe(\n        '\"keep\" leaves the worktree and branch on disk; \"remove\" deletes both.',\n      ),\n      discard_changes: j.boolean().optional().describe(\n        'Required true when action is \"remove\" and the worktree has uncommitted files or unmerged commits. The tool will refuse and list them otherwise.',\n      ),\n    })\n  )"
+        }
+      ]
+    },
+    {
+      "name": "LSP",
+      "objectStart": 394067,
+      "objectEnd": 394252,
+      "inputSchema": {
+        "start": 394080,
+        "end": 394082,
+        "expression": "get inputSchema() {\n        return v4K();\n      }"
+      },
+      "outputSchema": {
+        "start": 394083,
+        "end": 394085,
+        "expression": "get outputSchema() {\n        return k4K();\n      }"
+      },
+      "isEnabled": {
+        "start": 394077,
+        "end": 394079,
+        "expression": "isEnabled() {\n        return _17();\n      }"
+      },
+      "dependencies": [
+        {
+          "name": "v4K",
+          "start": 394024,
+          "end": 394043,
+          "expression": "mA(() =>\n    j.strictObject({\n      operation: j.enum([\n        \"goToDefinition\",\n        \"findReferences\",\n        \"hover\",\n        \"documentSymbol\",\n        \"workspaceSymbol\",\n        \"goToImplementation\",\n        \"prepareCallHierarchy\",\n        \"incomingCalls\",\n        \"outgoingCalls\",\n      ]).describe(\"The LSP operation to perform\"),\n      filePath: j.string().describe(\"The absolute or relative path to the file\"),\n      line: j.number().int().positive().describe(\"The line number (1-based, as shown in editors)\"),\n      character: j.number().int().positive().describe(\n        \"The character offset (1-based, as shown in editors)\",\n      ),\n    })\n  )"
+        }
+      ]
+    },
+    {
+      "name": "Skill",
+      "objectStart": 395086,
+      "objectEnd": 395317,
+      "inputSchema": {
+        "start": 395090,
+        "end": 395092,
+        "expression": "get inputSchema() {\n        return A9K();\n      }"
+      },
+      "outputSchema": {
+        "start": 395093,
+        "end": 395095,
+        "expression": "get outputSchema() {\n        return q9K();\n      }"
+      },
+      "isEnabled": null,
+      "dependencies": [
+        {
+          "name": "A9K",
+          "start": 395061,
+          "end": 395068,
+          "expression": "mA(() =>\n    j.object({\n      skill: j.string().describe(\n        \"The name of a skill from the available-skills list. Do not guess names.\",\n      ),\n      args: j.string().optional().describe(\"Optional arguments for the skill\"),\n    })\n  )"
+        }
+      ]
+    },
+    {
+      "name": "TaskCreate",
+      "objectStart": 395423,
+      "objectEnd": 395494,
+      "inputSchema": {
+        "start": 395433,
+        "end": 395435,
+        "expression": "get inputSchema() {\n        return J9K();\n      }"
+      },
+      "outputSchema": {
+        "start": 395436,
+        "end": 395438,
+        "expression": "get outputSchema() {\n        return _9K();\n      }"
+      },
+      "isEnabled": {
+        "start": 395443,
+        "end": 395445,
+        "expression": "isEnabled() {\n        return aJ();\n      }"
+      },
+      "dependencies": [
+        {
+          "name": "J9K",
+          "start": 395410,
+          "end": 395421,
+          "expression": "mA(() =>\n    j.strictObject({\n      subject: j.string().describe(\"A brief title for the task\"),\n      description: j.string().describe(\"What needs to be done\"),\n      activeForm: j.string().optional().describe(\n        'Present continuous form shown in spinner when in_progress (e.g., \"Running tests\")',\n      ),\n      metadata: j.record(j.string(), j.unknown()).optional().describe(\n        \"Arbitrary metadata to attach to the task\",\n      ),\n    })\n  )"
+        }
+      ]
+    },
+    {
+      "name": "TaskGet",
+      "objectStart": 395539,
+      "objectEnd": 395615,
+      "inputSchema": {
+        "start": 395549,
+        "end": 395551,
+        "expression": "get inputSchema() {\n        return Q9K();\n      }"
+      },
+      "outputSchema": {
+        "start": 395552,
+        "end": 395554,
+        "expression": "get outputSchema() {\n        return Y9K();\n      }"
+      },
+      "isEnabled": {
+        "start": 395559,
+        "end": 395561,
+        "expression": "isEnabled() {\n        return aJ();\n      }"
+      },
+      "dependencies": [
+        {
+          "name": "Q9K",
+          "start": 395526,
+          "end": 395526,
+          "expression": "mA(() => j.strictObject({ taskId: j.string().describe(\"The ID of the task to retrieve\") }))"
+        }
+      ]
+    },
+    {
+      "name": "TaskList",
+      "objectStart": 395685,
+      "objectEnd": 395752,
+      "inputSchema": {
+        "start": 395695,
+        "end": 395697,
+        "expression": "get inputSchema() {\n        return G9K();\n      }"
+      },
+      "outputSchema": {
+        "start": 395698,
+        "end": 395700,
+        "expression": "get outputSchema() {\n        return X9K();\n      }"
+      },
+      "isEnabled": {
+        "start": 395705,
+        "end": 395707,
+        "expression": "isEnabled() {\n        return aJ();\n      }"
+      },
+      "dependencies": [
+        {
+          "name": "G9K",
+          "start": 395671,
+          "end": 395671,
+          "expression": "mA(() => j.strictObject({}))"
+        }
+      ]
+    },
+    {
+      "name": "TaskOutput",
+      "objectStart": 396089,
+      "objectEnd": 396231,
+      "inputSchema": {
+        "start": 396098,
+        "end": 396100,
+        "expression": "get inputSchema() {\n      return V9K();\n    }"
+      },
+      "outputSchema": null,
+      "isEnabled": {
+        "start": 396107,
+        "end": 396109,
+        "expression": "isEnabled() {\n      return process.env.USER_TYPE !== \"ant\";\n    }"
+      },
+      "dependencies": [
+        {
+          "name": "V9K",
+          "start": 396082,
+          "end": 396088,
+          "expression": "mA(() =>\n    j.strictObject({\n      task_id: j.string().describe(\"The task ID to get output from\"),\n      block: FQ(j.boolean().default(true)).describe(\"Whether to wait for completion\"),\n      timeout: j.number().min(0).max(600000).default(30000).describe(\"Max wait time in ms\"),\n    })\n  )"
+        }
+      ]
+    },
+    {
+      "name": "TaskStop",
+      "objectStart": 396392,
+      "objectEnd": 396458,
+      "inputSchema": {
+        "start": 396398,
+        "end": 396400,
+        "expression": "get inputSchema() {\n        return D9K();\n      }"
+      },
+      "outputSchema": {
+        "start": 396401,
+        "end": 396403,
+        "expression": "get outputSchema() {\n        return w9K();\n      }"
+      },
+      "isEnabled": null,
+      "dependencies": [
+        {
+          "name": "D9K",
+          "start": 396378,
+          "end": 396383,
+          "expression": "mA(() =>\n    j.strictObject({\n      task_id: j.string().optional().describe(\"The ID of the background task to stop\"),\n      shell_id: j.string().optional().describe(\"Deprecated: use task_id instead\"),\n    })\n  )"
+        }
+      ]
+    },
+    {
+      "name": "TaskUpdate",
+      "objectStart": 396581,
+      "objectEnd": 396794,
+      "inputSchema": {
+        "start": 396591,
+        "end": 396593,
+        "expression": "get inputSchema() {\n        return M9K();\n      }"
+      },
+      "outputSchema": {
+        "start": 396594,
+        "end": 396596,
+        "expression": "get outputSchema() {\n        return $9K();\n      }"
+      },
+      "isEnabled": {
+        "start": 396601,
+        "end": 396603,
+        "expression": "isEnabled() {\n        return aJ();\n      }"
+      },
+      "dependencies": [
+        {
+          "name": "M9K",
+          "start": 396553,
+          "end": 396570,
+          "expression": "mA(() => {\n    let A7 = is().or(j.literal(\"deleted\"));\n    return j.strictObject({\n      taskId: j.string().describe(\"The ID of the task to update\"),\n      subject: j.string().optional().describe(\"New subject for the task\"),\n      description: j.string().optional().describe(\"New description for the task\"),\n      activeForm: j.string().optional().describe(\n        'Present continuous form shown in spinner when in_progress (e.g., \"Running tests\")',\n      ),\n      status: A7.optional().describe(\"New status for the task\"),\n      addBlocks: j.array(j.string()).optional().describe(\"Task IDs that this task blocks\"),\n      addBlockedBy: j.array(j.string()).optional().describe(\"Task IDs that block this task\"),\n      owner: j.string().optional().describe(\"New owner for the task\"),\n      metadata: j.record(j.string(), j.unknown()).optional().describe(\n        \"Metadata keys to merge into the task. Set a key to null to delete it.\",\n      ),\n    });\n  })"
+        }
+      ]
+    },
+    {
+      "name": "WebFetch",
+      "objectStart": 413926,
+      "objectEnd": 414082,
+      "inputSchema": {
+        "start": 413947,
+        "end": 413949,
+        "expression": "get inputSchema() {\n      return u3K();\n    }"
+      },
+      "outputSchema": {
+        "start": 413950,
+        "end": 413952,
+        "expression": "get outputSchema() {\n      return m3K();\n    }"
+      },
+      "isEnabled": null,
+      "dependencies": [
+        {
+          "name": "u3K",
+          "start": 413910,
+          "end": 413915,
+          "expression": "mA(() =>\n    j.strictObject({\n      url: j.string().url().describe(\"The URL to fetch content from\"),\n      prompt: j.string().describe(\"The prompt to run on the fetched content\"),\n    })\n  )"
+        }
+      ]
+    },
+    {
+      "name": "WebSearch",
+      "objectStart": 414405,
+      "objectEnd": 414557,
+      "inputSchema": {
+        "start": 414424,
+        "end": 414426,
+        "expression": "get inputSchema() {\n        return _5K();\n      }"
+      },
+      "outputSchema": {
+        "start": 414427,
+        "end": 414429,
+        "expression": "get outputSchema() {\n        return Y5K();\n      }"
+      },
+      "isEnabled": {
+        "start": 414421,
+        "end": 414423,
+        "expression": "isEnabled() {\n        return true;\n      }"
+      },
+      "dependencies": [
+        {
+          "name": "_5K",
+          "start": 414347,
+          "end": 414378,
+          "expression": "mA(() =>\n    j.strictObject({\n      query: j.string().min(2).describe(\"The search query to use\"),\n      provider: j.enum([\"auto\", \"exa\", \"perplexity\", \"pplx\"]).optional().describe(\n        \"Optional backend provider override for testing\",\n      ),\n      mode: j.enum([\"fast\", \"balanced\", \"deep\"]).optional().describe(\n        \"Search depth and latency preference\",\n      ),\n      content: j.enum([\"snippet\", \"highlights\", \"text\"]).optional().describe(\n        \"How much per-result context to retrieve\",\n      ),\n      content_budget: j.enum([\"small\", \"medium\", \"large\"]).optional().describe(\n        \"Per-result context budget\",\n      ),\n      recency: j.enum([\"any\", \"hour\", \"day\", \"week\", \"month\", \"year\"]).optional().describe(\n        \"Prefer results published within this time window\",\n      ),\n      source_policy: j.enum([\"general\", \"official_first\"]).optional().describe(\n        \"Prefer official or primary sources when available\",\n      ),\n      country: j.string().min(2).max(2).optional().describe(\n        \"Two-letter country code for localized search\",\n      ),\n      allowed_domains: j.array(j.string()).optional().describe(\n        \"Only include search results from these domains\",\n      ),\n      blocked_domains: j.array(j.string()).optional().describe(\n        \"Never include search results from these domains\",\n      ),\n    })\n  )"
+        }
+      ]
+    },
+    {
+      "name": "TeamCreate",
+      "objectStart": 431318,
+      "objectEnd": 431415,
+      "inputSchema": {
+        "start": 431326,
+        "end": 431328,
+        "expression": "get inputSchema() {\n      return lXK();\n    }"
+      },
+      "outputSchema": null,
+      "isEnabled": {
+        "start": 431329,
+        "end": 431331,
+        "expression": "isEnabled() {\n      return T1();\n    }"
+      },
+      "dependencies": [
+        {
+          "name": "lXK",
+          "start": 431309,
+          "end": 431317,
+          "expression": "mA(() =>\n    j.strictObject({\n      team_name: j.string().describe(\"Name for the new team to create.\"),\n      description: j.string().optional().describe(\"Team description/purpose.\"),\n      agent_type: j.string().optional().describe(\n        'Type/role of the team lead (e.g., \"researcher\", \"test-runner\"). Used for team file and inter-agent coordination.',\n      ),\n    })\n  )"
+        }
+      ]
+    },
+    {
+      "name": "TeamDelete",
+      "objectStart": 431460,
+      "objectEnd": 431515,
+      "inputSchema": {
+        "start": 431468,
+        "end": 431470,
+        "expression": "get inputSchema() {\n        return nXK();\n      }"
+      },
+      "outputSchema": null,
+      "isEnabled": {
+        "start": 431471,
+        "end": 431473,
+        "expression": "isEnabled() {\n        return T1();\n      }"
+      },
+      "dependencies": [
+        {
+          "name": "nXK",
+          "start": 431459,
+          "end": 431459,
+          "expression": "mA(() => j.strictObject({}))"
+        }
+      ]
+    },
+    {
+      "name": "SendMessage",
+      "objectStart": 432570,
+      "objectEnd": 432862,
+      "inputSchema": {
+        "start": 432577,
+        "end": 432579,
+        "expression": "get inputSchema() {\n      return VFK();\n    }"
+      },
+      "outputSchema": null,
+      "isEnabled": {
+        "start": 432581,
+        "end": 432583,
+        "expression": "isEnabled() {\n      return T1();\n    }"
+      },
+      "dependencies": [
+        {
+          "name": "VFK",
+          "start": 432559,
+          "end": 432569,
+          "expression": "mA(() =>\n      j.object({\n        to: j.string().describe(\n          'Recipient: teammate name, \"*\" for broadcast, or \"bridge:<session-id>\" for a Remote Control peer',\n        ),\n        summary: j.string().optional().describe(\n          \"A 5-10 word summary shown as a preview in the UI (required when message is a string)\",\n        ),\n        message: j.union([j.string().describe(\"Plain text message content\"), FFK()]),\n      })\n    )"
+        }
+      ]
+    },
+    {
+      "name": "Monitor",
+      "objectStart": 433486,
+      "objectEnd": 433562,
+      "inputSchema": {
+        "start": 433506,
+        "end": 433508,
+        "expression": "get inputSchema() {\n      return PFK();\n    }"
+      },
+      "outputSchema": {
+        "start": 433509,
+        "end": 433511,
+        "expression": "get outputSchema() {\n      return fFK();\n    }"
+      },
+      "isEnabled": {
+        "start": 433500,
+        "end": 433502,
+        "expression": "isEnabled() {\n      return true;\n    }"
+      },
+      "dependencies": [
+        {
+          "name": "PFK",
+          "start": 433458,
+          "end": 433476,
+          "expression": "mA(() =>\n      j.strictObject({\n        command: j.string().describe(\n          \"Shell command or script. Each stdout line is an event; exit ends the watch.\",\n        ),\n        description: j.string().describe(\n          \"Short human-readable description of what you are monitoring (shown in notifications).\",\n        ),\n        timeout_ms: j.number().min(1000).optional().default(ZT0).describe(\n          `Kill the monitor after this deadline. Default ${ZT0}ms, max ${KT0}ms. Ignored when persistent is true.`,\n        ),\n        persistent: j.boolean().optional().default(false).describe(\n          \"Run for the lifetime of the session (no timeout). Use for session-length watches like PR monitoring or log tails. Stop with TaskStop.\",\n        ),\n      }).refine((A7) => A7.persistent || (A7.timeout_ms ?? ZT0) <= KT0, {\n        message: `timeout_ms must be \\u2264 ${KT0}`,\n        path: [\"timeout_ms\"],\n      })\n    )"
+        }
+      ]
+    }
+  ]
+}

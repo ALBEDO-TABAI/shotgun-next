@@ -1,0 +1,173 @@
+{
+  "auditedAt": "2026-09-16T13:22:02.433Z",
+  "methods": 232,
+  "handlerCases": 232,
+  "events": 41,
+  "initializers": 417,
+  "toolDefinitions": 27,
+  "templates": [
+    {
+      "file": "browser-skill.md",
+      "name": "matrix-browser",
+      "lines": 947
+    },
+    {
+      "file": "debug-and-report-skill.md",
+      "name": "debug-and-report",
+      "lines": 380
+    },
+    {
+      "file": "department-management-reference.md",
+      "name": null,
+      "lines": 42
+    },
+    {
+      "file": "department-management-skill.md",
+      "name": "department-management",
+      "lines": 95
+    },
+    {
+      "file": "email-skill.md",
+      "name": "email",
+      "lines": 112
+    },
+    {
+      "file": "find-skills-skill.md",
+      "name": "find-skills",
+      "lines": 167
+    },
+    {
+      "file": "media-generation-reference.md",
+      "name": null,
+      "lines": 181
+    },
+    {
+      "file": "media-generation-skill.md",
+      "name": "media-generation",
+      "lines": 155
+    },
+    {
+      "file": "okr-execution-skill.md",
+      "name": "okr-execution",
+      "lines": 163
+    },
+    {
+      "file": "skill-creator.md",
+      "name": "skill-creator",
+      "lines": 140
+    },
+    {
+      "file": "workspace-architecture.md",
+      "name": null,
+      "lines": 180
+    },
+    {
+      "file": "workspace-planning-skill.md",
+      "name": "workspace-planning",
+      "lines": 53
+    }
+  ],
+  "extracted": [
+    {
+      "name": "neo-agent.bun",
+      "bytes": 4816877,
+      "sha256": "00abe73d138e02bcfe6fcfcd39896746b7dc308106496c8c67693af67a5ee325"
+    },
+    {
+      "name": "neo-agent.js",
+      "bytes": 4816852,
+      "sha256": "1a8f71894a0e36332dfc821ab891283314b6b6e68debb4df6ff1d1daf1e88f45",
+      "lines": 12073
+    },
+    {
+      "name": "neo-agent.fmt.js",
+      "bytes": 5949320,
+      "sha256": "32f0787ae5f202ba6625f9d204d502946594dc2cb2491b12de4a400650cd0e66",
+      "lines": 153126
+    },
+    {
+      "name": "neo-intelligence.bun",
+      "bytes": 17631253,
+      "sha256": "8d91332878dd98e214a140c4507c2527bae5b2aaa830d17660f11bf730c75d7d"
+    },
+    {
+      "name": "neo-intelligence.js",
+      "bytes": 17631223,
+      "sha256": "fbd754ec9905d6fc68595caf821fc3af34662a8170392dc62e8e7720153d6e4d",
+      "lines": 321732
+    },
+    {
+      "name": "neo-intelligence.fmt.js",
+      "bytes": 20003222,
+      "sha256": "1cf6a748ddc600d4d18e038b95602718c685a95aa9b7fa928eed127d5eec04fd",
+      "lines": 615762
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "Contents/MacOS/Matrix",
+      "bytes": 166012336,
+      "copySha256": "e3ee9d2160c1eae2fa7d0e1a5f2899af8bf5ec09147a135835bc17a7f4e10de7",
+      "installedSha256": "e3ee9d2160c1eae2fa7d0e1a5f2899af8bf5ec09147a135835bc17a7f4e10de7"
+    },
+    {
+      "path": "Contents/Info.plist",
+      "bytes": 5598,
+      "copySha256": "1fff580970ad24a8a9f75c448a407b85b016ec30caa1ce27a51b1803cbceb3a5",
+      "installedSha256": "1fff580970ad24a8a9f75c448a407b85b016ec30caa1ce27a51b1803cbceb3a5"
+    },
+    {
+      "path": "Contents/Resources/version.json",
+      "bytes": 321,
+      "copySha256": "6d1812050dcf45c434af3b7a9f2a43ceae6befaf94cba185fac3490151e78fa3",
+      "installedSha256": "6d1812050dcf45c434af3b7a9f2a43ceae6befaf94cba185fac3490151e78fa3"
+    },
+    {
+      "path": "Contents/Resources/runtime-versions.json",
+      "bytes": 641,
+      "copySha256": "b9530e27a28d64cbe4a6241eaa2e67993c5162f383c41501e19e5130cb1f7d61",
+      "installedSha256": "b9530e27a28d64cbe4a6241eaa2e67993c5162f383c41501e19e5130cb1f7d61"
+    },
+    {
+      "path": "Contents/Resources/neo-agent",
+      "bytes": 65523744,
+      "copySha256": "95750d2bf6f33e889b88109507fffd08af51919830bc97add2ccb952f2bad41f",
+      "installedSha256": "95750d2bf6f33e889b88109507fffd08af51919830bc97add2ccb952f2bad41f"
+    },
+    {
+      "path": "Contents/Resources/neo-intelligence",
+      "bytes": 78377488,
+      "copySha256": "fa8fbdc3f20e091b0d972364474538b3c3f15803a3a1cc619a91403440174c70",
+      "installedSha256": "fa8fbdc3f20e091b0d972364474538b3c3f15803a3a1cc619a91403440174c70"
+    },
+    {
+      "path": "Contents/Resources/matrix-browser/main.js",
+      "bytes": 4284205,
+      "copySha256": "fe8be8de1294d89bd5c9c842c4fb820c7ad2dc6fbbce97d5274e1637b0c0c703",
+      "installedSha256": "fe8be8de1294d89bd5c9c842c4fb820c7ad2dc6fbbce97d5274e1637b0c0c703"
+    },
+    {
+      "path": "Contents/Resources/default.metallib",
+      "bytes": 940152,
+      "copySha256": "dfc417dd7bfb7ae41699e90f2146749af32d4884cc1bbbba42732bfafb3db567",
+      "installedSha256": "dfc417dd7bfb7ae41699e90f2146749af32d4884cc1bbbba42732bfafb3db567"
+    }
+  ],
+  "externalRuntimeManifest": {
+    "claude_code": {
+      "version": "2.1.126",
+      "url": "https://registry.npmjs.org/@anthropic-ai/claude-code-darwin-arm64/-/claude-code-darwin-arm64-2.1.126.tgz",
+      "sha256": "8ef17e23ed2987a3fdd39beae7750acef7b45026c9b7a9384d98a8808c4ba5f8",
+      "binarySubpath": "package/claude",
+      "needsAdhocResign": false
+    },
+    "codex": {
+      "version": "0.144.4",
+      "url": "https://github.com/openai/codex/releases/download/rust-v0.144.4/codex-aarch64-apple-darwin.tar.gz",
+      "sha256": "77c8969a481302f9db1d9ea2a6c21c083abae3f1a8fc8a7275dc38323699391e",
+      "binarySubpath": "codex-aarch64-apple-darwin",
+      "needsAdhocResign": true
+    }
+  },
+  "swiftTypeListEntries": 3756
+}

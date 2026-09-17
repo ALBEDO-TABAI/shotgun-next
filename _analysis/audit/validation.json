@@ -1,0 +1,1022 @@
+{
+  "checkedAt": "2026-09-17T07:30:53.936Z",
+  "documents": 85,
+  "documentPaths": [
+    "README.md",
+    "00-EXECUTIVE-SUMMARY.md",
+    "docs/01-product-model.md",
+    "docs/02-runtime-architecture.md",
+    "docs/03-autonomy-and-scheduling.md",
+    "docs/04-data-model.md",
+    "docs/05-daemon-protocol.md",
+    "docs/06-prompt-architecture.md",
+    "docs/07-ui-architecture.md",
+    "docs/08-office-3d-world.md",
+    "docs/09-security-model.md",
+    "docs/10-build-and-packaging.md",
+    "modules/M01-harness-daemon-core.md",
+    "modules/M02-workspace-store.md",
+    "modules/M03-department-registry.md",
+    "modules/M04-okr-engine.md",
+    "modules/M05-task-engine.md",
+    "modules/M06-department-messaging.md",
+    "modules/M07-session-host.md",
+    "modules/M08-prompt-assembly.md",
+    "modules/M09-wake-engine.md",
+    "modules/M10-autonomy-nudge.md",
+    "modules/M11-cron-scheduler.md",
+    "modules/M12-hooks-workruns.md",
+    "modules/M13-maintenance-crystallize.md",
+    "modules/M14-memory-system.md",
+    "modules/M15-skills-system.md",
+    "modules/M16-file-service-provenance.md",
+    "modules/M17-dashboard-projection.md",
+    "modules/M18-model-provider-gateway.md",
+    "modules/M19-runtime-installer.md",
+    "modules/M20-matrix-browser.md",
+    "modules/M21-media-generation.md",
+    "modules/M22-integrations.md",
+    "modules/M23-receivable.md",
+    "modules/M24-channels.md",
+    "modules/M25-marketplace.md",
+    "modules/M26-cloud-sync.md",
+    "modules/M27-swift-app-shell.md",
+    "modules/M28-terminal.md",
+    "modules/M29-office-renderer.md",
+    "modules/M30-voice-presence.md",
+    "modules/M31-neo-intelligence-runtime.md",
+    "modules/README.md",
+    "tools/README.md",
+    "tools/T01-mcp-matrix-department.md",
+    "tools/T02-mcp-okr-state.md",
+    "tools/T03-mcp-cron-state.md",
+    "tools/T04-mcp-files-provenance.md",
+    "tools/T05-mcp-media.md",
+    "tools/T06-mcp-receivable.md",
+    "tools/T07-mcp-matrix-browser.md",
+    "tools/T08-mcp-provider-packs.md",
+    "tools/T09-builtin-agent-tools.md",
+    "tools/T10-managed-skills.md",
+    "diagrams/D01-system-architecture.md",
+    "diagrams/D02-process-lifecycle.md",
+    "diagrams/D03-data-model-er.md",
+    "diagrams/D04-okr-workflow.md",
+    "diagrams/D05-department-message-flow.md",
+    "diagrams/D06-turn-lifecycle.md",
+    "diagrams/D07-wake-engine.md",
+    "diagrams/D08-prompt-assembly.md",
+    "diagrams/D09-delegation-decision.md",
+    "diagrams/D10-ui-surfaces.md",
+    "diagrams/D11-office-scene-sync.md",
+    "diagrams/D12-tool-surface.md",
+    "diagrams/D13-memory-lifecycle.md",
+    "diagrams/D14-file-provenance.md",
+    "diagrams/D15-shotgun-target.md",
+    "diagrams/README.md",
+    "shotgun/00-brief.md",
+    "shotgun/01-target-architecture.md",
+    "shotgun/02-role-system.md",
+    "shotgun/03-data-model.md",
+    "shotgun/04-tool-surface.md",
+    "shotgun/05-prompt-system.md",
+    "shotgun/06-ui-spec.md",
+    "shotgun/07-studio-floor.md",
+    "shotgun/08-build-plan.md",
+    "shotgun/09-decisions.md",
+    "shotgun/10-implementation-contracts.md",
+    "shotgun/README.md",
+    "_analysis/README.md",
+    "AUDIT-REPORT.md"
+  ],
+  "localLinks": 185,
+  "mermaidBlocks": 115,
+  "rendered": 115,
+  "engine": {
+    "exportName": "b5.default",
+    "version": "not exposed",
+    "entry": "mermaid.core-Bneh5Lbd.js"
+  },
+  "errors": [],
+  "renders": [
+    {
+      "file": "00-EXECUTIVE-SUMMARY.md",
+      "index": 1,
+      "width": 4420.8046875,
+      "height": 1998,
+      "textNodes": 73,
+      "svg": "rendered/00-EXECUTIVE-SUMMARY--1.svg"
+    },
+    {
+      "file": "docs/01-product-model.md",
+      "index": 1,
+      "width": 1122.15625,
+      "height": 374,
+      "textNodes": 10,
+      "svg": "rendered/docs--01-product-model--1.svg"
+    },
+    {
+      "file": "docs/01-product-model.md",
+      "index": 2,
+      "width": 335,
+      "height": 1706,
+      "textNodes": 16,
+      "svg": "rendered/docs--01-product-model--2.svg"
+    },
+    {
+      "file": "docs/01-product-model.md",
+      "index": 3,
+      "width": 1571.25,
+      "height": 470,
+      "textNodes": 19,
+      "svg": "rendered/docs--01-product-model--3.svg"
+    },
+    {
+      "file": "docs/01-product-model.md",
+      "index": 4,
+      "width": 1783.78125,
+      "height": 78,
+      "textNodes": 13,
+      "svg": "rendered/docs--01-product-model--4.svg"
+    },
+    {
+      "file": "docs/02-runtime-architecture.md",
+      "index": 1,
+      "width": 1347.671875,
+      "height": 1412,
+      "textNodes": 28,
+      "svg": "rendered/docs--02-runtime-architecture--1.svg"
+    },
+    {
+      "file": "docs/02-runtime-architecture.md",
+      "index": 2,
+      "width": 1327.6971435546875,
+      "height": 446,
+      "textNodes": 25,
+      "svg": "rendered/docs--02-runtime-architecture--2.svg"
+    },
+    {
+      "file": "docs/02-runtime-architecture.md",
+      "index": 3,
+      "width": 2217.5,
+      "height": 1185,
+      "textNodes": 33,
+      "svg": "rendered/docs--02-runtime-architecture--3.svg"
+    },
+    {
+      "file": "docs/02-runtime-architecture.md",
+      "index": 4,
+      "width": 826.4348754882812,
+      "height": 470,
+      "textNodes": 16,
+      "svg": "rendered/docs--02-runtime-architecture--4.svg"
+    },
+    {
+      "file": "docs/02-runtime-architecture.md",
+      "index": 5,
+      "width": 758.78125,
+      "height": 1204.359375,
+      "textNodes": 21,
+      "svg": "rendered/docs--02-runtime-architecture--5.svg"
+    },
+    {
+      "file": "docs/02-runtime-architecture.md",
+      "index": 6,
+      "width": 887.8046875,
+      "height": 786,
+      "textNodes": 15,
+      "svg": "rendered/docs--02-runtime-architecture--6.svg"
+    },
+    {
+      "file": "docs/03-autonomy-and-scheduling.md",
+      "index": 1,
+      "width": 1146.22265625,
+      "height": 1710,
+      "textNodes": 41,
+      "svg": "rendered/docs--03-autonomy-and-scheduling--1.svg"
+    },
+    {
+      "file": "docs/03-autonomy-and-scheduling.md",
+      "index": 2,
+      "width": 1164,
+      "height": 615,
+      "textNodes": 19,
+      "svg": "rendered/docs--03-autonomy-and-scheduling--2.svg"
+    },
+    {
+      "file": "docs/04-data-model.md",
+      "index": 1,
+      "width": 1790.7203369140625,
+      "height": 1379,
+      "textNodes": 49,
+      "svg": "rendered/docs--04-data-model--1.svg"
+    },
+    {
+      "file": "docs/04-data-model.md",
+      "index": 2,
+      "width": 443.97265625,
+      "height": 696,
+      "textNodes": 16,
+      "svg": "rendered/docs--04-data-model--2.svg"
+    },
+    {
+      "file": "docs/05-daemon-protocol.md",
+      "index": 1,
+      "width": 680,
+      "height": 850,
+      "textNodes": 18,
+      "svg": "rendered/docs--05-daemon-protocol--1.svg"
+    },
+    {
+      "file": "docs/06-prompt-architecture.md",
+      "index": 1,
+      "width": 1675,
+      "height": 1214,
+      "textNodes": 20,
+      "svg": "rendered/docs--06-prompt-architecture--1.svg"
+    },
+    {
+      "file": "docs/07-ui-architecture.md",
+      "index": 1,
+      "width": 986.33984375,
+      "height": 1046,
+      "textNodes": 19,
+      "svg": "rendered/docs--07-ui-architecture--1.svg"
+    },
+    {
+      "file": "docs/07-ui-architecture.md",
+      "index": 2,
+      "width": 449.828125,
+      "height": 1898,
+      "textNodes": 16,
+      "svg": "rendered/docs--07-ui-architecture--2.svg"
+    },
+    {
+      "file": "docs/07-ui-architecture.md",
+      "index": 3,
+      "width": 1948.234375,
+      "height": 281,
+      "textNodes": 11,
+      "svg": "rendered/docs--07-ui-architecture--3.svg"
+    },
+    {
+      "file": "docs/07-ui-architecture.md",
+      "index": 4,
+      "width": 1487.234375,
+      "height": 734,
+      "textNodes": 17,
+      "svg": "rendered/docs--07-ui-architecture--4.svg"
+    },
+    {
+      "file": "docs/08-office-3d-world.md",
+      "index": 1,
+      "width": 468.34375,
+      "height": 2254,
+      "textNodes": 23,
+      "svg": "rendered/docs--08-office-3d-world--1.svg"
+    },
+    {
+      "file": "docs/08-office-3d-world.md",
+      "index": 2,
+      "width": 1466.49365234375,
+      "height": 850,
+      "textNodes": 20,
+      "svg": "rendered/docs--08-office-3d-world--2.svg"
+    },
+    {
+      "file": "docs/09-security-model.md",
+      "index": 1,
+      "width": 880,
+      "height": 590,
+      "textNodes": 17,
+      "svg": "rendered/docs--09-security-model--1.svg"
+    },
+    {
+      "file": "docs/10-build-and-packaging.md",
+      "index": 1,
+      "width": 2465.515625,
+      "height": 206,
+      "textNodes": 19,
+      "svg": "rendered/docs--10-build-and-packaging--1.svg"
+    },
+    {
+      "file": "modules/M01-harness-daemon-core.md",
+      "index": 1,
+      "width": 571.5390625,
+      "height": 566,
+      "textNodes": 12,
+      "svg": "rendered/modules--M01-harness-daemon-core--1.svg"
+    },
+    {
+      "file": "modules/M01-harness-daemon-core.md",
+      "index": 2,
+      "width": 435.2734375,
+      "height": 1082,
+      "textNodes": 22,
+      "svg": "rendered/modules--M01-harness-daemon-core--2.svg"
+    },
+    {
+      "file": "modules/M02-workspace-store.md",
+      "index": 1,
+      "width": 1662.65625,
+      "height": 102,
+      "textNodes": 11,
+      "svg": "rendered/modules--M02-workspace-store--1.svg"
+    },
+    {
+      "file": "modules/M03-department-registry.md",
+      "index": 1,
+      "width": 604.9140625,
+      "height": 454,
+      "textNodes": 9,
+      "svg": "rendered/modules--M03-department-registry--1.svg"
+    },
+    {
+      "file": "modules/M04-okr-engine.md",
+      "index": 1,
+      "width": 731.11328125,
+      "height": 432,
+      "textNodes": 11,
+      "svg": "rendered/modules--M04-okr-engine--1.svg"
+    },
+    {
+      "file": "modules/M05-task-engine.md",
+      "index": 1,
+      "width": 709.2109375,
+      "height": 762,
+      "textNodes": 24,
+      "svg": "rendered/modules--M05-task-engine--1.svg"
+    },
+    {
+      "file": "modules/M06-department-messaging.md",
+      "index": 1,
+      "width": 1416,
+      "height": 891,
+      "textNodes": 21,
+      "svg": "rendered/modules--M06-department-messaging--1.svg"
+    },
+    {
+      "file": "modules/M07-session-host.md",
+      "index": 1,
+      "width": 2144.21875,
+      "height": 358,
+      "textNodes": 19,
+      "svg": "rendered/modules--M07-session-host--1.svg"
+    },
+    {
+      "file": "modules/M08-prompt-assembly.md",
+      "index": 1,
+      "width": 330,
+      "height": 1147,
+      "textNodes": 14,
+      "svg": "rendered/modules--M08-prompt-assembly--1.svg"
+    },
+    {
+      "file": "modules/M09-wake-engine.md",
+      "index": 1,
+      "width": 546.7421875,
+      "height": 1647.140625,
+      "textNodes": 28,
+      "svg": "rendered/modules--M09-wake-engine--1.svg"
+    },
+    {
+      "file": "modules/M10-autonomy-nudge.md",
+      "index": 1,
+      "width": 1358.5,
+      "height": 172,
+      "textNodes": 13,
+      "svg": "rendered/modules--M10-autonomy-nudge--1.svg"
+    },
+    {
+      "file": "modules/M11-cron-scheduler.md",
+      "index": 1,
+      "width": 1380,
+      "height": 729,
+      "textNodes": 22,
+      "svg": "rendered/modules--M11-cron-scheduler--1.svg"
+    },
+    {
+      "file": "modules/M12-hooks-workruns.md",
+      "index": 1,
+      "width": 1926.5,
+      "height": 577,
+      "textNodes": 20,
+      "svg": "rendered/modules--M12-hooks-workruns--1.svg"
+    },
+    {
+      "file": "modules/M13-maintenance-crystallize.md",
+      "index": 1,
+      "width": 1084.5625,
+      "height": 927.578125,
+      "textNodes": 26,
+      "svg": "rendered/modules--M13-maintenance-crystallize--1.svg"
+    },
+    {
+      "file": "modules/M14-memory-system.md",
+      "index": 1,
+      "width": 1738.625,
+      "height": 254,
+      "textNodes": 13,
+      "svg": "rendered/modules--M14-memory-system--1.svg"
+    },
+    {
+      "file": "modules/M15-skills-system.md",
+      "index": 1,
+      "width": 857.75,
+      "height": 262,
+      "textNodes": 11,
+      "svg": "rendered/modules--M15-skills-system--1.svg"
+    },
+    {
+      "file": "modules/M16-file-service-provenance.md",
+      "index": 1,
+      "width": 1118.234375,
+      "height": 494,
+      "textNodes": 25,
+      "svg": "rendered/modules--M16-file-service-provenance--1.svg"
+    },
+    {
+      "file": "modules/M17-dashboard-projection.md",
+      "index": 1,
+      "width": 1620.953125,
+      "height": 170,
+      "textNodes": 14,
+      "svg": "rendered/modules--M17-dashboard-projection--1.svg"
+    },
+    {
+      "file": "modules/M18-model-provider-gateway.md",
+      "index": 1,
+      "width": 1207.71875,
+      "height": 1099.875,
+      "textNodes": 23,
+      "svg": "rendered/modules--M18-model-provider-gateway--1.svg"
+    },
+    {
+      "file": "modules/M19-runtime-installer.md",
+      "index": 1,
+      "width": 2558.390625,
+      "height": 226.1328125,
+      "textNodes": 22,
+      "svg": "rendered/modules--M19-runtime-installer--1.svg"
+    },
+    {
+      "file": "modules/M20-matrix-browser.md",
+      "index": 1,
+      "width": 883.171875,
+      "height": 764,
+      "textNodes": 16,
+      "svg": "rendered/modules--M20-matrix-browser--1.svg"
+    },
+    {
+      "file": "modules/M22-integrations.md",
+      "index": 1,
+      "width": 832.859375,
+      "height": 564,
+      "textNodes": 11,
+      "svg": "rendered/modules--M22-integrations--1.svg"
+    },
+    {
+      "file": "modules/M24-channels.md",
+      "index": 1,
+      "width": 1494.0625,
+      "height": 194,
+      "textNodes": 15,
+      "svg": "rendered/modules--M24-channels--1.svg"
+    },
+    {
+      "file": "modules/M26-cloud-sync.md",
+      "index": 1,
+      "width": 1902.265625,
+      "height": 262,
+      "textNodes": 17,
+      "svg": "rendered/modules--M26-cloud-sync--1.svg"
+    },
+    {
+      "file": "modules/M27-swift-app-shell.md",
+      "index": 1,
+      "width": 1285.58984375,
+      "height": 590,
+      "textNodes": 21,
+      "svg": "rendered/modules--M27-swift-app-shell--1.svg"
+    },
+    {
+      "file": "modules/M28-terminal.md",
+      "index": 1,
+      "width": 1853.0546875,
+      "height": 638,
+      "textNodes": 19,
+      "svg": "rendered/modules--M28-terminal--1.svg"
+    },
+    {
+      "file": "modules/M29-office-renderer.md",
+      "index": 1,
+      "width": 339.78125,
+      "height": 1382,
+      "textNodes": 16,
+      "svg": "rendered/modules--M29-office-renderer--1.svg"
+    },
+    {
+      "file": "modules/M30-voice-presence.md",
+      "index": 1,
+      "width": 2222.96875,
+      "height": 258,
+      "textNodes": 19,
+      "svg": "rendered/modules--M30-voice-presence--1.svg"
+    },
+    {
+      "file": "modules/M31-neo-intelligence-runtime.md",
+      "index": 1,
+      "width": 553.81640625,
+      "height": 846,
+      "textNodes": 18,
+      "svg": "rendered/modules--M31-neo-intelligence-runtime--1.svg"
+    },
+    {
+      "file": "tools/T08-mcp-provider-packs.md",
+      "index": 1,
+      "width": 1157.140625,
+      "height": 231.6640625,
+      "textNodes": 11,
+      "svg": "rendered/tools--T08-mcp-provider-packs--1.svg"
+    },
+    {
+      "file": "diagrams/D01-system-architecture.md",
+      "index": 1,
+      "width": 4151.65234375,
+      "height": 3106.328125,
+      "textNodes": 101,
+      "svg": "rendered/diagrams--D01-system-architecture--1.svg"
+    },
+    {
+      "file": "diagrams/D02-process-lifecycle.md",
+      "index": 1,
+      "width": 1508,
+      "height": 1161,
+      "textNodes": 26,
+      "svg": "rendered/diagrams--D02-process-lifecycle--1.svg"
+    },
+    {
+      "file": "diagrams/D02-process-lifecycle.md",
+      "index": 2,
+      "width": 361.5078125,
+      "height": 1014,
+      "textNodes": 20,
+      "svg": "rendered/diagrams--D02-process-lifecycle--2.svg"
+    },
+    {
+      "file": "diagrams/D02-process-lifecycle.md",
+      "index": 3,
+      "width": 1348.015625,
+      "height": 470,
+      "textNodes": 26,
+      "svg": "rendered/diagrams--D02-process-lifecycle--3.svg"
+    },
+    {
+      "file": "diagrams/D03-data-model-er.md",
+      "index": 1,
+      "width": 3362.57958984375,
+      "height": 2142,
+      "textNodes": 239,
+      "svg": "rendered/diagrams--D03-data-model-er--1.svg"
+    },
+    {
+      "file": "diagrams/D04-okr-workflow.md",
+      "index": 1,
+      "width": 1570.578125,
+      "height": 277,
+      "textNodes": 18,
+      "svg": "rendered/diagrams--D04-okr-workflow--1.svg"
+    },
+    {
+      "file": "diagrams/D04-okr-workflow.md",
+      "index": 2,
+      "width": 1216.75,
+      "height": 2242.078125,
+      "textNodes": 43,
+      "svg": "rendered/diagrams--D04-okr-workflow--2.svg"
+    },
+    {
+      "file": "diagrams/D04-okr-workflow.md",
+      "index": 3,
+      "width": 1586.171875,
+      "height": 308,
+      "textNodes": 14,
+      "svg": "rendered/diagrams--D04-okr-workflow--3.svg"
+    },
+    {
+      "file": "diagrams/D05-department-message-flow.md",
+      "index": 1,
+      "width": 1728,
+      "height": 1075,
+      "textNodes": 44,
+      "svg": "rendered/diagrams--D05-department-message-flow--1.svg"
+    },
+    {
+      "file": "diagrams/D05-department-message-flow.md",
+      "index": 2,
+      "width": 1355.21875,
+      "height": 233.0500030517578,
+      "textNodes": 15,
+      "svg": "rendered/diagrams--D05-department-message-flow--2.svg"
+    },
+    {
+      "file": "diagrams/D05-department-message-flow.md",
+      "index": 3,
+      "width": 487.6796875,
+      "height": 582,
+      "textNodes": 10,
+      "svg": "rendered/diagrams--D05-department-message-flow--3.svg"
+    },
+    {
+      "file": "diagrams/D05-department-message-flow.md",
+      "index": 4,
+      "width": 625.484375,
+      "height": 1387.671875,
+      "textNodes": 18,
+      "svg": "rendered/diagrams--D05-department-message-flow--4.svg"
+    },
+    {
+      "file": "diagrams/D06-turn-lifecycle.md",
+      "index": 1,
+      "width": 2219,
+      "height": 1821,
+      "textNodes": 72,
+      "svg": "rendered/diagrams--D06-turn-lifecycle--1.svg"
+    },
+    {
+      "file": "diagrams/D06-turn-lifecycle.md",
+      "index": 2,
+      "width": 2024,
+      "height": 511,
+      "textNodes": 24,
+      "svg": "rendered/diagrams--D06-turn-lifecycle--2.svg"
+    },
+    {
+      "file": "diagrams/D07-wake-engine.md",
+      "index": 1,
+      "width": 1146.22265625,
+      "height": 1710,
+      "textNodes": 41,
+      "svg": "rendered/diagrams--D07-wake-engine--1.svg"
+    },
+    {
+      "file": "diagrams/D07-wake-engine.md",
+      "index": 2,
+      "width": 662.13671875,
+      "height": 961.78125,
+      "textNodes": 12,
+      "svg": "rendered/diagrams--D07-wake-engine--2.svg"
+    },
+    {
+      "file": "diagrams/D07-wake-engine.md",
+      "index": 3,
+      "width": 360.796875,
+      "height": 1086,
+      "textNodes": 13,
+      "svg": "rendered/diagrams--D07-wake-engine--3.svg"
+    },
+    {
+      "file": "diagrams/D08-prompt-assembly.md",
+      "index": 1,
+      "width": 950,
+      "height": 1728,
+      "textNodes": 20,
+      "svg": "rendered/diagrams--D08-prompt-assembly--1.svg"
+    },
+    {
+      "file": "diagrams/D08-prompt-assembly.md",
+      "index": 2,
+      "width": 718.453125,
+      "height": 1391.20703125,
+      "textNodes": 21,
+      "svg": "rendered/diagrams--D08-prompt-assembly--2.svg"
+    },
+    {
+      "file": "diagrams/D08-prompt-assembly.md",
+      "index": 3,
+      "width": 1867.59375,
+      "height": 1216,
+      "textNodes": 20,
+      "svg": "rendered/diagrams--D08-prompt-assembly--3.svg"
+    },
+    {
+      "file": "diagrams/D09-delegation-decision.md",
+      "index": 1,
+      "width": 3592.5,
+      "height": 845.96875,
+      "textNodes": 31,
+      "svg": "rendered/diagrams--D09-delegation-decision--1.svg"
+    },
+    {
+      "file": "diagrams/D09-delegation-decision.md",
+      "index": 2,
+      "width": 1141.90625,
+      "height": 1362.390625,
+      "textNodes": 22,
+      "svg": "rendered/diagrams--D09-delegation-decision--2.svg"
+    },
+    {
+      "file": "diagrams/D09-delegation-decision.md",
+      "index": 3,
+      "width": 755.921875,
+      "height": 1557.75,
+      "textNodes": 21,
+      "svg": "rendered/diagrams--D09-delegation-decision--3.svg"
+    },
+    {
+      "file": "diagrams/D09-delegation-decision.md",
+      "index": 4,
+      "width": 570,
+      "height": 498,
+      "textNodes": 10,
+      "svg": "rendered/diagrams--D09-delegation-decision--4.svg"
+    },
+    {
+      "file": "diagrams/D10-ui-surfaces.md",
+      "index": 1,
+      "width": 3724.296875,
+      "height": 201,
+      "textNodes": 20,
+      "svg": "rendered/diagrams--D10-ui-surfaces--1.svg"
+    },
+    {
+      "file": "diagrams/D10-ui-surfaces.md",
+      "index": 2,
+      "width": 359.46875,
+      "height": 1546,
+      "textNodes": 14,
+      "svg": "rendered/diagrams--D10-ui-surfaces--2.svg"
+    },
+    {
+      "file": "diagrams/D10-ui-surfaces.md",
+      "index": 3,
+      "width": 1756.453125,
+      "height": 281,
+      "textNodes": 11,
+      "svg": "rendered/diagrams--D10-ui-surfaces--3.svg"
+    },
+    {
+      "file": "diagrams/D10-ui-surfaces.md",
+      "index": 4,
+      "width": 512.578125,
+      "height": 846,
+      "textNodes": 21,
+      "svg": "rendered/diagrams--D10-ui-surfaces--4.svg"
+    },
+    {
+      "file": "diagrams/D11-office-scene-sync.md",
+      "index": 1,
+      "width": 851.65625,
+      "height": 3612,
+      "textNodes": 37,
+      "svg": "rendered/diagrams--D11-office-scene-sync--1.svg"
+    },
+    {
+      "file": "diagrams/D11-office-scene-sync.md",
+      "index": 2,
+      "width": 547.40625,
+      "height": 902,
+      "textNodes": 24,
+      "svg": "rendered/diagrams--D11-office-scene-sync--2.svg"
+    },
+    {
+      "file": "diagrams/D11-office-scene-sync.md",
+      "index": 3,
+      "width": 2464.921875,
+      "height": 218,
+      "textNodes": 17,
+      "svg": "rendered/diagrams--D11-office-scene-sync--3.svg"
+    },
+    {
+      "file": "diagrams/D11-office-scene-sync.md",
+      "index": 4,
+      "width": 868.296875,
+      "height": 698.5,
+      "textNodes": 15,
+      "svg": "rendered/diagrams--D11-office-scene-sync--4.svg"
+    },
+    {
+      "file": "diagrams/D12-tool-surface.md",
+      "index": 1,
+      "width": 4826.140625,
+      "height": 1598.515625,
+      "textNodes": 37,
+      "svg": "rendered/diagrams--D12-tool-surface--1.svg"
+    },
+    {
+      "file": "diagrams/D12-tool-surface.md",
+      "index": 2,
+      "width": 598.171875,
+      "height": 326,
+      "textNodes": 6,
+      "svg": "rendered/diagrams--D12-tool-surface--2.svg"
+    },
+    {
+      "file": "diagrams/D12-tool-surface.md",
+      "index": 3,
+      "width": 1166.40625,
+      "height": 478,
+      "textNodes": 13,
+      "svg": "rendered/diagrams--D12-tool-surface--3.svg"
+    },
+    {
+      "file": "diagrams/D13-memory-lifecycle.md",
+      "index": 1,
+      "width": 2187.68359375,
+      "height": 672.265625,
+      "textNodes": 31,
+      "svg": "rendered/diagrams--D13-memory-lifecycle--1.svg"
+    },
+    {
+      "file": "diagrams/D13-memory-lifecycle.md",
+      "index": 2,
+      "width": 622.98046875,
+      "height": 1674.921875,
+      "textNodes": 20,
+      "svg": "rendered/diagrams--D13-memory-lifecycle--2.svg"
+    },
+    {
+      "file": "diagrams/D13-memory-lifecycle.md",
+      "index": 3,
+      "width": 507.7265625,
+      "height": 1200.8125,
+      "textNodes": 14,
+      "svg": "rendered/diagrams--D13-memory-lifecycle--3.svg"
+    },
+    {
+      "file": "diagrams/D13-memory-lifecycle.md",
+      "index": 4,
+      "width": 1611.578125,
+      "height": 279,
+      "textNodes": 15,
+      "svg": "rendered/diagrams--D13-memory-lifecycle--4.svg"
+    },
+    {
+      "file": "diagrams/D13-memory-lifecycle.md",
+      "index": 5,
+      "width": 1106.25390625,
+      "height": 1725.453125,
+      "textNodes": 23,
+      "svg": "rendered/diagrams--D13-memory-lifecycle--5.svg"
+    },
+    {
+      "file": "diagrams/D14-file-provenance.md",
+      "index": 1,
+      "width": 1253.109375,
+      "height": 634,
+      "textNodes": 31,
+      "svg": "rendered/diagrams--D14-file-provenance--1.svg"
+    },
+    {
+      "file": "diagrams/D14-file-provenance.md",
+      "index": 2,
+      "width": 1810,
+      "height": 230,
+      "textNodes": 13,
+      "svg": "rendered/diagrams--D14-file-provenance--2.svg"
+    },
+    {
+      "file": "diagrams/D14-file-provenance.md",
+      "index": 3,
+      "width": 878,
+      "height": 672,
+      "textNodes": 17,
+      "svg": "rendered/diagrams--D14-file-provenance--3.svg"
+    },
+    {
+      "file": "diagrams/D14-file-provenance.md",
+      "index": 4,
+      "width": 766.08984375,
+      "height": 1305.328125,
+      "textNodes": 17,
+      "svg": "rendered/diagrams--D14-file-provenance--4.svg"
+    },
+    {
+      "file": "diagrams/D15-shotgun-target.md",
+      "index": 1,
+      "width": 1345.00390625,
+      "height": 2553.390625,
+      "textNodes": 56,
+      "svg": "rendered/diagrams--D15-shotgun-target--1.svg"
+    },
+    {
+      "file": "diagrams/D15-shotgun-target.md",
+      "index": 2,
+      "width": 2061.078125,
+      "height": 204.40625,
+      "textNodes": 18,
+      "svg": "rendered/diagrams--D15-shotgun-target--2.svg"
+    },
+    {
+      "file": "diagrams/D15-shotgun-target.md",
+      "index": 3,
+      "width": 2053.078125,
+      "height": 849.1875,
+      "textNodes": 30,
+      "svg": "rendered/diagrams--D15-shotgun-target--3.svg"
+    },
+    {
+      "file": "diagrams/D15-shotgun-target.md",
+      "index": 4,
+      "width": 1474,
+      "height": 651,
+      "textNodes": 18,
+      "svg": "rendered/diagrams--D15-shotgun-target--4.svg"
+    },
+    {
+      "file": "diagrams/D15-shotgun-target.md",
+      "index": 5,
+      "width": 1522.171875,
+      "height": 126,
+      "textNodes": 11,
+      "svg": "rendered/diagrams--D15-shotgun-target--5.svg"
+    },
+    {
+      "file": "shotgun/01-target-architecture.md",
+      "index": 1,
+      "width": 3929.94140625,
+      "height": 2810.390625,
+      "textNodes": 88,
+      "svg": "rendered/shotgun--01-target-architecture--1.svg"
+    },
+    {
+      "file": "shotgun/02-role-system.md",
+      "index": 1,
+      "width": 758,
+      "height": 1158,
+      "textNodes": 13,
+      "svg": "rendered/shotgun--02-role-system--1.svg"
+    },
+    {
+      "file": "shotgun/03-data-model.md",
+      "index": 1,
+      "width": 1632.25390625,
+      "height": 1749,
+      "textNodes": 45,
+      "svg": "rendered/shotgun--03-data-model--1.svg"
+    },
+    {
+      "file": "shotgun/04-tool-surface.md",
+      "index": 1,
+      "width": 1452.5,
+      "height": 602,
+      "textNodes": 17,
+      "svg": "rendered/shotgun--04-tool-surface--1.svg"
+    },
+    {
+      "file": "shotgun/05-prompt-system.md",
+      "index": 1,
+      "width": 1658.375,
+      "height": 1130,
+      "textNodes": 20,
+      "svg": "rendered/shotgun--05-prompt-system--1.svg"
+    },
+    {
+      "file": "shotgun/06-ui-spec.md",
+      "index": 1,
+      "width": 335,
+      "height": 1162,
+      "textNodes": 11,
+      "svg": "rendered/shotgun--06-ui-spec--1.svg"
+    },
+    {
+      "file": "shotgun/06-ui-spec.md",
+      "index": 2,
+      "width": 873.046875,
+      "height": 1148.828125,
+      "textNodes": 15,
+      "svg": "rendered/shotgun--06-ui-spec--2.svg"
+    },
+    {
+      "file": "shotgun/06-ui-spec.md",
+      "index": 3,
+      "width": 1573.34375,
+      "height": 366,
+      "textNodes": 17,
+      "svg": "rendered/shotgun--06-ui-spec--3.svg"
+    },
+    {
+      "file": "shotgun/07-studio-floor.md",
+      "index": 1,
+      "width": 335,
+      "height": 1356,
+      "textNodes": 12,
+      "svg": "rendered/shotgun--07-studio-floor--1.svg"
+    },
+    {
+      "file": "shotgun/07-studio-floor.md",
+      "index": 2,
+      "width": 1473.34375,
+      "height": 230,
+      "textNodes": 13,
+      "svg": "rendered/shotgun--07-studio-floor--2.svg"
+    },
+    {
+      "file": "shotgun/08-build-plan.md",
+      "index": 1,
+      "width": 1530.5,
+      "height": 321.05078125,
+      "textNodes": 31,
+      "svg": "rendered/shotgun--08-build-plan--1.svg"
+    }
+  ]
+}

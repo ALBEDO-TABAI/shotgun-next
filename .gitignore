@@ -1,0 +1,5 @@
+# macOS
+.DS_Store
+
+# App bundles (excluded from this public dump)
+*.app

@@ -1,0 +1,2484 @@
+====================================================================================================
+# line 86204
+      tool(
+        "search",
+        [
+          "Search the connected Matrix Cloudflare app pack operation catalog.",
+          "Returns operation ids, risk levels, and input schemas. Use before execute when parameters are uncertain.",
+          "This is the first-class Cloudflare pack surface; do not route Cloudflare through the generic integrations skill.",
+        ].join(" "),
+        {
+          query: exports_external.string().optional().describe(
+            "Operation or product search, e.g. accounts, workers, zones, dns records.",
+          ),
+          limit: exports_external.number().int().positive().max(20).optional().describe(
+            "Maximum operations to return. Defaults to 5.",
+          ),
+          include_schema: exports_external.boolean().optional().describe(
+            "Include input_schema for each returned operation. Defaults to true.",
+          ),
+        },
+        async (args) => {
+          try {
+            const operations = await loadOperations(request);
+            const query2 = args.query ?? "";
+            const limit = args.limit ?? 5;
+            const includeSchema = args.include_schema !== false;
+            const selected = operations.map((operation) => ({
+              operation,
+              score: scoreOperation(query2, operation),
+            })).filter((item) => item.score > 0).sort((a, b) => {
+              const preferredRank = (operationId) => {
+                const index = PREFERRED_OPERATIONS.indexOf(operationId);
+                return index >= 0 ? index : Number.MAX_SAFE_INTEGER;
+              };
+              return b.score - a.score ||
+                preferredRank(a.operation.id) - preferredRank(b.operation.id) ||
+                (a.operation.id < b.operation.id ? -1 : 1);
+            }).slice(0, limit).map((item) => operationSummary(item.operation, includeSchema));
+            return textResult({
+              ok: true,
+              provider: "cloudflare",
+              operation_count: operations.length,
+              operations: selected,
+            });
+          } catch (err) {
+            return textResult({
+              ok: false,
+              provider: "cloudflare",
+              error: err instanceof Error ? err.message : String(err),
+            });
+          }
+        },
+        {
+          alwaysLoad: true,
+          searchHint:
+            "cloudflare mcp search accounts workers zones dns pages r2 d1 schema operations",
+        },
+      ),
+      tool(
+        "execute",
+        [
+          "Execute a connected Matrix Cloudflare operation by operation_id.",
+          "Read operations execute immediately through Matrix native Cloudflare auth. Write operations return a Matrix confirmation plan instead of applying changes directly.",
+          "Never ask for Cloudflare tokens. Do not expose account ids, zone ids, record ids, tokens, or raw credentials in the final user-facing answer.",
+        ].join(" "),
+        {
+          operation_id: exports_external.string().describe(
+            "Exact Cloudflare operation id, e.g. cloudflare.accounts.list, cloudflare.zones.list, cloudflare.dns.records.list.",
+          ),
+          input: exports_external.record(exports_external.string(), exports_external.unknown())
+            .optional().describe(
+              "Operation input object. Use mcp__cloudflare__search first to inspect required parameters.",
+            ),
+          dry_run: exports_external.boolean().optional().describe(
+            "For read operations only, asks the gateway to dry-run when supported.",
+          ),
+          connection_id: exports_external.string().optional().describe(
+            "Only pass when multiple Cloudflare connections are explicitly selected.",
+          ),
+          idempotency_key: exports_external.string().optional().describe(
+            "Optional stable key for write planning/execution retries.",
+          ),
+        },
+        async (args) => {
+          try {
+            const operationId = args.operation_id.trim();
+            const operations = await loadOperations(request);
+            const operation = operations.find((candidate) => candidate.id === operationId);
+            if (!operation) {
+              return textResult({
+                ok: false,
+                provider: "cloudflare",
+====================================================================================================
+# line 86260
+      tool(
+        "execute",
+        [
+          "Execute a connected Matrix Cloudflare operation by operation_id.",
+          "Read operations execute immediately through Matrix native Cloudflare auth. Write operations return a Matrix confirmation plan instead of applying changes directly.",
+          "Never ask for Cloudflare tokens. Do not expose account ids, zone ids, record ids, tokens, or raw credentials in the final user-facing answer.",
+        ].join(" "),
+        {
+          operation_id: exports_external.string().describe(
+            "Exact Cloudflare operation id, e.g. cloudflare.accounts.list, cloudflare.zones.list, cloudflare.dns.records.list.",
+          ),
+          input: exports_external.record(exports_external.string(), exports_external.unknown())
+            .optional().describe(
+              "Operation input object. Use mcp__cloudflare__search first to inspect required parameters.",
+            ),
+          dry_run: exports_external.boolean().optional().describe(
+            "For read operations only, asks the gateway to dry-run when supported.",
+          ),
+          connection_id: exports_external.string().optional().describe(
+            "Only pass when multiple Cloudflare connections are explicitly selected.",
+          ),
+          idempotency_key: exports_external.string().optional().describe(
+            "Optional stable key for write planning/execution retries.",
+          ),
+        },
+        async (args) => {
+          try {
+            const operationId = args.operation_id.trim();
+            const operations = await loadOperations(request);
+            const operation = operations.find((candidate) => candidate.id === operationId);
+            if (!operation) {
+              return textResult({
+                ok: false,
+                provider: "cloudflare",
+                operation_id: operationId,
+                error: "Unknown Cloudflare operation. Use mcp__cloudflare__search first.",
+              });
+            }
+            const connection = await resolveConnection(
+              request,
+              deps.workspaceId,
+              args.connection_id?.trim() || undefined,
+            );
+            if ("error" in connection) {
+              return textResult({
+                ok: false,
+                provider: "cloudflare",
+                operation_id: operationId,
+                error: connection.error,
+                connection_count: connection.connection_count,
+              });
+            }
+            const workspaceId = deps.workspaceId ?? connection.workspace_id;
+            const body = {
+              connection_id: connection.id,
+              provider: "cloudflare",
+              operation_id: operationId,
+              input: args.input ?? {},
+              ...workspaceId ? { workspace_id: workspaceId } : {},
+            };
+            if (args.dry_run) body.dry_run = true;
+            if (args.idempotency_key?.trim()) body.idempotency_key = args.idempotency_key.trim();
+            const risk = operation.risk ?? "unknown";
+            const path = risk === "read"
+              ? "/v1/integrations/operations/execute"
+              : "/v1/integrations/operations/plan";
+            const payload = await request("POST", path, { body, workspaceId });
+            return textResult({
+              ok: true,
+              provider: "cloudflare",
+              operation_id: operationId,
+              risk,
+              status: risk === "read" ? "executed" : "confirmation_required",
+              executor: risk === "read" ? "matrix_native" : "matrix_native_plan",
+              data: sanitizeExecutionData(operationId, payload),
+            });
+          } catch (err) {
+            return textResult({
+              ok: false,
+              provider: "cloudflare",
+              operation_id: args.operation_id,
+              error: err instanceof Error ? err.message : String(err),
+            });
+          }
+        },
+        {
+          alwaysLoad: true,
+          searchHint:
+            "cloudflare execute operation account workers zones dns pages r2 d1 matrix native oauth mcp",
+        },
+====================================================================================================
+# line 86639
+      tool(
+        "search",
+        [
+          `Search the connected Matrix ${displayName} app pack operation catalog.`,
+          "Returns operation ids, risk levels, and input schemas. Use before execute when parameters are uncertain.",
+          `This is the first-class ${displayName} pack surface; do not route ${displayName} through the generic integrations skill.`,
+        ].join(" "),
+        {
+          query: exports_external.string().optional().describe(
+            `Operation or product search for ${displayName}.`,
+          ),
+          limit: exports_external.number().int().positive().max(20).optional().describe(
+            "Maximum operations to return. Defaults to 5.",
+          ),
+          include_schema: exports_external.boolean().optional().describe(
+            "Include input_schema for each returned operation. Defaults to true.",
+          ),
+        },
+        async (args) => {
+          try {
+            const operations = await loadOperations2(provider, request);
+            const query2 = args.query ?? "";
+            const limit = args.limit ?? 5;
+            const includeSchema = args.include_schema !== false;
+            const selected = operations.map((operation) => ({
+              operation,
+              score: scoreOperation2(query2, operation, preferredOperationIds),
+            })).filter((item) => item.score > 0).sort((a, b) => {
+              const preferredRank = (operationId) => {
+                const index = preferredOperationIds.indexOf(operationId);
+                return index >= 0 ? index : Number.MAX_SAFE_INTEGER;
+              };
+              return b.score - a.score ||
+                preferredRank(a.operation.id) - preferredRank(b.operation.id) ||
+                (a.operation.id < b.operation.id ? -1 : 1);
+            }).slice(0, limit).map((item) =>
+              operationSummary2(item.operation, includeSchema, operationSchemas)
+            );
+            return textResult2({
+              ok: true,
+              provider,
+              operation_count: operations.length,
+              operations: selected,
+            });
+          } catch (err) {
+            return textResult2({
+              ok: false,
+              provider,
+              error: err instanceof Error ? err.message : String(err),
+            });
+          }
+        },
+        {
+          alwaysLoad: true,
+          searchHint: `${provider} mcp search operations schema account data app pack`,
+        },
+      ),
+      tool(
+        "execute",
+        [
+          `Execute a connected Matrix ${displayName} operation by operation_id.`,
+          "Read operations execute immediately through Matrix auth. Write operations return a Matrix confirmation plan instead of applying changes directly.",
+          `Never ask for ${displayName} tokens. Do not expose account ids, resource ids, tokens, or raw credentials in the final user-facing answer.`,
+        ].join(" "),
+        {
+          operation_id: exports_external.string().describe(`Exact ${displayName} operation id.`),
+          input: exports_external.record(exports_external.string(), exports_external.unknown())
+            .optional().describe(
+              `Operation input object. Use mcp__${provider}__search first to inspect required parameters.`,
+            ),
+          dry_run: exports_external.boolean().optional().describe(
+            "For read operations only, asks the gateway to dry-run when supported.",
+          ),
+          connection_id: exports_external.string().optional().describe(
+            `Only pass when multiple ${displayName} connections are explicitly selected.`,
+          ),
+          idempotency_key: exports_external.string().optional().describe(
+            "Optional stable key for write planning/execution retries.",
+          ),
+        },
+        async (args) => {
+          try {
+            const operationId = args.operation_id.trim();
+            const operations = await loadOperations2(provider, request);
+            const operation = operations.find((candidate) => candidate.id === operationId);
+            if (!operation) {
+              return textResult2({
+                ok: false,
+                provider,
+                operation_id: operationId,
+====================================================================================================
+# line 86696
+      tool(
+        "execute",
+        [
+          `Execute a connected Matrix ${displayName} operation by operation_id.`,
+          "Read operations execute immediately through Matrix auth. Write operations return a Matrix confirmation plan instead of applying changes directly.",
+          `Never ask for ${displayName} tokens. Do not expose account ids, resource ids, tokens, or raw credentials in the final user-facing answer.`,
+        ].join(" "),
+        {
+          operation_id: exports_external.string().describe(`Exact ${displayName} operation id.`),
+          input: exports_external.record(exports_external.string(), exports_external.unknown())
+            .optional().describe(
+              `Operation input object. Use mcp__${provider}__search first to inspect required parameters.`,
+            ),
+          dry_run: exports_external.boolean().optional().describe(
+            "For read operations only, asks the gateway to dry-run when supported.",
+          ),
+          connection_id: exports_external.string().optional().describe(
+            `Only pass when multiple ${displayName} connections are explicitly selected.`,
+          ),
+          idempotency_key: exports_external.string().optional().describe(
+            "Optional stable key for write planning/execution retries.",
+          ),
+        },
+        async (args) => {
+          try {
+            const operationId = args.operation_id.trim();
+            const operations = await loadOperations2(provider, request);
+            const operation = operations.find((candidate) => candidate.id === operationId);
+            if (!operation) {
+              return textResult2({
+                ok: false,
+                provider,
+                operation_id: operationId,
+                error: `Unknown ${displayName} operation. Use mcp__${provider}__search first.`,
+              });
+            }
+            const connection = await resolveConnection2(
+              provider,
+              displayName,
+              request,
+              deps.workspaceId,
+              args.connection_id?.trim() || undefined,
+            );
+            if ("error" in connection) {
+              return textResult2({
+                ok: false,
+                provider,
+                operation_id: operationId,
+                error: connection.error,
+                connection_count: connection.connection_count,
+              });
+            }
+            const workspaceId = deps.workspaceId ?? connection.workspace_id;
+            const body = {
+              connection_id: connection.id,
+              provider,
+              operation_id: operationId,
+              input: args.input ?? {},
+              ...workspaceId ? { workspace_id: workspaceId } : {},
+            };
+            if (args.dry_run) body.dry_run = true;
+            if (args.idempotency_key?.trim()) body.idempotency_key = args.idempotency_key.trim();
+            const risk = operation.risk ?? "unknown";
+            const path = risk === "read"
+              ? "/v1/integrations/operations/execute"
+              : "/v1/integrations/operations/plan";
+            const payload = await request("POST", path, { body, workspaceId });
+            return textResult2({
+              ok: true,
+              provider,
+              operation_id: operationId,
+              risk,
+              status: risk === "read" ? "executed" : "confirmation_required",
+              executor: risk === "read" ? "matrix_native" : "matrix_native_plan",
+              data: sanitizeExecutionData2(operationId, payload),
+            });
+          } catch (err) {
+            return textResult2({
+              ok: false,
+              provider,
+              operation_id: args.operation_id,
+              error: err instanceof Error ? err.message : String(err),
+            });
+          }
+        },
+        {
+          alwaysLoad: true,
+          searchHint: `${provider} execute operation app pack account data matrix auth`,
+        },
+      ),
+====================================================================================================
+# line 124987
+      tool(
+        "state",
+        [
+          "Manage deterministic time triggers for existing Tasks. Always pass action=create/update/delete/list.",
+          "Time wakes must attach to a Task and never be free-floating reminders.",
+          'Typical flow: create the Task with mcp__okr__state action="task.upsert", then schedule it with action="create", taskId from that result, schedule="30 14 * * *" for 14:30 local time, and recurring=false for one-shot.',
+        ].join(" "),
+        buildCronStateArgsSchema(),
+        makeCronStateHandler(deps.deptRoot, deps),
+        {
+          alwaysLoad: true,
+          searchHint:
+            "cron state schedule time trigger create update delete list task follow up monitor deadline review",
+        },
+      ),
+    ],
+  });
+}
+var CRON_ACTION_NEXT;
+var init_user_cron_mcp = __esm(() => {
+  init_zod();
+  init_src4();
+  init_manager2();
+  init_schedule_input();
+  init_cron_expression();
+  init_tasks();
+  init_protocol();
+  CRON_ACTION_NEXT = [
+    "Use mcp__cron__state with top-level action.",
+    'For a 14:30 local one-shot wake: first create a Task via mcp__okr__state action="task.upsert",',
+    'then call mcp__cron__state with action="create", schedule="30 14 * * *", recurring=false, and taskId from the Task result.',
+  ].join(" ");
+});
+function asRecord(value) {
+  return value && typeof value === "object" && !Array.isArray(value) ? value : {};
+}
+function textForIntentDetection(...parts) {
+  return parts.filter((part) => Boolean(part?.trim())).join(`
+`).toLowerCase();
+}
+function stripNegatedDestructiveClauses(text2) {
+  return text2.replace(
+    /\b(?:do\s+not|does\s+not|don't|doesn't|dont|never|without|no)\s+(?:actually\s+)?(?:delete|remove|prune|purge|wipe|clear|destroy|rm)\b[^.!?;\n]*/gi,
+    " ",
+  ).replace(
+    /(?:\u4E0D\u8981|\u522B|\u52FF|\u65E0\u9700)[^\u3002\uFF01\uFF1F\n]*(?:\u5220\u9664|\u6E05\u7A7A|\u79FB\u9664|\u9500\u6BC1|\u6E05\u9664)[^\u3002\uFF01\uFF1F\n]*/g,
+    " ",
+  );
+}
+function hasWorkspaceDataScope(text2) {
+  return /\b(?:file|files|folder|folders|directory|directories|dir|workspace|repo|repository|artifact|artifacts|chapter|chapters|doc|docs|document|documents|record|records|dataset|datasets|data|database|table|tables)\b/i
+    .test(text2) || /`[^`]*(?:\/|\\)[^`]*`/.test(text2) || /\b[a-z0-9_.-]+\/\b/i.test(text2);
+}
+function hasDestructiveExecutionVerb(text2) {
+  return /\b(?:mass[-\s]?delete|delete|deleting|deleted|remove|removing|removed|prune|pruning|pruned|purge|purging|purged|wipe|wiping|wiped|clear|clearing|cleared|destroy|destroying|destroyed)\b/i
+    .test(text2) ||
+    /\brm\s+(?:-[a-z]*\s+)?/i.test(text2) ||
+    /(?:\u6279\u91CF)?(?:\u5220\u9664|\u6E05\u7A7A|\u79FB\u9664|\u9500\u6BC1|\u6E05\u9664)/.test(
+      text2,
+    );
+}
+function isNonExecutingDestructiveDiscussion(text2) {
+  return /\b(?:policy|review|audit|inventory|list|candidates?|recommend|recommendation|risk|risks|assess|assessment|dry[-\s]?run|simulate|simulation)\b/i
+    .test(text2) &&
+    /\b(?:do\s+not|does\s+not|don't|doesn't|dont|never|without|no)\s+(?:actually\s+)?(?:delete|remove|prune|purge|wipe|clear|destroy|rm)\b/i
+      .test(text2);
+}
+function isDestructiveWorkspaceDataOperation(...parts) {
+  const rawText = textForIntentDetection(...parts);
+  if (!rawText) return false;
+  if (isNonExecutingDestructiveDiscussion(rawText)) return false;
+  const text2 = stripNegatedDestructiveClauses(rawText);
+  return hasWorkspaceDataScope(text2) && hasDestructiveExecutionVerb(text2);
+}
+function chatMessageSender(message) {
+  const item = asRecord(message);
+  const sender = item.sender ?? item.role ?? item.from;
+  return typeof sender === "string" ? sender.toLowerCase() : undefined;
+}
+function isUserChatMessage(message) {
+  const sender = chatMessageSender(message);
+  return sender === "user" || sender === "human" || sender === "founder" || sender === "owner";
+}
+function isAssistantChatMessage(message) {
+  const sender = chatMessageSender(message);
+  return sender === "assistant" || sender === "agent";
+}
+function userTextExplicitlyConfirms(text2) {
+  return /\b(?:confirm(?:ed|ing|ation)?|approve(?:d)?|authori[sz]e(?:d)?|yes|yep|ok(?:ay)?|go\s+ahead|proceed)\b/i
+    .test(text2) ||
+====================================================================================================
+# line 126021
+      tool(
+        "department",
+        [
+          "Departments are owners. Each owns a domain with its own memory, skills, Tasks, operating style, and coordination history.",
+          "Primary entrypoint has two scopes: workspace operator for the map, user entrypoint, department topology, routing, and shared resources; department owner for its own Key Results, Tasks, proof, memory, skills, and artifacts. Non-primary departments own bounded domain execution.",
+          "Agents/subagents are same-owner execution seats inside one department, useful when owned work benefits from speed, parallelism, or isolation. Cross-owner work routes through department messages.",
+          'Department messages are the primary cross-department channel: message.send opens dispatch work and carries the message body and attachments. Received wakes carry messageId; the matching message.reply answers that exact message. Outcome lives on message.reply kind="reply".',
+          "Keep department tool calls minimal: omit optional fields instead of sending empty strings, empty arrays, or placeholders. message.reply infers the recipient from messageId, so the body and outcome are usually all it needs.",
+          "Message kind expresses intent: dispatch opens work, note adds silent context to an existing thread, reply+outcome closes work.",
+          "Department message bodies are stored losslessly. Substantial deliverables land in a Markdown file in the shared workspace, with a concise summary in the message body and the file path in attachments.",
+          'message.queue lists pending work; message.thread gives compact context, with includeBodyFor for one exact body when needed. A business result lands once message.reply kind="reply" with outcome closes the thread.',
+          "user_profile.get/update read and write the global User Profile only for stable cross-workspace user preferences, work style, identity facts, and public handles the user wants remembered. Do not write project facts, workspace facts, credentials, or transient observations there.",
+          "The Agent tool spawns an Agent inside this department's context and memory; reach for it when the work is owned by this department.",
+          "department.list returns each peer's charter and domains \u2014 use it to see whose domain a piece of work falls under.",
+          ...canManageDepartments
+            ? [
+              `department.create forms a new owner when the work falls outside every existing department's responsibility \u2014 one clear signal is enough, do not wait for repetition. Use action="department.create" with name="<display name>"; the create field is name, not department. If an existing department already owns the domain, route via message.send instead. After creating a department, send it an initial brief and preserve routing memory for future similar work. Use department.update lifecycle retired/merged for ordinary department evolution; department.delete is hard deletion only.`,
+            ]
+            : [],
+          `Actions: ${contracts.join("; ")}.`,
+        ].join(" "),
+        buildDepartmentArgsSchema({ canManageDepartments }),
+        makeMatrixWorkspaceHandler(deps),
+        {
+          alwaysLoad: true,
+          searchHint:
+            "cross-department messages, department queue thread reply send, department list get, chat read search, global user profile",
+        },
+      ),
+    ],
+  });
+}
+var MATRIX_DEPARTMENT_COLLAB_ACTIONS,
+  MATRIX_DEPARTMENT_MANAGEMENT_ACTIONS,
+  MATRIX_WORKSPACE_ACTIONS,
+  log42,
+  MATRIX_WORKSPACE_ARG_KEYS,
+  EMPTY_STRING_IS_ABSENT_KEYS,
+  PLACEHOLDER_STRING_VALUES,
+  ACTION_RELEVANT_ARG_KEYS;
+var init_matrix_workspace_mcp = __esm(() => {
+  init_zod();
+  init_src4();
+  init_logger();
+  init_config();
+  init_destructive_confirmation();
+  init_user_profile();
+  MATRIX_DEPARTMENT_COLLAB_ACTIONS = [
+    "message.send",
+    "message.reply",
+    "message.queue",
+    "message.thread",
+    "chat.read_recent",
+    "chat.search",
+    "user_profile.get",
+    "user_profile.update",
+    "department.list",
+    "department.get",
+  ];
+  MATRIX_DEPARTMENT_MANAGEMENT_ACTIONS = [
+    "department.create",
+    "department.update",
+    "department.delete",
+  ];
+  MATRIX_WORKSPACE_ACTIONS = [
+    ...MATRIX_DEPARTMENT_COLLAB_ACTIONS,
+    ...MATRIX_DEPARTMENT_MANAGEMENT_ACTIONS,
+  ];
+  log42 = createLogger("matrix-workspace-mcp");
+  MATRIX_WORKSPACE_ARG_KEYS = new Set([
+    "action",
+    "department",
+    "toDepartment",
+    "messageId",
+    "includeBodyFor",
+    "sessionId",
+    "query",
+    "limit",
+    "topic",
+    "name",
+    "description",
+    "message",
+    "profileContent",
+    "expectedVersion",
+    "confirmDepartmentId",
+    "parentDepartmentId",
+    "proactive",
+    "model",
+    "profile",
+    "lifecycle",
+====================================================================================================
+# line 127086
+      tool(
+        "state",
+        [
+          "Single write surface for OKR facts. Objective = direction, Key Result = observable progress, Task = owned action; Check-ins carry proof and learning.",
+          'Always pass the top-level `action` field. For new work use action="task.upsert" with `task.title`; omit task.taskId so OKR generates one.',
+          'For time wakes such as 14:30, create the Task first, then call mcp__cron__state action="create" with the returned taskId and schedule="30 14 * * *".',
+          "Tasks bound to a Key Result land as task.upsert with both ids; ad hoc Tasks omit both. Terminal Task states (blocked / completed / failed / cancelled) are only written by task.check_in.",
+          "Progress is stored as 0..1; percent inputs like 50 or 100 are accepted and normalized. Do not create local Tasks from msg_ department-message ids; reply to department messages with mcp__matrix__department message.reply.",
+          "See `action.description` for per-action field requirements.",
+        ].join(" "),
+        buildOkrStateArgsSchema({ canManageObjectiveState: deps.canManageObjectiveState }),
+        makeOkrStateHandler(deps),
+        {
+          alwaysLoad: true,
+          searchHint: "okr state objective key result task check in proof learning progress facts",
+        },
+      ),
+    ],
+  });
+}
+var log43,
+  OBJECTIVE_STATE_PATCH_NEXT,
+  KEY_RESULT_STATE_PATCH_NEXT,
+  DEPARTMENT_MESSAGE_TASK_NEXT,
+  DEPARTMENT_ACTIONS,
+  PRIMARY_ACTIONS,
+  DEPARTMENT_ACTION_ALIASES,
+  PRIMARY_ACTION_ALIASES,
+  OBJECTIVE_STATUS_ENUM,
+  KEY_RESULT_STATUS_ENUM,
+  KEY_RESULT_PRIORITY_ENUM,
+  STATE_HEALTH_ENUM,
+  EFFORT_SIZE_ENUM,
+  TASK_STATUS_ENUM,
+  TASK_TRIGGER_TYPE_ENUM,
+  TASK_CRITERIA_STATUS_ENUM,
+  KEY_RESULT_DECISION_ENUM,
+  LEARNING_DECISION_ENUM,
+  WORK_BLOCKER_CATEGORY_ENUM,
+  PROOF_REFS_GUIDANCE =
+    "For local artifacts, prefer existing department/workspace-relative paths like artifacts/name.md; use file:// only for absolute local file URLs.";
+var init_okr_workspace_mcp = __esm(() => {
+  init_zod();
+  init_src4();
+  init_mutations();
+  init_store3();
+  init_input();
+  init_tasks();
+  init_task_input();
+  init_config();
+  init_destructive_confirmation();
+  init_task_link();
+  init_types();
+  init_logger();
+  log43 = createLogger("okr-workspace-mcp");
+  OBJECTIVE_STATE_PATCH_NEXT =
+    "objective.state_patch only accepts health, riskSummary, and lastProofAt. " +
+    "To change Objective status/title/summary/timeHorizon, call objective.update with objectiveId and an objective payload. " +
+    "To record execution progress, use key_result.state_patch or task.check_in.";
+  KEY_RESULT_STATE_PATCH_NEXT =
+    "key_result.state_patch accepts status, progress, health, blockers, confidence, nextAction, proofRefs, learningRefs, appendProofRefs, and appendLearningRefs. " +
+    "Use progress as 0..1; percent values like 50 or 100 are accepted and normalized.";
+  DEPARTMENT_MESSAGE_TASK_NEXT =
+    "Do not create a local shadow Task with a msg_ department-message id. " +
+    'For dispatched message work, send mcp__matrix__department message.reply with kind="reply" and outcome. ' +
+    "For separate local OKR work, omit task.taskId so OKR generates a normal task-* id and put the message id in contextRefs.";
+  DEPARTMENT_ACTIONS = [
+    "state.get",
+    "key_result.create",
+    "key_result.update",
+    "key_result.state_patch",
+    "task.upsert",
+    "task.check_in",
+  ];
+  PRIMARY_ACTIONS = [
+    "objective.create",
+    "objective.update",
+    "objective.state_patch",
+    ...DEPARTMENT_ACTIONS,
+  ];
+  DEPARTMENT_ACTION_ALIASES = [
+    "state",
+    "get",
+    "read",
+    "task.create",
+    "task.update",
+    "okr_task.upsert",
+    "okr_task.check_in",
+  ];
+  PRIMARY_ACTION_ALIASES = ["objective.patch", "key_result.patch", ...DEPARTMENT_ACTION_ALIASES];
+====================================================================================================
+# line 127515
+      tool(
+        "create_link",
+        [
+          "You are the seller's technical interpreter for payment links. The",
+          `seller is running a business; they don't know what a "webhook" or a`,
+          `"redirect URL" is and they shouldn't have to. Listen for what they`,
+          "are trying to accomplish, decide which arguments to set, and ask",
+          "plainly when something is missing.",
+          "",
+          "Matrix is the merchant of record. The seller has no Stripe account",
+          "and no Stripe keys; funds settle into Matrix's balance and they",
+          "withdraw later via the Agent Revenue panel. If you find yourself",
+          "asking the user for STRIPE_SECRET_KEY or STRIPE_WEBHOOK_SECRET, the",
+          "model is wrong \u2014 Matrix already holds those.",
+          "",
+          "\u2550\u2550\u2550 What this system can do for the seller \u2550\u2550\u2550",
+          "",
+          "1. Take a payment.",
+          "   Required for every link: how much, in what currency, for what",
+          "   product. amount_minor is the smallest unit (5000 = $50.00 USD",
+          "   or eur; 5000 = \xA55000 in JPY because JPY is zero-decimal).",
+          "   Stripe minimums for Matrix-supported currencies are 50 for",
+          "   USD/EUR and 30 for GBP. For quick USD test links, use at least",
+          "   amount_minor=50; never create a $0.10 USD link.",
+          "   Always confirm amount, currency, and product name before",
+          "   calling \u2014 the charge is real money.",
+          "",
+          "2. Send the customer somewhere after they pay.",
+          '   Pass continue_url to give the buyer a "Continue to <site>"',
+          "   button on the Matrix-hosted confirmation page that auto-",
+          "   redirects after 5 seconds. Use this whenever the seller has a",
+          "   website, landing page, or thank-you page they want buyers to",
+          "   end up on. If they don't, omit it \u2014 the confirmation page",
+          "   stands alone fine. Can be added or changed later via",
+          "   update_link, even on links that have already taken payments.",
+          "",
+          "3. Notify the seller's server when payment lands.",
+          "   Pass webhook_url to have Matrix POST a signed event to the",
+          "   seller's backend the moment payment succeeds. Use this whenever",
+          "   the seller wants their site or system to *do* something",
+          "   automatically \u2014 deliver a file, unlock content, send their own",
+          "   confirmation email, update an internal database, mark an order",
+          "   fulfilled. The seller's backend has to exist and be reachable;",
+          "   if they don't have one, this isn't a fit.",
+          "   Cannot be added later. Mint a new link if a seller decides",
+          "   they need this after the fact.",
+          "",
+          "4. Carry context back to the seller's system.",
+          "   Pass metadata as small key/value pairs the seller's backend",
+          "   will need to tie an event back to one of its own records \u2014",
+          "   order_id, sku, the customer's email. Echoed verbatim in the",
+          "   webhook payload. Only useful when webhook_url is set.",
+          "",
+          "\u2550\u2550\u2550 What this system can NOT do (be honest about these) \u2550\u2550\u2550",
+          "",
+          "- It cannot email the customer for the seller. Matrix sends",
+          "  nothing to buyers beyond Stripe's own receipt. If a seller",
+          "  wants customized customer emails, they need a backend with a",
+          "  webhook, and they email from there. Don't promise auto-email.",
+          "- It cannot use the seller's own Stripe account. Matrix is",
+          "  merchant of record by design; funds settle into Matrix and the",
+          "  seller withdraws separately.",
+          "- continue_url, once set, applies to ALL future buyers of that",
+          "  link \u2014 not the one already-paid customer who is standing on",
+          "  the Matrix page right now. Don't promise retroactive redirects.",
+          "",
+          "\u2550\u2550\u2550 How to apply this to a real conversation \u2550\u2550\u2550",
+          "",
+          "Listen to what the seller is trying to accomplish, not what",
+          'arguments they name. They will rarely use the words "webhook"',
+          `or "URL"; they'll talk about their business outcome. "I want my`,
+          'site to know when someone buys" is a webhook. "After they pay,',
+          'send them to my page" is continue_url. "Auto-deliver the',
+          'download" is both \u2014 their server needs to know (webhook) and',
+          "the buyer needs to land somewhere (continue_url, often the",
+          "download page).",
+          "",
+          "If you can't infer what the seller wants from the conversation",
+          "so far, ask \u2014 but always in plain business language. Examples",
+          "of how to phrase questions:",
+          '  \u2713 "Where should buyers land after paying \u2014 your site, or no',
+          '     preference?"',
+          '  \u2713 "When someone pays, does anything need to happen',
+          "     automatically on your end \u2014 like delivering a file or",
+          '     updating your records?"',
+          `  \u2717 "What's your continue_url?"`,
+          '  \u2717 "Do you want a webhook?"',
+          "",
+          "Reuse what the seller has already shared. If a domain or page",
+          "URL came up earlier in the conversation, use it without",
+====================================================================================================
+# line 127693
+      tool(
+        "update_link",
+        [
+          "Retrofit continue_url on an existing payment link. Use this when",
+          "the user already created a link without continue_url and customers",
+          "are landing on the bare Matrix confirmation page instead of being",
+          "offered a button back to the seller's site.",
+          "",
+          "continue_url is read from our DB at success-page render time, not",
+          "baked into Stripe's after-payment redirect \u2014 so this update applies",
+          "to every future checkout (and to anyone reloading their post-payment",
+          "page) with no need to re-issue the link or redeploy the user's site.",
+          "",
+          "The URL must be https and not a Flowith host. Pass empty string to",
+          "clear continue_url. Price, product, and currency are not editable \u2014",
+          "those are immutable for audit and idempotency reasons; mint a new",
+          "link with create_link if any of those need to change.",
+          "",
+          "On success returns { ok: true, link_id, continue_url }.",
+          "On failure returns { ok: false, error }. Common reasons:",
+          "  link not found        \u2014 wrong id, or not owned by this workspace's user.",
+          "  invalid continue_url  \u2014 not https, or points at a Flowith host.",
+        ].join(`
+`),
+        {
+          link_id: exports_external.string().describe(
+            "ID of the payment link to update (from create_link or list_links).",
+          ),
+          continue_url: exports_external.string().describe(
+            "https URL the customer is offered after paying. Must be https, must not be a Flowith host. Pass empty string to clear.",
+          ),
+        },
+        makeUpdateLinkHandler(client),
+      ),
+      tool(
+        "delete_link",
+        [
+          "Remove a payment link from the seller's view. Use whenever the",
+          `seller wants a link gone \u2014 they'll say things like "delete that",`,
+          '"remove the test one", "cancel that link", "get rid of it".',
+          "Don't ask which technical action \u2014 pick this tool, the system",
+          "handles the right outcome based on whether anyone has paid.",
+          "",
+          "Two outcomes from one call. The response tells you which:",
+          "",
+          `  action: "soft_deleted"  \u2014 the link had no payments. It's gone:`,
+          "    deactivated on Stripe (no future buyers can pay) AND removed",
+          `    from the seller's link list. Reply naturally: "Done, deleted."`,
+          "",
+          '  action: "deactivated"   \u2014 the link had {payment_count} payments.',
+          "    Stripe stops accepting new charges, but the row stays visible",
+          "    in the seller's list (now marked inactive) so they can still",
+          "    see the payment history attributable to it. This is correct,",
+          "    not a workaround \u2014 payment history needs the link row to stay.",
+          "    Tell the seller in plain language, e.g.:",
+          '      "I disabled this link so no new customers can pay through',
+          "      it. I kept it in your list since 3 payments came through \u2014",
+          `      you'll still see those in your revenue records."`,
+          "    Don't make it sound like a partial failure; it isn't.",
+          "",
+          "Idempotent in spirit: a second delete on the same link returns",
+          '{ ok: false, error: "link not found" }, since the row is already',
+          "gone or already deactivated. Treat that as a no-op success in the",
+          "seller's mental model.",
+          "",
+          "Cannot be undone through any tool. Don't promise an undo.",
+          "Refuse if you're uncertain which link the seller means \u2014 ask",
+          "first, then delete. Bulk deletion of multiple links is not",
+          "supported in one call; loop the tool with confirmation if the",
+          "seller asks to clear several.",
+          "",
+          "On failure returns { ok: false, error }. Common reasons:",
+          "  link not found  \u2014 wrong id, already deleted, or not in this workspace.",
+        ].join(`
+`),
+        {
+          link_id: exports_external.string().describe(
+            "ID of the payment link to delete (from create_link or list_links).",
+          ),
+        },
+        makeDeleteLinkHandler(client),
+      ),
+      tool(
+        "list_links",
+        'List payment links created in this workspace. Returns URLs, amounts, and statuses. Use to answer "what links have we sent?" or "do we already have a link for X?". Returns an empty list if no links match.',
+        {
+          status: exports_external.enum(["active", "inactive", "expired"]).optional().describe(
+            "Filter by link status.",
+          ),
+          limit: exports_external.number().int().positive().max(100).optional().describe(
+====================================================================================================
+# line 127727
+      tool(
+        "delete_link",
+        [
+          "Remove a payment link from the seller's view. Use whenever the",
+          `seller wants a link gone \u2014 they'll say things like "delete that",`,
+          '"remove the test one", "cancel that link", "get rid of it".',
+          "Don't ask which technical action \u2014 pick this tool, the system",
+          "handles the right outcome based on whether anyone has paid.",
+          "",
+          "Two outcomes from one call. The response tells you which:",
+          "",
+          `  action: "soft_deleted"  \u2014 the link had no payments. It's gone:`,
+          "    deactivated on Stripe (no future buyers can pay) AND removed",
+          `    from the seller's link list. Reply naturally: "Done, deleted."`,
+          "",
+          '  action: "deactivated"   \u2014 the link had {payment_count} payments.',
+          "    Stripe stops accepting new charges, but the row stays visible",
+          "    in the seller's list (now marked inactive) so they can still",
+          "    see the payment history attributable to it. This is correct,",
+          "    not a workaround \u2014 payment history needs the link row to stay.",
+          "    Tell the seller in plain language, e.g.:",
+          '      "I disabled this link so no new customers can pay through',
+          "      it. I kept it in your list since 3 payments came through \u2014",
+          `      you'll still see those in your revenue records."`,
+          "    Don't make it sound like a partial failure; it isn't.",
+          "",
+          "Idempotent in spirit: a second delete on the same link returns",
+          '{ ok: false, error: "link not found" }, since the row is already',
+          "gone or already deactivated. Treat that as a no-op success in the",
+          "seller's mental model.",
+          "",
+          "Cannot be undone through any tool. Don't promise an undo.",
+          "Refuse if you're uncertain which link the seller means \u2014 ask",
+          "first, then delete. Bulk deletion of multiple links is not",
+          "supported in one call; loop the tool with confirmation if the",
+          "seller asks to clear several.",
+          "",
+          "On failure returns { ok: false, error }. Common reasons:",
+          "  link not found  \u2014 wrong id, already deleted, or not in this workspace.",
+        ].join(`
+`),
+        {
+          link_id: exports_external.string().describe(
+            "ID of the payment link to delete (from create_link or list_links).",
+          ),
+        },
+        makeDeleteLinkHandler(client),
+      ),
+      tool(
+        "list_links",
+        'List payment links created in this workspace. Returns URLs, amounts, and statuses. Use to answer "what links have we sent?" or "do we already have a link for X?". Returns an empty list if no links match.',
+        {
+          status: exports_external.enum(["active", "inactive", "expired"]).optional().describe(
+            "Filter by link status.",
+          ),
+          limit: exports_external.number().int().positive().max(100).optional().describe(
+            "Max results (default 20, max 100).",
+          ),
+          cursor: exports_external.string().optional().describe(
+            "Pagination cursor from previous response.",
+          ),
+        },
+        makeListLinksHandler(client, deps.workspaceId),
+      ),
+      tool(
+        "list_payments",
+        "List payments received for this workspace. Each entry includes amount, currency, customer email, status, and `link_id` (the id of the payment link it paid). This is how you find out whether a `create_link` was paid: scan the list for an entry whose `link_id` matches the link's `id`, or filter by `status: \"succeeded\"` for recent successful payments. Returns an empty list if no payments match yet \u2014 the customer simply hasn't completed checkout.",
+        {
+          status: exports_external.enum(["succeeded", "refunded", "disputed", "failed"]).optional()
+            .describe("Filter by payment status."),
+          limit: exports_external.number().int().positive().max(100).optional().describe(
+            "Max results (default 20, max 100).",
+          ),
+          cursor: exports_external.string().optional().describe(
+            "Pagination cursor from previous response.",
+          ),
+        },
+        makeListPaymentsHandler(client, deps.workspaceId),
+      ),
+      tool(
+        "get_stats",
+        "Get revenue statistics for this workspace. Returns total received amount, payment count grouped by currency, and total link count.",
+        {},
+        makeGetStatsHandler(client, deps.workspaceId),
+      ),
+      tool(
+        "get_balance",
+        [
+          "What is the user's available withdrawable balance? Returns one row per currency.",
+          "",
+====================================================================================================
+# line 127775
+      tool(
+        "list_links",
+        'List payment links created in this workspace. Returns URLs, amounts, and statuses. Use to answer "what links have we sent?" or "do we already have a link for X?". Returns an empty list if no links match.',
+        {
+          status: exports_external.enum(["active", "inactive", "expired"]).optional().describe(
+            "Filter by link status.",
+          ),
+          limit: exports_external.number().int().positive().max(100).optional().describe(
+            "Max results (default 20, max 100).",
+          ),
+          cursor: exports_external.string().optional().describe(
+            "Pagination cursor from previous response.",
+          ),
+        },
+        makeListLinksHandler(client, deps.workspaceId),
+      ),
+      tool(
+        "list_payments",
+        "List payments received for this workspace. Each entry includes amount, currency, customer email, status, and `link_id` (the id of the payment link it paid). This is how you find out whether a `create_link` was paid: scan the list for an entry whose `link_id` matches the link's `id`, or filter by `status: \"succeeded\"` for recent successful payments. Returns an empty list if no payments match yet \u2014 the customer simply hasn't completed checkout.",
+        {
+          status: exports_external.enum(["succeeded", "refunded", "disputed", "failed"]).optional()
+            .describe("Filter by payment status."),
+          limit: exports_external.number().int().positive().max(100).optional().describe(
+            "Max results (default 20, max 100).",
+          ),
+          cursor: exports_external.string().optional().describe(
+            "Pagination cursor from previous response.",
+          ),
+        },
+        makeListPaymentsHandler(client, deps.workspaceId),
+      ),
+      tool(
+        "get_stats",
+        "Get revenue statistics for this workspace. Returns total received amount, payment count grouped by currency, and total link count.",
+        {},
+        makeGetStatsHandler(client, deps.workspaceId),
+      ),
+      tool(
+        "get_balance",
+        [
+          "What is the user's available withdrawable balance? Returns one row per currency.",
+          "",
+          "The number that matters is `available_minor` \u2014 that's the only money the user",
+          "can actually withdraw right now. The other fields are explainability:",
+          "  available = gross_received",
+          "            \u2212 refunded",
+          "            \u2212 disputed",
+          "            \u2212 processing_fees       (Stripe's cut)",
+          "            \u2212 settlement_holdback   (rolling 7-day window)",
+          "            \u2212 liability_reserve     (10% of last 120d, dispute hedge)",
+          "            \u2212 paid_out",
+          "            \u2212 in_flight             (payouts requested but not yet paid)",
+          "",
+          "If `available_minor` is 0 but `gross_received_minor` is large, the user has",
+          "earned money but it's tied up in holdback / reserve / pending payouts \u2014",
+          "explain the breakdown rather than saying 'you have nothing'.",
+          "",
+          "All amounts are in currency minor units (5000 = $50.00 USD).",
+          "Empty `data` array means the user has no payment history yet.",
+          "",
+          "On error returns { ok: false, error: reason }.",
+        ].join(`
+`),
+        {},
+        makeGetBalanceHandler(client, deps.workspaceId),
+      ),
+      tool(
+        "request_payout",
+        [
+          "You are the seller's interpreter for cashing out earnings. They",
+          'will say things like "withdraw my money", "pay me out", "cash',
+          `out $50", "where's my revenue" \u2014 they will not say "request`,
+          'a payout". Your job is to recognize the intent, route them',
+          "through the right surface, and translate the system's response",
+          "into plain language.",
+          "",
+          "\u2550\u2550\u2550 What this system can do for the seller \u2550\u2550\u2550",
+          "",
+          "1. Record a withdrawal intent on Matrix's books.",
+          "   That's all this tool does directly \u2014 it inserts a payout",
+          '   row with status "requested". It does NOT move money.',
+          "",
+          "2. Hand the wire over to a human at Flowith.",
+          "   The actual transfer is manual: Matrix HQ on the seller's",
+          "   Mac POSTs their saved bank details to the gateway, the",
+          "   gateway emails ops via Resend, ops wires the money in 5\u20137",
+          '   business days, ops marks the row "paid". Bank cleartext',
+          "   travels through one HTTPS hop and is never persisted",
+          "   server-side.",
+          "",
+====================================================================================================
+# line 127791
+      tool(
+        "list_payments",
+        "List payments received for this workspace. Each entry includes amount, currency, customer email, status, and `link_id` (the id of the payment link it paid). This is how you find out whether a `create_link` was paid: scan the list for an entry whose `link_id` matches the link's `id`, or filter by `status: \"succeeded\"` for recent successful payments. Returns an empty list if no payments match yet \u2014 the customer simply hasn't completed checkout.",
+        {
+          status: exports_external.enum(["succeeded", "refunded", "disputed", "failed"]).optional()
+            .describe("Filter by payment status."),
+          limit: exports_external.number().int().positive().max(100).optional().describe(
+            "Max results (default 20, max 100).",
+          ),
+          cursor: exports_external.string().optional().describe(
+            "Pagination cursor from previous response.",
+          ),
+        },
+        makeListPaymentsHandler(client, deps.workspaceId),
+      ),
+      tool(
+        "get_stats",
+        "Get revenue statistics for this workspace. Returns total received amount, payment count grouped by currency, and total link count.",
+        {},
+        makeGetStatsHandler(client, deps.workspaceId),
+      ),
+      tool(
+        "get_balance",
+        [
+          "What is the user's available withdrawable balance? Returns one row per currency.",
+          "",
+          "The number that matters is `available_minor` \u2014 that's the only money the user",
+          "can actually withdraw right now. The other fields are explainability:",
+          "  available = gross_received",
+          "            \u2212 refunded",
+          "            \u2212 disputed",
+          "            \u2212 processing_fees       (Stripe's cut)",
+          "            \u2212 settlement_holdback   (rolling 7-day window)",
+          "            \u2212 liability_reserve     (10% of last 120d, dispute hedge)",
+          "            \u2212 paid_out",
+          "            \u2212 in_flight             (payouts requested but not yet paid)",
+          "",
+          "If `available_minor` is 0 but `gross_received_minor` is large, the user has",
+          "earned money but it's tied up in holdback / reserve / pending payouts \u2014",
+          "explain the breakdown rather than saying 'you have nothing'.",
+          "",
+          "All amounts are in currency minor units (5000 = $50.00 USD).",
+          "Empty `data` array means the user has no payment history yet.",
+          "",
+          "On error returns { ok: false, error: reason }.",
+        ].join(`
+`),
+        {},
+        makeGetBalanceHandler(client, deps.workspaceId),
+      ),
+      tool(
+        "request_payout",
+        [
+          "You are the seller's interpreter for cashing out earnings. They",
+          'will say things like "withdraw my money", "pay me out", "cash',
+          `out $50", "where's my revenue" \u2014 they will not say "request`,
+          'a payout". Your job is to recognize the intent, route them',
+          "through the right surface, and translate the system's response",
+          "into plain language.",
+          "",
+          "\u2550\u2550\u2550 What this system can do for the seller \u2550\u2550\u2550",
+          "",
+          "1. Record a withdrawal intent on Matrix's books.",
+          "   That's all this tool does directly \u2014 it inserts a payout",
+          '   row with status "requested". It does NOT move money.',
+          "",
+          "2. Hand the wire over to a human at Flowith.",
+          "   The actual transfer is manual: Matrix HQ on the seller's",
+          "   Mac POSTs their saved bank details to the gateway, the",
+          "   gateway emails ops via Resend, ops wires the money in 5\u20137",
+          '   business days, ops marks the row "paid". Bank cleartext',
+          "   travels through one HTTPS hop and is never persisted",
+          "   server-side.",
+          "",
+          "3. Quote the seller the actual amount they'll receive.",
+          "   The response carries `fee_minor` (Matrix's 20% platform",
+          "   fee) and `net_minor` (gross \u2212 fee). Use net_minor when the",
+          '   seller asks "how much will I actually get".',
+          "",
+          "\u2550\u2550\u2550 What this system can NOT do (be honest about these) \u2550\u2550\u2550",
+          "",
+          "- It cannot wire money on its own. There is no bank API; a",
+          "  human at Flowith handles each request manually. If the",
+          "  seller wants instant payouts, that's a no.",
+          "- It cannot process a request without bank details. Bank",
+          "  credentials live only on the seller's Mac in Matrix HQ. If",
+          "  you call this tool from a chat-only context, ops gets a",
+          "  payout row they can't act on. ALWAYS route the seller to",
+          "  HQ \u2192 Assets \u2192 Agent Revenue \u2192 Withdraw to do this; do not",
+          "  call request_payout yourself.",
+====================================================================================================
+# line 127806
+      tool(
+        "get_stats",
+        "Get revenue statistics for this workspace. Returns total received amount, payment count grouped by currency, and total link count.",
+        {},
+        makeGetStatsHandler(client, deps.workspaceId),
+      ),
+      tool(
+        "get_balance",
+        [
+          "What is the user's available withdrawable balance? Returns one row per currency.",
+          "",
+          "The number that matters is `available_minor` \u2014 that's the only money the user",
+          "can actually withdraw right now. The other fields are explainability:",
+          "  available = gross_received",
+          "            \u2212 refunded",
+          "            \u2212 disputed",
+          "            \u2212 processing_fees       (Stripe's cut)",
+          "            \u2212 settlement_holdback   (rolling 7-day window)",
+          "            \u2212 liability_reserve     (10% of last 120d, dispute hedge)",
+          "            \u2212 paid_out",
+          "            \u2212 in_flight             (payouts requested but not yet paid)",
+          "",
+          "If `available_minor` is 0 but `gross_received_minor` is large, the user has",
+          "earned money but it's tied up in holdback / reserve / pending payouts \u2014",
+          "explain the breakdown rather than saying 'you have nothing'.",
+          "",
+          "All amounts are in currency minor units (5000 = $50.00 USD).",
+          "Empty `data` array means the user has no payment history yet.",
+          "",
+          "On error returns { ok: false, error: reason }.",
+        ].join(`
+`),
+        {},
+        makeGetBalanceHandler(client, deps.workspaceId),
+      ),
+      tool(
+        "request_payout",
+        [
+          "You are the seller's interpreter for cashing out earnings. They",
+          'will say things like "withdraw my money", "pay me out", "cash',
+          `out $50", "where's my revenue" \u2014 they will not say "request`,
+          'a payout". Your job is to recognize the intent, route them',
+          "through the right surface, and translate the system's response",
+          "into plain language.",
+          "",
+          "\u2550\u2550\u2550 What this system can do for the seller \u2550\u2550\u2550",
+          "",
+          "1. Record a withdrawal intent on Matrix's books.",
+          "   That's all this tool does directly \u2014 it inserts a payout",
+          '   row with status "requested". It does NOT move money.',
+          "",
+          "2. Hand the wire over to a human at Flowith.",
+          "   The actual transfer is manual: Matrix HQ on the seller's",
+          "   Mac POSTs their saved bank details to the gateway, the",
+          "   gateway emails ops via Resend, ops wires the money in 5\u20137",
+          '   business days, ops marks the row "paid". Bank cleartext',
+          "   travels through one HTTPS hop and is never persisted",
+          "   server-side.",
+          "",
+          "3. Quote the seller the actual amount they'll receive.",
+          "   The response carries `fee_minor` (Matrix's 20% platform",
+          "   fee) and `net_minor` (gross \u2212 fee). Use net_minor when the",
+          '   seller asks "how much will I actually get".',
+          "",
+          "\u2550\u2550\u2550 What this system can NOT do (be honest about these) \u2550\u2550\u2550",
+          "",
+          "- It cannot wire money on its own. There is no bank API; a",
+          "  human at Flowith handles each request manually. If the",
+          "  seller wants instant payouts, that's a no.",
+          "- It cannot process a request without bank details. Bank",
+          "  credentials live only on the seller's Mac in Matrix HQ. If",
+          "  you call this tool from a chat-only context, ops gets a",
+          "  payout row they can't act on. ALWAYS route the seller to",
+          "  HQ \u2192 Assets \u2192 Agent Revenue \u2192 Withdraw to do this; do not",
+          "  call request_payout yourself.",
+          "- It cannot release money tied up in holdback or reserve.",
+          "  `get_balance` returns the only number that's actually",
+          "  withdrawable: `available_minor`. Don't promise anything",
+          "  larger.",
+          "- It cannot pay below the minimum. The gateway rejects with",
+          "  422 BELOW_MINIMUM when gross_minor < 1000 (about USD $10",
+          "  in two-decimal currencies; for zero-decimal like JPY the",
+          "  threshold still applies as 1000 minor units).",
+          "",
+          "\u2550\u2550\u2550 How to apply this to a real conversation \u2550\u2550\u2550",
+          "",
+          "Listen for the cash-out intent regardless of phrasing. If",
+          "the seller is anywhere on that path, route them to HQ \u2014 do",
+          "NOT call this tool yourself.",
+          "",
+====================================================================================================
+# line 127812
+      tool(
+        "get_balance",
+        [
+          "What is the user's available withdrawable balance? Returns one row per currency.",
+          "",
+          "The number that matters is `available_minor` \u2014 that's the only money the user",
+          "can actually withdraw right now. The other fields are explainability:",
+          "  available = gross_received",
+          "            \u2212 refunded",
+          "            \u2212 disputed",
+          "            \u2212 processing_fees       (Stripe's cut)",
+          "            \u2212 settlement_holdback   (rolling 7-day window)",
+          "            \u2212 liability_reserve     (10% of last 120d, dispute hedge)",
+          "            \u2212 paid_out",
+          "            \u2212 in_flight             (payouts requested but not yet paid)",
+          "",
+          "If `available_minor` is 0 but `gross_received_minor` is large, the user has",
+          "earned money but it's tied up in holdback / reserve / pending payouts \u2014",
+          "explain the breakdown rather than saying 'you have nothing'.",
+          "",
+          "All amounts are in currency minor units (5000 = $50.00 USD).",
+          "Empty `data` array means the user has no payment history yet.",
+          "",
+          "On error returns { ok: false, error: reason }.",
+        ].join(`
+`),
+        {},
+        makeGetBalanceHandler(client, deps.workspaceId),
+      ),
+      tool(
+        "request_payout",
+        [
+          "You are the seller's interpreter for cashing out earnings. They",
+          'will say things like "withdraw my money", "pay me out", "cash',
+          `out $50", "where's my revenue" \u2014 they will not say "request`,
+          'a payout". Your job is to recognize the intent, route them',
+          "through the right surface, and translate the system's response",
+          "into plain language.",
+          "",
+          "\u2550\u2550\u2550 What this system can do for the seller \u2550\u2550\u2550",
+          "",
+          "1. Record a withdrawal intent on Matrix's books.",
+          "   That's all this tool does directly \u2014 it inserts a payout",
+          '   row with status "requested". It does NOT move money.',
+          "",
+          "2. Hand the wire over to a human at Flowith.",
+          "   The actual transfer is manual: Matrix HQ on the seller's",
+          "   Mac POSTs their saved bank details to the gateway, the",
+          "   gateway emails ops via Resend, ops wires the money in 5\u20137",
+          '   business days, ops marks the row "paid". Bank cleartext',
+          "   travels through one HTTPS hop and is never persisted",
+          "   server-side.",
+          "",
+          "3. Quote the seller the actual amount they'll receive.",
+          "   The response carries `fee_minor` (Matrix's 20% platform",
+          "   fee) and `net_minor` (gross \u2212 fee). Use net_minor when the",
+          '   seller asks "how much will I actually get".',
+          "",
+          "\u2550\u2550\u2550 What this system can NOT do (be honest about these) \u2550\u2550\u2550",
+          "",
+          "- It cannot wire money on its own. There is no bank API; a",
+          "  human at Flowith handles each request manually. If the",
+          "  seller wants instant payouts, that's a no.",
+          "- It cannot process a request without bank details. Bank",
+          "  credentials live only on the seller's Mac in Matrix HQ. If",
+          "  you call this tool from a chat-only context, ops gets a",
+          "  payout row they can't act on. ALWAYS route the seller to",
+          "  HQ \u2192 Assets \u2192 Agent Revenue \u2192 Withdraw to do this; do not",
+          "  call request_payout yourself.",
+          "- It cannot release money tied up in holdback or reserve.",
+          "  `get_balance` returns the only number that's actually",
+          "  withdrawable: `available_minor`. Don't promise anything",
+          "  larger.",
+          "- It cannot pay below the minimum. The gateway rejects with",
+          "  422 BELOW_MINIMUM when gross_minor < 1000 (about USD $10",
+          "  in two-decimal currencies; for zero-decimal like JPY the",
+          "  threshold still applies as 1000 minor units).",
+          "",
+          "\u2550\u2550\u2550 How to apply this to a real conversation \u2550\u2550\u2550",
+          "",
+          "Listen for the cash-out intent regardless of phrasing. If",
+          "the seller is anywhere on that path, route them to HQ \u2014 do",
+          "NOT call this tool yourself.",
+          "",
+          "Examples of how to phrase the redirect:",
+          '  \u2713 "To withdraw, open Matrix HQ on your Mac \u2192 Assets \u2192',
+          "     Agent Revenue. Your bank details are saved there; the",
+          '     button there will walk you through it."',
+          '  \u2713 "You can cash out from the Agent Revenue panel in HQ \u2014',
+          `     it's the only place that has your bank info on file."`,
+====================================================================================================
+# line 127841
+      tool(
+        "request_payout",
+        [
+          "You are the seller's interpreter for cashing out earnings. They",
+          'will say things like "withdraw my money", "pay me out", "cash',
+          `out $50", "where's my revenue" \u2014 they will not say "request`,
+          'a payout". Your job is to recognize the intent, route them',
+          "through the right surface, and translate the system's response",
+          "into plain language.",
+          "",
+          "\u2550\u2550\u2550 What this system can do for the seller \u2550\u2550\u2550",
+          "",
+          "1. Record a withdrawal intent on Matrix's books.",
+          "   That's all this tool does directly \u2014 it inserts a payout",
+          '   row with status "requested". It does NOT move money.',
+          "",
+          "2. Hand the wire over to a human at Flowith.",
+          "   The actual transfer is manual: Matrix HQ on the seller's",
+          "   Mac POSTs their saved bank details to the gateway, the",
+          "   gateway emails ops via Resend, ops wires the money in 5\u20137",
+          '   business days, ops marks the row "paid". Bank cleartext',
+          "   travels through one HTTPS hop and is never persisted",
+          "   server-side.",
+          "",
+          "3. Quote the seller the actual amount they'll receive.",
+          "   The response carries `fee_minor` (Matrix's 20% platform",
+          "   fee) and `net_minor` (gross \u2212 fee). Use net_minor when the",
+          '   seller asks "how much will I actually get".',
+          "",
+          "\u2550\u2550\u2550 What this system can NOT do (be honest about these) \u2550\u2550\u2550",
+          "",
+          "- It cannot wire money on its own. There is no bank API; a",
+          "  human at Flowith handles each request manually. If the",
+          "  seller wants instant payouts, that's a no.",
+          "- It cannot process a request without bank details. Bank",
+          "  credentials live only on the seller's Mac in Matrix HQ. If",
+          "  you call this tool from a chat-only context, ops gets a",
+          "  payout row they can't act on. ALWAYS route the seller to",
+          "  HQ \u2192 Assets \u2192 Agent Revenue \u2192 Withdraw to do this; do not",
+          "  call request_payout yourself.",
+          "- It cannot release money tied up in holdback or reserve.",
+          "  `get_balance` returns the only number that's actually",
+          "  withdrawable: `available_minor`. Don't promise anything",
+          "  larger.",
+          "- It cannot pay below the minimum. The gateway rejects with",
+          "  422 BELOW_MINIMUM when gross_minor < 1000 (about USD $10",
+          "  in two-decimal currencies; for zero-decimal like JPY the",
+          "  threshold still applies as 1000 minor units).",
+          "",
+          "\u2550\u2550\u2550 How to apply this to a real conversation \u2550\u2550\u2550",
+          "",
+          "Listen for the cash-out intent regardless of phrasing. If",
+          "the seller is anywhere on that path, route them to HQ \u2014 do",
+          "NOT call this tool yourself.",
+          "",
+          "Examples of how to phrase the redirect:",
+          '  \u2713 "To withdraw, open Matrix HQ on your Mac \u2192 Assets \u2192',
+          "     Agent Revenue. Your bank details are saved there; the",
+          '     button there will walk you through it."',
+          '  \u2713 "You can cash out from the Agent Revenue panel in HQ \u2014',
+          `     it's the only place that has your bank info on file."`,
+          `  \u2717 "What's your IBAN?"`,
+          '  \u2717 "Want me to call request_payout for you?"',
+          "",
+          "If the seller asks how much they have available, call",
+          "`get_balance` first and report `available_minor`. If they",
+          "ask the status of an existing withdrawal, use `list_payouts`",
+          'instead \u2014 the wire status ("requested" \u2192 "processing" \u2192',
+          '"paid") lives there.',
+          "",
+          "\u2550\u2550\u2550 Idempotency \u2550\u2550\u2550",
+          "",
+          "If you do call this tool (admin / scripted / non-chat",
+          "contexts), idempotency_key collapses retries onto a single",
+          "payout row. Same key = same row. Generate one from the",
+          "seller's intent so it's deterministic, e.g.",
+          "`withdraw-50usd-2026-06-04-alice`.",
+          "",
+          "\u2550\u2550\u2550 Response shape \u2550\u2550\u2550",
+          "",
+          "  ok: true   \u2014 { ok: true, payout: { id, gross_minor,",
+          '                 fee_minor, net_minor, status: "requested",',
+          "                 ... } }. Use list_payouts to follow the row",
+          '                 to "paid".',
+          "  ok: false  \u2014 { ok: false, error: reason }. Common reasons:",
+          "    INSUFFICIENT_FUNDS \u2014 gross_minor exceeds available_minor.",
+          "                         Re-read get_balance and ask the",
+          "                         seller for a smaller amount.",
+          "    BELOW_MINIMUM      \u2014 under 1000 minor units. Tell the",
+          "                         seller to wait until more earnings",
+====================================================================================================
+# line 127950
+      tool(
+        "list_payouts",
+        [
+          "List the user's withdrawal history.",
+          "",
+          "Each row carries a `status` that drives the user-facing answer:",
+          "  requested  \u2014 pending in queue; ops hasn't picked it up yet.",
+          "  processing \u2014 ops is wiring the money out-of-band.",
+          "  paid       \u2014 money is OUT. `paid_at` is the actual settlement timestamp",
+          "               and `external_ref` is the bank reference.",
+          "  failed     \u2014 wire bounced. No retry; user must request again.",
+          "  canceled   \u2014 user or admin canceled before it processed.",
+          "",
+          `Use this to answer "has my withdrawal landed?" or "where's my money?".`,
+          "",
+          "On error returns { ok: false, error: reason }.",
+        ].join(`
+`),
+        {
+          status: exports_external.enum(["requested", "processing", "paid", "failed", "canceled"])
+            .optional().describe("Filter by payout status."),
+          limit: exports_external.number().int().positive().max(100).optional().describe(
+            "Max results (default 20, max 100).",
+          ),
+          cursor: exports_external.string().optional().describe(
+            "Pagination cursor from previous response.",
+          ),
+        },
+        makeListPayoutsHandler(client, deps.workspaceId),
+      ),
+      tool(
+        "replay_webhook",
+        [
+          "Re-fire the most recent webhook event for a link. Use when the user reports",
+          "their server didn't receive the notification (downtime, deploy, bug fixed).",
+          "",
+          "Inserts a fresh delivery row that the dispatcher picks up on its next tick;",
+          "the original delivery audit trail stays intact. Replay uses the link's",
+          "current webhook_url \u2014 explicitly the 'user fixed their endpoint' signal.",
+          "",
+          "Errors:",
+          "  link_not_found        \u2014 wrong link id, or not yours.",
+          "  link_has_no_webhook   \u2014 link was created without webhook_url.",
+          "  no_prior_delivery     \u2014 no payment yet on this link, nothing to replay.",
+          "  pending_delivery_exists \u2014 there's already a queued attempt; just wait.",
+        ].join(`
+`),
+        {
+          link_id: exports_external.string().describe(
+            "ID of the payment link whose most recent delivery should be replayed.",
+          ),
+        },
+        makeReplayWebhookHandler(client),
+      ),
+      tool(
+        "list_webhook_deliveries",
+        [
+          "Inspect recent webhook delivery attempts for one link. Use to debug user",
+          "reports of missing notifications \u2014 shows attempts, status codes, response",
+          "snippets, and next-attempt time.",
+          "",
+          "Each row has:",
+          "  status         \u2014 pending | delivered | failed",
+          "  attempts       \u2014 N+1th attempt; backoff schedule [1m,5m,30m,2h,12h,1d,2d]",
+          "  last_response  \u2014 { status_code, body_preview } or { error } for transport",
+          "  next_attempt_at \u2014 when the dispatcher will retry (pending only)",
+          "  delivered_at   \u2014 settle timestamp (delivered only)",
+          "",
+          "Returns up to 20 rows by default; bump `limit` to 100.",
+        ].join(`
+`),
+        {
+          link_id: exports_external.string().describe("ID of the payment link to inspect."),
+          limit: exports_external.number().int().positive().max(100).optional().describe(
+            "Max rows (default 20, max 100).",
+          ),
+        },
+        makeListWebhookDeliveriesHandler(client),
+      ),
+      tool(
+        "list_disputes",
+        [
+          "List customer-initiated disputes against this workspace's payments.",
+          "",
+          `A dispute (chargeback) is a customer telling their bank "I didn't authorize`,
+          `this" or "the product wasn't delivered". Flowith holds the disputed money in`,
+          "reserve until the dispute resolves.",
+          "",
+          "Status meanings:",
+          "  needs_response  \u2014 customer is disputing; respond_by is the deadline.",
+====================================================================================================
+# line 127980
+      tool(
+        "replay_webhook",
+        [
+          "Re-fire the most recent webhook event for a link. Use when the user reports",
+          "their server didn't receive the notification (downtime, deploy, bug fixed).",
+          "",
+          "Inserts a fresh delivery row that the dispatcher picks up on its next tick;",
+          "the original delivery audit trail stays intact. Replay uses the link's",
+          "current webhook_url \u2014 explicitly the 'user fixed their endpoint' signal.",
+          "",
+          "Errors:",
+          "  link_not_found        \u2014 wrong link id, or not yours.",
+          "  link_has_no_webhook   \u2014 link was created without webhook_url.",
+          "  no_prior_delivery     \u2014 no payment yet on this link, nothing to replay.",
+          "  pending_delivery_exists \u2014 there's already a queued attempt; just wait.",
+        ].join(`
+`),
+        {
+          link_id: exports_external.string().describe(
+            "ID of the payment link whose most recent delivery should be replayed.",
+          ),
+        },
+        makeReplayWebhookHandler(client),
+      ),
+      tool(
+        "list_webhook_deliveries",
+        [
+          "Inspect recent webhook delivery attempts for one link. Use to debug user",
+          "reports of missing notifications \u2014 shows attempts, status codes, response",
+          "snippets, and next-attempt time.",
+          "",
+          "Each row has:",
+          "  status         \u2014 pending | delivered | failed",
+          "  attempts       \u2014 N+1th attempt; backoff schedule [1m,5m,30m,2h,12h,1d,2d]",
+          "  last_response  \u2014 { status_code, body_preview } or { error } for transport",
+          "  next_attempt_at \u2014 when the dispatcher will retry (pending only)",
+          "  delivered_at   \u2014 settle timestamp (delivered only)",
+          "",
+          "Returns up to 20 rows by default; bump `limit` to 100.",
+        ].join(`
+`),
+        {
+          link_id: exports_external.string().describe("ID of the payment link to inspect."),
+          limit: exports_external.number().int().positive().max(100).optional().describe(
+            "Max rows (default 20, max 100).",
+          ),
+        },
+        makeListWebhookDeliveriesHandler(client),
+      ),
+      tool(
+        "list_disputes",
+        [
+          "List customer-initiated disputes against this workspace's payments.",
+          "",
+          `A dispute (chargeback) is a customer telling their bank "I didn't authorize`,
+          `this" or "the product wasn't delivered". Flowith holds the disputed money in`,
+          "reserve until the dispute resolves.",
+          "",
+          "Status meanings:",
+          "  needs_response  \u2014 customer is disputing; respond_by is the deadline.",
+          "                    Flowith will auto-refund at `auto_refund_at` (24h before",
+          "                    `respond_by`) if the user doesn't act.",
+          "  under_review    \u2014 bank is deciding.",
+          "  won             \u2014 Flowith won; money returns to user balance.",
+          "  lost            \u2014 Flowith lost; money is gone, plus a Stripe dispute fee.",
+          "  warning_closed  \u2014 soft warning, no money moved.",
+          "",
+          "There is no agent-side evidence-upload yet \u2014 this tool is read-only. If the",
+          "user asks how to fight a dispute, tell them to gather proof of delivery /",
+          "communication and contact Flowith support before `auto_refund_at`.",
+          "",
+          'Use this to answer "are any payments being disputed?" or to surface a',
+          "warning to the user when they ask about their balance.",
+          "",
+          "On error returns { ok: false, error: reason }.",
+        ].join(`
+`),
+        {
+          status: exports_external.enum([
+            "needs_response",
+            "under_review",
+            "won",
+            "lost",
+            "warning_closed",
+          ]).optional().describe("Filter by dispute status."),
+          limit: exports_external.number().int().positive().max(100).optional().describe(
+            "Max results (default 20, max 100).",
+          ),
+          cursor: exports_external.string().optional().describe(
+            "Pagination cursor from previous response.",
+====================================================================================================
+# line 128004
+      tool(
+        "list_webhook_deliveries",
+        [
+          "Inspect recent webhook delivery attempts for one link. Use to debug user",
+          "reports of missing notifications \u2014 shows attempts, status codes, response",
+          "snippets, and next-attempt time.",
+          "",
+          "Each row has:",
+          "  status         \u2014 pending | delivered | failed",
+          "  attempts       \u2014 N+1th attempt; backoff schedule [1m,5m,30m,2h,12h,1d,2d]",
+          "  last_response  \u2014 { status_code, body_preview } or { error } for transport",
+          "  next_attempt_at \u2014 when the dispatcher will retry (pending only)",
+          "  delivered_at   \u2014 settle timestamp (delivered only)",
+          "",
+          "Returns up to 20 rows by default; bump `limit` to 100.",
+        ].join(`
+`),
+        {
+          link_id: exports_external.string().describe("ID of the payment link to inspect."),
+          limit: exports_external.number().int().positive().max(100).optional().describe(
+            "Max rows (default 20, max 100).",
+          ),
+        },
+        makeListWebhookDeliveriesHandler(client),
+      ),
+      tool(
+        "list_disputes",
+        [
+          "List customer-initiated disputes against this workspace's payments.",
+          "",
+          `A dispute (chargeback) is a customer telling their bank "I didn't authorize`,
+          `this" or "the product wasn't delivered". Flowith holds the disputed money in`,
+          "reserve until the dispute resolves.",
+          "",
+          "Status meanings:",
+          "  needs_response  \u2014 customer is disputing; respond_by is the deadline.",
+          "                    Flowith will auto-refund at `auto_refund_at` (24h before",
+          "                    `respond_by`) if the user doesn't act.",
+          "  under_review    \u2014 bank is deciding.",
+          "  won             \u2014 Flowith won; money returns to user balance.",
+          "  lost            \u2014 Flowith lost; money is gone, plus a Stripe dispute fee.",
+          "  warning_closed  \u2014 soft warning, no money moved.",
+          "",
+          "There is no agent-side evidence-upload yet \u2014 this tool is read-only. If the",
+          "user asks how to fight a dispute, tell them to gather proof of delivery /",
+          "communication and contact Flowith support before `auto_refund_at`.",
+          "",
+          'Use this to answer "are any payments being disputed?" or to surface a',
+          "warning to the user when they ask about their balance.",
+          "",
+          "On error returns { ok: false, error: reason }.",
+        ].join(`
+`),
+        {
+          status: exports_external.enum([
+            "needs_response",
+            "under_review",
+            "won",
+            "lost",
+            "warning_closed",
+          ]).optional().describe("Filter by dispute status."),
+          limit: exports_external.number().int().positive().max(100).optional().describe(
+            "Max results (default 20, max 100).",
+          ),
+          cursor: exports_external.string().optional().describe(
+            "Pagination cursor from previous response.",
+          ),
+        },
+        makeListDisputesHandler(client),
+      ),
+    ],
+  });
+}
+var init_receivable_mcp = __esm(() => {
+  init_zod();
+  init_src4();
+});
+import { mkdir as mkdir61 } from "fs/promises";
+import { dirname as dirname49, isAbsolute as isAbsolute10, join as join84 } from "path";
+import { randomUUID as randomUUID29 } from "crypto";
+function textResult5(payload) {
+  return { content: [{ type: "text", text: JSON.stringify(payload) }] };
+}
+function fail3(error52, extra = {}) {
+  return textResult5({ ok: false, error: error52, ...extra });
+}
+function mediaAgentInstruction(operation, result) {
+  const hookId = typeof result.hookId === "string" ? result.hookId : undefined;
+  const plannedOutputPath = typeof result.plannedOutputPath === "string"
+    ? result.plannedOutputPath
+====================================================================================================
+# line 128029
+      tool(
+        "list_disputes",
+        [
+          "List customer-initiated disputes against this workspace's payments.",
+          "",
+          `A dispute (chargeback) is a customer telling their bank "I didn't authorize`,
+          `this" or "the product wasn't delivered". Flowith holds the disputed money in`,
+          "reserve until the dispute resolves.",
+          "",
+          "Status meanings:",
+          "  needs_response  \u2014 customer is disputing; respond_by is the deadline.",
+          "                    Flowith will auto-refund at `auto_refund_at` (24h before",
+          "                    `respond_by`) if the user doesn't act.",
+          "  under_review    \u2014 bank is deciding.",
+          "  won             \u2014 Flowith won; money returns to user balance.",
+          "  lost            \u2014 Flowith lost; money is gone, plus a Stripe dispute fee.",
+          "  warning_closed  \u2014 soft warning, no money moved.",
+          "",
+          "There is no agent-side evidence-upload yet \u2014 this tool is read-only. If the",
+          "user asks how to fight a dispute, tell them to gather proof of delivery /",
+          "communication and contact Flowith support before `auto_refund_at`.",
+          "",
+          'Use this to answer "are any payments being disputed?" or to surface a',
+          "warning to the user when they ask about their balance.",
+          "",
+          "On error returns { ok: false, error: reason }.",
+        ].join(`
+`),
+        {
+          status: exports_external.enum([
+            "needs_response",
+            "under_review",
+            "won",
+            "lost",
+            "warning_closed",
+          ]).optional().describe("Filter by dispute status."),
+          limit: exports_external.number().int().positive().max(100).optional().describe(
+            "Max results (default 20, max 100).",
+          ),
+          cursor: exports_external.string().optional().describe(
+            "Pagination cursor from previous response.",
+          ),
+        },
+        makeListDisputesHandler(client),
+      ),
+    ],
+  });
+}
+var init_receivable_mcp = __esm(() => {
+  init_zod();
+  init_src4();
+});
+import { mkdir as mkdir61 } from "fs/promises";
+import { dirname as dirname49, isAbsolute as isAbsolute10, join as join84 } from "path";
+import { randomUUID as randomUUID29 } from "crypto";
+function textResult5(payload) {
+  return { content: [{ type: "text", text: JSON.stringify(payload) }] };
+}
+function fail3(error52, extra = {}) {
+  return textResult5({ ok: false, error: error52, ...extra });
+}
+function mediaAgentInstruction(operation, result) {
+  const hookId = typeof result.hookId === "string" ? result.hookId : undefined;
+  const plannedOutputPath = typeof result.plannedOutputPath === "string"
+    ? result.plannedOutputPath
+    : undefined;
+  if (hookId) {
+    return [
+      `Matrix media MCP accepted ${operation} as hook ${hookId}.`,
+      plannedOutputPath ? `Planned output: ${plannedOutputPath}.` : undefined,
+      "Stop this turn after a short acknowledgement. Do not call Bash, Read, ls, find, curl, or any manual polling/verification tool.",
+      "The daemon hook runner will verify the provider result, write the artifact, and wake you with authoritative completion metadata.",
+    ].filter(Boolean).join(" ");
+  }
+  return "Matrix media MCP completed this media operation. Do not call Bash, Read, ls, find, curl, or manual verification unless the user explicitly asks to inspect pixels or debug a corrupted artifact.";
+}
+function mediaFailureAgentInstruction(operation, gatewayError) {
+  if (!gatewayError) return;
+  if (operation !== "video_create") {
+    return "Matrix media MCP reported a gateway failure. Report the status, path, code, requestId, and clientRequestId to the user; do not retry blindly.";
+  }
+  const diagnosticFields = [
+    `status=${gatewayError.status}`,
+    `path=${gatewayError.path}`,
+    gatewayError.code ? `code=${gatewayError.code}` : undefined,
+    gatewayError.requestId ? `requestId=${gatewayError.requestId}` : undefined,
+    gatewayError.clientRequestId ? `clientRequestId=${gatewayError.clientRequestId}` : undefined,
+  ].filter(Boolean).join(", ");
+  if (isRealPersonContentPolicyVideoFailure(gatewayError)) {
+    return [
+====================================================================================================
+# line 128585
+      tool(
+        "character_asset_register",
+        "Register a reusable real-person or character asset for Seedance. Use before video_create when a named @person should stay consistent across videos.",
+        characterAssetRegisterSchema,
+        makeCharacterAssetRegisterHandler(deps),
+        {
+          alwaysLoad: true,
+          searchHint: "media character asset register face person seedance asset uri",
+        },
+      ),
+      tool(
+        "character_asset_list",
+        "List reusable Matrix character assets. Use when the user mentions @name in a video request.",
+        {},
+        makeCharacterAssetListHandler(deps),
+        { alwaysLoad: true, searchHint: "media character asset list @ mention face person" },
+      ),
+      tool(
+        "image_generate",
+        "Generate an image through Matrix media generation. Use this instead of Bash/curl; it handles auth, hook creation, output paths, and artifact metadata.",
+        imageGenerateSchema,
+        makeImageGenerateHandler(deps),
+        {
+          alwaysLoad: true,
+          searchHint: "media image generate gpt-image-2 draw picture illustration",
+        },
+      ),
+      tool(
+        "image_edit",
+        "Edit an existing image through Matrix media generation. Use for restyle, remove, recolor, cleanup, or masked edits.",
+        imageEditSchema,
+        makeImageEditHandler(deps),
+        { alwaysLoad: true, searchHint: "media image edit restyle mask remove recolor cleanup" },
+      ),
+      tool(
+        "video_create",
+        "Create or edit a video through Matrix media generation. Choose one mode: prompt-only; one first_frame; first_frame plus last_frame; or reference_image/reference_video/character_asset with optional reference_audio. Use reference_video for an original video being edited, set aspectRatio to adaptive, and describe changes semantically because selection rectangles are Agent context rather than Seedance masks. Never mix first/last frames with reference mode, and never send reference_audio alone. Use character assets for real or photoreal people.",
+        videoCreateSchema,
+        makeVideoCreateHandler(deps),
+        {
+          alwaysLoad: true,
+          searchHint:
+            "media video create edit seedance reference video first frame last frame character asset reference audio",
+        },
+      ),
+      tool(
+        "audio_generate",
+        "Generate standalone audio through Matrix media generation using Seed Audio 1.0. Supports music, speech, voice cloning from @Audio references, ambience, Foley, sound effects, preset voices, image-guided ambience, output_format, sample_rate, speed, volume, and pitch.",
+        audioGenerateSchema,
+        makeAudioGenerateHandler(deps),
+        {
+          alwaysLoad: true,
+          searchHint:
+            "media audio generate seed audio music speech sound effect voice cloning reference audio fal",
+        },
+      ),
+      tool(
+        "video_status",
+        "Check or download a Matrix media video task. Use taskId from video_create; generationId is optional recovery metadata.",
+        videoStatusSchema,
+        makeVideoStatusHandler(deps),
+        { alwaysLoad: true, searchHint: "media video status poll download seedance task" },
+      ),
+    ],
+  });
+}
+var workRunSchema,
+  asyncSchema,
+  mediaSourceSchema,
+  mediaFileSourceSchema,
+  videoReferenceSchema,
+  characterAssetSelectorSchema;
+var init_media_mcp = __esm(() => {
+  init_zod();
+  init_src4();
+  init_client2();
+  init_character_assets();
+  workRunSchema = exports_external.object({
+    id: exports_external.string().trim().min(1),
+    title: exports_external.string().trim().min(1).optional(),
+    itemId: exports_external.string().trim().min(1).optional(),
+    totalItems: exports_external.number().int().positive().optional(),
+  }).optional();
+  asyncSchema = exports_external.object({
+    mode: exports_external.enum(["async", "sync"]).optional().describe(
+      "Default async: create a Matrix hook and return immediately.",
+    ),
+    timeoutSec: exports_external.number().int().positive().optional(),
+    pollIntervalSec: exports_external.number().int().positive().optional(),
+  }).optional();
+====================================================================================================
+# line 128595
+      tool(
+        "character_asset_list",
+        "List reusable Matrix character assets. Use when the user mentions @name in a video request.",
+        {},
+        makeCharacterAssetListHandler(deps),
+        { alwaysLoad: true, searchHint: "media character asset list @ mention face person" },
+      ),
+      tool(
+        "image_generate",
+        "Generate an image through Matrix media generation. Use this instead of Bash/curl; it handles auth, hook creation, output paths, and artifact metadata.",
+        imageGenerateSchema,
+        makeImageGenerateHandler(deps),
+        {
+          alwaysLoad: true,
+          searchHint: "media image generate gpt-image-2 draw picture illustration",
+        },
+      ),
+      tool(
+        "image_edit",
+        "Edit an existing image through Matrix media generation. Use for restyle, remove, recolor, cleanup, or masked edits.",
+        imageEditSchema,
+        makeImageEditHandler(deps),
+        { alwaysLoad: true, searchHint: "media image edit restyle mask remove recolor cleanup" },
+      ),
+      tool(
+        "video_create",
+        "Create or edit a video through Matrix media generation. Choose one mode: prompt-only; one first_frame; first_frame plus last_frame; or reference_image/reference_video/character_asset with optional reference_audio. Use reference_video for an original video being edited, set aspectRatio to adaptive, and describe changes semantically because selection rectangles are Agent context rather than Seedance masks. Never mix first/last frames with reference mode, and never send reference_audio alone. Use character assets for real or photoreal people.",
+        videoCreateSchema,
+        makeVideoCreateHandler(deps),
+        {
+          alwaysLoad: true,
+          searchHint:
+            "media video create edit seedance reference video first frame last frame character asset reference audio",
+        },
+      ),
+      tool(
+        "audio_generate",
+        "Generate standalone audio through Matrix media generation using Seed Audio 1.0. Supports music, speech, voice cloning from @Audio references, ambience, Foley, sound effects, preset voices, image-guided ambience, output_format, sample_rate, speed, volume, and pitch.",
+        audioGenerateSchema,
+        makeAudioGenerateHandler(deps),
+        {
+          alwaysLoad: true,
+          searchHint:
+            "media audio generate seed audio music speech sound effect voice cloning reference audio fal",
+        },
+      ),
+      tool(
+        "video_status",
+        "Check or download a Matrix media video task. Use taskId from video_create; generationId is optional recovery metadata.",
+        videoStatusSchema,
+        makeVideoStatusHandler(deps),
+        { alwaysLoad: true, searchHint: "media video status poll download seedance task" },
+      ),
+    ],
+  });
+}
+var workRunSchema,
+  asyncSchema,
+  mediaSourceSchema,
+  mediaFileSourceSchema,
+  videoReferenceSchema,
+  characterAssetSelectorSchema;
+var init_media_mcp = __esm(() => {
+  init_zod();
+  init_src4();
+  init_client2();
+  init_character_assets();
+  workRunSchema = exports_external.object({
+    id: exports_external.string().trim().min(1),
+    title: exports_external.string().trim().min(1).optional(),
+    itemId: exports_external.string().trim().min(1).optional(),
+    totalItems: exports_external.number().int().positive().optional(),
+  }).optional();
+  asyncSchema = exports_external.object({
+    mode: exports_external.enum(["async", "sync"]).optional().describe(
+      "Default async: create a Matrix hook and return immediately.",
+    ),
+    timeoutSec: exports_external.number().int().positive().optional(),
+    pollIntervalSec: exports_external.number().int().positive().optional(),
+  }).optional();
+  mediaSourceSchema = exports_external.object({
+    type: exports_external.enum(["path", "url", "asset_uri"]),
+    value: exports_external.string().trim().min(1),
+  });
+  mediaFileSourceSchema = exports_external.object({
+    type: exports_external.enum(["path", "url"]),
+    value: exports_external.string().trim().min(1),
+  });
+  videoReferenceSchema = exports_external.object({
+    role: exports_external.enum([
+====================================================================================================
+# line 128602
+      tool(
+        "image_generate",
+        "Generate an image through Matrix media generation. Use this instead of Bash/curl; it handles auth, hook creation, output paths, and artifact metadata.",
+        imageGenerateSchema,
+        makeImageGenerateHandler(deps),
+        {
+          alwaysLoad: true,
+          searchHint: "media image generate gpt-image-2 draw picture illustration",
+        },
+      ),
+      tool(
+        "image_edit",
+        "Edit an existing image through Matrix media generation. Use for restyle, remove, recolor, cleanup, or masked edits.",
+        imageEditSchema,
+        makeImageEditHandler(deps),
+        { alwaysLoad: true, searchHint: "media image edit restyle mask remove recolor cleanup" },
+      ),
+      tool(
+        "video_create",
+        "Create or edit a video through Matrix media generation. Choose one mode: prompt-only; one first_frame; first_frame plus last_frame; or reference_image/reference_video/character_asset with optional reference_audio. Use reference_video for an original video being edited, set aspectRatio to adaptive, and describe changes semantically because selection rectangles are Agent context rather than Seedance masks. Never mix first/last frames with reference mode, and never send reference_audio alone. Use character assets for real or photoreal people.",
+        videoCreateSchema,
+        makeVideoCreateHandler(deps),
+        {
+          alwaysLoad: true,
+          searchHint:
+            "media video create edit seedance reference video first frame last frame character asset reference audio",
+        },
+      ),
+      tool(
+        "audio_generate",
+        "Generate standalone audio through Matrix media generation using Seed Audio 1.0. Supports music, speech, voice cloning from @Audio references, ambience, Foley, sound effects, preset voices, image-guided ambience, output_format, sample_rate, speed, volume, and pitch.",
+        audioGenerateSchema,
+        makeAudioGenerateHandler(deps),
+        {
+          alwaysLoad: true,
+          searchHint:
+            "media audio generate seed audio music speech sound effect voice cloning reference audio fal",
+        },
+      ),
+      tool(
+        "video_status",
+        "Check or download a Matrix media video task. Use taskId from video_create; generationId is optional recovery metadata.",
+        videoStatusSchema,
+        makeVideoStatusHandler(deps),
+        { alwaysLoad: true, searchHint: "media video status poll download seedance task" },
+      ),
+    ],
+  });
+}
+var workRunSchema,
+  asyncSchema,
+  mediaSourceSchema,
+  mediaFileSourceSchema,
+  videoReferenceSchema,
+  characterAssetSelectorSchema;
+var init_media_mcp = __esm(() => {
+  init_zod();
+  init_src4();
+  init_client2();
+  init_character_assets();
+  workRunSchema = exports_external.object({
+    id: exports_external.string().trim().min(1),
+    title: exports_external.string().trim().min(1).optional(),
+    itemId: exports_external.string().trim().min(1).optional(),
+    totalItems: exports_external.number().int().positive().optional(),
+  }).optional();
+  asyncSchema = exports_external.object({
+    mode: exports_external.enum(["async", "sync"]).optional().describe(
+      "Default async: create a Matrix hook and return immediately.",
+    ),
+    timeoutSec: exports_external.number().int().positive().optional(),
+    pollIntervalSec: exports_external.number().int().positive().optional(),
+  }).optional();
+  mediaSourceSchema = exports_external.object({
+    type: exports_external.enum(["path", "url", "asset_uri"]),
+    value: exports_external.string().trim().min(1),
+  });
+  mediaFileSourceSchema = exports_external.object({
+    type: exports_external.enum(["path", "url"]),
+    value: exports_external.string().trim().min(1),
+  });
+  videoReferenceSchema = exports_external.object({
+    role: exports_external.enum([
+      "first_frame",
+      "last_frame",
+      "reference_image",
+      "reference_video",
+      "character_asset",
+      "reference_audio",
+    ]),
+====================================================================================================
+# line 128612
+      tool(
+        "image_edit",
+        "Edit an existing image through Matrix media generation. Use for restyle, remove, recolor, cleanup, or masked edits.",
+        imageEditSchema,
+        makeImageEditHandler(deps),
+        { alwaysLoad: true, searchHint: "media image edit restyle mask remove recolor cleanup" },
+      ),
+      tool(
+        "video_create",
+        "Create or edit a video through Matrix media generation. Choose one mode: prompt-only; one first_frame; first_frame plus last_frame; or reference_image/reference_video/character_asset with optional reference_audio. Use reference_video for an original video being edited, set aspectRatio to adaptive, and describe changes semantically because selection rectangles are Agent context rather than Seedance masks. Never mix first/last frames with reference mode, and never send reference_audio alone. Use character assets for real or photoreal people.",
+        videoCreateSchema,
+        makeVideoCreateHandler(deps),
+        {
+          alwaysLoad: true,
+          searchHint:
+            "media video create edit seedance reference video first frame last frame character asset reference audio",
+        },
+      ),
+      tool(
+        "audio_generate",
+        "Generate standalone audio through Matrix media generation using Seed Audio 1.0. Supports music, speech, voice cloning from @Audio references, ambience, Foley, sound effects, preset voices, image-guided ambience, output_format, sample_rate, speed, volume, and pitch.",
+        audioGenerateSchema,
+        makeAudioGenerateHandler(deps),
+        {
+          alwaysLoad: true,
+          searchHint:
+            "media audio generate seed audio music speech sound effect voice cloning reference audio fal",
+        },
+      ),
+      tool(
+        "video_status",
+        "Check or download a Matrix media video task. Use taskId from video_create; generationId is optional recovery metadata.",
+        videoStatusSchema,
+        makeVideoStatusHandler(deps),
+        { alwaysLoad: true, searchHint: "media video status poll download seedance task" },
+      ),
+    ],
+  });
+}
+var workRunSchema,
+  asyncSchema,
+  mediaSourceSchema,
+  mediaFileSourceSchema,
+  videoReferenceSchema,
+  characterAssetSelectorSchema;
+var init_media_mcp = __esm(() => {
+  init_zod();
+  init_src4();
+  init_client2();
+  init_character_assets();
+  workRunSchema = exports_external.object({
+    id: exports_external.string().trim().min(1),
+    title: exports_external.string().trim().min(1).optional(),
+    itemId: exports_external.string().trim().min(1).optional(),
+    totalItems: exports_external.number().int().positive().optional(),
+  }).optional();
+  asyncSchema = exports_external.object({
+    mode: exports_external.enum(["async", "sync"]).optional().describe(
+      "Default async: create a Matrix hook and return immediately.",
+    ),
+    timeoutSec: exports_external.number().int().positive().optional(),
+    pollIntervalSec: exports_external.number().int().positive().optional(),
+  }).optional();
+  mediaSourceSchema = exports_external.object({
+    type: exports_external.enum(["path", "url", "asset_uri"]),
+    value: exports_external.string().trim().min(1),
+  });
+  mediaFileSourceSchema = exports_external.object({
+    type: exports_external.enum(["path", "url"]),
+    value: exports_external.string().trim().min(1),
+  });
+  videoReferenceSchema = exports_external.object({
+    role: exports_external.enum([
+      "first_frame",
+      "last_frame",
+      "reference_image",
+      "reference_video",
+      "character_asset",
+      "reference_audio",
+    ]),
+    source: mediaSourceSchema,
+  });
+  characterAssetSelectorSchema = exports_external.object({
+    name: exports_external.string().trim().min(1).optional(),
+    assetUri: exports_external.string().trim().min(1).optional(),
+  });
+});
+function jsonToolResult2(payload) {
+  return { content: [{ type: "text", text: JSON.stringify(payload) }] };
+}
+====================================================================================================
+# line 128619
+      tool(
+        "video_create",
+        "Create or edit a video through Matrix media generation. Choose one mode: prompt-only; one first_frame; first_frame plus last_frame; or reference_image/reference_video/character_asset with optional reference_audio. Use reference_video for an original video being edited, set aspectRatio to adaptive, and describe changes semantically because selection rectangles are Agent context rather than Seedance masks. Never mix first/last frames with reference mode, and never send reference_audio alone. Use character assets for real or photoreal people.",
+        videoCreateSchema,
+        makeVideoCreateHandler(deps),
+        {
+          alwaysLoad: true,
+          searchHint:
+            "media video create edit seedance reference video first frame last frame character asset reference audio",
+        },
+      ),
+      tool(
+        "audio_generate",
+        "Generate standalone audio through Matrix media generation using Seed Audio 1.0. Supports music, speech, voice cloning from @Audio references, ambience, Foley, sound effects, preset voices, image-guided ambience, output_format, sample_rate, speed, volume, and pitch.",
+        audioGenerateSchema,
+        makeAudioGenerateHandler(deps),
+        {
+          alwaysLoad: true,
+          searchHint:
+            "media audio generate seed audio music speech sound effect voice cloning reference audio fal",
+        },
+      ),
+      tool(
+        "video_status",
+        "Check or download a Matrix media video task. Use taskId from video_create; generationId is optional recovery metadata.",
+        videoStatusSchema,
+        makeVideoStatusHandler(deps),
+        { alwaysLoad: true, searchHint: "media video status poll download seedance task" },
+      ),
+    ],
+  });
+}
+var workRunSchema,
+  asyncSchema,
+  mediaSourceSchema,
+  mediaFileSourceSchema,
+  videoReferenceSchema,
+  characterAssetSelectorSchema;
+var init_media_mcp = __esm(() => {
+  init_zod();
+  init_src4();
+  init_client2();
+  init_character_assets();
+  workRunSchema = exports_external.object({
+    id: exports_external.string().trim().min(1),
+    title: exports_external.string().trim().min(1).optional(),
+    itemId: exports_external.string().trim().min(1).optional(),
+    totalItems: exports_external.number().int().positive().optional(),
+  }).optional();
+  asyncSchema = exports_external.object({
+    mode: exports_external.enum(["async", "sync"]).optional().describe(
+      "Default async: create a Matrix hook and return immediately.",
+    ),
+    timeoutSec: exports_external.number().int().positive().optional(),
+    pollIntervalSec: exports_external.number().int().positive().optional(),
+  }).optional();
+  mediaSourceSchema = exports_external.object({
+    type: exports_external.enum(["path", "url", "asset_uri"]),
+    value: exports_external.string().trim().min(1),
+  });
+  mediaFileSourceSchema = exports_external.object({
+    type: exports_external.enum(["path", "url"]),
+    value: exports_external.string().trim().min(1),
+  });
+  videoReferenceSchema = exports_external.object({
+    role: exports_external.enum([
+      "first_frame",
+      "last_frame",
+      "reference_image",
+      "reference_video",
+      "character_asset",
+      "reference_audio",
+    ]),
+    source: mediaSourceSchema,
+  });
+  characterAssetSelectorSchema = exports_external.object({
+    name: exports_external.string().trim().min(1).optional(),
+    assetUri: exports_external.string().trim().min(1).optional(),
+  });
+});
+function jsonToolResult2(payload) {
+  return { content: [{ type: "text", text: JSON.stringify(payload) }] };
+}
+function asRecord3(value) {
+  return value && typeof value === "object" && !Array.isArray(value) ? value : {};
+}
+function chatMessageSender2(message) {
+  const item = asRecord3(message);
+  const sender = item.sender ?? item.role ?? item.from;
+  return typeof sender === "string" ? sender.toLowerCase() : undefined;
+====================================================================================================
+# line 128630
+      tool(
+        "audio_generate",
+        "Generate standalone audio through Matrix media generation using Seed Audio 1.0. Supports music, speech, voice cloning from @Audio references, ambience, Foley, sound effects, preset voices, image-guided ambience, output_format, sample_rate, speed, volume, and pitch.",
+        audioGenerateSchema,
+        makeAudioGenerateHandler(deps),
+        {
+          alwaysLoad: true,
+          searchHint:
+            "media audio generate seed audio music speech sound effect voice cloning reference audio fal",
+        },
+      ),
+      tool(
+        "video_status",
+        "Check or download a Matrix media video task. Use taskId from video_create; generationId is optional recovery metadata.",
+        videoStatusSchema,
+        makeVideoStatusHandler(deps),
+        { alwaysLoad: true, searchHint: "media video status poll download seedance task" },
+      ),
+    ],
+  });
+}
+var workRunSchema,
+  asyncSchema,
+  mediaSourceSchema,
+  mediaFileSourceSchema,
+  videoReferenceSchema,
+  characterAssetSelectorSchema;
+var init_media_mcp = __esm(() => {
+  init_zod();
+  init_src4();
+  init_client2();
+  init_character_assets();
+  workRunSchema = exports_external.object({
+    id: exports_external.string().trim().min(1),
+    title: exports_external.string().trim().min(1).optional(),
+    itemId: exports_external.string().trim().min(1).optional(),
+    totalItems: exports_external.number().int().positive().optional(),
+  }).optional();
+  asyncSchema = exports_external.object({
+    mode: exports_external.enum(["async", "sync"]).optional().describe(
+      "Default async: create a Matrix hook and return immediately.",
+    ),
+    timeoutSec: exports_external.number().int().positive().optional(),
+    pollIntervalSec: exports_external.number().int().positive().optional(),
+  }).optional();
+  mediaSourceSchema = exports_external.object({
+    type: exports_external.enum(["path", "url", "asset_uri"]),
+    value: exports_external.string().trim().min(1),
+  });
+  mediaFileSourceSchema = exports_external.object({
+    type: exports_external.enum(["path", "url"]),
+    value: exports_external.string().trim().min(1),
+  });
+  videoReferenceSchema = exports_external.object({
+    role: exports_external.enum([
+      "first_frame",
+      "last_frame",
+      "reference_image",
+      "reference_video",
+      "character_asset",
+      "reference_audio",
+    ]),
+    source: mediaSourceSchema,
+  });
+  characterAssetSelectorSchema = exports_external.object({
+    name: exports_external.string().trim().min(1).optional(),
+    assetUri: exports_external.string().trim().min(1).optional(),
+  });
+});
+function jsonToolResult2(payload) {
+  return { content: [{ type: "text", text: JSON.stringify(payload) }] };
+}
+function asRecord3(value) {
+  return value && typeof value === "object" && !Array.isArray(value) ? value : {};
+}
+function chatMessageSender2(message) {
+  const item = asRecord3(message);
+  const sender = item.sender ?? item.role ?? item.from;
+  return typeof sender === "string" ? sender.toLowerCase() : undefined;
+}
+function isUserChatMessage2(message) {
+  const sender = chatMessageSender2(message);
+  return sender === "user" || sender === "human" || sender === "founder" || sender === "owner";
+}
+function isAssistantChatMessage2(message) {
+  const sender = chatMessageSender2(message);
+  return sender === "assistant" || sender === "agent";
+}
+function includesExactRevisionID(text2, revisionID) {
+  return text2.toLowerCase().includes(revisionID.toLowerCase());
+====================================================================================================
+# line 128641
+      tool(
+        "video_status",
+        "Check or download a Matrix media video task. Use taskId from video_create; generationId is optional recovery metadata.",
+        videoStatusSchema,
+        makeVideoStatusHandler(deps),
+        { alwaysLoad: true, searchHint: "media video status poll download seedance task" },
+      ),
+    ],
+  });
+}
+var workRunSchema,
+  asyncSchema,
+  mediaSourceSchema,
+  mediaFileSourceSchema,
+  videoReferenceSchema,
+  characterAssetSelectorSchema;
+var init_media_mcp = __esm(() => {
+  init_zod();
+  init_src4();
+  init_client2();
+  init_character_assets();
+  workRunSchema = exports_external.object({
+    id: exports_external.string().trim().min(1),
+    title: exports_external.string().trim().min(1).optional(),
+    itemId: exports_external.string().trim().min(1).optional(),
+    totalItems: exports_external.number().int().positive().optional(),
+  }).optional();
+  asyncSchema = exports_external.object({
+    mode: exports_external.enum(["async", "sync"]).optional().describe(
+      "Default async: create a Matrix hook and return immediately.",
+    ),
+    timeoutSec: exports_external.number().int().positive().optional(),
+    pollIntervalSec: exports_external.number().int().positive().optional(),
+  }).optional();
+  mediaSourceSchema = exports_external.object({
+    type: exports_external.enum(["path", "url", "asset_uri"]),
+    value: exports_external.string().trim().min(1),
+  });
+  mediaFileSourceSchema = exports_external.object({
+    type: exports_external.enum(["path", "url"]),
+    value: exports_external.string().trim().min(1),
+  });
+  videoReferenceSchema = exports_external.object({
+    role: exports_external.enum([
+      "first_frame",
+      "last_frame",
+      "reference_image",
+      "reference_video",
+      "character_asset",
+      "reference_audio",
+    ]),
+    source: mediaSourceSchema,
+  });
+  characterAssetSelectorSchema = exports_external.object({
+    name: exports_external.string().trim().min(1).optional(),
+    assetUri: exports_external.string().trim().min(1).optional(),
+  });
+});
+function jsonToolResult2(payload) {
+  return { content: [{ type: "text", text: JSON.stringify(payload) }] };
+}
+function asRecord3(value) {
+  return value && typeof value === "object" && !Array.isArray(value) ? value : {};
+}
+function chatMessageSender2(message) {
+  const item = asRecord3(message);
+  const sender = item.sender ?? item.role ?? item.from;
+  return typeof sender === "string" ? sender.toLowerCase() : undefined;
+}
+function isUserChatMessage2(message) {
+  const sender = chatMessageSender2(message);
+  return sender === "user" || sender === "human" || sender === "founder" || sender === "owner";
+}
+function isAssistantChatMessage2(message) {
+  const sender = chatMessageSender2(message);
+  return sender === "assistant" || sender === "agent";
+}
+function includesExactRevisionID(text2, revisionID) {
+  return text2.toLowerCase().includes(revisionID.toLowerCase());
+}
+function hasRestoreExecutionIntent(text2) {
+  if (
+    /\b(?:do\s+not|don't|dont|never|without)\s+(?:restor(?:e|ing|ed)|revert(?:ing|ed)?|roll(?:ing|ed)?\s+back)\b/i
+      .test(text2) ||
+    /(?:\u4E0D\u8981|\u522B|\u52FF|\u65E0\u9700)[^\u3002\uFF01\uFF1F\n]*(?:\u6062\u590D|\u56DE\u6EDA|\u8FD8\u539F)/
+      .test(text2)
+  ) return false;
+  if (
+    /\bhow\s+(?:do|can|could|would|should|to)\b[^?\u3002\n]*(?:restor(?:e|ing|ed)|revert(?:ing|ed)?|roll(?:ing|ed)?\s+back)\b/i
+      .test(text2) ||
+====================================================================================================
+# line 129068
+      tool(
+        "provenance",
+        [
+          "Inspect and explain local workspace file provenance through the same File Service used by Files(New).",
+          "Use metadata.get for identity/current revision, history.list for actor/causal mutation history, access.list for bounded read/preview/download events and rollups, lineage.get for actual copy source/Revision ancestry, and revision.diff to explain content changes.",
+          "Department Space and Department Message participation bound which files and causal fields are visible; redacted history must not be guessed or reconstructed.",
+          "revision.restore is mutating: first read the latest currentRevisionID, then ask the exact confirmation question returned by the tool. Never invent actor or causal fields.",
+        ].join(" "),
+        buildFileProvenanceArgsSchema(),
+        makeFileProvenanceHandler(deps),
+        {
+          alwaysLoad: true,
+          searchHint:
+            "local files provenance metadata history access opened preview download revisions diff restore lineage",
+        },
+      ),
+    ],
+  });
+}
+var FILE_PROVENANCE_ACTIONS,
+  MAX_AGENT_HISTORY_PAGE = 40,
+  MAX_AGENT_DIFF_TEXT_CHARS = 48000,
+  MAX_AGENT_DIFF_LINE_CHARS = 2000;
+var init_file_provenance_mcp = __esm(() => {
+  init_zod();
+  init_src4();
+  init_service();
+  FILE_PROVENANCE_ACTIONS = [
+    "metadata.get",
+    "history.list",
+    "access.list",
+    "lineage.get",
+    "revision.diff",
+    "revision.restore",
+  ];
+});
+function stableFingerprintValue(value) {
+  return JSON.stringify(value, (_key, inner) => {
+    if (inner && typeof inner === "object" && !Array.isArray(inner)) {
+      const sorted = {};
+      for (const key4 of Object.keys(inner).sort()) sorted[key4] = inner[key4];
+      return sorted;
+    }
+    return inner;
+  }) ?? "undefined";
+}
+function defineMcpServerSpec(build, surface) {
+  return { fingerprint: stableFingerprintValue(surface), build };
+}
+function mcpServerSpecsAreCompatible(previous, next) {
+  const previousNames = previous ? Object.keys(previous) : [];
+  const nextNames = next ? Object.keys(next) : [];
+  if (previousNames.length !== nextNames.length) return false;
+  for (const name of nextNames) {
+    const before = previous?.[name];
+    const after = next?.[name];
+    if (!before || !after) return false;
+    if (before.fingerprint !== after.fingerprint) return false;
+  }
+  return true;
+}
+function buildMcpServerConfigMap(specs) {
+  if (!specs) return;
+  const entries = Object.entries(specs);
+  if (entries.length === 0) return;
+  const result = {};
+  for (const [name, spec] of entries) result[name] = spec.build();
+  return result;
+}
+function buildSystemPrimerSection(options) {
+  const nudgeLine = !options.nudgeLanes.postTurn
+    ? "Workspace Proactive Mode is off; this department receives no nudge wakes. It runs from explicit inputs such as user messages, routed work, or time triggers."
+    : options.nudgeLanes.periodic && options.nudgeLanes.proactiveOn
+    ? 'Workspace Proactive Mode is on. As the primary department, you may receive `<wake reason="nudge.post-turn">`, `<wake reason="nudge.periodic">`, and `<wake reason="nudge.proactive-on">` to continue useful work without a new user prompt.'
+    : 'Workspace Proactive Mode is on. This department may receive `<wake reason="nudge.post-turn">` to continue its recent work; periodic and proactive-on nudges are owned exclusively by the primary department.';
+  return `## System Primer \u2014 Agent Company Operating Context
+
+You are a department lead inside a **Matrix Agent Company** at \`${options.workspaceDir}\`. This is a working company of agent departments creating value over time through coding, live-web research, browsers, email, computer actions, files, tools, and peer departments \u2014 in service of long-running objectives and the user's immediate asks.
+
+### Company model
+
+- You are **${options.departmentDisplayName}** (\`${options.departmentId}\`). Other departments are peers with their own ownership; Agents/subagents are same-owner execution seats inside one department.
+- The filesystem is the source of truth. Workspace files are shared company state; your department root is your durable home; peer roots are read-for-context unless a tool grants ownership.
+- Use absolute system paths like \`/tmp\`, \`~/Desktop\`, or \`~/Downloads\` only when the user explicitly tells you to.
+- The job is to advance the relevant Objective, Key Result, or inbox Task and ship the useful next step. Operating posture is precise, calm, practical, proof-driven, and willing to find leverage; legal, safe, honest.
+- User-facing voice is capable, sharp, and alive \u2014 smart, lightly witty when natural.
+
+### Runtime loop
+
+- ${nudgeLine}

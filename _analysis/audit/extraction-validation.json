@@ -1,0 +1,60 @@
+[
+  {
+    "name": "neo-agent",
+    "section": {
+      "sectname": "__bun",
+      "segname": "__BUN",
+      "offset": 60358656,
+      "size": 4816877
+    },
+    "sectionSha256": "00abe73d138e02bcfe6fcfcd39896746b7dc308106496c8c67693af67a5ee325",
+    "jsByteRange": [
+      31,
+      4816775
+    ],
+    "cleanSha256": "21026f0c7b50c35cb5fe7cf129a6d8a16738164bce924fa4ba4f20129287b062",
+    "parse": true,
+    "originalTokens": {
+      "sha256": "4e3f1db9fd8843664b151cd96d80c61c0604a7be01f4e65eccc10c8d55c1ba56",
+      "count": 885878
+    },
+    "formattedTokens": {
+      "sha256": "a98be7f745b5c415d6d98dfe53f22d959f2c60b7486d6250174b54b532f737f2",
+      "count": 881050
+    },
+    "lexicalEquivalent": false,
+    "cleanAstSha256": "41c23256c87c0c6799c2c1130f0f2b0ec051af2d1c1dbcc23c1411b9281805ca",
+    "formattedAstSha256": "41c23256c87c0c6799c2c1130f0f2b0ec051af2d1c1dbcc23c1411b9281805ca",
+    "normalizedAstEquivalent": true,
+    "limitation": "AST comparison normalizes import-specifier order, single-statement blocks, empty statements and expression-free templates. Formatting integrity only, not runtime behavior proof."
+  },
+  {
+    "name": "neo-intelligence",
+    "section": {
+      "sectname": "__bun",
+      "segname": "__BUN",
+      "offset": 60358656,
+      "size": 17631253
+    },
+    "sectionSha256": "8d91332878dd98e214a140c4507c2527bae5b2aaa830d17660f11bf730c75d7d",
+    "jsByteRange": [
+      38,
+      17631151
+    ],
+    "cleanSha256": "e0601c6c0381deef3d873486f3d1f28a68d673e946680bf4ccd6e76113a9e1b2",
+    "parse": true,
+    "originalTokens": {
+      "sha256": "bda46bdec0a08a03c3414c387c37de4068eae551895c96ecea1d1ab1d27fc2b1",
+      "count": 3214104
+    },
+    "formattedTokens": {
+      "sha256": "c83ff7959b1fefcf1816cfe4aba48f92aa5c2fbde389a058648a789d3871b389",
+      "count": 3303552
+    },
+    "lexicalEquivalent": false,
+    "cleanAstSha256": "0585e96dd4711684f902b102f9651de819fd5202298a3f038a39e48756c4e932",
+    "formattedAstSha256": "0585e96dd4711684f902b102f9651de819fd5202298a3f038a39e48756c4e932",
+    "normalizedAstEquivalent": true,
+    "limitation": "AST comparison normalizes import-specifier order, single-statement blocks, empty statements and expression-free templates. Formatting integrity only, not runtime behavior proof."
+  }
+]
