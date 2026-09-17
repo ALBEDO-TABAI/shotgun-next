@@ -1,0 +1,25 @@
+{
+  "_说明": "项目风格档案。一次反馈记 candidate；用户确认或本项目多例成立记 confirmed；模型专属经验记 model_specific 并填 valid_as_of；被推翻记 deprecated，不删除。不回写用户原话，不作为第二份定稿。department 用 VVF 角色词。",
+  "profile_version": "1.1",
+  "project_id": "",
+  "project_name": "",
+  "last_updated": "",
+  "rules": [
+    {
+      "rule_id": "C-001",
+      "department": "director | screenwriter | art | character | cinematography | producer | editor | sound | continuity | prompt",
+      "status": "candidate | confirmed | model_specific | deprecated",
+      "rule": "",
+      "observable_result": "",
+      "applies_to": [],
+      "exceptions": [],
+      "source": "user_feedback | review | take_review",
+      "source_ids": [],
+      "confirmed_by": "",
+      "model_and_version": "",
+      "valid_as_of": "",
+      "last_validated": ""
+    }
+  ],
+  "open_questions": []
+}

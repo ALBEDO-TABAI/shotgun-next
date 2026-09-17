@@ -1,0 +1,610 @@
+{
+  "bundle": "vvf-creative-crew",
+  "version": "1.1.0",
+  "created": "2026-09-12",
+  "based_on": "vvf-creative-crew 1.0.0 (2026-09-09)",
+  "scope": "director and eight standalone creative role skills; file package, not global installation; adds frame description, prompt compilation, generation review and a script-supervisor addon; revised after two independent text trials",
+  "skill_count": 9,
+  "markdown_files": 104,
+  "style_families": 12,
+  "style_profiles": 49,
+  "skills": [
+    {
+      "name": "vvf-art-director",
+      "entry": "addon/vvf-art-director/SKILL.md",
+      "entry_bytes": 3806
+    },
+    {
+      "name": "vvf-character-designer",
+      "entry": "addon/vvf-character-designer/SKILL.md",
+      "entry_bytes": 4006
+    },
+    {
+      "name": "vvf-cinematographer",
+      "entry": "addon/vvf-cinematographer/SKILL.md",
+      "entry_bytes": 2320
+    },
+    {
+      "name": "vvf-editor",
+      "entry": "addon/vvf-editor/SKILL.md",
+      "entry_bytes": 2333
+    },
+    {
+      "name": "vvf-producer",
+      "entry": "addon/vvf-producer/SKILL.md",
+      "entry_bytes": 2411
+    },
+    {
+      "name": "vvf-screenwriter",
+      "entry": "addon/vvf-screenwriter/SKILL.md",
+      "entry_bytes": 2468
+    },
+    {
+      "name": "vvf-script-supervisor",
+      "entry": "addon/vvf-script-supervisor/SKILL.md",
+      "entry_bytes": 3574
+    },
+    {
+      "name": "vvf-sound-director",
+      "entry": "addon/vvf-sound-director/SKILL.md",
+      "entry_bytes": 2378
+    },
+    {
+      "name": "vvf-director-skill",
+      "entry": "director-skill/vvf-director-skill/SKILL.md",
+      "entry_bytes": 4935
+    }
+  ],
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 7330,
+      "sha256": "96684dd91ad73ddacee44afdfcd93605a91931617bcb1c2039722c6897dd3daf"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5431,
+      "sha256": "50441f4d486c8fccb4b288058f419db3e7ce21b8191b0d62e5f8823ea7ec613d"
+    },
+    {
+      "path": "addon/vvf-art-director/SKILL.md",
+      "bytes": 3806,
+      "sha256": "7bbbf16972156e82e44687e5daa029fcfab7283039ca424f8ef43530eadd9d3c"
+    },
+    {
+      "path": "addon/vvf-art-director/examples/repair-shop.md",
+      "bytes": 4404,
+      "sha256": "d0133844f5383bea31db857a6644558e9a6da7ee2d1c710ca228f5e9f71732e8"
+    },
+    {
+      "path": "addon/vvf-art-director/references/continuity-and-handoff.md",
+      "bytes": 3899,
+      "sha256": "452a34852fb27c7877e5739eb536d667fc3b27bd9cea64f829cdf64aef1d98c8"
+    },
+    {
+      "path": "addon/vvf-art-director/references/material-and-color.md",
+      "bytes": 4132,
+      "sha256": "1b37131a87fed7cb9e2cdcf21ab4131a1a3c669232bd7f880339966efef459c2"
+    },
+    {
+      "path": "addon/vvf-art-director/references/realization.md",
+      "bytes": 4791,
+      "sha256": "881ff57798ee9be0185957f6b9bca80efa41b64e5d7ee04eb4a09872bb51f05e"
+    },
+    {
+      "path": "addon/vvf-art-director/references/sources.md",
+      "bytes": 3227,
+      "sha256": "8a0f2f289788557300b2f79ad8f99d27e37c26d70889d86c890e84086d188cbe"
+    },
+    {
+      "path": "addon/vvf-art-director/references/spaces-and-props.md",
+      "bytes": 4646,
+      "sha256": "a205df978507b91b9c774086f30ba41a69b2185d8ceb77d50d4e3d94c37fb95a"
+    },
+    {
+      "path": "addon/vvf-art-director/references/visual-directions.md",
+      "bytes": 4568,
+      "sha256": "ae8cce45417104d478220abf17958e5b8f3613a95c528a3f04df05b489e21e21"
+    },
+    {
+      "path": "addon/vvf-art-director/references/world-and-research.md",
+      "bytes": 4491,
+      "sha256": "eb2726d31f40be50da99bbb00d9548f3525216e04a6a27d6d526f11d075ffdfa"
+    },
+    {
+      "path": "addon/vvf-character-designer/SKILL.md",
+      "bytes": 4006,
+      "sha256": "9e84b82d603760baf96b13771e219eb75fc7b169748eae51bfe46dbeb90b244d"
+    },
+    {
+      "path": "addon/vvf-character-designer/examples/night-shift.md",
+      "bytes": 6423,
+      "sha256": "1dc05e66568ecc3ab0cc89143c04b809a16572358aa4e41bde509d688f3af2f8"
+    },
+    {
+      "path": "addon/vvf-character-designer/references/continuity-and-handoff.md",
+      "bytes": 3958,
+      "sha256": "5d212984fd8d56a6483fad7821affc03acfebd6fa6e8ee6041fa28e2de8d5120"
+    },
+    {
+      "path": "addon/vvf-character-designer/references/costume-and-grooming.md",
+      "bytes": 4367,
+      "sha256": "904435c2919d2839972f3e1244e1c6642270f28c6279b124d007db7c80fb31f8"
+    },
+    {
+      "path": "addon/vvf-character-designer/references/culture-and-evidence.md",
+      "bytes": 3121,
+      "sha256": "d06afa85e0ab446e6cb90ae0537090c2f734c28ac00533303754294a43c2b32d"
+    },
+    {
+      "path": "addon/vvf-character-designer/references/identity-and-form.md",
+      "bytes": 4215,
+      "sha256": "a632e44fd2c04a37cefcd4a4ea98d49803ab10a72046a1307cf9df9ceaff8dff"
+    },
+    {
+      "path": "addon/vvf-character-designer/references/media-and-realization.md",
+      "bytes": 4759,
+      "sha256": "3c765c1eb18b631740723f2cdc6638683e6779c2646034c5c5af1bef816e84fd"
+    },
+    {
+      "path": "addon/vvf-character-designer/references/performance.md",
+      "bytes": 4535,
+      "sha256": "62fb88acb4b45eb6456f579d352b71754922147589aaf9a4e65735b4ed2f8d98"
+    },
+    {
+      "path": "addon/vvf-character-designer/references/sources.md",
+      "bytes": 4368,
+      "sha256": "f56c87030ec45eb77ff78f1717dd38156943acdc56438da07abe95895d14de1f"
+    },
+    {
+      "path": "addon/vvf-cinematographer/SKILL.md",
+      "bytes": 2320,
+      "sha256": "e21d1e117d4b0a4f350a2ca8bc973773224702d61b26b588678669d68f4ee7f9"
+    },
+    {
+      "path": "addon/vvf-cinematographer/examples/small-room.md",
+      "bytes": 1957,
+      "sha256": "534c4b35e4081aabc3c1af26c2f16caa38a160f2964ae5be74e3952dd21beba7"
+    },
+    {
+      "path": "addon/vvf-cinematographer/references/camera-and-coverage.md",
+      "bytes": 4136,
+      "sha256": "3d9ede217019187f437b209226b6651d7101cfa31665e5c841927714ca8b9b37"
+    },
+    {
+      "path": "addon/vvf-cinematographer/references/capture-and-colour.md",
+      "bytes": 2470,
+      "sha256": "ad70e86a58e5a7a2a6d7f7745e90d508bd7ff5cb1b5f4077ff0ee6abc8fb5cee"
+    },
+    {
+      "path": "addon/vvf-cinematographer/references/framing-and-optics.md",
+      "bytes": 2936,
+      "sha256": "1489d84f6ea87c2d4abebd677d0d8265d8a13e4428a3dbe1e4461bd37469ae71"
+    },
+    {
+      "path": "addon/vvf-cinematographer/references/handoff-and-tests.md",
+      "bytes": 2231,
+      "sha256": "b60ce77acef5b243caffc6cb259ea94289e56511d0e39b7ded42faf561f22d62"
+    },
+    {
+      "path": "addon/vvf-cinematographer/references/lighting-design.md",
+      "bytes": 3996,
+      "sha256": "82c9b4c1d39fdbc853d514bf2ad18cf107145457d808d6aa2c93f87f288d4c51"
+    },
+    {
+      "path": "addon/vvf-cinematographer/references/sources.md",
+      "bytes": 1698,
+      "sha256": "885d0389b0053214b2dce330c48ce175e4e96cfbe7361529316429adc53e6b0c"
+    },
+    {
+      "path": "addon/vvf-cinematographer/references/special-situations.md",
+      "bytes": 2618,
+      "sha256": "fc996708d4cc92296d162ccbe25e8f32793b031c66ef79d4d1b221f3cf7d9bfa"
+    },
+    {
+      "path": "addon/vvf-editor/SKILL.md",
+      "bytes": 2333,
+      "sha256": "93748507c3b083df0d316abef1e677e622ab07c04ab13b27187cb71db366924e"
+    },
+    {
+      "path": "addon/vvf-editor/examples/half-glass.md",
+      "bytes": 4141,
+      "sha256": "f55d7f1c39a43a66ea08034db409c0d3562ff4a7103043d099de4d8f935d074a"
+    },
+    {
+      "path": "addon/vvf-editor/references/continuity-time.md",
+      "bytes": 2824,
+      "sha256": "463d6cbe8b346548f24c08df5d41ed908d72ed4b6a9639c3e9e4784c93444c6a"
+    },
+    {
+      "path": "addon/vvf-editor/references/delivery-versions.md",
+      "bytes": 2975,
+      "sha256": "99471ccf28b9643f5a59101811a37449eb992da7abc5cf43fdd17cb5f49783a7"
+    },
+    {
+      "path": "addon/vvf-editor/references/edit-thinking.md",
+      "bytes": 2781,
+      "sha256": "f12ac3fa90245c6153810d5c5dc244e1c4a429b40e2ca65839fd1255897a88f2"
+    },
+    {
+      "path": "addon/vvf-editor/references/sound-handoff.md",
+      "bytes": 2484,
+      "sha256": "ac581808f5296c6dba0fbe8919a39c0ac1bfe4cddd5ea0199561925544ebd309"
+    },
+    {
+      "path": "addon/vvf-editor/references/sources.md",
+      "bytes": 1942,
+      "sha256": "58bafbf8ab782ba6fa19e54160a6addd1d9effc0dda9272652c7935a191fbd04"
+    },
+    {
+      "path": "addon/vvf-editor/references/structure-rhythm.md",
+      "bytes": 2707,
+      "sha256": "da4c26cf4b4a6fb6dbcce165e4765dd36d92bb48211f2c5ba61e9a3541afa831"
+    },
+    {
+      "path": "addon/vvf-producer/SKILL.md",
+      "bytes": 2411,
+      "sha256": "e398b44be06465cb51678302787f1b943f1693e539504f4fcb60afc382e04d54"
+    },
+    {
+      "path": "addon/vvf-producer/examples/tabletop-production.md",
+      "bytes": 4900,
+      "sha256": "d7b3315a66442fd367956e56d875fb049a214d9b6487f29a8335126f31b827cb"
+    },
+    {
+      "path": "addon/vvf-producer/references/budget-options.md",
+      "bytes": 2769,
+      "sha256": "d441ef2800e460bf79beaeb6754bde99c0a494d0c4ab436bc484108d823bb3a0"
+    },
+    {
+      "path": "addon/vvf-producer/references/change-delivery.md",
+      "bytes": 2640,
+      "sha256": "a17148c5d6f63fe5cec246e7cdc0566ab66e8167de2b10829d36458de58b7455"
+    },
+    {
+      "path": "addon/vvf-producer/references/resources-breakdown.md",
+      "bytes": 2899,
+      "sha256": "acc7ddc35a5037015a59dd90991fcc542e4eec29ccd35d3a18a5140a70bb7552"
+    },
+    {
+      "path": "addon/vvf-producer/references/schedule-dependencies.md",
+      "bytes": 2859,
+      "sha256": "f282048bb8c38bcf47581b8e30ca5046bae23eb16ce4a030105b0fd575c3073d"
+    },
+    {
+      "path": "addon/vvf-producer/references/sources.md",
+      "bytes": 1940,
+      "sha256": "f7451d51288f79c8f3650045fd9c5e4765cf7d432d17b1cd9dab15fb771b2176"
+    },
+    {
+      "path": "addon/vvf-producer/references/trials-risk.md",
+      "bytes": 2524,
+      "sha256": "bc5298b09e233ed31a84daa3998b00f4ddf5f93b6faaa95a1acae61f0f607a9c"
+    },
+    {
+      "path": "addon/vvf-screenwriter/SKILL.md",
+      "bytes": 2468,
+      "sha256": "40f5354f215caabd20e5f31a8d27ef81e42b62fe1927fc706b663b948446f7ef"
+    },
+    {
+      "path": "addon/vvf-screenwriter/examples/last-light.md",
+      "bytes": 3196,
+      "sha256": "334b79d31078f61b28f64a5608124412bc0d2767f2e082274a0206848740a548"
+    },
+    {
+      "path": "addon/vvf-screenwriter/references/adaptation-evidence.md",
+      "bytes": 2615,
+      "sha256": "10eef3912e337ebed9abaf93952880f2d94fb71cab521d70ffa375c8ebc61dd9"
+    },
+    {
+      "path": "addon/vvf-screenwriter/references/mode-routing.md",
+      "bytes": 3099,
+      "sha256": "cc41870f0efc2674d3e9e306826b79ea4665a24dade0fb90c4da954bf3fb9c17"
+    },
+    {
+      "path": "addon/vvf-screenwriter/references/revision-handoff.md",
+      "bytes": 2697,
+      "sha256": "45432917cf91b2c7a6eadaeb446b99aec86316e028081c4c73d7b3b7111a1649"
+    },
+    {
+      "path": "addon/vvf-screenwriter/references/scene-behavior-dialogue.md",
+      "bytes": 3050,
+      "sha256": "1e7d63abb5a0c743161e52e1c5158132a477c96bee023d9f256d330d3fef631e"
+    },
+    {
+      "path": "addon/vvf-screenwriter/references/sources.md",
+      "bytes": 2473,
+      "sha256": "894a5d3be45ce5aa4e55675c705b6872220d46adf86389b84cc4c8991b05a3eb"
+    },
+    {
+      "path": "addon/vvf-screenwriter/references/story-architecture.md",
+      "bytes": 3194,
+      "sha256": "f305efd45985d5bfbf82d29652908eeda9efb37ae11a5afa8a9946551219df34"
+    },
+    {
+      "path": "addon/vvf-script-supervisor/SKILL.md",
+      "bytes": 3574,
+      "sha256": "a850cf0efde5763dfe8964510366b125deee7fc5351c485b4f0ba36c77a6952f"
+    },
+    {
+      "path": "addon/vvf-script-supervisor/assets/continuity-ledger.csv",
+      "bytes": 458,
+      "sha256": "421613885b72f467baa60562941eb5ce79e494507f7670ba2b7b226eab4b8ac4"
+    },
+    {
+      "path": "addon/vvf-script-supervisor/assets/project-style-profile.json",
+      "bytes": 960,
+      "sha256": "e753381472c104e1b6dd4ae7aa8acb0c66bed002bbbeeaaa938aa46744699730"
+    },
+    {
+      "path": "addon/vvf-script-supervisor/assets/prompt-version-log.csv",
+      "bytes": 514,
+      "sha256": "328156efa8ee8820d32d324876cdcd3160c7b5dead7d6f5416d85d3a7d09aa81"
+    },
+    {
+      "path": "addon/vvf-script-supervisor/assets/take-log.csv",
+      "bytes": 541,
+      "sha256": "da4dbccc1a8e47f113719c48c7583110b0192a63d70a4bebb63baf0091408fae"
+    },
+    {
+      "path": "addon/vvf-script-supervisor/examples/keys-take-log.md",
+      "bytes": 4521,
+      "sha256": "4f9d8fb2b6ad01cc1a4504a353ec8c235071f19e0ce27d63c893022e083327ea"
+    },
+    {
+      "path": "addon/vvf-script-supervisor/references/continuity-protocol.md",
+      "bytes": 4656,
+      "sha256": "3707cff63160cbb0547c2f5e794334813928b7fe49d022ac86e7af1a57764992"
+    },
+    {
+      "path": "addon/vvf-script-supervisor/references/knowledge-cards.md",
+      "bytes": 3260,
+      "sha256": "033616ab1804dcb4f7efbace396b0370881d140e91562f915b200548681f4cb8"
+    },
+    {
+      "path": "addon/vvf-script-supervisor/references/ledgers.md",
+      "bytes": 3962,
+      "sha256": "9ff1c57a5aa0be21625a39677925417f3aba020d189fb4fb08cad84e99aa6fab"
+    },
+    {
+      "path": "addon/vvf-script-supervisor/references/sources.md",
+      "bytes": 1781,
+      "sha256": "3bf0fb67fd0c1adefd18f4877b5fe07cc7240df21d293ce1e55eb963cea7cf33"
+    },
+    {
+      "path": "addon/vvf-sound-director/SKILL.md",
+      "bytes": 2378,
+      "sha256": "a474f710b870b1695dde4ad38dd89a997812c01e7caef7adde6691d4ba739c24"
+    },
+    {
+      "path": "addon/vvf-sound-director/examples/night-workshop.md",
+      "bytes": 2130,
+      "sha256": "de49697d9cb1cad45b6fc4f34c91c94d2f70574d5caec2bdfd7fd39100cf7879"
+    },
+    {
+      "path": "addon/vvf-sound-director/references/dialogue-and-recording.md",
+      "bytes": 2722,
+      "sha256": "edc1bf79a029e705010cd0fd746de06c187bd49b8e705f6951b0245d3474a799"
+    },
+    {
+      "path": "addon/vvf-sound-director/references/handoff-and-review.md",
+      "bytes": 2449,
+      "sha256": "4c9577f5b785dc60c3548223186331340ec80fdc977ac4069f36dece531ce9ff"
+    },
+    {
+      "path": "addon/vvf-sound-director/references/listening-and-story.md",
+      "bytes": 2373,
+      "sha256": "d9574353deabe4f385864e030748a6f09889231f1ba9267907f8a2c2cf56bba7"
+    },
+    {
+      "path": "addon/vvf-sound-director/references/music-and-time.md",
+      "bytes": 2365,
+      "sha256": "8355b198a543f7a6f44535f296026b2f3b19d36423571a59eba131161f60cd25"
+    },
+    {
+      "path": "addon/vvf-sound-director/references/sources.md",
+      "bytes": 2040,
+      "sha256": "40e2fd49587299b55c064947eb5d4fa988e6ded8d25dd0e415c3347fa78875a5"
+    },
+    {
+      "path": "addon/vvf-sound-director/references/world-and-effects.md",
+      "bytes": 2417,
+      "sha256": "77bb0d1330670c066e924d3d15c640cec92916230fceb4f0938ca9e65b06367b"
+    },
+    {
+      "path": "director-skill/vvf-director-skill/SKILL.md",
+      "bytes": 4935,
+      "sha256": "6a2317a3c705017fcef5ebc431bb363d7204050bf95078a90ee5e412a80fafd1"
+    },
+    {
+      "path": "director-skill/vvf-director-skill/assets/video-prompt-skeleton.txt",
+      "bytes": 2777,
+      "sha256": "68b940a9f9e63a2f8d012d6f73e4c9593588722a5cf45e9e448e575ddb5db329"
+    },
+    {
+      "path": "director-skill/vvf-director-skill/examples/ai-generation-handoff.md",
+      "bytes": 6884,
+      "sha256": "01263e2e961c0ba5cb7aa30a9de815a4b4439899112fefd276302770b0ab5d3b"
+    },
+    {
+      "path": "director-skill/vvf-director-skill/examples/documentary-and-abstract.md",
+      "bytes": 2821,
+      "sha256": "442443e151e40b000667180ce62b369de820d2bc565cd86c26c065a23aecc4cf"
+    },
+    {
+      "path": "director-skill/vvf-director-skill/examples/drama-dialogue.md",
+      "bytes": 2582,
+      "sha256": "2f5f087e96eccdd98be1aa56198582a119ce2bbf306ee38e1de4526ca17bbf8c"
+    },
+    {
+      "path": "director-skill/vvf-director-skill/examples/product-vertical.md",
+      "bytes": 2362,
+      "sha256": "e384db0e842ca4a2ceb801f1f4f19bc319518979962e6abb9d7fcb3d1bffc240"
+    },
+    {
+      "path": "director-skill/vvf-director-skill/examples/revision-handoff.md",
+      "bytes": 2497,
+      "sha256": "d44c003064afe3a85e4cb166caaf8ce90a141aa4e60b62333ca1c87f28d2a0fc"
+    },
+    {
+      "path": "director-skill/vvf-director-skill/references/adaptation-and-coverage.md",
+      "bytes": 3570,
+      "sha256": "06aeaa5f981644afbf6e0154c920e9211b0a0d6a45f846456aef94583245fc84"
+    },
+    {
+      "path": "director-skill/vvf-director-skill/references/brief-and-modes.md",
+      "bytes": 4189,
+      "sha256": "8c8292f037bfcb80a96760867ff85804135eb51622980ffab7e82bded618118f"
+    },
+    {
+      "path": "director-skill/vvf-director-skill/references/collaboration-and-revision.md",
+      "bytes": 5081,
+      "sha256": "966c1a8a46c4cebcd6789af99daf9503f6f214da6157194056a06860fc05cf75"
+    },
+    {
+      "path": "director-skill/vvf-director-skill/references/delivery-formats.md",
+      "bytes": 3119,
+      "sha256": "d365380202c413a72c97ee6614de0b6cd8e6e05fe586738a382983429ff2e67a"
+    },
+    {
+      "path": "director-skill/vvf-director-skill/references/directing.md",
+      "bytes": 5086,
+      "sha256": "724137f57d780d0fb6055fcdeb3b2166c6f8f586db0838c5d585db7b1b464a58"
+    },
+    {
+      "path": "director-skill/vvf-director-skill/references/frame-description.md",
+      "bytes": 5675,
+      "sha256": "a743b193c37bf834e8aaad73bc9f795bb9b6bf7d92c8dc5bfdee409db57cfc3c"
+    },
+    {
+      "path": "director-skill/vvf-director-skill/references/generation-review.md",
+      "bytes": 5836,
+      "sha256": "0815e0420b7f4474cb9e037b185b81113ba4a94e71d90c82dae0732498ba7e81"
+    },
+    {
+      "path": "director-skill/vvf-director-skill/references/lighting-colour-material.md",
+      "bytes": 4962,
+      "sha256": "1fa18dd4defad37ef47150a0428e5eb35d9b54fd9feb91a135a2a4a786d9afcf"
+    },
+    {
+      "path": "director-skill/vvf-director-skill/references/performance.md",
+      "bytes": 4772,
+      "sha256": "160da52f7a25a4a993d5cc519fd9419dc4939b4fd6e292b897ecb98f3b4999b1"
+    },
+    {
+      "path": "director-skill/vvf-director-skill/references/prompt-compilation.md",
+      "bytes": 8681,
+      "sha256": "bb931551ee3f32d6c1157c14d0cbc8a2d5431a834f5890b4d888ef11b3efb1d6"
+    },
+    {
+      "path": "director-skill/vvf-director-skill/references/quality-review.md",
+      "bytes": 2780,
+      "sha256": "39b475644b34bb83b49391d35cd22d953ebe38496111101a00b5155e3d53bc94"
+    },
+    {
+      "path": "director-skill/vvf-director-skill/references/reference-reading.md",
+      "bytes": 3625,
+      "sha256": "41622f24eb5a68f9c076b7e68b47b77141ba278a24f7b607edc24cd066155d8a"
+    },
+    {
+      "path": "director-skill/vvf-director-skill/references/shot-design.md",
+      "bytes": 4989,
+      "sha256": "c42efb464ccf5b1a5ef8bafe835c9d70f89e636d399d7cee2df4636022891fcd"
+    },
+    {
+      "path": "director-skill/vvf-director-skill/references/sound-and-time.md",
+      "bytes": 3000,
+      "sha256": "dcc0a035ecb0419502927899a2730d67d77b214f34ab1d9c87ec31cf7bc8b76c"
+    },
+    {
+      "path": "director-skill/vvf-director-skill/references/sources.md",
+      "bytes": 6567,
+      "sha256": "4a4024113cfc609d326b475939d5d4d74ffcb944e24bd600aabc21556db60b31"
+    },
+    {
+      "path": "director-skill/vvf-director-skill/references/space-and-continuity.md",
+      "bytes": 7120,
+      "sha256": "ff76265483f9b89d2240b58492e59a06bc25b1075db5d2e8b44f2ed2006c5df5"
+    },
+    {
+      "path": "director-skill/vvf-director-skill/references/style-selection.md",
+      "bytes": 3959,
+      "sha256": "e87c4713f8aaa0e8e07acd1f4542c91b007f87cd538bbba17bec9ad5431eee49"
+    },
+    {
+      "path": "director-skill/vvf-director-skill/references/style-sources.md",
+      "bytes": 8686,
+      "sha256": "94822854aaf36a8bb2d040a994bf3ceeac770bfb0af5a410300f15fefd2314ef"
+    },
+    {
+      "path": "director-skill/vvf-director-skill/references/styles/animation.md",
+      "bytes": 4836,
+      "sha256": "5abadbc400750be5a2057c5e4ce6c78c864db0a5a7f5d1685a4880301fca9837"
+    },
+    {
+      "path": "director-skill/vvf-director-skill/references/styles/color-dramaturgy.md",
+      "bytes": 3901,
+      "sha256": "8b21dedc8ee9cdd88172f6d7fbe6382a133e9b6c1fbf7a8dad57089c09bb8759"
+    },
+    {
+      "path": "director-skill/vvf-director-skill/references/styles/comic-kinetic.md",
+      "bytes": 4001,
+      "sha256": "7b3dbd4b197be21b22a7c2c1ae1964cf845714e508a3f32396a72cef529c3f6c"
+    },
+    {
+      "path": "director-skill/vvf-director-skill/references/styles/commercial-editorial.md",
+      "bytes": 4108,
+      "sha256": "b5f3c1cb1ac947ae3ea66a2d995ed77e871d3e68592993b01b4fac045dd8dd1c"
+    },
+    {
+      "path": "director-skill/vvf-director-skill/references/styles/expressionist.md",
+      "bytes": 3704,
+      "sha256": "24af30a858931d6759f84db2f9943ca087764587df0c3e6d71a769fb5dc87cda"
+    },
+    {
+      "path": "director-skill/vvf-director-skill/references/styles/fantastic.md",
+      "bytes": 3927,
+      "sha256": "62682d69b23b4afee2de2fc36ac9d446cc6d99797a1c0e1808babfb10482818b"
+    },
+    {
+      "path": "director-skill/vvf-director-skill/references/styles/graphic-experimental.md",
+      "bytes": 4021,
+      "sha256": "0b32b1eb583e2e2d86fee8b76ac8054f63de7c7d2a3f19d2de858bd3aa3e3b9e"
+    },
+    {
+      "path": "director-skill/vvf-director-skill/references/styles/heritage-craft.md",
+      "bytes": 4047,
+      "sha256": "30d3823de260ae9b668088d8064f212e8bbe600527326f648e7d2d99ab28d999"
+    },
+    {
+      "path": "director-skill/vvf-director-skill/references/styles/index.md",
+      "bytes": 3534,
+      "sha256": "6649db679e429218ff4a4508aa04773feba4b8fe59417a60a89a900c44a8f656"
+    },
+    {
+      "path": "director-skill/vvf-director-skill/references/styles/industrial-futures.md",
+      "bytes": 3942,
+      "sha256": "6dd45e9b86bef47ad73b02f681c86a5e235b0f0438a53307d4a896cbbb9c34bc"
+    },
+    {
+      "path": "director-skill/vvf-director-skill/references/styles/minimal.md",
+      "bytes": 3573,
+      "sha256": "3c465e9eeeeb794c70ffc82c00926e730628d330b4c027061f2364900a3b06b9"
+    },
+    {
+      "path": "director-skill/vvf-director-skill/references/styles/narrative.md",
+      "bytes": 3813,
+      "sha256": "9620e7fba07bb8fad72c3627b10abf65a3a2aa1687e97a1210f5efdf572ad80f"
+    },
+    {
+      "path": "director-skill/vvf-director-skill/references/styles/observational.md",
+      "bytes": 4149,
+      "sha256": "40688e1fca0b43ebe07781e66d6982de618858cc922f528a09d1ffa6f3cbc304"
+    },
+    {
+      "path": "director-skill/vvf-director-skill/scripts/validate_prompt.py",
+      "bytes": 8199,
+      "sha256": "49a96a93c8970fbe86746e42ff5023e0cb0dc7af2f784e9f7622fce8502fbd1f"
+    }
+  ]
+}

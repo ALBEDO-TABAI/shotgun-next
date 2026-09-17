@@ -1,0 +1,167 @@
+{
+  "scope": "local structure and discoverability only; external URLs not re-fetched",
+  "skill_count": 9,
+  "error_count": 0,
+  "skills": [
+    {
+      "name": "vvf-art-director",
+      "entry_bytes": 3806,
+      "entry_lines": 43,
+      "markdown_files": 9,
+      "total_bytes": 37964,
+      "local_links": 15,
+      "external_urls": [
+        "https://assets.renderman.pixar.com/articles/stylization_at_pixar/luca-illustration.jpg",
+        "https://renderman.pixar.com/stories/stylization-at-pixar",
+        "https://www.pixar.com/soul",
+        "https://www.ukstandards.org.uk/en/nos-finder/CCSDES7/contribute-to-the-production-of-design-test-pieces",
+        "https://www.ukstandards.org.uk/en/nos-finder/SKSPD2/determine-production-requirements-for-designs",
+        "https://www.ukstandards.org.uk/en/nos-finder/SKSPD4/agree-requirements-and-parameters-for-design-activity-for-productions-"
+      ],
+      "errors": []
+    },
+    {
+      "name": "vvf-character-designer",
+      "entry_bytes": 4006,
+      "entry_lines": 44,
+      "markdown_files": 9,
+      "total_bytes": 39752,
+      "local_links": 17,
+      "external_urls": [
+        "https://affective-science.org/wp-content/uploads/2024/04/barrett-et-al-2019-emotional-expressions-reconsidered-challenges-to-inferring-emotion-from-human-facial-movements.pdf",
+        "https://assets.renderman.pixar.com/articles/stylization_at_pixar/bingbong-sculpt-and-render.jpg",
+        "https://media.vam.ac.uk/media/documents/updated_hollywood_costume__press_release.pdf",
+        "https://nationalcareers.service.gov.uk/job-profiles/costume-designer",
+        "https://renderman.pixar.com/stories/stylization-at-pixar",
+        "https://www.dsource.in/course/character-design-animation/model-sheet",
+        "https://www.dsource.in/sites/default/files/course/character-design-animation/model-sheet/images/model-1.jpg",
+        "https://www.ukstandards.org.uk/en/nos-finder/SKSQ12/assist-with-costume-continuity",
+        "https://www.ukstandards.org.uk/en/nos-finder/SKSQ4/agree-costume-design-and-plan-costume-production-"
+      ],
+      "errors": []
+    },
+    {
+      "name": "vvf-cinematographer",
+      "entry_bytes": 2320,
+      "entry_lines": 32,
+      "markdown_files": 9,
+      "total_bytes": 24362,
+      "local_links": 10,
+      "external_urls": [
+        "https://britishfilmdesigners.com/resources/job-roles-explained/",
+        "https://www.arri.com/resource/blob/83996/409091c612f371b0c68b41d9dcb636db/arri-lighting-handbook-english-data.pdf",
+        "https://www.kodak.com/content/products-brochures/motion-picture/KODAK-VISION3-5219-7219-brochure.pdf",
+        "https://www.nikonusa.com/learn-and-explore/c/tips-and-techniques/understanding-focal-length"
+      ],
+      "errors": []
+    },
+    {
+      "name": "vvf-editor",
+      "entry_bytes": 2333,
+      "entry_lines": 26,
+      "markdown_files": 8,
+      "total_bytes": 22187,
+      "local_links": 13,
+      "external_urls": [
+        "https://skillsengland.education.gov.uk/apprenticeship-standards/st0696-v1-1",
+        "https://ukstandards.org.uk/en/nos-finder/SKSE2/use-editing-to-create-a-story",
+        "https://www.sundance.org/blogs/the-visionaries-a-roundtable-of-documentary-editors-share-their-tips-and-tricks-3/"
+      ],
+      "errors": []
+    },
+    {
+      "name": "vvf-producer",
+      "entry_bytes": 2411,
+      "entry_lines": 26,
+      "markdown_files": 8,
+      "total_bytes": 22942,
+      "local_links": 12,
+      "external_urls": [
+        "https://occupational-maps.skillsengland.education.gov.uk/maps/occupation/OCC0792A",
+        "https://www.ocr.org.uk/Images/138238-unit-r081-work-plans-and-schedules-lesson-element-teacher-instructions.pdf",
+        "https://www.ukstandards.org.uk/en/nos-finder/SKSP39/prepare-financial-resourcing-projections-for-film-or-television-productions"
+      ],
+      "errors": []
+    },
+    {
+      "name": "vvf-screenwriter",
+      "entry_bytes": 2468,
+      "entry_lines": 28,
+      "markdown_files": 8,
+      "total_bytes": 22792,
+      "local_links": 12,
+      "external_urls": [
+        "https://downloads.bbc.co.uk/writersroom/scripts/screenplay.pdf",
+        "https://nationalcareers.service.gov.uk/job-profiles/screenwriter",
+        "https://www.bafta.org/media-centre/press-releases/screenwriters-lecture-series-2013-tony-gilroy/",
+        "https://www.bafta.org/media-centre/press-releases/screenwriters-lecture-series-2024-mike-leigh/"
+      ],
+      "errors": []
+    },
+    {
+      "name": "vvf-script-supervisor",
+      "entry_bytes": 3574,
+      "entry_lines": 38,
+      "markdown_files": 6,
+      "total_bytes": 24227,
+      "local_links": 6,
+      "external_urls": [
+        "https://www.screenskills.com/job-profiles/roles/script-supervisor-film-and-tv-drama/",
+        "https://www.screenskills.com/skills-checklists/scripted-film-and-tv/script-supervisor-department/script-supervisor-skills/"
+      ],
+      "errors": []
+    },
+    {
+      "name": "vvf-sound-director",
+      "entry_bytes": 2378,
+      "entry_lines": 31,
+      "markdown_files": 8,
+      "total_bytes": 18874,
+      "local_links": 11,
+      "external_urls": [
+        "https://professional.dolby.com/en-gb/home-entertainment/case-studies/dolby-atmos-in-post/",
+        "https://www.nfb.ca/film/synchromy/",
+        "https://www.shure.com/damfiles/default/global/documents/publications/en/performance-production/microphone_techniques_for_recording_english.pdf-bb0469316afdb6118691d2f3f5e3ff01.pdf",
+        "https://www.shure.com/en-US/insights/shotgun-mics-and-video-production",
+        "https://www.w3.org/WAI/media/av/planning/"
+      ],
+      "errors": []
+    },
+    {
+      "name": "vvf-director-skill",
+      "entry_bytes": 4935,
+      "entry_lines": 47,
+      "markdown_files": 37,
+      "total_bytes": 176310,
+      "local_links": 118,
+      "external_urls": [
+        "https://affective-science.org/wp-content/uploads/2024/04/barrett-et-al-2019-emotional-expressions-reconsidered-challenges-to-inferring-emotion-from-human-facial-movements.pdf",
+        "https://bpb-us-e2.wpmucdn.com/sites.wustl.edu/dist/e/952/files/2017/09/maglianoandzacks2011-22vhbrv.pdf",
+        "https://britishfilmdesigners.com/resources/job-roles-explained/",
+        "https://chinesefilmclassics.org/princess-iron-fan-1941/",
+        "https://intellectum.unisabana.edu.co/bitstream/handle/10818/64430/jonauskaite-et-al-2020-universal-patterns-in-color-emotion-associations-are-further-shaped-by-linguistic-and-geographic.pdf?sequence=1",
+        "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0308295",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC1810228/",
+        "https://ualresearchonline.arts.ac.uk/id/eprint/21088/",
+        "https://ualresearchonline.arts.ac.uk/id/eprint/21187/2/6679.pdf",
+        "https://www.arri.com/resource/blob/83996/409091c612f371b0c68b41d9dcb636db/arri-lighting-handbook-english-data.pdf",
+        "https://www.canada.ca/en/national-film-board/news/2024/05/national-film-board-of-canada-lends-animation-artwork-to-las-academy-museum-of-motion-pictures.html",
+        "https://www.kodak.com/content/products-brochures/motion-picture/KODAK-VISION3-5219-7219-brochure.pdf",
+        "https://www.metmuseum.org/art/collection/search/39799",
+        "https://www.metmuseum.org/art/collection/search/49156",
+        "https://www.metmuseum.org/art/collection/search/515777",
+        "https://www.moma.org/audio/3748",
+        "https://www.moma.org/calendar/events/540",
+        "https://www.moma.org/collection/works/78389",
+        "https://www.moma.org/collection/works/79040",
+        "https://www.moma.org/collection/works/79354",
+        "https://www.motionpictures.org/wp-content/uploads/2013/01/Hasson-etal_NeuroCinematics2008.pdf",
+        "https://www.nfb.ca/film/begone_dull_care/",
+        "https://www.nfb.ca/film/the_street/",
+        "https://www.nikonusa.com/learn-and-explore/c/tips-and-techniques/understanding-focal-length",
+        "https://www.psychologicalscience.org/journals/psychological-science/0956797620948810/"
+      ],
+      "errors": []
+    }
+  ]
+}
