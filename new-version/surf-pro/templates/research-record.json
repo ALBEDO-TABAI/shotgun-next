@@ -1,0 +1,24 @@
+{
+  "schema_version": "2.0",
+  "research_id": "replace-with-current-research-id",
+  "is_example": true,
+  "brief": {
+    "user_request": "替换为用户原话，保留只要、不要等约束。",
+    "objective": "替换为用途与成功标准；未知部分应明确为假设。",
+    "scope": "替换为对象、时间、地区、语言和本次研究边界。",
+    "as_of": "2026-09-18",
+    "depth": "standard",
+    "expansion_policy": "adaptive",
+    "assumptions": []
+  },
+  "questions": [],
+  "sources": [],
+  "claims": [],
+  "extensions": [],
+  "queries": [],
+  "assets": [],
+  "completion": {
+    "status": "draft",
+    "reason": "空白教学模板，不是已经完成的调研。填写真实记录时更新日期、任务和 is_example。"
+  }
+}

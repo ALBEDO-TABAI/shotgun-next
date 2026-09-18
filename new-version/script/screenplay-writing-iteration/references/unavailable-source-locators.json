@@ -1,0 +1,1490 @@
+[
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "cases/box-at-the-door-diagnosis.md",
+    "label": "11 作品分析诊断与证据化评价 §八",
+    "original_locator": "../../../11_作品分析诊断与证据化评价.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "cases/box-at-the-door-screenwriting-work.md",
+    "label": "02 编剧工作与协作贡献建模 §六",
+    "original_locator": "../../../02_编剧工作与协作贡献建模.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "cases/box-of-old-things-three-orders.md",
+    "label": "07 信息分配留白与揭示设计 §十",
+    "original_locator": "../../../07_信息分配留白与揭示设计.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "cases/moving-a-dining-table.md",
+    "label": "05 场景情节与叙事节奏设计 §九、§十二",
+    "original_locator": "../../../05_场景情节与叙事节奏设计.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "cases/one-key-three-endings.md",
+    "label": "08 表达精准度有效性与审美判断 §九",
+    "original_locator": "../../../08_表达精准度有效性与审美判断.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "cases/reliability-three-routes.md",
+    "label": "03 创作起点与具体问题建构 §七",
+    "original_locator": "../../../03_创作起点与具体问题建构.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "cases/returning-the-keys.md",
+    "label": "04 人物行为关系与世界规则 §八",
+    "original_locator": "../../../04_人物行为关系与世界规则.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "cases/skincare-film-15s-and-print.md",
+    "label": "10 护肤品牌短片的完整案例推演 §十二–十三",
+    "original_locator": "../../../10_护肤品牌短片的完整案例推演.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "cases/skincare-film-45s-time-draft.md",
+    "label": "10 护肤品牌短片的完整案例推演 §六",
+    "original_locator": "../../../10_护肤品牌短片的完整案例推演.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "cases/skincare-film-adversarial-modifications.md",
+    "label": "10 护肤品牌短片的完整案例推演 §十一",
+    "original_locator": "../../../10_护肤品牌短片的完整案例推演.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "cases/skincare-film-brand-uniqueness-gap.md",
+    "label": "10 护肤品牌短片的完整案例推演 §九",
+    "original_locator": "../../../10_护肤品牌短片的完整案例推演.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "cases/skincare-film-brief-decomposition.md",
+    "label": "10 护肤品牌短片的完整案例推演 §一–三",
+    "original_locator": "../../../10_护肤品牌短片的完整案例推演.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "cases/skincare-film-change-through-chain.md",
+    "label": "12 创作迭代验证与协作交付流程 §十二",
+    "original_locator": "../../../12_创作迭代验证与协作交付流程.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "cases/skincare-film-delivery-status-and-risks.md",
+    "label": "10 护肤品牌短片的完整案例推演 §十五、深化应用",
+    "original_locator": "../../../10_护肤品牌短片的完整案例推演.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "cases/skincare-film-department-division.md",
+    "label": "10 护肤品牌短片的完整案例推演 §八",
+    "original_locator": "../../../10_护肤品牌短片的完整案例推演.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "cases/skincare-film-five-protected-relations.md",
+    "label": "10 护肤品牌短片的完整案例推演 §十",
+    "original_locator": "../../../10_护肤品牌短片的完整案例推演.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "cases/skincare-film-form-comparison.md",
+    "label": "10 护肤品牌短片的完整案例推演 §四",
+    "original_locator": "../../../10_护肤品牌短片的完整案例推演.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "cases/skincare-film-information-plan.md",
+    "label": "10 护肤品牌短片的完整案例推演 §五",
+    "original_locator": "../../../10_护肤品牌短片的完整案例推演.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "cases/skincare-film-scene-script-a01.md",
+    "label": "10 护肤品牌短片的完整案例推演 §七",
+    "original_locator": "../../../10_护肤品牌短片的完整案例推演.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "cases/skincare-film-validation-plan.md",
+    "label": "10 护肤品牌短片的完整案例推演 §十四",
+    "original_locator": "../../../10_护肤品牌短片的完整案例推演.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "cases/umbrella-repair-shop-negotiation.md",
+    "label": "06 对白潜台词与话语行动 §九",
+    "original_locator": "../../../06_对白潜台词与话语行动.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "cases/umbrella-repair-six-works.md",
+    "label": "09 广告影片与平面叙事的媒介适配 §九",
+    "original_locator": "../../../09_广告影片与平面叙事的媒介适配.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "checklists/03-failure-modes-and-fixes.md",
+    "label": "03 创作起点与具体问题建构 §十",
+    "original_locator": "../../../03_创作起点与具体问题建构.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "checklists/09-test-matrix.md",
+    "label": "09 广告影片与平面叙事的媒介适配 §十一",
+    "original_locator": "../../../09_广告影片与平面叙事的媒介适配.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "checklists/character-ethics-check.md",
+    "label": "04 人物行为关系与世界规则 §十一",
+    "original_locator": "../../../04_人物行为关系与世界规则.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "checklists/clue-production-chain.md",
+    "label": "07 信息分配留白与揭示设计 §七",
+    "original_locator": "../../../07_信息分配留白与揭示设计.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "checklists/concept-screening.md",
+    "label": "03 创作起点与具体问题建构 §九",
+    "original_locator": "../../../03_创作起点与具体问题建构.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "checklists/deliverable-completion-criteria.md",
+    "label": "02 编剧工作与协作贡献建模 §三",
+    "original_locator": "../../../02_编剧工作与协作贡献建模.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "checklists/dialogue-diagnosis.md",
+    "label": "06 对白潜台词与话语行动 §十",
+    "original_locator": "../../../06_对白潜台词与话语行动.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "checklists/final-delivery-and-stop-conditions.md",
+    "label": "12 创作迭代验证与协作交付流程 §十七",
+    "original_locator": "../../../12_创作迭代验证与协作交付流程.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "checklists/four-kinds-of-inconsistency.md",
+    "label": "04 人物行为关系与世界规则 §九",
+    "original_locator": "../../../04_人物行为关系与世界规则.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "checklists/information-leak-and-version-loss.md",
+    "label": "07 信息分配留白与揭示设计 深化应用",
+    "original_locator": "../../../07_信息分配留白与揭示设计.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "checklists/remove-product-swap-brand-tests.md",
+    "label": "09 广告影片与平面叙事的媒介适配 §三",
+    "original_locator": "../../../09_广告影片与平面叙事的媒介适配.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "checklists/scene-symptoms-minimal-fixes.md",
+    "label": "05 场景情节与叙事节奏设计 §十",
+    "original_locator": "../../../05_场景情节与叙事节奏设计.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "checklists/six-practices-that-increase-rework.md",
+    "label": "02 编剧工作与协作贡献建模 §七",
+    "original_locator": "../../../02_编剧工作与协作贡献建模.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "exercises/02-work-and-contribution.md",
+    "label": "02 编剧工作与协作贡献建模 §十",
+    "original_locator": "../../../02_编剧工作与协作贡献建模.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "exercises/03-origin-and-question.md",
+    "label": "03 创作起点与具体问题建构 §十二",
+    "original_locator": "../../../03_创作起点与具体问题建构.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "exercises/04-character-and-world.md",
+    "label": "04 人物行为关系与世界规则 §十三",
+    "original_locator": "../../../04_人物行为关系与世界规则.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "exercises/05-scene-plot-rhythm.md",
+    "label": "05 场景情节与叙事节奏设计 §十三",
+    "original_locator": "../../../05_场景情节与叙事节奏设计.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "exercises/06-dialogue.md",
+    "label": "06 对白潜台词与话语行动 §十三",
+    "original_locator": "../../../06_对白潜台词与话语行动.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "exercises/07-information-design.md",
+    "label": "07 信息分配留白与揭示设计 §十四",
+    "original_locator": "../../../07_信息分配留白与揭示设计.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "exercises/08-evaluation.md",
+    "label": "08 表达精准度有效性与审美判断 §十三",
+    "original_locator": "../../../08_表达精准度有效性与审美判断.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "exercises/09-medium-adaptation.md",
+    "label": "09 广告影片与平面叙事的媒介适配 §十三",
+    "original_locator": "../../../09_广告影片与平面叙事的媒介适配.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "exercises/11-analysis.md",
+    "label": "11 作品分析诊断与证据化评价 §十三",
+    "original_locator": "../../../11_作品分析诊断与证据化评价.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "exercises/12-iteration.md",
+    "label": "12 创作迭代验证与协作交付流程 §十八",
+    "original_locator": "../../../12_创作迭代验证与协作交付流程.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "frameworks/action-basis-instead-of-trait-list.md",
+    "label": "04 人物行为关系与世界规则 §二",
+    "original_locator": "../../../04_人物行为关系与世界规则.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "frameworks/agent-human-role-division.md",
+    "label": "12 创作迭代验证与协作交付流程 §十三",
+    "original_locator": "../../../12_创作迭代验证与协作交付流程.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "frameworks/analysis-units-shot-to-sequence.md",
+    "label": "05 场景情节与叙事节奏设计 §一",
+    "original_locator": "../../../05_场景情节与叙事节奏设计.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "frameworks/audience-background-knowledge.md",
+    "label": "04 人物行为关系与世界规则 §十",
+    "original_locator": "../../../04_人物行为关系与世界规则.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "frameworks/brand-story-connection.md",
+    "label": "09 广告影片与平面叙事的媒介适配 §二",
+    "original_locator": "../../../09_广告影片与平面叙事的媒介适配.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "frameworks/character-three-levels.md",
+    "label": "04 人物行为关系与世界规则 §一",
+    "original_locator": "../../../04_人物行为关系与世界规则.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "frameworks/character-voice-from-choices.md",
+    "label": "06 对白潜台词与话语行动 §五",
+    "original_locator": "../../../06_对白潜台词与话语行动.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "frameworks/coherence-vs-surface-smoothness.md",
+    "label": "08 表达精准度有效性与审美判断 §四",
+    "original_locator": "../../../08_表达精准度有效性与审美判断.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "frameworks/contribution-evidence-three-layers.md",
+    "label": "02 编剧工作与协作贡献建模 §五、深化应用",
+    "original_locator": "../../../02_编剧工作与协作贡献建模.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "frameworks/crop-short-version-cross-media-losses.md",
+    "label": "09 广告影片与平面叙事的媒介适配 §八",
+    "original_locator": "../../../09_广告影片与平面叙事的媒介适配.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "frameworks/curiosity-suspense-surprise.md",
+    "label": "07 信息分配留白与揭示设计 §四",
+    "original_locator": "../../../07_信息分配留白与揭示设计.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "frameworks/dialogue-as-strategy-under-feedback.md",
+    "label": "06 对白潜台词与话语行动 §四",
+    "original_locator": "../../../06_对白潜台词与话语行动.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "frameworks/dialogue-four-layers.md",
+    "label": "06 对白潜台词与话语行动 §一",
+    "original_locator": "../../../06_对白潜台词与话语行动.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "frameworks/effectiveness-criterion.md",
+    "label": "08 表达精准度有效性与审美判断 §三",
+    "original_locator": "../../../08_表达精准度有效性与审美判断.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "frameworks/emotional-grounding.md",
+    "label": "08 表达精准度有效性与审美判断 §六",
+    "original_locator": "../../../08_表达精准度有效性与审美判断.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "frameworks/factuality-realism-world-rules.md",
+    "label": "一 叙事形式识别与建模 §五",
+    "original_locator": "../../../一.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "frameworks/five-statement-types-in-evaluation.md",
+    "label": "08 表达精准度有效性与审美判断 §一",
+    "original_locator": "../../../08_表达精准度有效性与审美判断.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "frameworks/focalization-range-depth-path.md",
+    "label": "07 信息分配留白与揭示设计 §二",
+    "original_locator": "../../../07_信息分配留白与揭示设计.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "frameworks/forms-of-character-change.md",
+    "label": "04 人物行为关系与世界规则 §三",
+    "original_locator": "../../../04_人物行为关系与世界规则.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "frameworks/four-axes-purpose-medium-factuality-context.md",
+    "label": "09 广告影片与平面叙事的媒介适配 §一",
+    "original_locator": "../../../09_广告影片与平面叙事的媒介适配.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "frameworks/four-input-types-and-uncertainty.md",
+    "label": "12 创作迭代验证与协作交付流程 §一",
+    "original_locator": "../../../12_创作迭代验证与协作交付流程.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "frameworks/four-states-of-research-material.md",
+    "label": "03 创作起点与具体问题建构 §五",
+    "original_locator": "../../../03_创作起点与具体问题建构.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "frameworks/gap-ambiguity-delay-omission.md",
+    "label": "07 信息分配留白与揭示设计 §六",
+    "original_locator": "../../../07_信息分配留白与揭示设计.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "frameworks/genre-elements-relations-usage.md",
+    "label": "一 叙事形式识别与建模 §四",
+    "original_locator": "../../../一.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "frameworks/grounding-hear-understand-agree-comply.md",
+    "label": "06 对白潜台词与话语行动 §三",
+    "original_locator": "../../../06_对白潜台词与话语行动.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "frameworks/immersion-as-viewing-conventions.md",
+    "label": "08 表达精准度有效性与审美判断 §五",
+    "original_locator": "../../../08_表达精准度有效性与审美判断.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "frameworks/ingenuity-multi-relation-choice.md",
+    "label": "08 表达精准度有效性与审美判断 §七",
+    "original_locator": "../../../08_表达精准度有效性与审美判断.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "frameworks/medium-and-style-operational-definitions.md",
+    "label": "一 叙事形式识别与建模 §八",
+    "original_locator": "../../../一.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "frameworks/minimal-collaboration-architecture.md",
+    "label": "12 创作迭代验证与协作交付流程 §十一",
+    "original_locator": "../../../12_创作迭代验证与协作交付流程.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "frameworks/minimal-information-model.md",
+    "label": "07 信息分配留白与揭示设计 §一",
+    "original_locator": "../../../07_信息分配留白与揭示设计.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "frameworks/narrative-internal-analysis-axes.md",
+    "label": "一 叙事形式识别与建模 §六",
+    "original_locator": "../../../一.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "frameworks/non-causal-organization.md",
+    "label": "一 叙事形式识别与建模 §七",
+    "original_locator": "../../../一.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "frameworks/plot-connection-types.md",
+    "label": "05 场景情节与叙事节奏设计 §五",
+    "original_locator": "../../../05_场景情节与叙事节奏设计.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "frameworks/precision-criterion.md",
+    "label": "08 表达精准度有效性与审美判断 §二",
+    "original_locator": "../../../08_表达精准度有效性与审美判断.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "frameworks/profession-activity-output-distinction.md",
+    "label": "02 编剧工作与协作贡献建模 §一",
+    "original_locator": "../../../02_编剧工作与协作贡献建模.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "frameworks/progress-as-change-in-options-cost-understanding.md",
+    "label": "05 场景情节与叙事节奏设计 §六",
+    "original_locator": "../../../05_场景情节与叙事节奏设计.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "frameworks/relationship-as-bidirectional-process.md",
+    "label": "04 人物行为关系与世界规则 §四",
+    "original_locator": "../../../04_人物行为关系与世界规则.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "frameworks/rhythm-four-observation-layers.md",
+    "label": "05 场景情节与叙事节奏设计 §八",
+    "original_locator": "../../../05_场景情节与叙事节奏设计.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "frameworks/scene-endings.md",
+    "label": "05 场景情节与叙事节奏设计 §十一",
+    "original_locator": "../../../05_场景情节与叙事节奏设计.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "frameworks/scene-entry-process-exit-model.md",
+    "label": "05 场景情节与叙事节奏设计 §三",
+    "original_locator": "../../../05_场景情节与叙事节奏设计.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "frameworks/scene-purpose-and-functions.md",
+    "label": "05 场景情节与叙事节奏设计 §二",
+    "original_locator": "../../../05_场景情节与叙事节奏设计.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "frameworks/seven-creative-starting-points.md",
+    "label": "03 创作起点与具体问题建构 §三",
+    "original_locator": "../../../03_创作起点与具体问题建构.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "frameworks/showing-and-telling-as-carriers.md",
+    "label": "07 信息分配留白与揭示设计 §八",
+    "original_locator": "../../../07_信息分配留白与揭示设计.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "frameworks/silence-and-action-instead-of-lines.md",
+    "label": "06 对白潜台词与话语行动 §七",
+    "original_locator": "../../../06_对白潜台词与话语行动.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "frameworks/single-image-narrative-conditions.md",
+    "label": "09 广告影片与平面叙事的媒介适配 §七",
+    "original_locator": "../../../09_广告影片与平面叙事的媒介适配.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "frameworks/six-levels-subject-to-form.md",
+    "label": "03 创作起点与具体问题建构 §一",
+    "original_locator": "../../../03_创作起点与具体问题建构.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "frameworks/six-screenwriting-work-types.md",
+    "label": "02 编剧工作与协作贡献建模 §二",
+    "original_locator": "../../../02_编剧工作与协作贡献建模.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "frameworks/space-and-objects-in-scene.md",
+    "label": "05 场景情节与叙事节奏设计 §四",
+    "original_locator": "../../../05_场景情节与叙事节奏设计.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "frameworks/story-form-layers.md",
+    "label": "一 叙事形式识别与建模 §一",
+    "original_locator": "../../../一.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "frameworks/storyworld-plot-narration-distinction.md",
+    "label": "一 叙事形式识别与建模 §二",
+    "original_locator": "../../../一.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "frameworks/subtext-and-conversational-implicature.md",
+    "label": "06 对白潜台词与话语行动 §二",
+    "original_locator": "../../../06_对白潜台词与话语行动.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "frameworks/tellability-and-producibility.md",
+    "label": "03 创作起点与具体问题建构 §二",
+    "original_locator": "../../../03_创作起点与具体问题建构.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "frameworks/thesis-driven-vs-discovery-driven.md",
+    "label": "03 创作起点与具体问题建构 §四",
+    "original_locator": "../../../03_创作起点与具体问题建构.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "frameworks/time-order-duration-frequency.md",
+    "label": "05 场景情节与叙事节奏设计 §七",
+    "original_locator": "../../../05_场景情节与叙事节奏设计.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "frameworks/understanding-empathy-identification-liking.md",
+    "label": "04 人物行为关系与世界规则 §五",
+    "original_locator": "../../../04_人物行为关系与世界规则.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "frameworks/unreliability-report-interpretation-evaluation.md",
+    "label": "07 信息分配留白与揭示设计 §三",
+    "original_locator": "../../../07_信息分配留白与揭示设计.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "frameworks/voiceover-captions-and-phone-text.md",
+    "label": "06 对白潜台词与话语行动 §八",
+    "original_locator": "../../../06_对白潜台词与话语行动.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "frameworks/work-granularity-by-project.md",
+    "label": "02 编剧工作与协作贡献建模 §八",
+    "original_locator": "../../../02_编剧工作与协作贡献建模.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "frameworks/world-rules-four-questions.md",
+    "label": "04 人物行为关系与世界规则 §六",
+    "original_locator": "../../../04_人物行为关系与世界规则.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "methods/action-basis-without-model-determinism.md",
+    "label": "04 人物行为关系与世界规则 深化应用",
+    "original_locator": "../../../04_人物行为关系与世界规则.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "methods/actionable-feedback.md",
+    "label": "08 表达精准度有效性与审美判断 §十",
+    "original_locator": "../../../08_表达精准度有效性与审美判断.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "methods/analysis-material-boundary.md",
+    "label": "11 作品分析诊断与证据化评价 §一",
+    "original_locator": "../../../11_作品分析诊断与证据化评价.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "methods/asset-set-design.md",
+    "label": "09 广告影片与平面叙事的媒介适配 深化应用",
+    "original_locator": "../../../09_广告影片与平面叙事的媒介适配.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "methods/call-modules-by-problem.md",
+    "label": "12 创作迭代验证与协作交付流程 §十五",
+    "original_locator": "../../../12_创作迭代验证与协作交付流程.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "methods/call-modules-by-problem.md",
+    "label": "skill 接口与调用总表：模块边界、最小运行闭环",
+    "original_locator": "../../../00_skill接口与调用总表.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "methods/competing-interpretations.md",
+    "label": "11 作品分析诊断与证据化评价 §五",
+    "original_locator": "../../../11_作品分析诊断与证据化评价.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "methods/cross-abstraction-equivalence-check.md",
+    "label": "02 编剧工作与协作贡献建模 深化应用",
+    "original_locator": "../../../02_编剧工作与协作贡献建模.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "methods/detect-author-knows-too-much.md",
+    "label": "07 信息分配留白与揭示设计 §十二",
+    "original_locator": "../../../07_信息分配留白与揭示设计.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "methods/dialogue-rewrite-three-rounds.md",
+    "label": "06 对白潜台词与话语行动 §十一",
+    "original_locator": "../../../06_对白潜台词与话语行动.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "methods/dominant-organizing-principle-test.md",
+    "label": "一 叙事形式识别与建模 §三",
+    "original_locator": "../../../一.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "methods/double-diamond-for-screenwriting.md",
+    "label": "12 创作迭代验证与协作交付流程 §二",
+    "original_locator": "../../../12_创作迭代验证与协作交付流程.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "methods/dual-scale-evaluation.md",
+    "label": "一 叙事形式识别与建模 §十一",
+    "original_locator": "../../../一.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "methods/exposition-dialogue-decisions.md",
+    "label": "06 对白潜台词与话语行动 §六",
+    "original_locator": "../../../06_对白潜台词与话语行动.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "methods/first-pass-viewing-record.md",
+    "label": "11 作品分析诊断与证据化评价 §二",
+    "original_locator": "../../../11_作品分析诊断与证据化评价.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "methods/five-transformations-material-to-question.md",
+    "label": "03 创作起点与具体问题建构 §六",
+    "original_locator": "../../../03_创作起点与具体问题建构.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "methods/four-language-forms-comparison.md",
+    "label": "06 对白潜台词与话语行动 深化应用",
+    "original_locator": "../../../06_对白潜台词与话语行动.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "methods/hybrid-work-combination-analysis.md",
+    "label": "一 叙事形式识别与建模 §九",
+    "original_locator": "../../../一.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "methods/minimal-character-world-model.md",
+    "label": "04 人物行为关系与世界规则 §七",
+    "original_locator": "../../../04_人物行为关系与世界规则.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "methods/organize-content-from-desired-scenes.md",
+    "label": "12 创作迭代验证与协作交付流程 §三",
+    "original_locator": "../../../12_创作迭代验证与协作交付流程.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "methods/research-as-judgment-changing-questions.md",
+    "label": "03 创作起点与具体问题建构 · 深化应用",
+    "original_locator": "../../../03_创作起点与具体问题建构.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "methods/review-disagreement-to-decision.md",
+    "label": "08 表达精准度有效性与审美判断 深化应用",
+    "original_locator": "../../../08_表达精准度有效性与审美判断.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "methods/reviewable-analysis-coding.md",
+    "label": "11 作品分析诊断与证据化评价 深化应用",
+    "original_locator": "../../../11_作品分析诊断与证据化评价.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "methods/second-pass-structure-reconstruction.md",
+    "label": "11 作品分析诊断与证据化评价 §三",
+    "original_locator": "../../../11_作品分析诊断与证据化评价.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "methods/sequence-promise-payoff-rewrite.md",
+    "label": "05 场景情节与叙事节奏设计 深化应用",
+    "original_locator": "../../../05_场景情节与叙事节奏设计.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "methods/stage-a-problem-material-boundary.md",
+    "label": "12 创作迭代验证与协作交付流程 §四",
+    "original_locator": "../../../12_创作迭代验证与协作交付流程.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "methods/stage-b-form-and-representative-fragment.md",
+    "label": "12 创作迭代验证与协作交付流程 §五",
+    "original_locator": "../../../12_创作迭代验证与协作交付流程.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "methods/stage-c-joint-skeleton.md",
+    "label": "12 创作迭代验证与协作交付流程 §六",
+    "original_locator": "../../../12_创作迭代验证与协作交付流程.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "methods/stage-d-performable-draft.md",
+    "label": "12 创作迭代验证与协作交付流程 §七",
+    "original_locator": "../../../12_创作迭代验证与协作交付流程.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "methods/stage-e-prototype-testing.md",
+    "label": "12 创作迭代验证与协作交付流程 §八",
+    "original_locator": "../../../12_创作迭代验证与协作交付流程.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "methods/stage-f-feedback-and-revision.md",
+    "label": "12 创作迭代验证与协作交付流程 §九",
+    "original_locator": "../../../12_创作迭代验证与协作交付流程.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "methods/stage-g-production-protection.md",
+    "label": "12 创作迭代验证与协作交付流程 §十",
+    "original_locator": "../../../12_创作迭代验证与协作交付流程.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "methods/symptom-cause-solution-diagnosis.md",
+    "label": "11 作品分析诊断与证据化评价 §七",
+    "original_locator": "../../../11_作品分析诊断与证据化评价.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "methods/tell-or-withhold-by-task.md",
+    "label": "07 信息分配留白与揭示设计 §五",
+    "original_locator": "../../../07_信息分配留白与揭示设计.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "methods/test-feedback-into-analysis.md",
+    "label": "11 作品分析诊断与证据化评价 §九",
+    "original_locator": "../../../11_作品分析诊断与证据化评价.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "methods/third-pass-counterfactual-tests.md",
+    "label": "11 作品分析诊断与证据化评价 §六",
+    "original_locator": "../../../11_作品分析诊断与证据化评价.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "principles/ai-assisted-review-boundaries.md",
+    "label": "11 作品分析诊断与证据化评价 §十",
+    "original_locator": "../../../11_作品分析诊断与证据化评价.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "principles/collaboration-and-author-intent.md",
+    "label": "02 编剧工作与协作贡献建模 §四",
+    "original_locator": "../../../02_编剧工作与协作贡献建模.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "principles/criteria-conflict-no-summation.md",
+    "label": "08 表达精准度有效性与审美判断 §八",
+    "original_locator": "../../../08_表达精准度有效性与审美判断.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "principles/decision-granularity-rework-stop.md",
+    "label": "12 创作迭代验证与协作交付流程 深化应用",
+    "original_locator": "../../../12_创作迭代验证与协作交付流程.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "principles/form-first-working-principle.md",
+    "label": "一 叙事形式识别与建模 §十二、最后",
+    "original_locator": "../../../一.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "principles/human-ai-collaboration-conditions.md",
+    "label": "12 创作迭代验证与协作交付流程 §十三",
+    "original_locator": "../../../12_创作迭代验证与协作交付流程.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "principles/human-ai-collaboration-conditions.md",
+    "label": "skill 接口与调用总表：人工与AI协作的保留条件",
+    "original_locator": "../../../00_skill接口与调用总表.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "principles/misdirection-and-reversal-rules.md",
+    "label": "07 信息分配留白与揭示设计 §九",
+    "original_locator": "../../../07_信息分配留白与揭示设计.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "principles/narrative-force-vs-statement-legitimacy.md",
+    "label": "08 表达精准度有效性与审美判断 §十一",
+    "original_locator": "../../../08_表达精准度有效性与审美判断.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "principles/non-commercial-film-not-efficiency-tool.md",
+    "label": "09 广告影片与平面叙事的媒介适配 §五",
+    "original_locator": "../../../09_广告影片与平面叙事的媒介适配.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "principles/nonfiction-material-responsibility.md",
+    "label": "09 广告影片与平面叙事的媒介适配 §六",
+    "original_locator": "../../../09_广告影片与平面叙事的媒介适配.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "principles/novelty-by-changing-relations.md",
+    "label": "03 创作起点与具体问题建构 §八、深化应用",
+    "original_locator": "../../../03_创作起点与具体问题建构.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "principles/product-causality-caution.md",
+    "label": "09 广告影片与平面叙事的媒介适配 §四",
+    "original_locator": "../../../09_广告影片与平面叙事的媒介适配.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "principles/source-use-and-evidence-boundaries.md",
+    "label": "README · 研究与证据声明",
+    "original_locator": "../../../README.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "principles/source-use-and-evidence-boundaries.md",
+    "label": "来源索引与研究边界 · 未被引用方式允许的推论",
+    "original_locator": "../../../00_来源索引.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "principles/three-non-mergeable-information-classes.md",
+    "label": "12 创作迭代验证与协作交付流程 §十一",
+    "original_locator": "../../../12_创作迭代验证与协作交付流程.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "principles/three-non-mergeable-information-classes.md",
+    "label": "skill 接口与调用总表：三类不可合并的信息",
+    "original_locator": "../../../00_skill接口与调用总表.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "principles/what-two-ai-studies-show.md",
+    "label": "12 创作迭代验证与协作交付流程 §十四",
+    "original_locator": "../../../12_创作迭代验证与协作交付流程.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "references/alber-unnatural-narrative.md",
+    "label": "来源索引与研究边界",
+    "original_locator": "../../../00_来源索引.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "references/august-how-to-write-a-scene.md",
+    "label": "来源索引与研究边界",
+    "original_locator": "../../../00_来源索引.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "references/august-how-to-write-dialogue.md",
+    "label": "来源索引与研究边界",
+    "original_locator": "../../../00_来源索引.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "references/baroni-tellability.md",
+    "label": "来源索引与研究边界",
+    "original_locator": "../../../00_来源索引.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "references/bordwell-how-to-tell-a-movie-story.md",
+    "label": "来源索引与研究边界",
+    "original_locator": "../../../00_来源索引.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "references/caracciolo-experientiality.md",
+    "label": "来源索引与研究边界",
+    "original_locator": "../../../00_来源索引.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "references/clark-brennan-grounding-1991.md",
+    "label": "来源索引与研究边界",
+    "original_locator": "../../../00_来源索引.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "references/cutting-dynamics-of-popular-movies-2016.md",
+    "label": "来源索引与研究边界",
+    "original_locator": "../../../00_来源索引.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "references/dawg-from-reflection-to-release.md",
+    "label": "来源索引与研究边界",
+    "original_locator": "../../../00_来源索引.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "references/design-council-double-diamond.md",
+    "label": "来源索引与研究边界",
+    "original_locator": "../../../00_来源索引.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "references/emmott-schemata.md",
+    "label": "来源索引与研究边界",
+    "original_locator": "../../../00_来源索引.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "references/escalas-narrative-processing-2004.md",
+    "label": "来源索引与研究边界",
+    "original_locator": "../../../00_来源索引.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "references/gilroy-bafta-lecture-2013.md",
+    "label": "来源索引与研究边界",
+    "original_locator": "../../../00_来源索引.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "references/grice-logic-and-conversation-1975.md",
+    "label": "来源索引与研究边界",
+    "original_locator": "../../../00_来源索引.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "references/hartner-multiperspectivity.md",
+    "label": "来源索引与研究边界",
+    "original_locator": "../../../00_来源索引.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "references/herman-cognitive-narratology.md",
+    "label": "来源索引与研究边界",
+    "original_locator": "../../../00_来源索引.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "references/huhn-event-eventfulness.md",
+    "label": "来源索引与研究边界",
+    "original_locator": "../../../00_来源索引.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "references/jannidis-character.md",
+    "label": "来源索引与研究边界",
+    "original_locator": "../../../00_来源索引.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "references/jenkins-transmedia-storytelling-101.md",
+    "label": "来源索引与研究边界",
+    "original_locator": "../../../00_来源索引.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "references/kaufman-bafta-lecture-2011.md",
+    "label": "来源索引与研究边界",
+    "original_locator": "../../../00_来源索引.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "references/keen-narrative-empathy.md",
+    "label": "来源索引与研究边界",
+    "original_locator": "../../../00_来源索引.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "references/klauk-telling-showing.md",
+    "label": "来源索引与研究边界",
+    "original_locator": "../../../00_来源索引.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "references/kuhn-narration-film.md",
+    "label": "来源索引与研究边界",
+    "original_locator": "../../../00_来源索引.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "references/macdonald-screenwriting-poetics-2013.md",
+    "label": "来源索引与研究边界",
+    "original_locator": "../../../00_来源索引.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "references/magliano-zacks-continuity-editing-2011.md",
+    "label": "来源索引与研究边界",
+    "original_locator": "../../../00_来源索引.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "references/mchale-speech-representation.md",
+    "label": "来源索引与研究边界",
+    "original_locator": "../../../00_来源索引.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "references/niederhoff-focalization.md",
+    "label": "来源索引与研究边界",
+    "original_locator": "../../../00_来源索引.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "references/oha-principles-best-practices.md",
+    "label": "来源索引与研究边界",
+    "original_locator": "../../../00_来源索引.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "references/phelan-narrative-ethics.md",
+    "label": "来源索引与研究边界",
+    "original_locator": "../../../00_来源索引.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "references/rashkin-help-me-write-a-story-2025.md",
+    "label": "来源索引与研究边界",
+    "original_locator": "../../../00_来源索引.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "references/ryan-narration-various-media.md",
+    "label": "来源索引与研究边界",
+    "original_locator": "../../../00_来源索引.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "references/ryan-possible-worlds.md",
+    "label": "来源索引与研究边界",
+    "original_locator": "../../../00_来源索引.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "references/ryan-space.md",
+    "label": "来源索引与研究边界",
+    "original_locator": "../../../00_来源索引.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "references/schaeffer-fictional-factual-narration.md",
+    "label": "来源索引与研究边界",
+    "original_locator": "../../../00_来源索引.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "references/scheffel-time.md",
+    "label": "来源索引与研究边界",
+    "original_locator": "../../../00_来源索引.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "references/schmid-non-temporal-linking-narration.md",
+    "label": "来源索引与研究边界",
+    "original_locator": "../../../00_来源索引.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "references/schonert-author.md",
+    "label": "来源索引与研究边界",
+    "original_locator": "../../../00_来源索引.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "references/sciamma-bafta-lecture-2019.md",
+    "label": "来源索引与研究边界",
+    "original_locator": "../../../00_来源索引.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "references/scriptnotes-357-exposition.md",
+    "label": "来源索引与研究边界",
+    "original_locator": "../../../00_来源索引.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "references/scriptnotes-696-guide-to-directors.md",
+    "label": "来源索引与研究边界",
+    "original_locator": "../../../00_来源索引.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "references/scriptnotes-728-beats-to-scenes.md",
+    "label": "来源索引与研究边界",
+    "original_locator": "../../../00_来源索引.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "references/shen-unreliability.md",
+    "label": "来源索引与研究边界",
+    "original_locator": "../../../00_来源索引.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "references/straughan-bafta-lecture-2012.md",
+    "label": "来源索引与研究边界",
+    "original_locator": "../../../00_来源索引.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "references/tang-duodrama-2026.md",
+    "label": "来源索引与研究边界",
+    "original_locator": "../../../00_来源索引.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "references/toolan-coherence.md",
+    "label": "来源索引与研究边界",
+    "original_locator": "../../../00_来源索引.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "references/wga-screen-credits-manual.md",
+    "label": "来源索引与研究边界",
+    "original_locator": "../../../00_来源索引.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "references/wolf-illusion-aesthetic.md",
+    "label": "来源索引与研究边界",
+    "original_locator": "../../../00_来源索引.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "skills/character-relation-world-model.md",
+    "label": "04 人物行为关系与世界规则 §十二",
+    "original_locator": "../../../04_人物行为关系与世界规则.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "skills/character-relation-world-model.md",
+    "label": "skill 接口与调用总表",
+    "original_locator": "../../../00_skill接口与调用总表.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "skills/close-reading-and-diagnostic-review.md",
+    "label": "11 作品分析诊断与证据化评价 §十二",
+    "original_locator": "../../../11_作品分析诊断与证据化评价.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "skills/creative-origin-and-question-framing.md",
+    "label": "03 创作起点与具体问题建构 §十一",
+    "original_locator": "../../../03_创作起点与具体问题建构.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "skills/creative-origin-and-question-framing.md",
+    "label": "skill 接口与调用总表",
+    "original_locator": "../../../00_skill接口与调用总表.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "skills/dialogue-as-interaction.md",
+    "label": "06 对白潜台词与话语行动 §十二",
+    "original_locator": "../../../06_对白潜台词与话语行动.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "skills/evidence-based-expression-review.md",
+    "label": "08 表达精准度有效性与审美判断 §十二",
+    "original_locator": "../../../08_表达精准度有效性与审美判断.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "skills/information-design-and-reveal.md",
+    "label": "07 信息分配留白与揭示设计 §十三",
+    "original_locator": "../../../07_信息分配留白与揭示设计.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "skills/information-design-and-reveal.md",
+    "label": "skill接口与调用总表",
+    "original_locator": "../../../00_skill接口与调用总表.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "skills/medium-purpose-adaptation.md",
+    "label": "09 广告影片与平面叙事的媒介适配 §十二",
+    "original_locator": "../../../09_广告影片与平面叙事的媒介适配.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "skills/medium-purpose-adaptation.md",
+    "label": "skill 接口与调用总表",
+    "original_locator": "../../../00_skill接口与调用总表.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "skills/narrative-form-identification.md",
+    "label": "一 叙事形式识别与建模 §十",
+    "original_locator": "../../../一.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "skills/scene-plot-and-rhythm-design.md",
+    "label": "05 场景情节与叙事节奏设计 §十二",
+    "original_locator": "../../../05_场景情节与叙事节奏设计.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "skills/screenwriting-work-and-contribution-map.md",
+    "label": "02 编剧工作与协作贡献建模 §九",
+    "original_locator": "../../../02_编剧工作与协作贡献建模.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "skills/skincare-case-teaching-use.md",
+    "label": "10 护肤品牌短片的完整案例推演 §十六",
+    "original_locator": "../../../10_护肤品牌短片的完整案例推演.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "skills/unified-skill-interface.md",
+    "label": "12 创作迭代验证与协作交付流程 §十六",
+    "original_locator": "../../../12_创作迭代验证与协作交付流程.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "skills/unified-skill-interface.md",
+    "label": "skill 接口与调用总表：定位、统一输入、统一输出",
+    "original_locator": "../../../00_skill接口与调用总表.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "templates/analysis-report-structure.md",
+    "label": "11 作品分析诊断与证据化评价 §十一",
+    "original_locator": "../../../11_作品分析诊断与证据化评价.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "templates/cross-version-handoff.md",
+    "label": "09 广告影片与平面叙事的媒介适配 §十",
+    "original_locator": "../../../09_广告影片与平面叙事的媒介适配.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "templates/decision-record.md",
+    "label": "08 表达精准度有效性与审美判断 深化应用",
+    "original_locator": "../../../08_表达精准度有效性与审美判断.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "templates/diagnostic-report-card.md",
+    "label": "11 作品分析诊断与证据化评价 §八 示例报告卡",
+    "original_locator": "../../../11_作品分析诊断与证据化评价.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "templates/dialogue-handoff-to-execution.md",
+    "label": "06 对白潜台词与话语行动 §十四",
+    "original_locator": "../../../06_对白潜台词与话语行动.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "templates/evidence-ledger.md",
+    "label": "11 作品分析诊断与证据化评价 §四",
+    "original_locator": "../../../11_作品分析诊断与证据化评价.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "templates/information-dependency-table.md",
+    "label": "07 信息分配留白与揭示设计 §十一",
+    "original_locator": "../../../07_信息分配留白与揭示设计.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "templates/minimal-handoff-card.md",
+    "label": "02 编剧工作与协作贡献建模 §六.7",
+    "original_locator": "../../../02_编剧工作与协作贡献建模.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "topics/01-narrative-form-identification.md",
+    "label": "一 叙事形式识别与建模",
+    "original_locator": "../../../一.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "topics/01-narrative-form-identification.md",
+    "label": "阅读指南 README：第一篇的保留方式",
+    "original_locator": "../../../README.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "topics/02-screenwriting-work-and-contribution.md",
+    "label": "02 编剧工作与协作贡献建模",
+    "original_locator": "../../../02_编剧工作与协作贡献建模.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "topics/03-creative-origin-and-question.md",
+    "label": "03 创作起点与具体问题建构",
+    "original_locator": "../../../03_创作起点与具体问题建构.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "topics/03-creative-origin-and-question.md",
+    "label": "阅读指南 README",
+    "original_locator": "../../../README.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "topics/04-character-relation-world.md",
+    "label": "04 人物行为关系与世界规则",
+    "original_locator": "../../../04_人物行为关系与世界规则.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "topics/04-character-relation-world.md",
+    "label": "阅读指南 README",
+    "original_locator": "../../../README.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "topics/05-scene-plot-rhythm.md",
+    "label": "05 场景情节与叙事节奏设计",
+    "original_locator": "../../../05_场景情节与叙事节奏设计.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "topics/06-dialogue-as-interaction.md",
+    "label": "06 对白潜台词与话语行动",
+    "original_locator": "../../../06_对白潜台词与话语行动.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "topics/07-information-design.md",
+    "label": "07 信息分配留白与揭示设计",
+    "original_locator": "../../../07_信息分配留白与揭示设计.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "topics/07-information-design.md",
+    "label": "阅读指南 README",
+    "original_locator": "../../../README.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "topics/08-expression-evaluation.md",
+    "label": "08 表达精准度有效性与审美判断",
+    "original_locator": "../../../08_表达精准度有效性与审美判断.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "topics/09-medium-purpose-adaptation.md",
+    "label": "09 广告影片与平面叙事的媒介适配",
+    "original_locator": "../../../09_广告影片与平面叙事的媒介适配.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "topics/10-skincare-film-case.md",
+    "label": "10 护肤品牌短片的完整案例推演",
+    "original_locator": "../../../10_护肤品牌短片的完整案例推演.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "topics/11-close-reading-diagnosis.md",
+    "label": "11 作品分析诊断与证据化评价",
+    "original_locator": "../../../11_作品分析诊断与证据化评价.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "topics/11-close-reading-diagnosis.md",
+    "label": "来源索引与研究边界",
+    "original_locator": "../../../00_来源索引.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "topics/12-iteration-and-handoff.md",
+    "label": "12 创作迭代验证与协作交付流程",
+    "original_locator": "../../../12_创作迭代验证与协作交付流程.md"
+  },
+  {
+    "package": "screenwriting-narrative-method",
+    "file": "topics/12-iteration-and-handoff.md",
+    "label": "skill 接口与调用总表",
+    "original_locator": "../../../00_skill接口与调用总表.md"
+  }
+]

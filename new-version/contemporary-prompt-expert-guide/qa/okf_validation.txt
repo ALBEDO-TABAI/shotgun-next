@@ -1,0 +1,2 @@
+[CONFORMANT] /mnt/data/contemporary-prompt-expert-guide/knowledge/contemporary-prompting
+  concepts=47 types={'Reference': 7, 'Technique': 13, 'Lexicon': 2, 'Playbook': 11, 'Exercise': 1, 'Framework': 5, 'CaseStudy': 8} index=yes log=yes

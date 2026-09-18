@@ -1,0 +1,1646 @@
+{
+  "schema_version": 1,
+  "scope": "All packaged files except this manifest itself; hashes do not attest behavior.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2777,
+      "sha256": "68fc375726f74b53adc2ec93d6b7edcc4f810948760b673b3d37b5df97349e2c"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 7212,
+      "sha256": "4f25e656e949cda13d78b7eb5bcaee22af2f897bf50abd9518f7833709cd7882"
+    },
+    {
+      "path": "VALIDATION.md",
+      "bytes": 2175,
+      "sha256": "099f442f21bcea6a5f3506392e45e9c6bc4f4f99fdff48f10150d2adbfb2acee"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 376,
+      "sha256": "31151222f7482c4242f192dfb8ae2945c291e33a689e83a8e0732b0d130e5a94"
+    },
+    {
+      "path": "assets/evaluation-template.md",
+      "bytes": 1074,
+      "sha256": "03ae5349a9391fdf63139392d979d1b79d35c852930f50a99b56e6bb80b191f4"
+    },
+    {
+      "path": "assets/evidence-handoff-template.md",
+      "bytes": 1173,
+      "sha256": "8566beb73e482fa3a423b41b4c6c0d3635d30b75a52dafac0615d9e6a126dad2"
+    },
+    {
+      "path": "assets/reconstruction-template.md",
+      "bytes": 1140,
+      "sha256": "a518977e79903aa036f15baa7921b9daddcaf3e43aa36cfd8024fd2d58f7ed60"
+    },
+    {
+      "path": "evals/README.md",
+      "bytes": 1829,
+      "sha256": "4e64aa7f87f6c9184018563e326337eaf308344739de1b698d1f7bf16676dd8f"
+    },
+    {
+      "path": "evals/cases.json",
+      "bytes": 8231,
+      "sha256": "69aa116e67a34f11c9ff48187225bfe2d59815a7e3abd2814a1fa3e08531cdcb"
+    },
+    {
+      "path": "examples/01-storyboard-and-transcript.md",
+      "bytes": 5748,
+      "sha256": "40ddd130eadfc5874286ec9d96e4054ec621b8c142c9b24e7466f06fe16536ab"
+    },
+    {
+      "path": "examples/02-partial-and-conflicting-material.md",
+      "bytes": 2137,
+      "sha256": "52c373b81756ef12411339edd49ea0a44b771816d4deea68b736324b4ae7973f"
+    },
+    {
+      "path": "examples/03-associative-film.md",
+      "bytes": 1753,
+      "sha256": "cdf070a20ab6e427c674aa437bbc445cb14cc8133ef987ace38080f469da3bbc"
+    },
+    {
+      "path": "examples/index.md",
+      "bytes": 638,
+      "sha256": "a8fa4e6fb655c4e5f3f7d9848dd42a3bcb86dbe1cb2d925b3969ae5d3f6fefbd"
+    },
+    {
+      "path": "references/evaluation-and-diagnosis.md",
+      "bytes": 5884,
+      "sha256": "7c8f43a75badd3bc5dcdd1ac8c52e18b5d59dd6613844066df7333425e1a1dff"
+    },
+    {
+      "path": "references/evidence-and-reconstruction.md",
+      "bytes": 5188,
+      "sha256": "4a617afc9aeb3e009cd679d11c38d358b8324e622f3044b1dfabaec00e7a2a28"
+    },
+    {
+      "path": "references/knowledge/contemporary-prompting/cases/01-brand-film.md",
+      "bytes": 7466,
+      "sha256": "ab583934c49b7e871ecc64ec878177559fbed7a08953cceb4390a6d1cfe8dd27"
+    },
+    {
+      "path": "references/knowledge/contemporary-prompting/cases/02-relationship.md",
+      "bytes": 3756,
+      "sha256": "9abfca6a5ba5e9c647ecb5bf19c2fa27e3a185be2ab56e1c8439fcbe259d2711"
+    },
+    {
+      "path": "references/knowledge/contemporary-prompting/cases/03-big-emotion.md",
+      "bytes": 3932,
+      "sha256": "d8a50acf046b56c865cb458f7173d03faacb5a5d9311be93b97e9397bafbc97b"
+    },
+    {
+      "path": "references/knowledge/contemporary-prompting/cases/04-vlog.md",
+      "bytes": 4331,
+      "sha256": "46c3b5b8f91bd3f70e566297aa9350db967f5808042ae48976d73839381e7f49"
+    },
+    {
+      "path": "references/knowledge/contemporary-prompting/cases/05-empty-corridor.md",
+      "bytes": 3791,
+      "sha256": "6bcd957bea4a80a6697b9e7417a63dd5daf0483d02f370749e359cdf2e75a525"
+    },
+    {
+      "path": "references/knowledge/contemporary-prompting/cases/06-surreal-perfume.md",
+      "bytes": 3773,
+      "sha256": "5e80c231c6a3501685f55b3b9d87b09f2d20a3bf1f792ca2344075828b0ad459"
+    },
+    {
+      "path": "references/knowledge/contemporary-prompting/cases/07-comedy.md",
+      "bytes": 3599,
+      "sha256": "f5cd8f5d2520e8eaaa09d5e59276a55ebd64c7e10fae4e02182fd94becd3096a"
+    },
+    {
+      "path": "references/knowledge/contemporary-prompting/cases/08-object-exchange.md",
+      "bytes": 4522,
+      "sha256": "9c9c35c7efbf78f49e6fc865aa1fd204428ee8ef74dafeb8e6e7ef451cf2eeb2"
+    },
+    {
+      "path": "references/knowledge/contemporary-prompting/cases/index.md",
+      "bytes": 1345,
+      "sha256": "4a27785377872679e949b7b2e311a1d5731aa84ae274167b3b2f736b82e0a3ad"
+    },
+    {
+      "path": "references/knowledge/contemporary-prompting/craft/01-acting.md",
+      "bytes": 4903,
+      "sha256": "9f0f4b1f68ac1425d8cff0ee101d9cf07aee5c3945d6c81e0c8b4ceef1fa3fb1"
+    },
+    {
+      "path": "references/knowledge/contemporary-prompting/craft/02-dialogue-voice.md",
+      "bytes": 4762,
+      "sha256": "17179baeb705c175c630246d6fdccac0b023462d3bcc5006e477ed654b992f7c"
+    },
+    {
+      "path": "references/knowledge/contemporary-prompting/craft/03-action-blocking.md",
+      "bytes": 4305,
+      "sha256": "1dfd606407cdeeff08367cf653aa54399aedda0e9ecdfdc41701f98d2f7144fb"
+    },
+    {
+      "path": "references/knowledge/contemporary-prompting/craft/04-camera-attention.md",
+      "bytes": 4747,
+      "sha256": "9b144845e53a6a9004164d3ff7dcae0f2208096bcc95994272ff5b0f15686f1a"
+    },
+    {
+      "path": "references/knowledge/contemporary-prompting/craft/05-light-material.md",
+      "bytes": 4665,
+      "sha256": "d1f0fa25193165f0447c4fb718327a75333699bae87fdb4d69b8a3e3e480cdde"
+    },
+    {
+      "path": "references/knowledge/contemporary-prompting/craft/06-world-art-costume.md",
+      "bytes": 4447,
+      "sha256": "a46f6e9291374f738efa1750b99d61858f3afbb68434d23aa1eb844588d5ac0c"
+    },
+    {
+      "path": "references/knowledge/contemporary-prompting/craft/07-sound-music.md",
+      "bytes": 5349,
+      "sha256": "17b6264999e02df22cc6ba08116a34b085c165838d8ec1ab8545a7a44dcfefbd"
+    },
+    {
+      "path": "references/knowledge/contemporary-prompting/craft/08-still-graphic-style.md",
+      "bytes": 4397,
+      "sha256": "4cadb73204e0b71af69367fc3d63f8ed0aaf62ec15cf6ff28ca3bc1f77237076"
+    },
+    {
+      "path": "references/knowledge/contemporary-prompting/craft/09-time-montage.md",
+      "bytes": 4473,
+      "sha256": "3758bc38d4ec460beacbe97407fc9490fae5bda14a9800fe92487201c185f05b"
+    },
+    {
+      "path": "references/knowledge/contemporary-prompting/craft/index.md",
+      "bytes": 1553,
+      "sha256": "a0be4f193d5299abe2f3bb4878f143a4042c1fcc557fe6c6101ac93a586116f6"
+    },
+    {
+      "path": "references/knowledge/contemporary-prompting/foundations/00-ten-minute-start.md",
+      "bytes": 4134,
+      "sha256": "a0b48fa9b99e8e0dc863005108ac084f8bc6dbece6f8eacbd84f5857cfcd47e2"
+    },
+    {
+      "path": "references/knowledge/contemporary-prompting/foundations/01-what-this-field-is.md",
+      "bytes": 5328,
+      "sha256": "962c116d4730675d45d826bb38f51b9c3f791f53e26870bd78d9652478cf9d89"
+    },
+    {
+      "path": "references/knowledge/contemporary-prompting/foundations/02-six-layer-method.md",
+      "bytes": 5598,
+      "sha256": "1ff9c7afbe386c7ad74697ec427a37645e83425face1cbea1a20acbe7a91d2bb"
+    },
+    {
+      "path": "references/knowledge/contemporary-prompting/foundations/03-three-drafts.md",
+      "bytes": 5268,
+      "sha256": "5e4642c1f0000e2ab90ff8076f547391585aca72a1dcdc4cc91068df0c881279"
+    },
+    {
+      "path": "references/knowledge/contemporary-prompting/foundations/04-freedom-and-constraints.md",
+      "bytes": 4729,
+      "sha256": "f989089e9c4b369d0acd37f94208533a39346c76a4949506f16c469c9537fdff"
+    },
+    {
+      "path": "references/knowledge/contemporary-prompting/foundations/05-how-to-know.md",
+      "bytes": 4237,
+      "sha256": "fa8ba612e373c2181f4f72167a8f9eb9ca46d4fbed0d768b6d47e6be31357778"
+    },
+    {
+      "path": "references/knowledge/contemporary-prompting/foundations/index.md",
+      "bytes": 1155,
+      "sha256": "9ff6a275491aff9ad96c52f316a7ee19f12dfa862297e641f97a5d0d2c1714dd"
+    },
+    {
+      "path": "references/knowledge/contemporary-prompting/index.md",
+      "bytes": 8601,
+      "sha256": "93e6d649a125b083148ad14617cdb5f1704d4f2096f9d8cd6a10b38a52145101"
+    },
+    {
+      "path": "references/knowledge/contemporary-prompting/language/01-sensory-translation.md",
+      "bytes": 5354,
+      "sha256": "b4ec75d34bf9bc3228511da5f579274111059d93b800b8f4edf5582a56baf36f"
+    },
+    {
+      "path": "references/knowledge/contemporary-prompting/language/02-association-workshop.md",
+      "bytes": 5205,
+      "sha256": "2e3ccca86d4367f6af1037fca83fbedf8606920f496a356a08c464f996599295"
+    },
+    {
+      "path": "references/knowledge/contemporary-prompting/language/03-scene-grammar.md",
+      "bytes": 4177,
+      "sha256": "820ef45e1d5ab32832746d55b6bf2529f2b2e2a64e6f2b8dd254105b093a23ca"
+    },
+    {
+      "path": "references/knowledge/contemporary-prompting/language/04-emotion-atlas.md",
+      "bytes": 8321,
+      "sha256": "a0a166ce7fb10f68314becf5d3cfe15e9f5bb32f0c45d00ea8165300fa34f1b2"
+    },
+    {
+      "path": "references/knowledge/contemporary-prompting/language/05-atmosphere-atlas.md",
+      "bytes": 7927,
+      "sha256": "dedad165b00081ae47181f65bc9ff2d2c41c0305473cf729567f06bfa8a24f35"
+    },
+    {
+      "path": "references/knowledge/contemporary-prompting/language/06-rewrite-clinic.md",
+      "bytes": 6407,
+      "sha256": "4ba3bc563092d4752cf150bc790f1a585d569a9ee9f4e304784940a4cfad572e"
+    },
+    {
+      "path": "references/knowledge/contemporary-prompting/language/index.md",
+      "bytes": 1057,
+      "sha256": "a855bcbc5703b064bfd7bdbbc0b97397674fa63b217e8e1ee8989b9e388bdda3"
+    },
+    {
+      "path": "references/knowledge/contemporary-prompting/log.md",
+      "bytes": 2079,
+      "sha256": "e852ce039fc60f03877599cb493e357f946daa4175e1e3afc73ee8a6f5cd143d"
+    },
+    {
+      "path": "references/knowledge/contemporary-prompting/practice/01-templates.md",
+      "bytes": 5319,
+      "sha256": "904a1a0fc25abb69039f52a69bb0a860975008a35841ca31a1aa35b1f30fd3d6"
+    },
+    {
+      "path": "references/knowledge/contemporary-prompting/practice/02-exercises.md",
+      "bytes": 5054,
+      "sha256": "8cfc0a3a8ccccfe54976ef7fc384934065b3848c1bb3d25a2a2bcb6bae4f188e"
+    },
+    {
+      "path": "references/knowledge/contemporary-prompting/practice/03-review-rubric.md",
+      "bytes": 4030,
+      "sha256": "92ae7d048fc6df8f08edab9d2cc3a1e81302f22880cdfe5e84af6991d5174758"
+    },
+    {
+      "path": "references/knowledge/contemporary-prompting/practice/04-agent-use.md",
+      "bytes": 3934,
+      "sha256": "6878c233347eb8004a538a714ebf8e7e71ea7754bd70edb4a072db97007a8db7"
+    },
+    {
+      "path": "references/knowledge/contemporary-prompting/practice/index.md",
+      "bytes": 674,
+      "sha256": "93c59a651d10b9a2c528dd0918b23e52c32525175338850464670d2510319ecf"
+    },
+    {
+      "path": "references/knowledge/contemporary-prompting/references/corpus.md",
+      "bytes": 3802,
+      "sha256": "72d90916b39c455bff3706bbca3b9c089ea534d2fea1d63e157ae2dd3d0723d1"
+    },
+    {
+      "path": "references/knowledge/contemporary-prompting/references/glossary.md",
+      "bytes": 7322,
+      "sha256": "8bd60f957498c859e00aef964445428bee9894ed8a480c7d709e1404f065bc6e"
+    },
+    {
+      "path": "references/knowledge/contemporary-prompting/references/index.md",
+      "bytes": 1120,
+      "sha256": "5b8c66bab56cc806453d0d98ad245870689ba5cc558586addac23d8818bf3858"
+    },
+    {
+      "path": "references/knowledge/contemporary-prompting/references/official-image.md",
+      "bytes": 2759,
+      "sha256": "fd90200867371f1f608b8d295b08a11d6afe3d15dfbccf29e5f3cb54f24ca030"
+    },
+    {
+      "path": "references/knowledge/contemporary-prompting/references/official-video.md",
+      "bytes": 3312,
+      "sha256": "b899cd0f118729ba0613e3538206170b3e23625300c7668a9e7f21179e8b66fa"
+    },
+    {
+      "path": "references/knowledge/contemporary-prompting/references/official-voice-light.md",
+      "bytes": 2281,
+      "sha256": "8c8d43cc1df604cf9137a4123855a69a729d4f1b14ab7a4427b9b99baacad59f"
+    },
+    {
+      "path": "references/knowledge/contemporary-prompting/references/okf.md",
+      "bytes": 3859,
+      "sha256": "9a6d416c3a43a9eb5b98cadd51d85f3abb5650578c74d078479dd305e03d916a"
+    },
+    {
+      "path": "references/knowledge/contemporary-prompting/references/theory.md",
+      "bytes": 5916,
+      "sha256": "ff11b56e2d8c31e726b29e8fd804be71db94c93d3aa4bb8c142f9aa782a64191"
+    },
+    {
+      "path": "references/knowledge/contemporary-prompting/references/tutorial-map.md",
+      "bytes": 9405,
+      "sha256": "95bb3166acd22dbdf9c67223c69433c1f5186c14423d3d65d548f40cf9db45a4"
+    },
+    {
+      "path": "references/knowledge/contemporary-prompting/workflows/01-brief-to-options.md",
+      "bytes": 4212,
+      "sha256": "b44b8a90449c6e99ad45058165f199b2a142a0e2cade0e4b8416bed440332315"
+    },
+    {
+      "path": "references/knowledge/contemporary-prompting/workflows/02-text-to-image.md",
+      "bytes": 3790,
+      "sha256": "c4349c80e06d9f437443dd2a150faa3aa146b63427954a2fea61b6864845067c"
+    },
+    {
+      "path": "references/knowledge/contemporary-prompting/workflows/03-image-edit.md",
+      "bytes": 4199,
+      "sha256": "66ed802d79e807a462ac58e9dddeff745b77681ce326d868d976709bdceba016"
+    },
+    {
+      "path": "references/knowledge/contemporary-prompting/workflows/04-image-to-video.md",
+      "bytes": 4070,
+      "sha256": "138d8f7ef747eea33ee9bd1667d0b804d3210e6d669b041c56dd12600edb16b7"
+    },
+    {
+      "path": "references/knowledge/contemporary-prompting/workflows/05-assets-multishot.md",
+      "bytes": 4782,
+      "sha256": "3bebb86a4db71e293618729eca605991f77ed2b3dc19a00dd1c4924f5d642feb"
+    },
+    {
+      "path": "references/knowledge/contemporary-prompting/workflows/06-previs.md",
+      "bytes": 4920,
+      "sha256": "87517a5e00c721eb6097854d8aac0cc7b89c62278b74383961272904627a68c7"
+    },
+    {
+      "path": "references/knowledge/contemporary-prompting/workflows/07-evaluate-repair.md",
+      "bytes": 4688,
+      "sha256": "abb114ef85e80bb1d269ed9a9f1aa17ec200bb1be67d507cf003f61d22ad33df"
+    },
+    {
+      "path": "references/knowledge/contemporary-prompting/workflows/08-model-adaptation.md",
+      "bytes": 4658,
+      "sha256": "cdd37da20f41c80320384f0086442427bc110900af27d5e2527df2c712108d87"
+    },
+    {
+      "path": "references/knowledge/contemporary-prompting/workflows/index.md",
+      "bytes": 1328,
+      "sha256": "2728d9f528ebd5a9b25649195c359d038b9340b0762c72df4fd857038c716331"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/cases/box-at-the-door-diagnosis.md",
+      "bytes": 3266,
+      "sha256": "5ef242cbe6a203984f0de3af2f5e58dc6bb29b7e0d602617e2b48a4721e765a1"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/cases/box-at-the-door-screenwriting-work.md",
+      "bytes": 4410,
+      "sha256": "e2f37ed282ab731cad7f98ae1e5ae3421390d372505aad5627c0a3f16fb818f8"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/cases/box-of-old-things-three-orders.md",
+      "bytes": 3573,
+      "sha256": "a6cfab7f8f6f26f7fe6a853b170ad2cdcc1bebc41c65148f3aa4f129a9cabf70"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/cases/index.md",
+      "bytes": 7370,
+      "sha256": "2ae5389db361da48459e0e2e7c82019e1b7387687383390ca1f9709da0c5179c"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/cases/moving-a-dining-table.md",
+      "bytes": 4314,
+      "sha256": "c6a65fd81edbd891f7ce7d8f0c0bcfdc9e3cea1983a73b726cdaf6302c54487d"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/cases/one-key-three-endings.md",
+      "bytes": 2933,
+      "sha256": "2581381c257abcc211eb49c43d6669ba86a197d072863e6430cfd627237a9fee"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/cases/reliability-three-routes.md",
+      "bytes": 3543,
+      "sha256": "a045358bab4fa3f658a3e242661d21c03d8d9b5aafa86ca2ca958c3b59d477fe"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/cases/returning-the-keys.md",
+      "bytes": 3756,
+      "sha256": "4e85eaed3720c4c4aaf43fade273775b341c51821aa081e5bbaeea534276e66a"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/cases/skincare-film-15s-and-print.md",
+      "bytes": 3136,
+      "sha256": "2cc5a52701917828eef7a260cef850924c6a0081f3328de525f525b4855fe2c7"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/cases/skincare-film-45s-time-draft.md",
+      "bytes": 3313,
+      "sha256": "546d46309c3bc9304812e76a34d70c686a615a97d2ac4d70413d523d9cda39a2"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/cases/skincare-film-adversarial-modifications.md",
+      "bytes": 2743,
+      "sha256": "2f30e620c24221ddaa38274ce1e153d1cef72a37d9179cf5ee488e0868e8ee08"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/cases/skincare-film-brand-uniqueness-gap.md",
+      "bytes": 2987,
+      "sha256": "0fad8325f5fe27e021c19b84c69d4d9903d5bb78db8832b29532a3e0dc4863f6"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/cases/skincare-film-brief-decomposition.md",
+      "bytes": 5652,
+      "sha256": "e841b25f39c51d35e9e0138fb54e55250ac903636530a943ce8c8146ef4f2139"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/cases/skincare-film-change-through-chain.md",
+      "bytes": 3191,
+      "sha256": "fc4611a8f3154f1b89dd94aa7b0db357bfa96568bf02cddb40c961eda4dabb7f"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/cases/skincare-film-delivery-status-and-risks.md",
+      "bytes": 4456,
+      "sha256": "51ead9a0963d2a4461a688ff2c0df1b1320f9b67886fd954fff962f0338f7bbe"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/cases/skincare-film-department-division.md",
+      "bytes": 3595,
+      "sha256": "2d0731c9c0fd3e6fd9eb6d323dc91baa9c7e86b8b83540ccedfaadd7e91e483f"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/cases/skincare-film-five-protected-relations.md",
+      "bytes": 3158,
+      "sha256": "601ae74b571d1627ab29d9cc3e941884da6aba05a4dfcf321a0ab028ab83826c"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/cases/skincare-film-form-comparison.md",
+      "bytes": 2859,
+      "sha256": "c90cee72e6ccd79b34d438879d3ea8d0a953f0cb3bddf1dd51a4638483d024c8"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/cases/skincare-film-information-plan.md",
+      "bytes": 3185,
+      "sha256": "32a822cd90437aafa0f3467d8ea64d1e3c95d6f1ec5fe124bb80880e087e5ae6"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/cases/skincare-film-scene-script-a01.md",
+      "bytes": 3594,
+      "sha256": "2c2f596affba4167fc99ff16ff1b5a4673db90bbbd7b4f46880b6e44b69bd39d"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/cases/skincare-film-validation-plan.md",
+      "bytes": 3375,
+      "sha256": "3a84f92aab9745e4846182dede3cb2545f0241a6a2f71d13df25ae451e25f777"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/cases/umbrella-repair-shop-negotiation.md",
+      "bytes": 4227,
+      "sha256": "734e72f841ee8002928ab9a110b46fc715b66d8b3d6c765da20be624b70393e5"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/cases/umbrella-repair-six-works.md",
+      "bytes": 3839,
+      "sha256": "9c342b0ae3254234a21d9050902cd39dbb8a3cadc3d32df26c12f46f27701369"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/checklists/03-failure-modes-and-fixes.md",
+      "bytes": 2278,
+      "sha256": "2dc5cae0a1767fc8c8047555f815ec56d458995284c760256456458b8ebf6341"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/checklists/09-test-matrix.md",
+      "bytes": 2084,
+      "sha256": "1c06f04e46acc3123481c0eda584e621ba7307d1037b799d777cf148237df0fb"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/checklists/character-ethics-check.md",
+      "bytes": 2073,
+      "sha256": "456a39c1245fb2638c4ca6bd459077f67d4caa2ae8c0b3a0e082b55353ccd80c"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/checklists/clue-production-chain.md",
+      "bytes": 2622,
+      "sha256": "b27e93066c980622112b44f9259a606c3c11f93b047a1536879833819428497c"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/checklists/concept-screening.md",
+      "bytes": 2564,
+      "sha256": "2e7cd00119e384c294c26b3f9b53153b000eec2cee876c03f1f4c5ca9ed60c28"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/checklists/deliverable-completion-criteria.md",
+      "bytes": 3463,
+      "sha256": "4beaa1d3c5a28049a3b9b4df249c6b334dad54142ee027ea3175b001ae004e38"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/checklists/dialogue-diagnosis.md",
+      "bytes": 2657,
+      "sha256": "8cc195443ebfed3c00c501335e9ffa25b28df07bec99aaea64bb42e75b8fd51d"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/checklists/final-delivery-and-stop-conditions.md",
+      "bytes": 1896,
+      "sha256": "e2dd715eb03c4a27f641b57c2893798b761fb9c485f0c5bb0f2b59c176acdd34"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/checklists/four-kinds-of-inconsistency.md",
+      "bytes": 2150,
+      "sha256": "d2989450b22e2f62d428b699277d41ca273f11bb63f633f16a966f8bbdf9ad94"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/checklists/index.md",
+      "bytes": 3668,
+      "sha256": "2f786fb7d429270d1e6b190835efcd7277316bfc2de55b825487495812bcaeea"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/checklists/information-leak-and-version-loss.md",
+      "bytes": 3123,
+      "sha256": "d47827c5ed9baba32636255e50af65403397eb5a31106d7515eb582685468f75"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/checklists/remove-product-swap-brand-tests.md",
+      "bytes": 2217,
+      "sha256": "91ad909a7c8c2bb3df9029b99887458b5cf9dd3e3da93f1475c4c3062e04086b"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/checklists/scene-symptoms-minimal-fixes.md",
+      "bytes": 2216,
+      "sha256": "f33b64962508d9fd3d2d3d8e13e5e3b9c01fc2447c0068de16b8575507cbfd96"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/checklists/six-practices-that-increase-rework.md",
+      "bytes": 2800,
+      "sha256": "5751e929a721c436841e6033986caccd7a9f96e9527297f3f96e0ed52aab460e"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/exercises/02-work-and-contribution.md",
+      "bytes": 2536,
+      "sha256": "a92a0d59f3073351cba042c681f3ec090640311c79aadc3531240481ef2995c0"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/exercises/03-origin-and-question.md",
+      "bytes": 2260,
+      "sha256": "e90cd43efdf5e5395618ea9ba107e4075ab6d0297a29afdbf56499ae6b0ce4d6"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/exercises/04-character-and-world.md",
+      "bytes": 2185,
+      "sha256": "909129aa54c86658c11ddd0f7301f611c9d7f25d338a0f55be1af420153e9eac"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/exercises/05-scene-plot-rhythm.md",
+      "bytes": 2325,
+      "sha256": "8af198983472aa73299804e2bad9dadabfab00758b32b936f8a99726b08ca2c3"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/exercises/06-dialogue.md",
+      "bytes": 2406,
+      "sha256": "76c1b7812987f1fef81b1fa8b24739659e35473c3bc53ff2b11872a23c30f5ac"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/exercises/07-information-design.md",
+      "bytes": 1899,
+      "sha256": "7be7a32d51bb2229d285e76a812cca634d33ae5ddca9aeb59cc409f5c8aaa53c"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/exercises/08-evaluation.md",
+      "bytes": 2309,
+      "sha256": "03bdcdc5f6cdbaca90f8ce241b29c560f7de0dd0aadb08a2d564dbdafaf72fa6"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/exercises/09-medium-adaptation.md",
+      "bytes": 2030,
+      "sha256": "5c455e79ed66f93f9acd43cd89ce662b666d8975b9e1c43ca5cec0146ef1c538"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/exercises/11-analysis.md",
+      "bytes": 2234,
+      "sha256": "4721489070f2f8a2deec5c1a38e64c57925362af4851bcec8f46d3c0b18d8363"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/exercises/12-iteration.md",
+      "bytes": 2209,
+      "sha256": "3b2fbd5b569165657db8587e1a42bf4ea4d4f3ce384892ba360eeb142d3e0070"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/exercises/index.md",
+      "bytes": 2669,
+      "sha256": "2fe7073da0215513f2c2b82a309905e133f32797c79e69aaebbf97f1bb6f2ac4"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/frameworks/action-basis-instead-of-trait-list.md",
+      "bytes": 3536,
+      "sha256": "343703971a43393307d8e4e288cefa2bcaff25e7cd6a48508bd708b4ea4d1e3f"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/frameworks/agent-human-role-division.md",
+      "bytes": 2890,
+      "sha256": "2c56a8b01cec089bafa85a4744b80219dacc1baa2519076d38041859220f41d8"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/frameworks/analysis-units-shot-to-sequence.md",
+      "bytes": 3566,
+      "sha256": "96de293d2bb2050986254ea77d2c490c66e492423a973c0bd05f3fb242cf8d02"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/frameworks/audience-background-knowledge.md",
+      "bytes": 2362,
+      "sha256": "857356e365bdd4582b55c4b332729f18ce78f609b1041151c583ac2bd42dec9c"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/frameworks/brand-story-connection.md",
+      "bytes": 3364,
+      "sha256": "697f486143838b5bd82cd0477316363156c728fde757c0955418ac4913e91920"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/frameworks/character-three-levels.md",
+      "bytes": 2989,
+      "sha256": "c254a58fbd2a01d6ab29ecf59086ff74bc263e606563cd03740b257ab0bd609c"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/frameworks/character-voice-from-choices.md",
+      "bytes": 2696,
+      "sha256": "7f6de1694f7e9567fe2d38a8c5250cad0093462e5c27539ae0a7a77e01b2719b"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/frameworks/coherence-vs-surface-smoothness.md",
+      "bytes": 2434,
+      "sha256": "e9a0f399dcc1a73690f1b2d1e6075beba48cd3f47eef4323563b6ad04b1dc9de"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/frameworks/contribution-evidence-three-layers.md",
+      "bytes": 3109,
+      "sha256": "46e63345e475f3a2cca622c2888cbada712291387e76d2f9917ef4203eb1dd9d"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/frameworks/crop-short-version-cross-media-losses.md",
+      "bytes": 2223,
+      "sha256": "09d29d5cbd877dbc5b0db82841c88fdcd783ba9a289952a1345ef3ad66065de6"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/frameworks/curiosity-suspense-surprise.md",
+      "bytes": 2894,
+      "sha256": "4dc90856dbc26a6f73a899a9388e68319246f13ab1f95fd39f8afe0b6631dede"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/frameworks/dialogue-as-strategy-under-feedback.md",
+      "bytes": 3109,
+      "sha256": "41ed542d62875c20baa32170eab44e3045b03dcbb37a4abd96c8308cfaffa00e"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/frameworks/dialogue-four-layers.md",
+      "bytes": 2760,
+      "sha256": "b305893c18d8f8254a1b5d3e0ab6072863de3e81ce919bf91ac28487d60c320d"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/frameworks/effectiveness-criterion.md",
+      "bytes": 2808,
+      "sha256": "0b4f7b1676d6342ec9f91c4b55a0b31cc9d614bf81876d7bed89a7d009238233"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/frameworks/emotional-grounding.md",
+      "bytes": 2651,
+      "sha256": "c280f0d8b72172c8a28e3dce4e5e8a90d35b423a6734a289d017c99798e2f867"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/frameworks/factuality-realism-world-rules.md",
+      "bytes": 4176,
+      "sha256": "f08bd8c63d3cd46f6cc08b651e8fdfd4495b9caaa9c343880da02e6ca9f8bb44"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/frameworks/five-statement-types-in-evaluation.md",
+      "bytes": 2980,
+      "sha256": "3be83cb0948a442627cb509abf95fcd0f35b7b5b528ef46f8bfadecb6082a942"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/frameworks/focalization-range-depth-path.md",
+      "bytes": 2711,
+      "sha256": "c2613885b715a31e5a64ad4a983c0ecca0b00764d953b398527b1f6458771688"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/frameworks/forms-of-character-change.md",
+      "bytes": 3045,
+      "sha256": "834acdf7cd1f5237158a9efd97fa588a440f83fb850e36cdb9b2e95e89b3fe10"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/frameworks/four-axes-purpose-medium-factuality-context.md",
+      "bytes": 3298,
+      "sha256": "1a209e27c7bcc916a2ae02428926f8abb417f02c85d18c8848b5cda7a2b1af94"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/frameworks/four-input-types-and-uncertainty.md",
+      "bytes": 2944,
+      "sha256": "2504c19dd03c7249e15915769dbdaa1a5c8cb9870de45e9ca14b8e057bdcaa86"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/frameworks/four-states-of-research-material.md",
+      "bytes": 3626,
+      "sha256": "3dad67ce45d3bcca6c5ea74f1b58b4c420d78635e79f99410986a38a60e14f50"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/frameworks/gap-ambiguity-delay-omission.md",
+      "bytes": 2353,
+      "sha256": "3a9ad6895b605cae11d16b7199832cd00fefdbd0a42acba7901b1faf96b00cd7"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/frameworks/genre-elements-relations-usage.md",
+      "bytes": 3358,
+      "sha256": "7bf77feddd50357b29dd1b6242fc66802ef5725774fa008a4ee2f69c00568015"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/frameworks/grounding-hear-understand-agree-comply.md",
+      "bytes": 3296,
+      "sha256": "852fbd873928e367f9cf54f84e271258b2b85e31aa9ce2a0f9e5721644fa35b5"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/frameworks/immersion-as-viewing-conventions.md",
+      "bytes": 3061,
+      "sha256": "19694a6122ba84aa3e5885dc75b14ee0676578d8be380a5d421ae6c84228b17e"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/frameworks/index.md",
+      "bytes": 17715,
+      "sha256": "dd54415374672f6bd46b4ffffed403008fb32a88f73e0d23304625bb2fbe25c1"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/frameworks/ingenuity-multi-relation-choice.md",
+      "bytes": 3086,
+      "sha256": "fda0f123955001bbb7379f81949a4ffad4da6b1f588f893297a8665a1220f57f"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/frameworks/medium-and-style-operational-definitions.md",
+      "bytes": 4167,
+      "sha256": "66f3d1162ed9a8cf3c5894c4a30e7bb09116de9d604ebce9a6e4d7d560271cd4"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/frameworks/minimal-collaboration-architecture.md",
+      "bytes": 3186,
+      "sha256": "bfd78a990535ffc8155749375b92bfc32059b3d352162bb1d0b59e8db8a7c47d"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/frameworks/minimal-information-model.md",
+      "bytes": 3238,
+      "sha256": "b5d666a2fa5a6289549148a9513c0e599dd7da9d280d9385c0e1d8b2ce9cfc38"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/frameworks/narrative-internal-analysis-axes.md",
+      "bytes": 5621,
+      "sha256": "9468c8c72adc3c4451fc895cebc5cc87003aaedca43bbc15f6e6788b19418a48"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/frameworks/non-causal-organization.md",
+      "bytes": 3043,
+      "sha256": "d98f0be294de7e90c65108879047a7bd0a3139eef5914f7e7d2550d68d1e88b4"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/frameworks/plot-connection-types.md",
+      "bytes": 2924,
+      "sha256": "cddee37076e4ce56106564bba0ac581f992df7d782127a328d056b138bb2c4e6"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/frameworks/precision-criterion.md",
+      "bytes": 3026,
+      "sha256": "9e07cdd9eaee7fd984a0b06a3e31bee504e4b3fa46c370224779a6528d8be1a1"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/frameworks/profession-activity-output-distinction.md",
+      "bytes": 3258,
+      "sha256": "555ad20a8113800975bb28e627affe08323a444e48bf97a7d9d0c1e058e8c0dd"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/frameworks/progress-as-change-in-options-cost-understanding.md",
+      "bytes": 2604,
+      "sha256": "86826e246ced2b84511b72f21f9fec07522ab6de0209b2b181a7ab3990176e9c"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/frameworks/relationship-as-bidirectional-process.md",
+      "bytes": 2711,
+      "sha256": "4356112bb8991e9b71f735370d66e98fab72339770b65bbe5f845f304e663721"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/frameworks/rhythm-four-observation-layers.md",
+      "bytes": 3322,
+      "sha256": "586e1c72953ae6bb05ff6ee009b931fb45701d6d316ac6a0c0de31426d99a544"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/frameworks/scene-endings.md",
+      "bytes": 2243,
+      "sha256": "ebbc0421fbd6d6fa5598d0f1a6df053a1aa027eeee4acc3259399301a4bc9177"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/frameworks/scene-entry-process-exit-model.md",
+      "bytes": 3025,
+      "sha256": "a38f00769b9deaa6b7685df57cd8db9ce4e444228303b04501c2947ca8eb69bc"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/frameworks/scene-purpose-and-functions.md",
+      "bytes": 2696,
+      "sha256": "e343784f0261d15b09f2ff863a154a99836237cb0691ba8011cf4d367e3c5dbe"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/frameworks/seven-creative-starting-points.md",
+      "bytes": 3711,
+      "sha256": "2a3a1fbe7d789ab59ab5eab06a3a4fdd9b58d3540aa50fd0eb176f818594602b"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/frameworks/showing-and-telling-as-carriers.md",
+      "bytes": 2620,
+      "sha256": "cc5b0a005eb104a682cda995862de5b07aa18acfec8daf8ca452ac3b40b716ec"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/frameworks/silence-and-action-instead-of-lines.md",
+      "bytes": 2971,
+      "sha256": "73f857940e280fffd7896b436149d82de9b785f2d77c314d187f86be3bcaf8fc"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/frameworks/single-image-narrative-conditions.md",
+      "bytes": 2798,
+      "sha256": "d3b6c4e87d677265f30ecbdc2c4a9076005f7bb706ab5d0d6a32165cdd7c583a"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/frameworks/six-levels-subject-to-form.md",
+      "bytes": 3947,
+      "sha256": "cea4a08a4770897089e28d2d7ff40ba168603d8a91eebd9dc1bc3f86aa365f2a"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/frameworks/six-screenwriting-work-types.md",
+      "bytes": 6244,
+      "sha256": "14ddf2d82e4fa1d2494b94e3e1849f052d8559264fb96d23613cc4b9a858fd8b"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/frameworks/space-and-objects-in-scene.md",
+      "bytes": 2897,
+      "sha256": "66f3dc94ef42d9e3275deaeb71adcdfc4169a27ba7ea4b21d8c0a6654ba1a4fc"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/frameworks/story-form-layers.md",
+      "bytes": 4372,
+      "sha256": "8c1485bf7d0f6cae4e14bba5ef24a80336c7cc70d97ff750c3c30e02aa87d3db"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/frameworks/storyworld-plot-narration-distinction.md",
+      "bytes": 4339,
+      "sha256": "e217125e3cfed19be063a34952daa84cb6e09775e2a25775d63b5bd5a226d80f"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/frameworks/subtext-and-conversational-implicature.md",
+      "bytes": 3467,
+      "sha256": "969c10e42186775876700c56f10a651088dcaa4ee713e7ee5d626a34714acf4e"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/frameworks/tellability-and-producibility.md",
+      "bytes": 2818,
+      "sha256": "6abe7faf215f10892b3275771df692cfa8468f7c80af228394d42665d664dffe"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/frameworks/thesis-driven-vs-discovery-driven.md",
+      "bytes": 2689,
+      "sha256": "f72141aa12d77c0f4f91778400cd31e1f4f143a2850b921da442f82f3be3efd6"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/frameworks/time-order-duration-frequency.md",
+      "bytes": 2634,
+      "sha256": "34a9d8548ba791ba3ae919f835170a3f5a7df842c26ca3dc41c66b2657f30db2"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/frameworks/understanding-empathy-identification-liking.md",
+      "bytes": 2358,
+      "sha256": "65a40077c5cc4b5af3bc92482587218a2f9e90c5bd0eaeca52f299de6008295b"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/frameworks/unreliability-report-interpretation-evaluation.md",
+      "bytes": 2475,
+      "sha256": "977f59a955fc5890ea126b562f4a09be30221ffb6c8ae379ab8433ee9b51830d"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/frameworks/voiceover-captions-and-phone-text.md",
+      "bytes": 3402,
+      "sha256": "1ff5689cbb3ac1a3ebb592d88378d076358a94540b2f30528f98165f218a5a1b"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/frameworks/work-granularity-by-project.md",
+      "bytes": 2549,
+      "sha256": "3df46e5b123ae5ecd5c76d6cb32b80eb85c4845f1fd9af11cc04f27d55196942"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/frameworks/world-rules-four-questions.md",
+      "bytes": 3626,
+      "sha256": "a81f22247a9b19b8b24f9ba7746adc365d075af0c43c6ac88712c33520c44474"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/index.md",
+      "bytes": 6837,
+      "sha256": "8d3c39a7e9ead44fff28efd21583723daf03ba3e50f032f60693215da3b3016f"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/log.md",
+      "bytes": 1835,
+      "sha256": "80d23b43f4906b70570011c4e99015cfe48e9e4ed00d219333df9ada6c7ad3f3"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/methods/action-basis-without-model-determinism.md",
+      "bytes": 3226,
+      "sha256": "527aab7498fc21983622b3c326355e79be6102a78047aed0965fb5e4c5ffff40"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/methods/actionable-feedback.md",
+      "bytes": 2782,
+      "sha256": "0eb4878c0cfc830cb36fc4fe553bf2fa8b1fb6d3497a416d539be08d01558e00"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/methods/analysis-material-boundary.md",
+      "bytes": 3102,
+      "sha256": "fc45f215f335ff1f862ab185587f34111bad2c7ff92624ef9396f4d2c5e7daf2"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/methods/asset-set-design.md",
+      "bytes": 3315,
+      "sha256": "f2714d34976e9fe364f659173680415938b30bc8efed84c77a32c0c43407ce80"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/methods/call-modules-by-problem.md",
+      "bytes": 5613,
+      "sha256": "cf70cd7b842ef0a2fd432302d4d2d85d976cca053eb587221bc8fe6ad8b97158"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/methods/competing-interpretations.md",
+      "bytes": 2885,
+      "sha256": "cb0d052df5bcbf9963e3483acae453e208d4f22484c39b4ae45213a4e2e20d7a"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/methods/cross-abstraction-equivalence-check.md",
+      "bytes": 3927,
+      "sha256": "ce0b8e9396317c8c17aa94279601266802a0e4b627f9ce1f8cb2ba08da31dcc7"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/methods/detect-author-knows-too-much.md",
+      "bytes": 2689,
+      "sha256": "be20541352fb2cd279e1214c0ea595726ad129c3c79cf6dc64d269a742e98bf4"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/methods/dialogue-rewrite-three-rounds.md",
+      "bytes": 2521,
+      "sha256": "9336f73241d6b44e652b8e0b5cea0bc26fef7faf6844f65755a3a7033ff713b8"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/methods/dominant-organizing-principle-test.md",
+      "bytes": 4356,
+      "sha256": "4f98dec99cd9d2bacf689961fea372e10a4c1cffd8e19d9c0f6f299c932783f0"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/methods/double-diamond-for-screenwriting.md",
+      "bytes": 2611,
+      "sha256": "32df4c8e3c2121d05af4679584a5398cf09e50707ba171efdd0c2aba74c32e41"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/methods/dual-scale-evaluation.md",
+      "bytes": 2845,
+      "sha256": "360a7cea5fe78830d0788743a5e66ebc4aed9d9694255541839f3a636a9656d1"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/methods/exposition-dialogue-decisions.md",
+      "bytes": 2752,
+      "sha256": "2a4dfeba2d8b8bea5a98852bbc7939959636f696e994149d3a49eb240e00ec58"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/methods/first-pass-viewing-record.md",
+      "bytes": 2631,
+      "sha256": "7550a9a31e5820fbe0c04e9de971b02598a2047536bbd647d53e6bc444581266"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/methods/five-transformations-material-to-question.md",
+      "bytes": 2887,
+      "sha256": "c11461eb0472e12a1271e79878f086c56ab4d4a8c8f6d20f140dd087478e19ad"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/methods/four-language-forms-comparison.md",
+      "bytes": 3576,
+      "sha256": "7597d83a515103c7306f7e6fabb8ad198b800d1a36b9b7d4c644f8a916f92e27"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/methods/hybrid-work-combination-analysis.md",
+      "bytes": 3502,
+      "sha256": "9792e810a1b1a9c522ab48d73d876b117bb1281309a9ac1ae03c05b79c4a944d"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/methods/index.md",
+      "bytes": 10105,
+      "sha256": "e93f798a8736f6236c970fcbf044325c5d362627b50df7287f3586e27ab39142"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/methods/minimal-character-world-model.md",
+      "bytes": 2650,
+      "sha256": "57b90a6b91b99f52b1a706b8d2cb4c241c172ae07bf4a8b0b482d2d8e0902151"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/methods/organize-content-from-desired-scenes.md",
+      "bytes": 2531,
+      "sha256": "d871784f9abbdad436d6668e8a1770b2f046119bbe1e44650ca1d5d45251dbaa"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/methods/research-as-judgment-changing-questions.md",
+      "bytes": 3032,
+      "sha256": "a5b1ad0d54f2e540da5b8b634005a24f83911dca96d00f600e8ef7177efbce6f"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/methods/review-disagreement-to-decision.md",
+      "bytes": 3355,
+      "sha256": "b2ee6386b0ad672fdda38d9fe3066096b932397387cee7792207483f0e52a1fa"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/methods/reviewable-analysis-coding.md",
+      "bytes": 3339,
+      "sha256": "15785676fc74183db33355f3e107a18f47ea6b3c6442a027567eb0f72c8a678a"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/methods/second-pass-structure-reconstruction.md",
+      "bytes": 3143,
+      "sha256": "1ed881e4dcaa20c057d4a8982ce7cbfd3098c367a0e70c54cb6195e5658938e8"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/methods/sequence-promise-payoff-rewrite.md",
+      "bytes": 3561,
+      "sha256": "c7c3b5a8e8aa59c86e28a9ac335726b9293f7f1e9d85fc6f5ee324c622f7e9da"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/methods/stage-a-problem-material-boundary.md",
+      "bytes": 2477,
+      "sha256": "0eff77203a3fb8a6f7b9459c75773384fe6a04ce4921a068a1e3edd926aaa95e"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/methods/stage-b-form-and-representative-fragment.md",
+      "bytes": 2052,
+      "sha256": "6e6ca9ee676017f427ed56462ab33879d8d6874bf60e135128475c9269ef3a89"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/methods/stage-c-joint-skeleton.md",
+      "bytes": 2434,
+      "sha256": "3b4cd1cc8a7f272c0d924592a8c47440abb53ab336b4caf644b1cbdf927c5532"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/methods/stage-d-performable-draft.md",
+      "bytes": 2543,
+      "sha256": "94ac533b9d10536fc8487befb32e757dd8c8f3b141dc98cb70080e47aad5ed49"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/methods/stage-e-prototype-testing.md",
+      "bytes": 2317,
+      "sha256": "b6ff352392b7d064fe3b1be77eafb9fcc135b26d374359e8ebb83bdbae3a6c17"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/methods/stage-f-feedback-and-revision.md",
+      "bytes": 2387,
+      "sha256": "5f20f83b56829e0cc274caeb8f0699ad595ed4108671ece98aa2cb64bb70ba3e"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/methods/stage-g-production-protection.md",
+      "bytes": 2682,
+      "sha256": "8dbf67644d3c902635931feba15a7a31d4f6e048dfec992451aba1373f24cd4b"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/methods/symptom-cause-solution-diagnosis.md",
+      "bytes": 2647,
+      "sha256": "1c96e79291085dad5285399a0d8471d20eaf20ae41a87cf7ac691d6820318867"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/methods/tell-or-withhold-by-task.md",
+      "bytes": 2989,
+      "sha256": "a7132c82e1209881ba4272f2dac1d59819e3c258a6f6f6f204ae28d01cb426eb"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/methods/test-feedback-into-analysis.md",
+      "bytes": 2529,
+      "sha256": "683e96c2994e63ffcc424fc444c63e2c9b77c0cd0d2e785cfab3b99b69ef25d1"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/methods/third-pass-counterfactual-tests.md",
+      "bytes": 2908,
+      "sha256": "527d0d72b227eae1df3955a4c97a6f1b3667e9683ba52e4d98a558a1d0517a7e"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/principles/ai-assisted-review-boundaries.md",
+      "bytes": 2881,
+      "sha256": "12133087d84c4a9a26256cdda572f84810d96abeb80ed6c910f942d75d7340fa"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/principles/collaboration-and-author-intent.md",
+      "bytes": 3901,
+      "sha256": "6838b28f2554fef2f01087543efa5ed116e641ef1a8828738c66af55b33efc16"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/principles/criteria-conflict-no-summation.md",
+      "bytes": 2758,
+      "sha256": "0123a170a0f4a1c22c8e72d8b06bc4d4020289699e57675098e9714528f739df"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/principles/decision-granularity-rework-stop.md",
+      "bytes": 3144,
+      "sha256": "35a1894e7f35acd48e0c268b0fb09ef3dbe09a6640d792cd058dd6087280ad07"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/principles/form-first-working-principle.md",
+      "bytes": 5007,
+      "sha256": "d8d9d1e30bdbd35f31cb6c3ffbd3c12f68701257d2b4bc95022e8ac37deb47d8"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/principles/human-ai-collaboration-conditions.md",
+      "bytes": 2284,
+      "sha256": "f7f6efd927a6390df84da135ae4d3f7f8ba6103d3bfc6073e72b34a0edf4b23d"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/principles/index.md",
+      "bytes": 4539,
+      "sha256": "28081195918201f684cd36eedfd15bb293e310d65d0f39e403b20fa49634e9d5"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/principles/misdirection-and-reversal-rules.md",
+      "bytes": 2517,
+      "sha256": "8cca408dae32cc1f9bd7201a0d083e8957cb93e30d2709416145a24ff0580577"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/principles/narrative-force-vs-statement-legitimacy.md",
+      "bytes": 2180,
+      "sha256": "e3a6023b7214cd05cb036be295b6312b6f155e56304deed2c4230dba1db8762c"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/principles/non-commercial-film-not-efficiency-tool.md",
+      "bytes": 1964,
+      "sha256": "8f0f16299ad6922fecca00eaf1e8b53ba0738219da552eb2c5f151d3d5c97ff0"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/principles/nonfiction-material-responsibility.md",
+      "bytes": 2730,
+      "sha256": "beeaaf05e1fd77d83358947f1d5b934a6a13dec1e3bd0ba37c82980cedc82e48"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/principles/novelty-by-changing-relations.md",
+      "bytes": 2816,
+      "sha256": "4d05eb2f6f610a19f5b80daaea4976b33b4ab56e015a4753b9097b3c9b6cb0a7"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/principles/product-causality-caution.md",
+      "bytes": 2280,
+      "sha256": "ac37dee5cb7517dec98c3d55abb13c6c8b05b0deaf8bed467692b88db22d6c9e"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/principles/source-use-and-evidence-boundaries.md",
+      "bytes": 4393,
+      "sha256": "5ff7d4faa5336a4eb9ff1561f9c77ea9f6de56bea1242be33848e8e73381ece8"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/principles/three-non-mergeable-information-classes.md",
+      "bytes": 2264,
+      "sha256": "2ee8615b6cfcc15d58331ca6b793182a741519dcca37916e80f9282a2bc3e560"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/principles/what-two-ai-studies-show.md",
+      "bytes": 2584,
+      "sha256": "6793fa1a90ee4c7414295650c61ff8cee77b6d63c6336e55aea8f614a46ac4cd"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/references/alber-unnatural-narrative.md",
+      "bytes": 1499,
+      "sha256": "9e0e20b99147a0e008c9b4c2671c42aba2bdfc38edcb78ebd862b389a9b97ee4"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/references/august-how-to-write-a-scene.md",
+      "bytes": 1529,
+      "sha256": "4c4f30c27fc708689271daff9899a315522b1bb95c1c8e9a193b8016c9986bb9"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/references/august-how-to-write-dialogue.md",
+      "bytes": 1523,
+      "sha256": "bafcb41b1f73b386db7f08ca0538ebf93f487d815e4838e974c6e938d85b929c"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/references/baroni-tellability.md",
+      "bytes": 1469,
+      "sha256": "31507c4b985b3f4c923a350ca7b650a4b5c4c0993286ef2f527dab0c62d0b8cf"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/references/bordwell-how-to-tell-a-movie-story.md",
+      "bytes": 1828,
+      "sha256": "b22d8a0e076f579e0a03bfe84e57a33d07f311a15494972c46b22301ee1ac738"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/references/caracciolo-experientiality.md",
+      "bytes": 1498,
+      "sha256": "545bc83ea6b692aa6f5e4ff24bd43267668fcac9a44a1efd4ab196bee167c967"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/references/clark-brennan-grounding-1991.md",
+      "bytes": 1847,
+      "sha256": "5587f5e29eda8b76b66141483c529e4c7877cdaa73e6b016e22e7c2a932e3523"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/references/cutting-dynamics-of-popular-movies-2016.md",
+      "bytes": 1660,
+      "sha256": "29aca0e962bb0edd240aa1044c2a7e78fb67099c237eca08bfbd6c7864b3d075"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/references/dawg-from-reflection-to-release.md",
+      "bytes": 1839,
+      "sha256": "81794976c631897def3e379a9900b6c0884d42073603f7d8a8fc2b29c58a76fa"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/references/design-council-double-diamond.md",
+      "bytes": 1547,
+      "sha256": "7b2396ce962eb19a5d157fd3126fc274585856193dc9dfdae0f6b734779e5029"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/references/emmott-schemata.md",
+      "bytes": 1555,
+      "sha256": "3b9b2cab7ba5b68fc7ba48de3bca66f00a7b5791f98e68ffdafcec52007a1770"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/references/escalas-narrative-processing-2004.md",
+      "bytes": 1783,
+      "sha256": "8d905e5a780ace8018d437c2b66c3bf0d10a9f67d153cac53b2304b30c76bf32"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/references/gilroy-bafta-lecture-2013.md",
+      "bytes": 1763,
+      "sha256": "1e32e8853588db0e1530178600780348881fb2a05eef43eeaecb748ed24a2ab7"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/references/grice-logic-and-conversation-1975.md",
+      "bytes": 1575,
+      "sha256": "7a5284377db74e7f94b0e39a4963d67c68f3b4a505b0f700e5a41703d2be72c5"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/references/hartner-multiperspectivity.md",
+      "bytes": 1531,
+      "sha256": "ebdb9db6d1240a843533feaa964185d16cf63f25d7fe02d16a7b8fd3930d0d6e"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/references/herman-cognitive-narratology.md",
+      "bytes": 1510,
+      "sha256": "05dee3c88c611ae7f6d12ce8f9ee45e45fd57433c9142662f9865e5238254b93"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/references/huhn-event-eventfulness.md",
+      "bytes": 1516,
+      "sha256": "417017c63a89e1d31ffd03b7003d462542d6b0331058a96b1585a515d5458162"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/references/index.md",
+      "bytes": 15102,
+      "sha256": "482c094c7804994ebad18e1f60445f8d8036d87b81404bf1c6768e0189891939"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/references/jannidis-character.md",
+      "bytes": 1501,
+      "sha256": "2c66113198a543fc792ece5425d5e3dc3e4090e2c897867e8253950993ca1757"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/references/jenkins-transmedia-storytelling-101.md",
+      "bytes": 1536,
+      "sha256": "4f968e1d2dfa1cecb5f87b57fed5bb41202a80ed58dad119404a60369c523d8e"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/references/kaufman-bafta-lecture-2011.md",
+      "bytes": 1723,
+      "sha256": "401246ef0f718b0c466ad7e3b9c4ae002434a04735f0ace86bd92cbf3fc1e2e2"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/references/keen-narrative-empathy.md",
+      "bytes": 1547,
+      "sha256": "8872bcabfba23cec868d2dfdd43be376a8997b6c0a70775e963eb2fe08e5a79c"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/references/klauk-telling-showing.md",
+      "bytes": 1565,
+      "sha256": "018468b83b80fe7ec564324785955012960fc58e10ab30537d612ae69757554a"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/references/kuhn-narration-film.md",
+      "bytes": 1691,
+      "sha256": "4fee349996fba9584fac2a2b77bd937865b7b9cbcffc7ae793210388027d35dc"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/references/macdonald-screenwriting-poetics-2013.md",
+      "bytes": 1582,
+      "sha256": "2fc2d731c7c5d3b41d1a3cab2e6eb920bb5cd6626e713f69d77dec670440d473"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/references/magliano-zacks-continuity-editing-2011.md",
+      "bytes": 1841,
+      "sha256": "0bf7dec3c16c61107de9b332c68319db5e6945e8a0655e0304c5ac28aded6bae"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/references/mchale-speech-representation.md",
+      "bytes": 1510,
+      "sha256": "3a82955246a617b138af3794e6eb1fb0f2ff2b7d54c70bc243a6cd31db6aaa2b"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/references/niederhoff-focalization.md",
+      "bytes": 1521,
+      "sha256": "7dd733976400cedae86e81979e34fb4c7266775c0cb091e78087b4124dec3729"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/references/oha-principles-best-practices.md",
+      "bytes": 1687,
+      "sha256": "d5a89e7e9b40b63414af73db16446750561177c4f8161f760cbd269289f68f54"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/references/phelan-narrative-ethics.md",
+      "bytes": 1564,
+      "sha256": "a6bb02fa7402540e3f4fbb1c958bb04859c417357f60250b6a49d6e61a9b88e6"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/references/rashkin-help-me-write-a-story-2025.md",
+      "bytes": 1979,
+      "sha256": "8a71e4a1d8cc8d9e619ff9367c87560d1b19de89beec85b381662c918bb7142f"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/references/ryan-narration-various-media.md",
+      "bytes": 1609,
+      "sha256": "3a5ff43ef298c902034c5cabc25d629d4eec0336ca8fdd3e69c05019a6abdb56"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/references/ryan-possible-worlds.md",
+      "bytes": 1569,
+      "sha256": "ee746931faca9efc980f30ef028ac7974107c8119d9b97fa5bc253ebf5840d62"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/references/ryan-space.md",
+      "bytes": 1438,
+      "sha256": "15c4f8b69569a971f2d5ee62bb29923b3975250e2d56fcb08620fd06f1d21043"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/references/schaeffer-fictional-factual-narration.md",
+      "bytes": 1602,
+      "sha256": "8b9ec3acf0bec29e9a3d268921f96abe4b89febaf24a80ecced15a3b159da17f"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/references/scheffel-time.md",
+      "bytes": 1603,
+      "sha256": "58f3b4bf2c552bef3d4bb9647f1382ab0eb172720e311aaa302a0d8a00b2207b"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/references/schmid-non-temporal-linking-narration.md",
+      "bytes": 1582,
+      "sha256": "eacf2aae2e2eaa79f43976cbffc3dc26a1d95260213560b036bd5e57449988f8"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/references/schonert-author.md",
+      "bytes": 1552,
+      "sha256": "a33b613c448ea6ee003d2f0a36c78090fff98e3e5a497ea62e725d886a6d051c"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/references/sciamma-bafta-lecture-2019.md",
+      "bytes": 1846,
+      "sha256": "7a3725c94a340721576577152fd1560e8c0ee24983b7ef14ddd6974329eae179"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/references/scriptnotes-357-exposition.md",
+      "bytes": 1914,
+      "sha256": "196e75ab37e73818ab66d5539261205630406c42f3df069e9e96722f3df36713"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/references/scriptnotes-696-guide-to-directors.md",
+      "bytes": 1992,
+      "sha256": "a6dd765aaac866f8916dc5c1a1dd09bee32c83fd199851a5c5b0a33091db4501"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/references/scriptnotes-728-beats-to-scenes.md",
+      "bytes": 1811,
+      "sha256": "f2c9c48596c34784a4c5530fed4cf557c1e4f15c84d9d88e3aa0459620408e17"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/references/shen-unreliability.md",
+      "bytes": 1469,
+      "sha256": "2b1470e9b416751b11e1399d435d62a1077e3409e6e5eac90b002be7fa9561bb"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/references/straughan-bafta-lecture-2012.md",
+      "bytes": 1718,
+      "sha256": "15c864288333d373a7d5dc0f3ecdf7fc5ea6179cceee60921851f676d0bfba2d"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/references/tang-duodrama-2026.md",
+      "bytes": 1751,
+      "sha256": "605fc7e4d5e4fdac22496d14dce0e061c8993612d18a4313fcc6dec21ddbc877"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/references/toolan-coherence.md",
+      "bytes": 1492,
+      "sha256": "bb835e2e9e63bb793fc3aafdbe3384128e95e6396d2df8271397b94e273b2f63"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/references/wga-screen-credits-manual.md",
+      "bytes": 1582,
+      "sha256": "835e52ff0bcee615e06b8d2287abed4aaefe90b4076d023276dbb8026638a707"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/references/wolf-illusion-aesthetic.md",
+      "bytes": 1512,
+      "sha256": "5b2b06be579747daaf8c91eabb70a2ffa15eff2961348a8e51ea4c6c5fde23b1"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/skills/character-relation-world-model.md",
+      "bytes": 3096,
+      "sha256": "dec831a83d120eb746e54e7bb1909e0228c629eee37cd9ec0960b06722c9b6e1"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/skills/close-reading-and-diagnostic-review.md",
+      "bytes": 3198,
+      "sha256": "1ccb2cc88d3e01019b2e9de2e7cc7aebfed2ffe5287bee58048f37cd400f6e31"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/skills/creative-origin-and-question-framing.md",
+      "bytes": 3549,
+      "sha256": "ccfb09b8e387a32c28f2a27c8435d69e2cd74d0981353d8ab6a49763b9045883"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/skills/dialogue-as-interaction.md",
+      "bytes": 3183,
+      "sha256": "8118120b64271d022746503ab13ae6982b0b5540241c7e2034c16fd66277629b"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/skills/evidence-based-expression-review.md",
+      "bytes": 2892,
+      "sha256": "088379778c5b3a640c0e7548bbf7633e8952103cf2a3f0bf49a2326cde879548"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/skills/index.md",
+      "bytes": 4025,
+      "sha256": "8fb51875b24706b528f1ce2acf4ac68d151b71555c1f223197dea2b408351c9d"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/skills/information-design-and-reveal.md",
+      "bytes": 2654,
+      "sha256": "83ec6c07be13bcf8d1f200f6394c283a835a5e860cb64e89111b3b6692d14b7a"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/skills/medium-purpose-adaptation.md",
+      "bytes": 2674,
+      "sha256": "3b350709305bc54429358a17ea46c9a68b4de427b6103217d6c9017c5b215406"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/skills/narrative-form-identification.md",
+      "bytes": 4833,
+      "sha256": "1afdefd741e0dd1edb715a66f2dcf2d058889d77bf0b7f4868f3987e3592a9bc"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/skills/scene-plot-and-rhythm-design.md",
+      "bytes": 3378,
+      "sha256": "522bb0b98434a5e18192982d4e86b0cf74baeefa1e7db48e9baa6b05c44e810c"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/skills/screenwriting-work-and-contribution-map.md",
+      "bytes": 2900,
+      "sha256": "6a4f6d15076633ff900aa56a99bdcf75fccecc2f5cb0daf04cbb5998469b5a84"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/skills/skincare-case-teaching-use.md",
+      "bytes": 3583,
+      "sha256": "9623af945b4aab5bd1a6c7801ea15f97442495c05c2c361977c96bf368402582"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/skills/unified-skill-interface.md",
+      "bytes": 4408,
+      "sha256": "f8a9974412577b899e634760eca61cde1cd49ef3505df31066a12eb4327689ac"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/templates/analysis-report-structure.md",
+      "bytes": 2835,
+      "sha256": "eeda099738ca72814f0bd4e7d7ed47fbd575619f2f3817cc3843bf07b8171c34"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/templates/cross-version-handoff.md",
+      "bytes": 2664,
+      "sha256": "43075996ae146907982cab8ba930e6ff8bda6475408b27bca2985bb5d6528ecc"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/templates/decision-record.md",
+      "bytes": 2390,
+      "sha256": "42c9af1a8703c01149112709fe7086e14fe4c2d70dc668acdeb7793a5fe3953f"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/templates/diagnostic-report-card.md",
+      "bytes": 2513,
+      "sha256": "9c3cbaf518bb7635e58f57633abf96d6512bab099e8f884bae79c3c5c2bef1bd"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/templates/dialogue-handoff-to-execution.md",
+      "bytes": 2867,
+      "sha256": "76aef044b8b7f7119931f718d006a4d17677eed596ca8556c07691807051c3d5"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/templates/evidence-ledger.md",
+      "bytes": 2984,
+      "sha256": "a7938625ae5c1890a0a61084cb569d283011b7a3de502eb142c22e6c88ba9742"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/templates/index.md",
+      "bytes": 2423,
+      "sha256": "126bbe91982375c02bf8eac683137e82f1ff76974530919f935e2be34a936440"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/templates/information-dependency-table.md",
+      "bytes": 3017,
+      "sha256": "d541d3814fba7fd8fad4adad89ceb3fa0d54d74c5ec942bfd41716aed8716068"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/templates/minimal-handoff-card.md",
+      "bytes": 3204,
+      "sha256": "edd3849ddb64eaa5afd40b152bd2c01381327de6b45169073aaa966661e4f3fa"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/topics/01-narrative-form-identification.md",
+      "bytes": 5976,
+      "sha256": "5ff97b27ed5f70d3dd7b0e515d4eff2e066ec8e1e96d1df13fd3a80d42d87eb5"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/topics/02-screenwriting-work-and-contribution.md",
+      "bytes": 5688,
+      "sha256": "68d94725b95ecb1da5077a1d2bca51c08398f51f8a0cffdba4edefda8d58eff9"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/topics/03-creative-origin-and-question.md",
+      "bytes": 5803,
+      "sha256": "d8ad2efdd5eba9604025640bbed41259fae58c4d63aa559c6ca818d973059ceb"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/topics/04-character-relation-world.md",
+      "bytes": 5424,
+      "sha256": "2c93525ad912ff2fde5105cfbe6a6691920add918456f81e144164f27fbd8dbb"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/topics/05-scene-plot-rhythm.md",
+      "bytes": 5390,
+      "sha256": "2c29fdeaa0505838128bfdb3eb61d7e29b17da7cf21f35b1e4c3dd0f5742c551"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/topics/06-dialogue-as-interaction.md",
+      "bytes": 5668,
+      "sha256": "97c8df6d3ec36c5fae7a304ff8237653cf2cba0deba4f20d2c6a1326f11cb553"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/topics/07-information-design.md",
+      "bytes": 5450,
+      "sha256": "b737d9ae95c31643a359e39c204bc27f4a432c4fc5ef9584ba68538c69e71432"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/topics/08-expression-evaluation.md",
+      "bytes": 5644,
+      "sha256": "dfdb7c5f0b11b011b11211766f5d786de7e6e894e0170a4bf1f9efcbd3ad75c9"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/topics/09-medium-purpose-adaptation.md",
+      "bytes": 6127,
+      "sha256": "df4dd9eaf686036254ba59c05b559ca63d0a018a3e6663832db76116ffd732fc"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/topics/10-skincare-film-case.md",
+      "bytes": 6650,
+      "sha256": "239242d6d73911e34567ba7c45dfc2aa6daa211680fac792d2ae6a90926171a2"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/topics/11-close-reading-diagnosis.md",
+      "bytes": 6660,
+      "sha256": "82b42979a5122dc5af8934759e52e8c9aea494905be4a0769944c97e0a8a5c4d"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/topics/12-iteration-and-handoff.md",
+      "bytes": 6549,
+      "sha256": "d0500b57405cbee1b39a0207d79a2be2746d34ff0ac22a250551573d382f2e04"
+    },
+    {
+      "path": "references/knowledge/screenwriting-narrative-method/topics/index.md",
+      "bytes": 3994,
+      "sha256": "a7438c968664dacc5ea65066a90886a1a319efe263ceb51d2df65aae75039264"
+    },
+    {
+      "path": "references/knowledge-map.md",
+      "bytes": 6170,
+      "sha256": "efe467ee8757de898cbe145bd9b3105c7be11bceea678bfef703e5a8ae7d28d4"
+    },
+    {
+      "path": "references/output-and-handoff.md",
+      "bytes": 2804,
+      "sha256": "a5e7b0f7fe67eece32a2b3ba4d4c277d2b6946db5d8017c401402a741c8c358e"
+    },
+    {
+      "path": "references/source-manifest.json",
+      "bytes": 130167,
+      "sha256": "a8f144ef5d63833cd82a35d238b421411e0ec8c4491ea7ec439f3cd92c04ba23"
+    },
+    {
+      "path": "references/source-notes.md",
+      "bytes": 3152,
+      "sha256": "a8240bf65531f54270e609c3d7b67a8e8f2dbe12187e5d52f9efee4be5704589"
+    },
+    {
+      "path": "references/unavailable-source-locators.json",
+      "bytes": 60264,
+      "sha256": "e19949509b1d988aeb25f6f421440a13062565dbbacca5e914e26159724ea8bb"
+    },
+    {
+      "path": "scripts/check_package.py",
+      "bytes": 7275,
+      "sha256": "36452e30c7bfa3e4ed568c0d6ce346ee6212149fb3f352d682a6b3c4382abfc6"
+    },
+    {
+      "path": "tests/last-run.txt",
+      "bytes": 1371,
+      "sha256": "2e632a946f214a04e35bf8626856738991eb812e07c87d23a00faef3da555280"
+    },
+    {
+      "path": "tests/package-check-result.json",
+      "bytes": 261,
+      "sha256": "20b020080623079b917c8906a87e84b00100a9f234b2b692986b6a6b5df20a0a"
+    },
+    {
+      "path": "tests/source-verification.json",
+      "bytes": 305,
+      "sha256": "c5890b8d5993f81f62fe38a339c0fd4794f8942c793138e7892c8554df2343f8"
+    },
+    {
+      "path": "tests/test_package.py",
+      "bytes": 4750,
+      "sha256": "38c3499e7f329c829f18cc54d6b76525771387772d8826f5babb81270f316d61"
+    }
+  ]
+}

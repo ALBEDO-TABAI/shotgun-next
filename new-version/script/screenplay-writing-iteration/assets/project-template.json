@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "project_id": "replace-with-project-id",
+  "current": {
+    "version": "v001",
+    "file": "screenplay-v001.md",
+    "sha256": "REPLACE_WITH_ACTUAL_SHA256"
+  },
+  "approval": null,
+  "derived": null
+}

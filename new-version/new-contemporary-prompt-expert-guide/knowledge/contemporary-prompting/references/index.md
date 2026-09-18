@@ -1,0 +1,21 @@
+# VII · 来源与理论
+
+这本书依据什么写成、借了哪些理论、每组教程去了哪一章。不认识的词来术语表查。
+
+- [术语表：书里反复出现的词，一句话解释](/references/glossary.md) — 读到不认识的词来这里查。
+
+- [这本书依据什么写成](/references/corpus.md) — 三层来源：用户资料、官方文档、这次新写的方法。
+
+- [13 组教程进入了哪些章节](/references/tutorial-map.md) — 每组原本讲什么、这本书保留了什么、去了哪几章。
+
+- [借用了哪些理论，借到什么程度](/references/theory.md) — 四篇原研究，各支持一座小桥。再加五条待检验的推论。
+
+- [图像工具的官方说法](/references/official-image.md) — 四家图像工具的官方文档各说了什么。
+
+- [视频工具的官方说法](/references/official-video.md) — 视频工具的官方指南，哪些是当前建议、哪些已归档。
+
+- [配音和灯光的官方说法](/references/official-voice-light.md) — 省略号不等于固定停顿；硬光不等于亮。
+
+- [OKF 封装说明](/references/okf.md) — 知识包怎么组织、怎么校验、怎么更新。
+
+[回到总目录](/index.md)

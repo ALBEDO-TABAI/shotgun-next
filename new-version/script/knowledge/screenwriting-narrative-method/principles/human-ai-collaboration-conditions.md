@@ -1,0 +1,43 @@
+---
+type: Principle
+title: 人工与 AI 协作的保留条件
+description: 事实检索回来源、模型补写要标构造、角色模拟不是内心真相、模拟观众不是受众数据、多模型一致不是独立证明；最终方向、事实性承诺与发布责任由人类决策。
+tags: [topic-12, 人机协作, 决策责任, 证据]
+timestamp: 2026-09-18T00:00:00Z
+source: new-version/script/00_skill接口与调用总表.md#人工与AI协作的保留条件
+---
+
+# 要点
+
+## 五条保留条件
+
+| 条件 | 含义 |
+|---|---|
+| 事实检索必须回来源 | 不靠模型补出缺失事实 |
+| 模型补写要标构造 | 生成的背景、动机属于创作构造，不是既有作品证据 |
+| 角色模拟不是内心真相 | 模拟角色说的话只是解释候选 |
+| 模拟观众不是受众数据 | 不能替代真实观看测试 |
+| 多人或多模型一致不是独立实验证明 | 重复生成不提供独立证据 |
+
+## 人的决策位置
+
+最终方向、事实性承诺与真实发布责任需要相应人类决策。不是每次机械盖章，而是在确实改变目标或有重大代价时作判断。
+
+## 对 Agent 的要求
+
+不让 Agent 以完成自己的表格为目标，而忽视输出是否被下一环节实际使用。
+
+# 适用边界
+
+- 本包的角色划分未在真实系统中搭建、运行或验证。
+
+# 关系
+
+- 上位主题：[本篇枢纽](/topics/12-iteration-and-handoff.md)
+- 角色划分见 [Agent 与人的分工](/frameworks/agent-human-role-division.md)；证据依据见 [两项 AI 研究提供什么](/principles/what-two-ai-studies-show.md)；审稿场景的细则见 [AI 辅助审稿的边界](/principles/ai-assisted-review-boundaries.md)。
+- 统一接口的 `limits` 三条即这些条件的字段化，见 [统一 skill 接口](/skills/unified-skill-interface.md)。
+- "大家同意了"不是观众证据的同类警告见 [合作与作者意图](/principles/collaboration-and-author-intent.md)。
+
+# Citations
+[1] [12 创作迭代验证与协作交付流程 §十三](../../../12_创作迭代验证与协作交付流程.md)
+[2] [skill 接口与调用总表：人工与AI协作的保留条件](../../../00_skill接口与调用总表.md)

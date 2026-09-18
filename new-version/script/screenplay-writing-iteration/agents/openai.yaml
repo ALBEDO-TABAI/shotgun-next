@@ -1,0 +1,6 @@
+interface:
+  display_name: "剧本创作润色与双版本定稿"
+  short_description: "按需求或原稿持续改稿，确认后交付标准稿和提示词描述版。"
+  default_prompt: "请使用 $screenplay-writing-iteration，按我的需求或已有稿创作并持续迭代，待我明确确认最终版后输出标准稿和同源提示词优化版。"
+policy:
+  allow_implicit_invocation: true

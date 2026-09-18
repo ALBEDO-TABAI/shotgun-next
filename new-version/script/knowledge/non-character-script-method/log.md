@@ -1,0 +1,9 @@
+# Directory Update Log
+
+## 2026-09-18
+* **Initialization**: 从 `new-version/script/非人物初步剧本_六专题深化版/`（README、六篇专题 01–06、来源与研究记录、校验与使用边界，共 9 个 Markdown）提炼，使用 okf-bundle skill 建立本包。目录按 type 划分：[topics](/topics/)、[frameworks](/frameworks/)、[methods](/methods/)、[mechanisms](/mechanisms/)、[cases](/cases/)、[examples](/examples/)、[checklists](/checklists/)、[templates](/templates/)、[skills](/skills/)、[exercises](/exercises/)、[principles](/principles/)、[references](/references/)。来源目录只读，未做任何改动。
+* **Creation**: 共 158 个概念（Topic Guide×6、Framework×27、Method×21、Mechanism Card×12、Case Study×9、Worked Example×24、Checklist×8、Template×8、Skill Interface×6、Exercise×4、Principle×7、Reference×26），包内关系链接约 1700 条，校验 CONFORMANT、无坏链。
+* **Creation**: 每篇来源文档对应一个 [主题枢纽](/topics/)；26 项来源（S01–S17、C01–C09）镜像为 [Reference 概念](/references/)，保留查验范围、支持的有限要点与不能外推之处；全包证据分层见 [证据分层与使用边界](/principles/evidence-and-use-boundaries.md)；贯穿教学项目入口见 [“一页”阅读灯项目总览](/examples/yiye-lamp-project-overview.md)。
+* **Convention**: `Mechanism Card` 与 `Worked Example` 是本包新增的局部 type；其余 type 与同工作区的 `screenwriting-narrative-method` 包保持一致，便于日后由 okf-library 合并治理。`source:`、`source_category`、`source_code` 为团队扩展键。
+* **Review needed**: [四种真实性层级](/frameworks/authenticity-levels.md) 的逐级释义（来源只给名称与例子）；[主责与协作](/principles/decision-ownership-and-content-source.md)、[多 agent 回修单一内容源](/frameworks/multi-agent-revision-single-content-source.md) 与 [skill 执行契约](/skills/skill-execution-contract.md) 中的实际权限、裁决人与授权入口；教学路线／九个案例／选择矩阵与机制卡 M 编号、传播任务之间的映射（提炼时归纳，来源未逐项标注）；[事实卡与迁移卡](/templates/fact-card-and-transfer-card.md)、[美术回传](/templates/art-department-return.md) 的字段骨架（从示范文字归纳）；节拍定义、七个节拍字段与 →／≈／∥ 记法是否升级为团队口径。
+* **Not done**: 未运行任何视频生成、材质实测、受众测试或 agent 评测；[十四项评估情境](/checklists/agent-evaluation-scenarios.md) 为待运行状态；未逐帧观看九个案例影片；未为来源没有给出的内容（评分细则、付费测试模板、消费演练记录样例、其余七个迁移的时间预算）补造条目。

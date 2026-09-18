@@ -1,0 +1,32 @@
+---
+type: Reference
+title: "Design Council：The Double Diamond"
+description: "机构／技术材料：Discover／Define／Develop／Deliver 与小规模测试。设计实践框架，不是艺术效果的实验定律，也不要求导演按固定四步创作。"
+resource: https://www.designcouncil.org.uk/resources/the-double-diamond/
+tags: [source, method, topic-03, topic-14]
+timestamp: 2026-09-18T00:00:00Z
+source: "new-version/director/导演创作理论与方法知识包_14模块/03_创作出发点与导演意图_理论与方法知识包.md#来源地图与阅读边界"
+source_category: "机构／技术材料"
+---
+
+# 来源
+
+- 作者／机构：Design Council
+- 标题：The Double Diamond（官方方法说明）
+- 来源类型：机构／技术材料
+- 原始链接：<https://www.designcouncil.org.uk/resources/the-double-diamond/>
+
+# 本次使用范围与边界
+
+Discover／Define／Develop／Deliver 与小规模测试。设计实践框架，不是艺术效果的实验定律，也不要求导演按固定四步创作。
+
+本包只引用其中被查阅的部分，不复制原文全文；来源类型决定它能支持的论断强度（原作者理论建立概念与区分，主创证言说明参与者报告的过程，实证研究只适用于其样本、材料与测量项目，机构材料提供特定语境的实践安排）。总原则见 [来源使用与证据边界总原则](/principles/source-use-and-evidence-boundaries.md)、[证据协议：六种陈述身份](/frameworks/six-evidence-statement-types.md) 与 [调研与来源策略](/methods/research-source-strategy-and-stop-conditions.md)。
+
+# 被哪些模块调用
+
+[03](/topics/03-creative-origin-and-intent.md)、[14](/topics/14-film-study-director-plan-iteration.md)
+
+# Citations
+[1] [原始来源](https://www.designcouncil.org.uk/resources/the-double-diamond/)
+[2] [03 来源地图与阅读边界](../../../导演创作理论与方法知识包_14模块/03_创作出发点与导演意图_理论与方法知识包.md)
+[3] [14 来源地图与阅读边界](../../../导演创作理论与方法知识包_14模块/14_拉片研究_导演方案与迭代工作流_理论与方法知识包.md)

@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "scope": "package structure, local file links (not heading anchors), source hashes; not behavior",
+  "counts": {
+    "markdown_files": 319,
+    "local_links": 2517,
+    "source_documents": 303,
+    "behavioral_cases": 20
+  },
+  "errors": []
+}

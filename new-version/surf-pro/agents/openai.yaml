@@ -1,0 +1,6 @@
+interface:
+  display_name: "Surf Pro · 研究增强"
+  short_description: "理解模糊需求，精准检索与核验证据，适度补充有用信息"
+  default_prompt: "使用 $surf-pro 帮我调研这个问题：先理解用途和边界，再检索与核验证据，补充确有帮助的邻近信息，并区分事实、推断和未知。"
+policy:
+  allow_implicit_invocation: true

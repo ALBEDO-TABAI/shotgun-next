@@ -1,0 +1,270 @@
+{
+  "schema_version": 1,
+  "delivery_type": "text_review_overlay_not_full_repository",
+  "review_date": "2026-09-17",
+  "repository": "ALBEDO-TABAI/ciwei-ai-shortfilm-notes",
+  "source_commit": "5887b2040f642782ce29473bd6cb8b2f8129458b",
+  "source_access": "GitHub connector; source repository not cloned into local runtime",
+  "text_review_complete_for_listed_files": true,
+  "user_requested_full_visual_review_complete": false,
+  "source_markdown_files_read": 39,
+  "source_ocr_json_files_read": 13,
+  "source_ocr_records_read": 1027,
+  "source_image_pixels_reviewed": 0,
+  "srt_and_meta_json_reviewed": false,
+  "original_video_or_audio_reviewed": false,
+  "generation_or_tts_or_blender_tests_run": false,
+  "new_templates_are_rewritten_not_verbatim": true,
+  "package_file_count": 31,
+  "replaced_tutorial_files": 26,
+  "new_root_files": 5,
+  "preserve_existing_paths": [
+    "*/frames/**",
+    "*/prompt_screenshots/**",
+    "*/ocr_frames.json",
+    "*/transcript.srt",
+    "*/meta.json",
+    "*/文字稿.md",
+    "README.md",
+    "00_十三组目录.md",
+    ".gitignore",
+    "download-summary.json"
+  ],
+  "apply_policy": "Merge files into existing repository root; never delete destination-only files; back up locally modified originals first.",
+  "groups": [
+    {
+      "group": 1,
+      "directory": "01-6aabb8c8000000002a0265bf-拒绝抽卡！一招教你用Codex精准控制AI运镜",
+      "source_files_read": [
+        "01-6aabb8c8000000002a0265bf-拒绝抽卡！一招教你用Codex精准控制AI运镜/文字稿.md",
+        "01-6aabb8c8000000002a0265bf-拒绝抽卡！一招教你用Codex精准控制AI运镜/提示词提取.md",
+        "01-6aabb8c8000000002a0265bf-拒绝抽卡！一招教你用Codex精准控制AI运镜/方法论与技术要点.md",
+        "01-6aabb8c8000000002a0265bf-拒绝抽卡！一招教你用Codex精准控制AI运镜/ocr_frames.json"
+      ],
+      "ocr_record_count": 69,
+      "ocr_records_include_kept_false": true,
+      "image_pixel_review_complete": false,
+      "replaced_paths": [
+        "01-6aabb8c8000000002a0265bf-拒绝抽卡！一招教你用Codex精准控制AI运镜/方法论与技术要点.md",
+        "01-6aabb8c8000000002a0265bf-拒绝抽卡！一招教你用Codex精准控制AI运镜/提示词提取.md"
+      ],
+      "summary": "把故事版本、动作交接、摄影机路径分开；保留 30／10 秒与型号显示差异；不把预演等同确定性控制。"
+    },
+    {
+      "group": 2,
+      "directory": "02-6aaa15ec00000000290187a9-一开口就露馅？3招去掉AI配音的“机器味”",
+      "source_files_read": [
+        "02-6aaa15ec00000000290187a9-一开口就露馅？3招去掉AI配音的“机器味”/文字稿.md",
+        "02-6aaa15ec00000000290187a9-一开口就露馅？3招去掉AI配音的“机器味”/提示词提取.md",
+        "02-6aaa15ec00000000290187a9-一开口就露馅？3招去掉AI配音的“机器味”/方法论与技术要点.md",
+        "02-6aaa15ec00000000290187a9-一开口就露馅？3招去掉AI配音的“机器味”/ocr_frames.json"
+      ],
+      "ocr_record_count": 74,
+      "ocr_records_include_kept_false": true,
+      "image_pixel_review_complete": false,
+      "replaced_paths": [
+        "02-6aaa15ec00000000290187a9-一开口就露馅？3招去掉AI配音的“机器味”/方法论与技术要点.md",
+        "02-6aaa15ec00000000290187a9-一开口就露馅？3招去掉AI配音的“机器味”/提示词提取.md"
+      ],
+      "summary": "补回对白与门前动作的关系；区分声线身份、表演状态和工具语法；标点不等于精确时间轴。"
+    },
+    {
+      "group": 3,
+      "directory": "03-6aa13956000000002b01fe4c-邪修！3步让你的AI视频彻底摆脱AI味",
+      "source_files_read": [
+        "03-6aa13956000000002b01fe4c-邪修！3步让你的AI视频彻底摆脱AI味/文字稿.md",
+        "03-6aa13956000000002b01fe4c-邪修！3步让你的AI视频彻底摆脱AI味/提示词提取.md",
+        "03-6aa13956000000002b01fe4c-邪修！3步让你的AI视频彻底摆脱AI味/方法论与技术要点.md",
+        "03-6aa13956000000002b01fe4c-邪修！3步让你的AI视频彻底摆脱AI味/ocr_frames.json"
+      ],
+      "ocr_record_count": 83,
+      "ocr_records_include_kept_false": true,
+      "image_pixel_review_complete": false,
+      "replaced_paths": [
+        "03-6aa13956000000002b01fe4c-邪修！3步让你的AI视频彻底摆脱AI味/方法论与技术要点.md",
+        "03-6aa13956000000002b01fe4c-邪修！3步让你的AI视频彻底摆脱AI味/提示词提取.md"
+      ],
+      "summary": "补回画外男声的情绪触发和剪辑可用区间；模型偏好不再写成固定排名。"
+    },
+    {
+      "group": 4,
+      "directory": "04-6a9aa3ca000000002a02fef4-AI人物演技太用力？教你写“反向表演”",
+      "source_files_read": [
+        "04-6a9aa3ca000000002a02fef4-AI人物演技太用力？教你写“反向表演”/文字稿.md",
+        "04-6a9aa3ca000000002a02fef4-AI人物演技太用力？教你写“反向表演”/提示词提取.md",
+        "04-6a9aa3ca000000002a02fef4-AI人物演技太用力？教你写“反向表演”/方法论与技术要点.md",
+        "04-6a9aa3ca000000002a02fef4-AI人物演技太用力？教你写“反向表演”/ocr_frames.json"
+      ],
+      "ocr_record_count": 71,
+      "ocr_records_include_kept_false": true,
+      "image_pixel_review_complete": false,
+      "replaced_paths": [
+        "04-6a9aa3ca000000002a02fef4-AI人物演技太用力？教你写“反向表演”/方法论与技术要点.md",
+        "04-6a9aa3ca000000002a02fef4-AI人物演技太用力？教你写“反向表演”/提示词提取.md"
+      ],
+      "summary": "把“反向表演”改为目的、任务、泄露与修复；避免固定情绪动作表和微秒级表演堆叠。"
+    },
+    {
+      "group": 5,
+      "directory": "05-6a96a9b90000000026033e1d-AI生图假？那是因为你的提示词过期了",
+      "source_files_read": [
+        "05-6a96a9b90000000026033e1d-AI生图假？那是因为你的提示词过期了/文字稿.md",
+        "05-6a96a9b90000000026033e1d-AI生图假？那是因为你的提示词过期了/提示词提取.md",
+        "05-6a96a9b90000000026033e1d-AI生图假？那是因为你的提示词过期了/方法论与技术要点.md",
+        "05-6a96a9b90000000026033e1d-AI生图假？那是因为你的提示词过期了/ocr_frames.json"
+      ],
+      "ocr_record_count": 76,
+      "ocr_records_include_kept_false": true,
+      "image_pixel_review_complete": false,
+      "replaced_paths": [
+        "05-6a96a9b90000000026033e1d-AI生图假？那是因为你的提示词过期了/方法论与技术要点.md",
+        "05-6a96a9b90000000026033e1d-AI生图假？那是因为你的提示词过期了/提示词提取.md"
+      ],
+      "summary": "补回场景参考、固定平视、一镜到底与环境声约束；区分画面描述与实际生成设置。"
+    },
+    {
+      "group": 6,
+      "directory": "06-6a9169a3000000002502577e-AI电影大拆解！8大AI技巧一次性讲完！",
+      "source_files_read": [
+        "06-6a9169a3000000002502577e-AI电影大拆解！8大AI技巧一次性讲完！/文字稿.md",
+        "06-6a9169a3000000002502577e-AI电影大拆解！8大AI技巧一次性讲完！/提示词提取.md",
+        "06-6a9169a3000000002502577e-AI电影大拆解！8大AI技巧一次性讲完！/方法论与技术要点.md",
+        "06-6a9169a3000000002502577e-AI电影大拆解！8大AI技巧一次性讲完！/ocr_frames.json"
+      ],
+      "ocr_record_count": 108,
+      "ocr_records_include_kept_false": true,
+      "image_pixel_review_complete": false,
+      "replaced_paths": [
+        "06-6a9169a3000000002502577e-AI电影大拆解！8大AI技巧一次性讲完！/方法论与技术要点.md",
+        "06-6a9169a3000000002502577e-AI电影大拆解！8大AI技巧一次性讲完！/提示词提取.md"
+      ],
+      "summary": "分清身份、状态、声音、行为、拓扑、锚点、尺度和物理过程；同时保留绝对与相对尺寸。"
+    },
+    {
+      "group": 7,
+      "directory": "07-6a82f4180000000033031ffb-小白必看！seedance2_活人感提示词怎么写？",
+      "source_files_read": [
+        "07-6a82f4180000000033031ffb-小白必看！seedance2_活人感提示词怎么写？/文字稿.md",
+        "07-6a82f4180000000033031ffb-小白必看！seedance2_活人感提示词怎么写？/提示词提取.md",
+        "07-6a82f4180000000033031ffb-小白必看！seedance2_活人感提示词怎么写？/方法论与技术要点.md",
+        "07-6a82f4180000000033031ffb-小白必看！seedance2_活人感提示词怎么写？/ocr_frames.json"
+      ],
+      "ocr_record_count": 68,
+      "ocr_records_include_kept_false": true,
+      "image_pixel_review_complete": false,
+      "replaced_paths": [
+        "07-6a82f4180000000033031ffb-小白必看！seedance2_活人感提示词怎么写？/方法论与技术要点.md",
+        "07-6a82f4180000000033031ffb-小白必看！seedance2_活人感提示词怎么写？/提示词提取.md"
+      ],
+      "summary": "修正后摄／后背等疑错，分开造型版本，补回前后摄、转场、空间段落与道具占手逻辑。"
+    },
+    {
+      "group": 8,
+      "directory": "08-6a44fd700000000007020a39-0基础教学!AI短剧的“资产库”到底怎么做？",
+      "source_files_read": [
+        "08-6a44fd700000000007020a39-0基础教学!AI短剧的“资产库”到底怎么做？/文字稿.md",
+        "08-6a44fd700000000007020a39-0基础教学!AI短剧的“资产库”到底怎么做？/提示词提取.md",
+        "08-6a44fd700000000007020a39-0基础教学!AI短剧的“资产库”到底怎么做？/方法论与技术要点.md",
+        "08-6a44fd700000000007020a39-0基础教学!AI短剧的“资产库”到底怎么做？/ocr_frames.json"
+      ],
+      "ocr_record_count": 87,
+      "ocr_records_include_kept_false": true,
+      "image_pixel_review_complete": false,
+      "replaced_paths": [
+        "08-6a44fd700000000007020a39-0基础教学!AI短剧的“资产库”到底怎么做？/方法论与技术要点.md",
+        "08-6a44fd700000000007020a39-0基础教学!AI短剧的“资产库”到底怎么做？/提示词提取.md"
+      ],
+      "summary": "区分身份板、动作板、镜头板、场景拓扑与道具；补回九色色板；建立最小引用与版本规则。"
+    },
+    {
+      "group": 9,
+      "directory": "09-69d62fa80000000021006bc4-秘籍！一招教你指定描述AI图里的元素",
+      "source_files_read": [
+        "09-69d62fa80000000021006bc4-秘籍！一招教你指定描述AI图里的元素/文字稿.md",
+        "09-69d62fa80000000021006bc4-秘籍！一招教你指定描述AI图里的元素/提示词提取.md",
+        "09-69d62fa80000000021006bc4-秘籍！一招教你指定描述AI图里的元素/方法论与技术要点.md",
+        "09-69d62fa80000000021006bc4-秘籍！一招教你指定描述AI图里的元素/ocr_frames.json"
+      ],
+      "ocr_record_count": 67,
+      "ocr_records_include_kept_false": true,
+      "image_pixel_review_complete": false,
+      "replaced_paths": [
+        "09-69d62fa80000000021006bc4-秘籍！一招教你指定描述AI图里的元素/方法论与技术要点.md",
+        "09-69d62fa80000000021006bc4-秘籍！一招教你指定描述AI图里的元素/提示词提取.md"
+      ],
+      "summary": "保留打标定位，补上移动不复制、原位置修复、透视光线与标记清理；不保留伪模型原理。"
+    },
+    {
+      "group": 10,
+      "directory": "10-69ca589d0000000023010bdf-一个提示词技巧，让AI视频瞬间有实拍感！",
+      "source_files_read": [
+        "10-69ca589d0000000023010bdf-一个提示词技巧，让AI视频瞬间有实拍感！/文字稿.md",
+        "10-69ca589d0000000023010bdf-一个提示词技巧，让AI视频瞬间有实拍感！/提示词提取.md",
+        "10-69ca589d0000000023010bdf-一个提示词技巧，让AI视频瞬间有实拍感！/方法论与技术要点.md",
+        "10-69ca589d0000000023010bdf-一个提示词技巧，让AI视频瞬间有实拍感！/ocr_frames.json"
+      ],
+      "ocr_record_count": 59,
+      "ocr_records_include_kept_false": true,
+      "image_pixel_review_complete": false,
+      "replaced_paths": [
+        "10-69ca589d0000000023010bdf-一个提示词技巧，让AI视频瞬间有实拍感！/方法论与技术要点.md",
+        "10-69ca589d0000000023010bdf-一个提示词技巧，让AI视频瞬间有实拍感！/提示词提取.md"
+      ],
+      "summary": "分开机位高度、俯仰、取景和运动；保留遮挡揭示，不把低机位、晃动、水滴设为通用要求。"
+    },
+    {
+      "group": 11,
+      "directory": "11-6a1435c4000000003601d24b-全网独家！如何用妆造让你的ai角色更高级？",
+      "source_files_read": [
+        "11-6a1435c4000000003601d24b-全网独家！如何用妆造让你的ai角色更高级？/文字稿.md",
+        "11-6a1435c4000000003601d24b-全网独家！如何用妆造让你的ai角色更高级？/提示词提取.md",
+        "11-6a1435c4000000003601d24b-全网独家！如何用妆造让你的ai角色更高级？/方法论与技术要点.md",
+        "11-6a1435c4000000003601d24b-全网独家！如何用妆造让你的ai角色更高级？/ocr_frames.json"
+      ],
+      "ocr_record_count": 79,
+      "ocr_records_include_kept_false": true,
+      "image_pixel_review_complete": false,
+      "replaced_paths": [
+        "11-6a1435c4000000003601d24b-全网独家！如何用妆造让你的ai角色更高级？/方法论与技术要点.md",
+        "11-6a1435c4000000003601d24b-全网独家！如何用妆造让你的ai角色更高级？/提示词提取.md"
+      ],
+      "summary": "按人物处境、场合、物理经历与主动选择设计妆造；不以性别或“失宠”等标签机械套样式。"
+    },
+    {
+      "group": 12,
+      "directory": "12-6a26b978000000001702fb5c-进阶教程！如何让AI女频短剧更有生命力？",
+      "source_files_read": [
+        "12-6a26b978000000001702fb5c-进阶教程！如何让AI女频短剧更有生命力？/文字稿.md",
+        "12-6a26b978000000001702fb5c-进阶教程！如何让AI女频短剧更有生命力？/提示词提取.md",
+        "12-6a26b978000000001702fb5c-进阶教程！如何让AI女频短剧更有生命力？/方法论与技术要点.md",
+        "12-6a26b978000000001702fb5c-进阶教程！如何让AI女频短剧更有生命力？/ocr_frames.json"
+      ],
+      "ocr_record_count": 91,
+      "ocr_records_include_kept_false": true,
+      "image_pixel_review_complete": false,
+      "replaced_paths": [
+        "12-6a26b978000000001702fb5c-进阶教程！如何让AI女频短剧更有生命力？/方法论与技术要点.md",
+        "12-6a26b978000000001702fb5c-进阶教程！如何让AI女频短剧更有生命力？/提示词提取.md"
+      ],
+      "summary": "将看图构思与批准剧情执行分开；主行动、跟随动态与情绪反应有主次；补上调度和后期。"
+    },
+    {
+      "group": 13,
+      "directory": "13-6a3a6ca9000000000f006cc9-小白必看！如何用光线提升AI视频质感？",
+      "source_files_read": [
+        "13-6a3a6ca9000000000f006cc9-小白必看！如何用光线提升AI视频质感？/文字稿.md",
+        "13-6a3a6ca9000000000f006cc9-小白必看！如何用光线提升AI视频质感？/提示词提取.md",
+        "13-6a3a6ca9000000000f006cc9-小白必看！如何用光线提升AI视频质感？/方法论与技术要点.md",
+        "13-6a3a6ca9000000000f006cc9-小白必看！如何用光线提升AI视频质感？/ocr_frames.json"
+      ],
+      "ocr_record_count": 95,
+      "ocr_records_include_kept_false": true,
+      "image_pixel_review_complete": false,
+      "replaced_paths": [
+        "13-6a3a6ca9000000000f006cc9-小白必看！如何用光线提升AI视频质感？/方法论与技术要点.md",
+        "13-6a3a6ca9000000000f006cc9-小白必看！如何用光线提升AI视频质感？/提示词提取.md"
+      ],
+      "summary": "修正硬光必须遮挡的错误；分清方向、光质、轮廓效果；补上照明连续性与单变量试验。"
+    }
+  ]
+}

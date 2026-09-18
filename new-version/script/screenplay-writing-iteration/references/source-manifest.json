@@ -1,0 +1,2130 @@
+{
+  "schema_version": 1,
+  "source_archive": "封存.zip",
+  "source_archive_sha256": "74c558acf19032c385e326163b712f7a146006a44614dcd18b35dfceff88ff69",
+  "source_document_count": 303,
+  "transformation": "Portable link normalization; missing historical locators retained as text; archival packaging notes added.",
+  "documents": [
+    {
+      "original_path": "contemporary-prompting/cases/01-brand-film.md",
+      "packaged_path": "references/knowledge/contemporary-prompting/cases/01-brand-film.md",
+      "original_sha256": "d8ac1d3a548b1652e35da33f6cb10c212657f88ca55531842da8fdac5e957e3d",
+      "packaged_sha256": "ab583934c49b7e871ecc64ec878177559fbed7a08953cceb4390a6d1cfe8dd27",
+      "link_edits": 2
+    },
+    {
+      "original_path": "contemporary-prompting/cases/02-relationship.md",
+      "packaged_path": "references/knowledge/contemporary-prompting/cases/02-relationship.md",
+      "original_sha256": "198b94bdb986cfcf729cc89b6503416f2cad9fbaee6ffc6e4e54fb4b0ecaeb45",
+      "packaged_sha256": "9abfca6a5ba5e9c647ecb5bf19c2fa27e3a185be2ab56e1c8439fcbe259d2711",
+      "link_edits": 3
+    },
+    {
+      "original_path": "contemporary-prompting/cases/03-big-emotion.md",
+      "packaged_path": "references/knowledge/contemporary-prompting/cases/03-big-emotion.md",
+      "original_sha256": "f705bf43854191b8135596daf0bf33d283ec4a99bba04f6758f1eca82ebabb92",
+      "packaged_sha256": "d8a50acf046b56c865cb458f7173d03faacb5a5d9311be93b97e9397bafbc97b",
+      "link_edits": 1
+    },
+    {
+      "original_path": "contemporary-prompting/cases/04-vlog.md",
+      "packaged_path": "references/knowledge/contemporary-prompting/cases/04-vlog.md",
+      "original_sha256": "13d87989365eb8c8c6205829f0bd4f3ce1d2776cec4d96439d1207bcf459b69a",
+      "packaged_sha256": "46c3b5b8f91bd3f70e566297aa9350db967f5808042ae48976d73839381e7f49",
+      "link_edits": 4
+    },
+    {
+      "original_path": "contemporary-prompting/cases/05-empty-corridor.md",
+      "packaged_path": "references/knowledge/contemporary-prompting/cases/05-empty-corridor.md",
+      "original_sha256": "a9cf88f8f4b490c64aecd283fc92e811481f5d42c1ab264bed50e23ea858f93b",
+      "packaged_sha256": "6bcd957bea4a80a6697b9e7417a63dd5daf0483d02f370749e359cdf2e75a525",
+      "link_edits": 3
+    },
+    {
+      "original_path": "contemporary-prompting/cases/06-surreal-perfume.md",
+      "packaged_path": "references/knowledge/contemporary-prompting/cases/06-surreal-perfume.md",
+      "original_sha256": "f6cf11a451b1de5c545a8acd6c8786a712d861e636a55ed899e1136cccf5c529",
+      "packaged_sha256": "5e80c231c6a3501685f55b3b9d87b09f2d20a3bf1f792ca2344075828b0ad459",
+      "link_edits": 3
+    },
+    {
+      "original_path": "contemporary-prompting/cases/07-comedy.md",
+      "packaged_path": "references/knowledge/contemporary-prompting/cases/07-comedy.md",
+      "original_sha256": "9a56e23c607dc0f0b4f6b79bc9c005e2c9950fb0682516ff3a48eeb20f306c65",
+      "packaged_sha256": "f5cd8f5d2520e8eaaa09d5e59276a55ebd64c7e10fae4e02182fd94becd3096a",
+      "link_edits": 1
+    },
+    {
+      "original_path": "contemporary-prompting/cases/08-object-exchange.md",
+      "packaged_path": "references/knowledge/contemporary-prompting/cases/08-object-exchange.md",
+      "original_sha256": "994419b5ec9e616e3efb73fbdc4a8599cec316958d594d92ee17f8c5954478c3",
+      "packaged_sha256": "9c9c35c7efbf78f49e6fc865aa1fd204428ee8ef74dafeb8e6e7ef451cf2eeb2",
+      "link_edits": 4
+    },
+    {
+      "original_path": "contemporary-prompting/cases/index.md",
+      "packaged_path": "references/knowledge/contemporary-prompting/cases/index.md",
+      "original_sha256": "611c9e40a02ec936504a811a62903e87ed02490a9e589d2a39a26c9404ee0f10",
+      "packaged_sha256": "4a27785377872679e949b7b2e311a1d5731aa84ae274167b3b2f736b82e0a3ad",
+      "link_edits": 9
+    },
+    {
+      "original_path": "contemporary-prompting/craft/01-acting.md",
+      "packaged_path": "references/knowledge/contemporary-prompting/craft/01-acting.md",
+      "original_sha256": "bc1f6938b8f0242f19fa5dee34ed4a308d677e1ad43ef2f6dbf6e27365e9b7bd",
+      "packaged_sha256": "9f0f4b1f68ac1425d8cff0ee101d9cf07aee5c3945d6c81e0c8b4ceef1fa3fb1",
+      "link_edits": 4
+    },
+    {
+      "original_path": "contemporary-prompting/craft/02-dialogue-voice.md",
+      "packaged_path": "references/knowledge/contemporary-prompting/craft/02-dialogue-voice.md",
+      "original_sha256": "4d1df6fef3acb7df713ecbcb65e19fcb3c5c0b515f1ce3f827217e09bba830ae",
+      "packaged_sha256": "17179baeb705c175c630246d6fdccac0b023462d3bcc5006e477ed654b992f7c",
+      "link_edits": 3
+    },
+    {
+      "original_path": "contemporary-prompting/craft/03-action-blocking.md",
+      "packaged_path": "references/knowledge/contemporary-prompting/craft/03-action-blocking.md",
+      "original_sha256": "2876d04e386c2e4258c10e437ba65493e0bfab695defa2f793b53ab2abaf4241",
+      "packaged_sha256": "1dfd606407cdeeff08367cf653aa54399aedda0e9ecdfdc41701f98d2f7144fb",
+      "link_edits": 3
+    },
+    {
+      "original_path": "contemporary-prompting/craft/04-camera-attention.md",
+      "packaged_path": "references/knowledge/contemporary-prompting/craft/04-camera-attention.md",
+      "original_sha256": "2a8c4857b4ebe3cf467693c49f9f29419bda25cb7ca651985e0af4560afed9a6",
+      "packaged_sha256": "9b144845e53a6a9004164d3ff7dcae0f2208096bcc95994272ff5b0f15686f1a",
+      "link_edits": 4
+    },
+    {
+      "original_path": "contemporary-prompting/craft/05-light-material.md",
+      "packaged_path": "references/knowledge/contemporary-prompting/craft/05-light-material.md",
+      "original_sha256": "91690caa06a20d6bd31eb56f3df7b5192657c1051f5839672cba13389016856f",
+      "packaged_sha256": "d1f0fa25193165f0447c4fb718327a75333699bae87fdb4d69b8a3e3e480cdde",
+      "link_edits": 4
+    },
+    {
+      "original_path": "contemporary-prompting/craft/06-world-art-costume.md",
+      "packaged_path": "references/knowledge/contemporary-prompting/craft/06-world-art-costume.md",
+      "original_sha256": "d1d904de75a4f19717dad2a96d2470c01d623533490b58a8b1205130f300147f",
+      "packaged_sha256": "a46f6e9291374f738efa1750b99d61858f3afbb68434d23aa1eb844588d5ac0c",
+      "link_edits": 4
+    },
+    {
+      "original_path": "contemporary-prompting/craft/07-sound-music.md",
+      "packaged_path": "references/knowledge/contemporary-prompting/craft/07-sound-music.md",
+      "original_sha256": "00bc38afe22deef8fe5e876700bb65ef26e69b6554ed33af3d676bd35232683e",
+      "packaged_sha256": "17b6264999e02df22cc6ba08116a34b085c165838d8ec1ab8545a7a44dcfefbd",
+      "link_edits": 2
+    },
+    {
+      "original_path": "contemporary-prompting/craft/08-still-graphic-style.md",
+      "packaged_path": "references/knowledge/contemporary-prompting/craft/08-still-graphic-style.md",
+      "original_sha256": "2331b9b80f0780576374a5f2f7f458adf5df9e78c3237c1a6583139b3c6b1932",
+      "packaged_sha256": "4cadb73204e0b71af69367fc3d63f8ed0aaf62ec15cf6ff28ca3bc1f77237076",
+      "link_edits": 3
+    },
+    {
+      "original_path": "contemporary-prompting/craft/09-time-montage.md",
+      "packaged_path": "references/knowledge/contemporary-prompting/craft/09-time-montage.md",
+      "original_sha256": "b12095d4bf2066ceaa0958f8a76a6c4ac1887c031c5574b1b606dcd59dadf177",
+      "packaged_sha256": "3758bc38d4ec460beacbe97407fc9490fae5bda14a9800fe92487201c185f05b",
+      "link_edits": 3
+    },
+    {
+      "original_path": "contemporary-prompting/craft/index.md",
+      "packaged_path": "references/knowledge/contemporary-prompting/craft/index.md",
+      "original_sha256": "bc30e262a68383cbcfd3979fc742b631eb27b873abcf44637fce94b209d4462f",
+      "packaged_sha256": "a0be4f193d5299abe2f3bb4878f143a4042c1fcc557fe6c6101ac93a586116f6",
+      "link_edits": 10
+    },
+    {
+      "original_path": "contemporary-prompting/foundations/00-ten-minute-start.md",
+      "packaged_path": "references/knowledge/contemporary-prompting/foundations/00-ten-minute-start.md",
+      "original_sha256": "e8a20051a7df338026a23881c1a8fbd0e26428245fdd786a14900718995f1af4",
+      "packaged_sha256": "a0b48fa9b99e8e0dc863005108ac084f8bc6dbece6f8eacbd84f5857cfcd47e2",
+      "link_edits": 5
+    },
+    {
+      "original_path": "contemporary-prompting/foundations/01-what-this-field-is.md",
+      "packaged_path": "references/knowledge/contemporary-prompting/foundations/01-what-this-field-is.md",
+      "original_sha256": "9650fcf15f3d7b850e10e0206298e922c8d4c3bd111ac99be5cc82a4e65479d7",
+      "packaged_sha256": "962c116d4730675d45d826bb38f51b9c3f791f53e26870bd78d9652478cf9d89",
+      "link_edits": 4
+    },
+    {
+      "original_path": "contemporary-prompting/foundations/02-six-layer-method.md",
+      "packaged_path": "references/knowledge/contemporary-prompting/foundations/02-six-layer-method.md",
+      "original_sha256": "7f4705c29dede1667baef552918ce2c7f05f74c6455055a006d86968cd955b8d",
+      "packaged_sha256": "1ff9c7afbe386c7ad74697ec427a37645e83425face1cbea1a20acbe7a91d2bb",
+      "link_edits": 3
+    },
+    {
+      "original_path": "contemporary-prompting/foundations/03-three-drafts.md",
+      "packaged_path": "references/knowledge/contemporary-prompting/foundations/03-three-drafts.md",
+      "original_sha256": "633c7ab0cf04345e4da30c8aa511265f5720eb489c3504c3f85ae39340865339",
+      "packaged_sha256": "5e4642c1f0000e2ab90ff8076f547391585aca72a1dcdc4cc91068df0c881279",
+      "link_edits": 4
+    },
+    {
+      "original_path": "contemporary-prompting/foundations/04-freedom-and-constraints.md",
+      "packaged_path": "references/knowledge/contemporary-prompting/foundations/04-freedom-and-constraints.md",
+      "original_sha256": "05234d55ddc5ad5a0d10e889136a2305e11ac46bf1046ca0f6b0050ca7e73331",
+      "packaged_sha256": "f989089e9c4b369d0acd37f94208533a39346c76a4949506f16c469c9537fdff",
+      "link_edits": 3
+    },
+    {
+      "original_path": "contemporary-prompting/foundations/05-how-to-know.md",
+      "packaged_path": "references/knowledge/contemporary-prompting/foundations/05-how-to-know.md",
+      "original_sha256": "e087de5c6d143e915630dbe07759abcd2a4fef1560ce38cc7786d03cda534b6d",
+      "packaged_sha256": "fa8ba612e373c2181f4f72167a8f9eb9ca46d4fbed0d768b6d47e6be31357778",
+      "link_edits": 4
+    },
+    {
+      "original_path": "contemporary-prompting/foundations/index.md",
+      "packaged_path": "references/knowledge/contemporary-prompting/foundations/index.md",
+      "original_sha256": "3fb71b3aabd55d84d8fd662dd510a69aa29efda8265d1efb579cd29685e00070",
+      "packaged_sha256": "9ff6a275491aff9ad96c52f316a7ee19f12dfa862297e641f97a5d0d2c1714dd",
+      "link_edits": 7
+    },
+    {
+      "original_path": "contemporary-prompting/index.md",
+      "packaged_path": "references/knowledge/contemporary-prompting/index.md",
+      "original_sha256": "4d2b4e9aad901cb1aa541e3bba304a5f27035fbb1e7266db8837fca3bc754b9d",
+      "packaged_sha256": "93e6d649a125b083148ad14617cdb5f1704d4f2096f9d8cd6a10b38a52145101",
+      "link_edits": 78
+    },
+    {
+      "original_path": "contemporary-prompting/language/01-sensory-translation.md",
+      "packaged_path": "references/knowledge/contemporary-prompting/language/01-sensory-translation.md",
+      "original_sha256": "dc8eafd68e79f39d1760746ee01d21a78ff6db19010348d112b84eb16de761b9",
+      "packaged_sha256": "b4ec75d34bf9bc3228511da5f579274111059d93b800b8f4edf5582a56baf36f",
+      "link_edits": 4
+    },
+    {
+      "original_path": "contemporary-prompting/language/02-association-workshop.md",
+      "packaged_path": "references/knowledge/contemporary-prompting/language/02-association-workshop.md",
+      "original_sha256": "5bea0fbdb71e894f063ca6393e39087b1caaf5f057751105d060f04e4ef809bc",
+      "packaged_sha256": "2e3ccca86d4367f6af1037fca83fbedf8606920f496a356a08c464f996599295",
+      "link_edits": 3
+    },
+    {
+      "original_path": "contemporary-prompting/language/03-scene-grammar.md",
+      "packaged_path": "references/knowledge/contemporary-prompting/language/03-scene-grammar.md",
+      "original_sha256": "7633ed9c71c60368ca5b1f38a41b494ad0ce1b37ae5742aa1a4e12da5af48f74",
+      "packaged_sha256": "820ef45e1d5ab32832746d55b6bf2529f2b2e2a64e6f2b8dd254105b093a23ca",
+      "link_edits": 4
+    },
+    {
+      "original_path": "contemporary-prompting/language/04-emotion-atlas.md",
+      "packaged_path": "references/knowledge/contemporary-prompting/language/04-emotion-atlas.md",
+      "original_sha256": "1e86e3f5e40d9ec9a3a4123e8cb8cfdc4447cd635a530e712b82268478e4a751",
+      "packaged_sha256": "a0a166ce7fb10f68314becf5d3cfe15e9f5bb32f0c45d00ea8165300fa34f1b2",
+      "link_edits": 2
+    },
+    {
+      "original_path": "contemporary-prompting/language/05-atmosphere-atlas.md",
+      "packaged_path": "references/knowledge/contemporary-prompting/language/05-atmosphere-atlas.md",
+      "original_sha256": "b4d445db7b5aab070f7c8fab18e7acc687b3f94ec341792dd52b49e60585fc3b",
+      "packaged_sha256": "dedad165b00081ae47181f65bc9ff2d2c41c0305473cf729567f06bfa8a24f35",
+      "link_edits": 5
+    },
+    {
+      "original_path": "contemporary-prompting/language/06-rewrite-clinic.md",
+      "packaged_path": "references/knowledge/contemporary-prompting/language/06-rewrite-clinic.md",
+      "original_sha256": "441a1d5406f963e357142ae3e5d801899b5b8c36c8697bdebd501fd164a95acf",
+      "packaged_sha256": "4ba3bc563092d4752cf150bc790f1a585d569a9ee9f4e304784940a4cfad572e",
+      "link_edits": 3
+    },
+    {
+      "original_path": "contemporary-prompting/language/index.md",
+      "packaged_path": "references/knowledge/contemporary-prompting/language/index.md",
+      "original_sha256": "66d2c0c8059b8f6d415de3c17937bbc1c9e45fd22cdff8035d2b40efe52d6f08",
+      "packaged_sha256": "a855bcbc5703b064bfd7bdbbc0b97397674fa63b217e8e1ee8989b9e388bdda3",
+      "link_edits": 7
+    },
+    {
+      "original_path": "contemporary-prompting/log.md",
+      "packaged_path": "references/knowledge/contemporary-prompting/log.md",
+      "original_sha256": "e40c8b3e167a8ba1e25f6456e4753937f759ab489c831f6038422c2180bd0388",
+      "packaged_sha256": "e852ce039fc60f03877599cb493e357f946daa4175e1e3afc73ee8a6f5cd143d",
+      "link_edits": 5
+    },
+    {
+      "original_path": "contemporary-prompting/practice/01-templates.md",
+      "packaged_path": "references/knowledge/contemporary-prompting/practice/01-templates.md",
+      "original_sha256": "00ae22dadf217a18c7864c69782fb9425e4e30e1d93a11a244bf0da8680a4c4f",
+      "packaged_sha256": "904a1a0fc25abb69039f52a69bb0a860975008a35841ca31a1aa35b1f30fd3d6",
+      "link_edits": 5
+    },
+    {
+      "original_path": "contemporary-prompting/practice/02-exercises.md",
+      "packaged_path": "references/knowledge/contemporary-prompting/practice/02-exercises.md",
+      "original_sha256": "e14c81cc4a171acf465b416da8f71ead6d57cf1665c8d7dc5f15c9cd7c1bcfd4",
+      "packaged_sha256": "8cfc0a3a8ccccfe54976ef7fc384934065b3848c1bb3d25a2a2bcb6bae4f188e",
+      "link_edits": 2
+    },
+    {
+      "original_path": "contemporary-prompting/practice/03-review-rubric.md",
+      "packaged_path": "references/knowledge/contemporary-prompting/practice/03-review-rubric.md",
+      "original_sha256": "172d65c4f49dd3508d0ac6a47e07c12f2e95212f81e8a0bb381528caec106961",
+      "packaged_sha256": "92ae7d048fc6df8f08edab9d2cc3a1e81302f22880cdfe5e84af6991d5174758",
+      "link_edits": 1
+    },
+    {
+      "original_path": "contemporary-prompting/practice/04-agent-use.md",
+      "packaged_path": "references/knowledge/contemporary-prompting/practice/04-agent-use.md",
+      "original_sha256": "f424affe72317adf64dad331fffebee3ef5ac2bf960d63508bf8c830d2341640",
+      "packaged_sha256": "6878c233347eb8004a538a714ebf8e7e71ea7754bd70edb4a072db97007a8db7",
+      "link_edits": 3
+    },
+    {
+      "original_path": "contemporary-prompting/practice/index.md",
+      "packaged_path": "references/knowledge/contemporary-prompting/practice/index.md",
+      "original_sha256": "2d51324bae8b556812308c514f283d6c56d4e919797d578371e0f16b5de4563b",
+      "packaged_sha256": "93c59a651d10b9a2c528dd0918b23e52c32525175338850464670d2510319ecf",
+      "link_edits": 5
+    },
+    {
+      "original_path": "contemporary-prompting/references/corpus.md",
+      "packaged_path": "references/knowledge/contemporary-prompting/references/corpus.md",
+      "original_sha256": "c5a0c22d183f896293715b0f56c154917049dc0a76859a14b42b581bf70550fe",
+      "packaged_sha256": "72d90916b39c455bff3706bbca3b9c089ea534d2fea1d63e157ae2dd3d0723d1",
+      "link_edits": 1
+    },
+    {
+      "original_path": "contemporary-prompting/references/glossary.md",
+      "packaged_path": "references/knowledge/contemporary-prompting/references/glossary.md",
+      "original_sha256": "fbab3835283a9082c57176316ba1e6eb203804fbd015b611ae6100991b83fe20",
+      "packaged_sha256": "8bd60f957498c859e00aef964445428bee9894ed8a480c7d709e1404f065bc6e",
+      "link_edits": 48
+    },
+    {
+      "original_path": "contemporary-prompting/references/index.md",
+      "packaged_path": "references/knowledge/contemporary-prompting/references/index.md",
+      "original_sha256": "3819621d4b262f1011f03fb9cc77a8624073c822d2155f24ddc7c522b0973f1a",
+      "packaged_sha256": "5b8c66bab56cc806453d0d98ad245870689ba5cc558586addac23d8818bf3858",
+      "link_edits": 9
+    },
+    {
+      "original_path": "contemporary-prompting/references/official-image.md",
+      "packaged_path": "references/knowledge/contemporary-prompting/references/official-image.md",
+      "original_sha256": "fd90200867371f1f608b8d295b08a11d6afe3d15dfbccf29e5f3cb54f24ca030",
+      "packaged_sha256": "fd90200867371f1f608b8d295b08a11d6afe3d15dfbccf29e5f3cb54f24ca030",
+      "link_edits": 0
+    },
+    {
+      "original_path": "contemporary-prompting/references/official-video.md",
+      "packaged_path": "references/knowledge/contemporary-prompting/references/official-video.md",
+      "original_sha256": "b899cd0f118729ba0613e3538206170b3e23625300c7668a9e7f21179e8b66fa",
+      "packaged_sha256": "b899cd0f118729ba0613e3538206170b3e23625300c7668a9e7f21179e8b66fa",
+      "link_edits": 0
+    },
+    {
+      "original_path": "contemporary-prompting/references/official-voice-light.md",
+      "packaged_path": "references/knowledge/contemporary-prompting/references/official-voice-light.md",
+      "original_sha256": "8c8d43cc1df604cf9137a4123855a69a729d4f1b14ab7a4427b9b99baacad59f",
+      "packaged_sha256": "8c8d43cc1df604cf9137a4123855a69a729d4f1b14ab7a4427b9b99baacad59f",
+      "link_edits": 0
+    },
+    {
+      "original_path": "contemporary-prompting/references/okf.md",
+      "packaged_path": "references/knowledge/contemporary-prompting/references/okf.md",
+      "original_sha256": "9cf4e858d16155a48196bf2343858c988c5595ee5488cdde8a9ce6e3b06f8311",
+      "packaged_sha256": "9a6d416c3a43a9eb5b98cadd51d85f3abb5650578c74d078479dd305e03d916a",
+      "link_edits": 0
+    },
+    {
+      "original_path": "contemporary-prompting/references/theory.md",
+      "packaged_path": "references/knowledge/contemporary-prompting/references/theory.md",
+      "original_sha256": "9d1ab917ca9b5216f87cd651faa7efbe1245005fc689f8fbae990c5322445a00",
+      "packaged_sha256": "ff11b56e2d8c31e726b29e8fd804be71db94c93d3aa4bb8c142f9aa782a64191",
+      "link_edits": 5
+    },
+    {
+      "original_path": "contemporary-prompting/references/tutorial-map.md",
+      "packaged_path": "references/knowledge/contemporary-prompting/references/tutorial-map.md",
+      "original_sha256": "1b9578e4c414f22abd5d23e034dd7b200aaac674dcb0213f877ebc98c89808bd",
+      "packaged_sha256": "95bb3166acd22dbdf9c67223c69433c1f5186c14423d3d65d548f40cf9db45a4",
+      "link_edits": 27
+    },
+    {
+      "original_path": "contemporary-prompting/workflows/01-brief-to-options.md",
+      "packaged_path": "references/knowledge/contemporary-prompting/workflows/01-brief-to-options.md",
+      "original_sha256": "ddc5018a20f41e9a4ac73dd8b6ba7de829e3519be6b268dfb168f74c8388e530",
+      "packaged_sha256": "b44b8a90449c6e99ad45058165f199b2a142a0e2cade0e4b8416bed440332315",
+      "link_edits": 2
+    },
+    {
+      "original_path": "contemporary-prompting/workflows/02-text-to-image.md",
+      "packaged_path": "references/knowledge/contemporary-prompting/workflows/02-text-to-image.md",
+      "original_sha256": "57fb3f955ac79cea7f5482430655f94b6ad88f013adf856bae264c11fbad81d8",
+      "packaged_sha256": "c4349c80e06d9f437443dd2a150faa3aa146b63427954a2fea61b6864845067c",
+      "link_edits": 4
+    },
+    {
+      "original_path": "contemporary-prompting/workflows/03-image-edit.md",
+      "packaged_path": "references/knowledge/contemporary-prompting/workflows/03-image-edit.md",
+      "original_sha256": "372fbb6af94f97e3289d6b7cee088d29c49e3580c466d52be626846f02eb8ed8",
+      "packaged_sha256": "66ed802d79e807a462ac58e9dddeff745b77681ce326d868d976709bdceba016",
+      "link_edits": 4
+    },
+    {
+      "original_path": "contemporary-prompting/workflows/04-image-to-video.md",
+      "packaged_path": "references/knowledge/contemporary-prompting/workflows/04-image-to-video.md",
+      "original_sha256": "2821107b7dfc63376be2f81c64ace30b7d1ffb26fd9daac9cc60ea55e9526108",
+      "packaged_sha256": "138d8f7ef747eea33ee9bd1667d0b804d3210e6d669b041c56dd12600edb16b7",
+      "link_edits": 4
+    },
+    {
+      "original_path": "contemporary-prompting/workflows/05-assets-multishot.md",
+      "packaged_path": "references/knowledge/contemporary-prompting/workflows/05-assets-multishot.md",
+      "original_sha256": "60a03434bdb669382feecf39721a07d4875e2cffad6f63006d288132bada4a7b",
+      "packaged_sha256": "3bebb86a4db71e293618729eca605991f77ed2b3dc19a00dd1c4924f5d642feb",
+      "link_edits": 2
+    },
+    {
+      "original_path": "contemporary-prompting/workflows/06-previs.md",
+      "packaged_path": "references/knowledge/contemporary-prompting/workflows/06-previs.md",
+      "original_sha256": "61b19f74cf97fdb496a9284948f2f1101568c661869e89200a12ab0a5e81fc69",
+      "packaged_sha256": "87517a5e00c721eb6097854d8aac0cc7b89c62278b74383961272904627a68c7",
+      "link_edits": 5
+    },
+    {
+      "original_path": "contemporary-prompting/workflows/07-evaluate-repair.md",
+      "packaged_path": "references/knowledge/contemporary-prompting/workflows/07-evaluate-repair.md",
+      "original_sha256": "e8a23f336abfb3351055dd27600222d5b626705f5aef2362898cccd3bf705afe",
+      "packaged_sha256": "abb114ef85e80bb1d269ed9a9f1aa17ec200bb1be67d507cf003f61d22ad33df",
+      "link_edits": 3
+    },
+    {
+      "original_path": "contemporary-prompting/workflows/08-model-adaptation.md",
+      "packaged_path": "references/knowledge/contemporary-prompting/workflows/08-model-adaptation.md",
+      "original_sha256": "d2dbb4c1e67752849af14dba6c420db2a0abd1adaa52a092adad70638cf05d68",
+      "packaged_sha256": "cdd37da20f41c80320384f0086442427bc110900af27d5e2527df2c712108d87",
+      "link_edits": 5
+    },
+    {
+      "original_path": "contemporary-prompting/workflows/index.md",
+      "packaged_path": "references/knowledge/contemporary-prompting/workflows/index.md",
+      "original_sha256": "fb0ae0aa72cb99e9668316f76a2a681aa86fa2697e9e0fa7ef7f55eda87edc9e",
+      "packaged_sha256": "2728d9f528ebd5a9b25649195c359d038b9340b0762c72df4fd857038c716331",
+      "link_edits": 9
+    },
+    {
+      "original_path": "screenwriting-narrative-method/cases/box-at-the-door-diagnosis.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/cases/box-at-the-door-diagnosis.md",
+      "original_sha256": "c74671cd0e73e5dd4102c4eb047a8a7f4d4cc2b79d7e5c30fd892522d29bbdb0",
+      "packaged_sha256": "5ef242cbe6a203984f0de3af2f5e58dc6bb29b7e0d602617e2b48a4721e765a1",
+      "link_edits": 11
+    },
+    {
+      "original_path": "screenwriting-narrative-method/cases/box-at-the-door-screenwriting-work.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/cases/box-at-the-door-screenwriting-work.md",
+      "original_sha256": "ce264ee7c7a7b56f69b74acc2063180b7c869c43c81adff90a11a45e76677bf3",
+      "packaged_sha256": "e2f37ed282ab731cad7f98ae1e5ae3421390d372505aad5627c0a3f16fb818f8",
+      "link_edits": 11
+    },
+    {
+      "original_path": "screenwriting-narrative-method/cases/box-of-old-things-three-orders.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/cases/box-of-old-things-three-orders.md",
+      "original_sha256": "d368154d79a3c396089dfe5a043cfbf6476d2fc2867e066f5fe4b7aca807eda8",
+      "packaged_sha256": "a6cfab7f8f6f26f7fe6a853b170ad2cdcc1bebc41c65148f3aa4f129a9cabf70",
+      "link_edits": 9
+    },
+    {
+      "original_path": "screenwriting-narrative-method/cases/index.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/cases/index.md",
+      "original_sha256": "2ae5389db361da48459e0e2e7c82019e1b7387687383390ca1f9709da0c5179c",
+      "packaged_sha256": "2ae5389db361da48459e0e2e7c82019e1b7387687383390ca1f9709da0c5179c",
+      "link_edits": 0
+    },
+    {
+      "original_path": "screenwriting-narrative-method/cases/moving-a-dining-table.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/cases/moving-a-dining-table.md",
+      "original_sha256": "67e2310a593cbd50553643de9453fd5121d4988b75901cc3f08ad8115af517a4",
+      "packaged_sha256": "c6a65fd81edbd891f7ce7d8f0c0bcfdc9e3cea1983a73b726cdaf6302c54487d",
+      "link_edits": 8
+    },
+    {
+      "original_path": "screenwriting-narrative-method/cases/one-key-three-endings.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/cases/one-key-three-endings.md",
+      "original_sha256": "24f805c710a2c6695eff537b2dbcc0b5eadfadf83dcee01792b4da5a2afb2999",
+      "packaged_sha256": "2581381c257abcc211eb49c43d6669ba86a197d072863e6430cfd627237a9fee",
+      "link_edits": 6
+    },
+    {
+      "original_path": "screenwriting-narrative-method/cases/reliability-three-routes.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/cases/reliability-three-routes.md",
+      "original_sha256": "af2010095aacf9cf14a4260317357cdcf4e74861d23aee36fc93ba9e32a2585e",
+      "packaged_sha256": "a045358bab4fa3f658a3e242661d21c03d8d9b5aafa86ca2ca958c3b59d477fe",
+      "link_edits": 8
+    },
+    {
+      "original_path": "screenwriting-narrative-method/cases/returning-the-keys.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/cases/returning-the-keys.md",
+      "original_sha256": "ece2df1257d09a947072541247a762f725ac9c11402605543fa9cdc0dcdd84d5",
+      "packaged_sha256": "4e85eaed3720c4c4aaf43fade273775b341c51821aa081e5bbaeea534276e66a",
+      "link_edits": 8
+    },
+    {
+      "original_path": "screenwriting-narrative-method/cases/skincare-film-15s-and-print.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/cases/skincare-film-15s-and-print.md",
+      "original_sha256": "fafa9f51a3aff973e2022abeb8385102794072b73674a85d9fd8ede99186ea60",
+      "packaged_sha256": "2cc5a52701917828eef7a260cef850924c6a0081f3328de525f525b4855fe2c7",
+      "link_edits": 9
+    },
+    {
+      "original_path": "screenwriting-narrative-method/cases/skincare-film-45s-time-draft.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/cases/skincare-film-45s-time-draft.md",
+      "original_sha256": "70c14f6ffb3869555f5479c9ab2d5919e54d8a719f6658dd42f57595220eccd7",
+      "packaged_sha256": "546d46309c3bc9304812e76a34d70c686a615a97d2ac4d70413d523d9cda39a2",
+      "link_edits": 9
+    },
+    {
+      "original_path": "screenwriting-narrative-method/cases/skincare-film-adversarial-modifications.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/cases/skincare-film-adversarial-modifications.md",
+      "original_sha256": "c7c2f817e42085e730cbd1bf3c76235571d66ad6a8b188f95727f38144ffe7bf",
+      "packaged_sha256": "2f30e620c24221ddaa38274ce1e153d1cef72a37d9179cf5ee488e0868e8ee08",
+      "link_edits": 8
+    },
+    {
+      "original_path": "screenwriting-narrative-method/cases/skincare-film-brand-uniqueness-gap.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/cases/skincare-film-brand-uniqueness-gap.md",
+      "original_sha256": "708c628ddc3837800ad62c7743a201ec61690a89de440a03a25fe5784181dc34",
+      "packaged_sha256": "0fad8325f5fe27e021c19b84c69d4d9903d5bb78db8832b29532a3e0dc4863f6",
+      "link_edits": 8
+    },
+    {
+      "original_path": "screenwriting-narrative-method/cases/skincare-film-brief-decomposition.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/cases/skincare-film-brief-decomposition.md",
+      "original_sha256": "8036cf42b14319c8292cdb609d5986c3d706fc08ef252edf6abe0f19098e3eb7",
+      "packaged_sha256": "e841b25f39c51d35e9e0138fb54e55250ac903636530a943ce8c8146ef4f2139",
+      "link_edits": 10
+    },
+    {
+      "original_path": "screenwriting-narrative-method/cases/skincare-film-change-through-chain.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/cases/skincare-film-change-through-chain.md",
+      "original_sha256": "3effd8857588e5e2ac0480f55757b373ac5bbdf382b05ee578d950ef726282b5",
+      "packaged_sha256": "fc4611a8f3154f1b89dd94aa7b0db357bfa96568bf02cddb40c961eda4dabb7f",
+      "link_edits": 9
+    },
+    {
+      "original_path": "screenwriting-narrative-method/cases/skincare-film-delivery-status-and-risks.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/cases/skincare-film-delivery-status-and-risks.md",
+      "original_sha256": "cd14b70e366fdf54e8154576626536662e1fd9494b4fb83feb3fe4319f70b0a1",
+      "packaged_sha256": "51ead9a0963d2a4461a688ff2c0df1b1320f9b67886fd954fff962f0338f7bbe",
+      "link_edits": 10
+    },
+    {
+      "original_path": "screenwriting-narrative-method/cases/skincare-film-department-division.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/cases/skincare-film-department-division.md",
+      "original_sha256": "def78858c41da79d2cc58c260279d15e4019364eac5ebf211f60df3d19435a2c",
+      "packaged_sha256": "2d0731c9c0fd3e6fd9eb6d323dc91baa9c7e86b8b83540ccedfaadd7e91e483f",
+      "link_edits": 11
+    },
+    {
+      "original_path": "screenwriting-narrative-method/cases/skincare-film-five-protected-relations.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/cases/skincare-film-five-protected-relations.md",
+      "original_sha256": "54bfdfcb27bb2d4e161e157332d71575cd467b5095f543ff9c4b46a278c56a30",
+      "packaged_sha256": "601ae74b571d1627ab29d9cc3e941884da6aba05a4dfcf321a0ab028ab83826c",
+      "link_edits": 12
+    },
+    {
+      "original_path": "screenwriting-narrative-method/cases/skincare-film-form-comparison.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/cases/skincare-film-form-comparison.md",
+      "original_sha256": "6497029de908ff32e0106aa43e396d241f1a7e9ec3025593d4377b53f89383a8",
+      "packaged_sha256": "c90cee72e6ccd79b34d438879d3ea8d0a953f0cb3bddf1dd51a4638483d024c8",
+      "link_edits": 10
+    },
+    {
+      "original_path": "screenwriting-narrative-method/cases/skincare-film-information-plan.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/cases/skincare-film-information-plan.md",
+      "original_sha256": "ee82a18bf4a18b11c5a1f7ecd1336d977f69f0dc5ddde7c5eb70302f57c70a77",
+      "packaged_sha256": "32a822cd90437aafa0f3467d8ea64d1e3c95d6f1ec5fe124bb80880e087e5ae6",
+      "link_edits": 10
+    },
+    {
+      "original_path": "screenwriting-narrative-method/cases/skincare-film-scene-script-a01.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/cases/skincare-film-scene-script-a01.md",
+      "original_sha256": "ec45435e0e49c0f83c6a82b5ddff73e49b5a52b5900c70b54794ec2ba03e5881",
+      "packaged_sha256": "2c2f596affba4167fc99ff16ff1b5a4673db90bbbd7b4f46880b6e44b69bd39d",
+      "link_edits": 10
+    },
+    {
+      "original_path": "screenwriting-narrative-method/cases/skincare-film-validation-plan.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/cases/skincare-film-validation-plan.md",
+      "original_sha256": "a806d7acd26d952bc5c48264dbea733ebd24070040306cb9d1e1de7798154a4b",
+      "packaged_sha256": "3a84f92aab9745e4846182dede3cb2545f0241a6a2f71d13df25ae451e25f777",
+      "link_edits": 9
+    },
+    {
+      "original_path": "screenwriting-narrative-method/cases/umbrella-repair-shop-negotiation.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/cases/umbrella-repair-shop-negotiation.md",
+      "original_sha256": "f03a3fcc2cefcbdca567257a14d4ac59a2091db978689061dc7c1d889fe30745",
+      "packaged_sha256": "734e72f841ee8002928ab9a110b46fc715b66d8b3d6c765da20be624b70393e5",
+      "link_edits": 9
+    },
+    {
+      "original_path": "screenwriting-narrative-method/cases/umbrella-repair-six-works.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/cases/umbrella-repair-six-works.md",
+      "original_sha256": "73aa987c6318c6ef93d8981723f784ee15a5eee1aa212adb1906fbf643db60b5",
+      "packaged_sha256": "9c342b0ae3254234a21d9050902cd39dbb8a3cadc3d32df26c12f46f27701369",
+      "link_edits": 9
+    },
+    {
+      "original_path": "screenwriting-narrative-method/checklists/03-failure-modes-and-fixes.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/checklists/03-failure-modes-and-fixes.md",
+      "original_sha256": "11587552057c0b537cf9fa80330790cc9e3c0534cfa0a42a2da868eedd9053a6",
+      "packaged_sha256": "2dc5cae0a1767fc8c8047555f815ec56d458995284c760256456458b8ebf6341",
+      "link_edits": 7
+    },
+    {
+      "original_path": "screenwriting-narrative-method/checklists/09-test-matrix.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/checklists/09-test-matrix.md",
+      "original_sha256": "41805bc652104f6746df0fe27569654ae2585338de1ad8a256a649a73a002cac",
+      "packaged_sha256": "1c06f04e46acc3123481c0eda584e621ba7307d1037b799d777cf148237df0fb",
+      "link_edits": 7
+    },
+    {
+      "original_path": "screenwriting-narrative-method/checklists/character-ethics-check.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/checklists/character-ethics-check.md",
+      "original_sha256": "1aca1a6e15a06eeefd65b4153da1967265094e9de4e1413f7a8b65d5c592b964",
+      "packaged_sha256": "456a39c1245fb2638c4ca6bd459077f67d4caa2ae8c0b3a0e082b55353ccd80c",
+      "link_edits": 7
+    },
+    {
+      "original_path": "screenwriting-narrative-method/checklists/clue-production-chain.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/checklists/clue-production-chain.md",
+      "original_sha256": "0035b4497a024d9dd426a943ceafdf15aae8ce801b9370618c82540b4bd180db",
+      "packaged_sha256": "b27e93066c980622112b44f9259a606c3c11f93b047a1536879833819428497c",
+      "link_edits": 7
+    },
+    {
+      "original_path": "screenwriting-narrative-method/checklists/concept-screening.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/checklists/concept-screening.md",
+      "original_sha256": "c877fea6b0487afbe94cbbd063fb7ad24a4bfe29106c133444919df67c75ff77",
+      "packaged_sha256": "2e7cd00119e384c294c26b3f9b53153b000eec2cee876c03f1f4c5ca9ed60c28",
+      "link_edits": 8
+    },
+    {
+      "original_path": "screenwriting-narrative-method/checklists/deliverable-completion-criteria.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/checklists/deliverable-completion-criteria.md",
+      "original_sha256": "d587e2235273f1c6a835023ebe032342282e34b627da14e1fed48e8eda2bb802",
+      "packaged_sha256": "4beaa1d3c5a28049a3b9b4df249c6b334dad54142ee027ea3175b001ae004e38",
+      "link_edits": 9
+    },
+    {
+      "original_path": "screenwriting-narrative-method/checklists/dialogue-diagnosis.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/checklists/dialogue-diagnosis.md",
+      "original_sha256": "b46245419acb4dc85d005b64149a4b8f33120fba5aa57760c48de84388164a54",
+      "packaged_sha256": "8cc195443ebfed3c00c501335e9ffa25b28df07bec99aaea64bb42e75b8fd51d",
+      "link_edits": 10
+    },
+    {
+      "original_path": "screenwriting-narrative-method/checklists/final-delivery-and-stop-conditions.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/checklists/final-delivery-and-stop-conditions.md",
+      "original_sha256": "f38bb59ba32bb6584487cf4f2765a2138e8b4ef7d995261360227c0abbf75078",
+      "packaged_sha256": "e2dd715eb03c4a27f641b57c2893798b761fb9c485f0c5bb0f2b59c176acdd34",
+      "link_edits": 6
+    },
+    {
+      "original_path": "screenwriting-narrative-method/checklists/four-kinds-of-inconsistency.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/checklists/four-kinds-of-inconsistency.md",
+      "original_sha256": "dd96fc467d2c4b0d1f9ceae4b90ea536233bf7e6b2779d7b2e8fb16b19f9f5c5",
+      "packaged_sha256": "d2989450b22e2f62d428b699277d41ca273f11bb63f633f16a966f8bbdf9ad94",
+      "link_edits": 8
+    },
+    {
+      "original_path": "screenwriting-narrative-method/checklists/index.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/checklists/index.md",
+      "original_sha256": "2f786fb7d429270d1e6b190835efcd7277316bfc2de55b825487495812bcaeea",
+      "packaged_sha256": "2f786fb7d429270d1e6b190835efcd7277316bfc2de55b825487495812bcaeea",
+      "link_edits": 0
+    },
+    {
+      "original_path": "screenwriting-narrative-method/checklists/information-leak-and-version-loss.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/checklists/information-leak-and-version-loss.md",
+      "original_sha256": "261626940e542b86c5559f18434bf101313d3751a21070f7253dd65b27f1ce9c",
+      "packaged_sha256": "d47827c5ed9baba32636255e50af65403397eb5a31106d7515eb582685468f75",
+      "link_edits": 7
+    },
+    {
+      "original_path": "screenwriting-narrative-method/checklists/remove-product-swap-brand-tests.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/checklists/remove-product-swap-brand-tests.md",
+      "original_sha256": "ea4c0e259dc02892a2ca20444222e0a53d3de78be5c0a8664c54041e75834779",
+      "packaged_sha256": "91ad909a7c8c2bb3df9029b99887458b5cf9dd3e3da93f1475c4c3062e04086b",
+      "link_edits": 5
+    },
+    {
+      "original_path": "screenwriting-narrative-method/checklists/scene-symptoms-minimal-fixes.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/checklists/scene-symptoms-minimal-fixes.md",
+      "original_sha256": "6717e2fa8bcda12362f28ab0bb7ecd0572be5f6d0728efe491bdb1e0311bab13",
+      "packaged_sha256": "f33b64962508d9fd3d2d3d8e13e5e3b9c01fc2447c0068de16b8575507cbfd96",
+      "link_edits": 9
+    },
+    {
+      "original_path": "screenwriting-narrative-method/checklists/six-practices-that-increase-rework.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/checklists/six-practices-that-increase-rework.md",
+      "original_sha256": "0fdf78279a86ef49cb358b6f226d8fb373e6576fe36faeeb34d601bd27f424f0",
+      "packaged_sha256": "5751e929a721c436841e6033986caccd7a9f96e9527297f3f96e0ed52aab460e",
+      "link_edits": 9
+    },
+    {
+      "original_path": "screenwriting-narrative-method/exercises/02-work-and-contribution.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/exercises/02-work-and-contribution.md",
+      "original_sha256": "a41901061d8b6c391fc2ef74d8a12f25a599a423ea77386e186e15222cd7a535",
+      "packaged_sha256": "a92a0d59f3073351cba042c681f3ec090640311c79aadc3531240481ef2995c0",
+      "link_edits": 6
+    },
+    {
+      "original_path": "screenwriting-narrative-method/exercises/03-origin-and-question.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/exercises/03-origin-and-question.md",
+      "original_sha256": "3a6a272040c3dcf82c43e8f13b8a7f67e3c32a0b60529c749ad789ee84e26753",
+      "packaged_sha256": "e90cd43efdf5e5395618ea9ba107e4075ab6d0297a29afdbf56499ae6b0ce4d6",
+      "link_edits": 6
+    },
+    {
+      "original_path": "screenwriting-narrative-method/exercises/04-character-and-world.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/exercises/04-character-and-world.md",
+      "original_sha256": "dab5e99718ece64b8e78c222d4e7f6210ec2de6a9825416a3a9d873bad258de3",
+      "packaged_sha256": "909129aa54c86658c11ddd0f7301f611c9d7f25d338a0f55be1af420153e9eac",
+      "link_edits": 6
+    },
+    {
+      "original_path": "screenwriting-narrative-method/exercises/05-scene-plot-rhythm.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/exercises/05-scene-plot-rhythm.md",
+      "original_sha256": "be219372a1d7febd150129ca3cdad6801d276d403223f970aef0f58f41c48df0",
+      "packaged_sha256": "8af198983472aa73299804e2bad9dadabfab00758b32b936f8a99726b08ca2c3",
+      "link_edits": 7
+    },
+    {
+      "original_path": "screenwriting-narrative-method/exercises/06-dialogue.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/exercises/06-dialogue.md",
+      "original_sha256": "a646bf982fce83708b344f1f07c93c1f23468aee8acdece8a597f0c1f4f22c73",
+      "packaged_sha256": "76c1b7812987f1fef81b1fa8b24739659e35473c3bc53ff2b11872a23c30f5ac",
+      "link_edits": 8
+    },
+    {
+      "original_path": "screenwriting-narrative-method/exercises/07-information-design.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/exercises/07-information-design.md",
+      "original_sha256": "695ce0bfa67a55c6323a55c1922cae89281c88968d44f76900de20ecc9d7e25c",
+      "packaged_sha256": "7be7a32d51bb2229d285e76a812cca634d33ae5ddca9aeb59cc409f5c8aaa53c",
+      "link_edits": 6
+    },
+    {
+      "original_path": "screenwriting-narrative-method/exercises/08-evaluation.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/exercises/08-evaluation.md",
+      "original_sha256": "03fc8bd5980e1288189ed0ca56d534b02d5f99550e2ac2ca75b20b3cb3188eb7",
+      "packaged_sha256": "03bdcdc5f6cdbaca90f8ce241b29c560f7de0dd0aadb08a2d564dbdafaf72fa6",
+      "link_edits": 6
+    },
+    {
+      "original_path": "screenwriting-narrative-method/exercises/09-medium-adaptation.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/exercises/09-medium-adaptation.md",
+      "original_sha256": "03c54086995016350abbaf04e8cf73bc78782c664b33c0bfc05a2636c6378eac",
+      "packaged_sha256": "5c455e79ed66f93f9acd43cd89ce662b666d8975b9e1c43ca5cec0146ef1c538",
+      "link_edits": 6
+    },
+    {
+      "original_path": "screenwriting-narrative-method/exercises/11-analysis.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/exercises/11-analysis.md",
+      "original_sha256": "87fd5de2f1d76c6cc74f6b721ef648da8f337ed6b3496a931dad4a8c2642dbfd",
+      "packaged_sha256": "4721489070f2f8a2deec5c1a38e64c57925362af4851bcec8f46d3c0b18d8363",
+      "link_edits": 8
+    },
+    {
+      "original_path": "screenwriting-narrative-method/exercises/12-iteration.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/exercises/12-iteration.md",
+      "original_sha256": "1c1724b4bf72f575838628e0de6b169deda7b2276aeb39d471b9afef76160f20",
+      "packaged_sha256": "3b2fbd5b569165657db8587e1a42bf4ea4d4f3ce384892ba360eeb142d3e0070",
+      "link_edits": 7
+    },
+    {
+      "original_path": "screenwriting-narrative-method/exercises/index.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/exercises/index.md",
+      "original_sha256": "2fe7073da0215513f2c2b82a309905e133f32797c79e69aaebbf97f1bb6f2ac4",
+      "packaged_sha256": "2fe7073da0215513f2c2b82a309905e133f32797c79e69aaebbf97f1bb6f2ac4",
+      "link_edits": 0
+    },
+    {
+      "original_path": "screenwriting-narrative-method/frameworks/action-basis-instead-of-trait-list.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/frameworks/action-basis-instead-of-trait-list.md",
+      "original_sha256": "cb03cb9fbba7fe92284721317d8574b6c42b3e54ba3faabab9265712e3593f6f",
+      "packaged_sha256": "343703971a43393307d8e4e288cefa2bcaff25e7cd6a48508bd708b4ea4d1e3f",
+      "link_edits": 7
+    },
+    {
+      "original_path": "screenwriting-narrative-method/frameworks/agent-human-role-division.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/frameworks/agent-human-role-division.md",
+      "original_sha256": "e3ff80667aa67c4cbb3d86e92069b10323aa493c0b5e7625ea724cf00b3443a8",
+      "packaged_sha256": "2c56a8b01cec089bafa85a4744b80219dacc1baa2519076d38041859220f41d8",
+      "link_edits": 8
+    },
+    {
+      "original_path": "screenwriting-narrative-method/frameworks/analysis-units-shot-to-sequence.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/frameworks/analysis-units-shot-to-sequence.md",
+      "original_sha256": "cb22ca5afeb9074f71fb38b6dff34490bdb7eb50cd085e3a4e87632e119ec10c",
+      "packaged_sha256": "96de293d2bb2050986254ea77d2c490c66e492423a973c0bd05f3fb242cf8d02",
+      "link_edits": 8
+    },
+    {
+      "original_path": "screenwriting-narrative-method/frameworks/audience-background-knowledge.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/frameworks/audience-background-knowledge.md",
+      "original_sha256": "98ee62506dbd4324406b38fe40585aa02b6c59b6813024d536518604ab962b6e",
+      "packaged_sha256": "857356e365bdd4582b55c4b332729f18ce78f609b1041151c583ac2bd42dec9c",
+      "link_edits": 7
+    },
+    {
+      "original_path": "screenwriting-narrative-method/frameworks/brand-story-connection.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/frameworks/brand-story-connection.md",
+      "original_sha256": "136e2e3152bf4584f6760139f1451cbf6c1aa36c8e1b057076fff61594268e36",
+      "packaged_sha256": "697f486143838b5bd82cd0477316363156c728fde757c0955418ac4913e91920",
+      "link_edits": 7
+    },
+    {
+      "original_path": "screenwriting-narrative-method/frameworks/character-three-levels.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/frameworks/character-three-levels.md",
+      "original_sha256": "147598b04fe854192a53666c8176344f23719d21820937af37e7ce67b4a1d7c7",
+      "packaged_sha256": "c254a58fbd2a01d6ab29ecf59086ff74bc263e606563cd03740b257ab0bd609c",
+      "link_edits": 8
+    },
+    {
+      "original_path": "screenwriting-narrative-method/frameworks/character-voice-from-choices.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/frameworks/character-voice-from-choices.md",
+      "original_sha256": "760025fa20c72d6f5010b125f67cd224ccf48fb890556cdafd9871fe27582cb6",
+      "packaged_sha256": "7f6de1694f7e9567fe2d38a8c5250cad0093462e5c27539ae0a7a77e01b2719b",
+      "link_edits": 7
+    },
+    {
+      "original_path": "screenwriting-narrative-method/frameworks/coherence-vs-surface-smoothness.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/frameworks/coherence-vs-surface-smoothness.md",
+      "original_sha256": "42f49250ba6f0968e2d221c58f71320e8affcda69182c793c9b092f3bd45d830",
+      "packaged_sha256": "e9a0f399dcc1a73690f1b2d1e6075beba48cd3f47eef4323563b6ad04b1dc9de",
+      "link_edits": 8
+    },
+    {
+      "original_path": "screenwriting-narrative-method/frameworks/contribution-evidence-three-layers.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/frameworks/contribution-evidence-three-layers.md",
+      "original_sha256": "141f553363a19db1e2bcbd259ff314c947476921aab2ce933fa0ae830bb06f86",
+      "packaged_sha256": "46e63345e475f3a2cca622c2888cbada712291387e76d2f9917ef4203eb1dd9d",
+      "link_edits": 7
+    },
+    {
+      "original_path": "screenwriting-narrative-method/frameworks/crop-short-version-cross-media-losses.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/frameworks/crop-short-version-cross-media-losses.md",
+      "original_sha256": "57630c4974da4e3488abfb2cac037823adf29ed89ac8b74d2bef969885259c0c",
+      "packaged_sha256": "09d29d5cbd877dbc5b0db82841c88fdcd783ba9a289952a1345ef3ad66065de6",
+      "link_edits": 7
+    },
+    {
+      "original_path": "screenwriting-narrative-method/frameworks/curiosity-suspense-surprise.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/frameworks/curiosity-suspense-surprise.md",
+      "original_sha256": "984849142c4cee937bbe6fb9b6cc7c55187eb366761041fbea9bbd91d2479923",
+      "packaged_sha256": "4dc90856dbc26a6f73a899a9388e68319246f13ab1f95fd39f8afe0b6631dede",
+      "link_edits": 7
+    },
+    {
+      "original_path": "screenwriting-narrative-method/frameworks/dialogue-as-strategy-under-feedback.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/frameworks/dialogue-as-strategy-under-feedback.md",
+      "original_sha256": "61a26ee760cb3ebfe61fffb2a09c0f30ed40bb653256e953cad00b8234a363ed",
+      "packaged_sha256": "41ed542d62875c20baa32170eab44e3045b03dcbb37a4abd96c8308cfaffa00e",
+      "link_edits": 8
+    },
+    {
+      "original_path": "screenwriting-narrative-method/frameworks/dialogue-four-layers.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/frameworks/dialogue-four-layers.md",
+      "original_sha256": "0e32dacb8b1f07e784abbf4e2eed055445b3aa5d45de85de4ce1f50f8d32dff6",
+      "packaged_sha256": "b305893c18d8f8254a1b5d3e0ab6072863de3e81ce919bf91ac28487d60c320d",
+      "link_edits": 6
+    },
+    {
+      "original_path": "screenwriting-narrative-method/frameworks/effectiveness-criterion.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/frameworks/effectiveness-criterion.md",
+      "original_sha256": "f98edf13e70e83c586fafe7e3251a68be9c99aeb386c5072494fb21fdeae1edb",
+      "packaged_sha256": "0b4f7b1676d6342ec9f91c4b55a0b31cc9d614bf81876d7bed89a7d009238233",
+      "link_edits": 7
+    },
+    {
+      "original_path": "screenwriting-narrative-method/frameworks/emotional-grounding.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/frameworks/emotional-grounding.md",
+      "original_sha256": "b29be25d3bdd95a69a04831fc5193e9e86732812a7ae3c8c5b7e36bd7816839c",
+      "packaged_sha256": "c280f0d8b72172c8a28e3dce4e5e8a90d35b423a6734a289d017c99798e2f867",
+      "link_edits": 8
+    },
+    {
+      "original_path": "screenwriting-narrative-method/frameworks/factuality-realism-world-rules.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/frameworks/factuality-realism-world-rules.md",
+      "original_sha256": "cba690992f96ef55e96d5a30781d8f5e95da54f28b367747e3c78fb4179c6036",
+      "packaged_sha256": "f08bd8c63d3cd46f6cc08b651e8fdfd4495b9caaa9c343880da02e6ca9f8bb44",
+      "link_edits": 9
+    },
+    {
+      "original_path": "screenwriting-narrative-method/frameworks/five-statement-types-in-evaluation.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/frameworks/five-statement-types-in-evaluation.md",
+      "original_sha256": "81193ac4f9c907e8445dd1a623b33eb2e60204ac9bed144021a797ef12859867",
+      "packaged_sha256": "3be83cb0948a442627cb509abf95fcd0f35b7b5b528ef46f8bfadecb6082a942",
+      "link_edits": 10
+    },
+    {
+      "original_path": "screenwriting-narrative-method/frameworks/focalization-range-depth-path.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/frameworks/focalization-range-depth-path.md",
+      "original_sha256": "ecc018466d830db34c6441080f9e09b647dbf87cf48bb9583c32faf028ccadbd",
+      "packaged_sha256": "c2613885b715a31e5a64ad4a983c0ecca0b00764d953b398527b1f6458771688",
+      "link_edits": 7
+    },
+    {
+      "original_path": "screenwriting-narrative-method/frameworks/forms-of-character-change.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/frameworks/forms-of-character-change.md",
+      "original_sha256": "5fe88f690a25bb249012cf1b8ecbbab492755ea4cdea97a1a1cbf8c80ad31f5b",
+      "packaged_sha256": "834acdf7cd1f5237158a9efd97fa588a440f83fb850e36cdb9b2e95e89b3fe10",
+      "link_edits": 7
+    },
+    {
+      "original_path": "screenwriting-narrative-method/frameworks/four-axes-purpose-medium-factuality-context.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/frameworks/four-axes-purpose-medium-factuality-context.md",
+      "original_sha256": "d83833289bb220cef5f55ee75c1500a93130bc54f1a8ff2c2b141c33011bba1e",
+      "packaged_sha256": "1a209e27c7bcc916a2ae02428926f8abb417f02c85d18c8848b5cda7a2b1af94",
+      "link_edits": 9
+    },
+    {
+      "original_path": "screenwriting-narrative-method/frameworks/four-input-types-and-uncertainty.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/frameworks/four-input-types-and-uncertainty.md",
+      "original_sha256": "9532328eb6df493d2e13cf8735e031fe5127efd6710bc5bf493cac41b16449cb",
+      "packaged_sha256": "2504c19dd03c7249e15915769dbdaa1a5c8cb9870de45e9ca14b8e057bdcaa86",
+      "link_edits": 6
+    },
+    {
+      "original_path": "screenwriting-narrative-method/frameworks/four-states-of-research-material.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/frameworks/four-states-of-research-material.md",
+      "original_sha256": "52b52baf70ab2193387234396586b838d7ef8869f696637d6bd5d44efce9990c",
+      "packaged_sha256": "3dad67ce45d3bcca6c5ea74f1b58b4c420d78635e79f99410986a38a60e14f50",
+      "link_edits": 8
+    },
+    {
+      "original_path": "screenwriting-narrative-method/frameworks/gap-ambiguity-delay-omission.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/frameworks/gap-ambiguity-delay-omission.md",
+      "original_sha256": "6db32d53471d2defd83348130c626affef9b39dbf16ed911a4a9be14b2349679",
+      "packaged_sha256": "3a9ad6895b605cae11d16b7199832cd00fefdbd0a42acba7901b1faf96b00cd7",
+      "link_edits": 7
+    },
+    {
+      "original_path": "screenwriting-narrative-method/frameworks/genre-elements-relations-usage.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/frameworks/genre-elements-relations-usage.md",
+      "original_sha256": "80fa04901f38af5973d13db70a239e750679686fb256ba33dc54ac2cc0cf5bd5",
+      "packaged_sha256": "7bf77feddd50357b29dd1b6242fc66802ef5725774fa008a4ee2f69c00568015",
+      "link_edits": 6
+    },
+    {
+      "original_path": "screenwriting-narrative-method/frameworks/grounding-hear-understand-agree-comply.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/frameworks/grounding-hear-understand-agree-comply.md",
+      "original_sha256": "f2b2396e1f085d832cfebe28bb51f72b05f7af3e50a0530cf02bb525ee69ea26",
+      "packaged_sha256": "852fbd873928e367f9cf54f84e271258b2b85e31aa9ce2a0f9e5721644fa35b5",
+      "link_edits": 8
+    },
+    {
+      "original_path": "screenwriting-narrative-method/frameworks/immersion-as-viewing-conventions.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/frameworks/immersion-as-viewing-conventions.md",
+      "original_sha256": "99b2dd83daae7a700d6072393f120a81829e16dac88874063637e2b8607bf264",
+      "packaged_sha256": "19694a6122ba84aa3e5885dc75b14ee0676578d8be380a5d421ae6c84228b17e",
+      "link_edits": 9
+    },
+    {
+      "original_path": "screenwriting-narrative-method/frameworks/index.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/frameworks/index.md",
+      "original_sha256": "dd54415374672f6bd46b4ffffed403008fb32a88f73e0d23304625bb2fbe25c1",
+      "packaged_sha256": "dd54415374672f6bd46b4ffffed403008fb32a88f73e0d23304625bb2fbe25c1",
+      "link_edits": 0
+    },
+    {
+      "original_path": "screenwriting-narrative-method/frameworks/ingenuity-multi-relation-choice.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/frameworks/ingenuity-multi-relation-choice.md",
+      "original_sha256": "e7fd8e083439171c3a2dd576bef2a1d22dbf73dd208fc82b288919dca4e37aa3",
+      "packaged_sha256": "fda0f123955001bbb7379f81949a4ffad4da6b1f588f893297a8665a1220f57f",
+      "link_edits": 12
+    },
+    {
+      "original_path": "screenwriting-narrative-method/frameworks/medium-and-style-operational-definitions.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/frameworks/medium-and-style-operational-definitions.md",
+      "original_sha256": "91854c49c42e55b68098fec574cfe28efea8cc5ae6f85f1ca8f9bcd12002abdf",
+      "packaged_sha256": "66f3d1162ed9a8cf3c5894c4a30e7bb09116de9d604ebce9a6e4d7d560271cd4",
+      "link_edits": 11
+    },
+    {
+      "original_path": "screenwriting-narrative-method/frameworks/minimal-collaboration-architecture.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/frameworks/minimal-collaboration-architecture.md",
+      "original_sha256": "2ae98cf5327d0e010fc39c92f39646e7fdbf6894258eda78d2a972b5210527f6",
+      "packaged_sha256": "bfd78a990535ffc8155749375b92bfc32059b3d352162bb1d0b59e8db8a7c47d",
+      "link_edits": 10
+    },
+    {
+      "original_path": "screenwriting-narrative-method/frameworks/minimal-information-model.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/frameworks/minimal-information-model.md",
+      "original_sha256": "714c6fc6ff0358a69da2284276c4050292d042aa2d2fc6b6053e82ab8f91e387",
+      "packaged_sha256": "b5d666a2fa5a6289549148a9513c0e599dd7da9d280d9385c0e1d8b2ce9cfc38",
+      "link_edits": 7
+    },
+    {
+      "original_path": "screenwriting-narrative-method/frameworks/narrative-internal-analysis-axes.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/frameworks/narrative-internal-analysis-axes.md",
+      "original_sha256": "50389aca3cb10630353acf1127fa18cb6ec506a0c1a63d4fcadcef74ee3004f2",
+      "packaged_sha256": "9468c8c72adc3c4451fc895cebc5cc87003aaedca43bbc15f6e6788b19418a48",
+      "link_edits": 13
+    },
+    {
+      "original_path": "screenwriting-narrative-method/frameworks/non-causal-organization.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/frameworks/non-causal-organization.md",
+      "original_sha256": "25041b0ed4f9820bd09d911c6588aceff2f869d5447fcf8b47c5b22766093d1f",
+      "packaged_sha256": "d98f0be294de7e90c65108879047a7bd0a3139eef5914f7e7d2550d68d1e88b4",
+      "link_edits": 7
+    },
+    {
+      "original_path": "screenwriting-narrative-method/frameworks/plot-connection-types.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/frameworks/plot-connection-types.md",
+      "original_sha256": "2a1cda5e183b12e52f2426a09e3e68f0999b848b76c0a4809fd62a9627142024",
+      "packaged_sha256": "cddee37076e4ce56106564bba0ac581f992df7d782127a328d056b138bb2c4e6",
+      "link_edits": 8
+    },
+    {
+      "original_path": "screenwriting-narrative-method/frameworks/precision-criterion.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/frameworks/precision-criterion.md",
+      "original_sha256": "d4f3c4406f7f1fa80850055ef5c801337aaa1bb912c7b1957bc71c1ec3a4480d",
+      "packaged_sha256": "9e07cdd9eaee7fd984a0b06a3e31bee504e4b3fa46c370224779a6528d8be1a1",
+      "link_edits": 7
+    },
+    {
+      "original_path": "screenwriting-narrative-method/frameworks/profession-activity-output-distinction.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/frameworks/profession-activity-output-distinction.md",
+      "original_sha256": "7366f5cebb8d6b0e495711623dc1ab318085f784250d8d5528fea76d360a738b",
+      "packaged_sha256": "555ad20a8113800975bb28e627affe08323a444e48bf97a7d9d0c1e058e8c0dd",
+      "link_edits": 8
+    },
+    {
+      "original_path": "screenwriting-narrative-method/frameworks/progress-as-change-in-options-cost-understanding.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/frameworks/progress-as-change-in-options-cost-understanding.md",
+      "original_sha256": "360b050791e0a6927eb6c57aea0492247054adb32d0ac46e5d40aabe7b9d4e5d",
+      "packaged_sha256": "86826e246ced2b84511b72f21f9fec07522ab6de0209b2b181a7ab3990176e9c",
+      "link_edits": 7
+    },
+    {
+      "original_path": "screenwriting-narrative-method/frameworks/relationship-as-bidirectional-process.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/frameworks/relationship-as-bidirectional-process.md",
+      "original_sha256": "a3c9d3a5712b2c3dfd9555ea21bb7e472415e66bd9760b45c4fe410369eeff15",
+      "packaged_sha256": "4356112bb8991e9b71f735370d66e98fab72339770b65bbe5f845f304e663721",
+      "link_edits": 7
+    },
+    {
+      "original_path": "screenwriting-narrative-method/frameworks/rhythm-four-observation-layers.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/frameworks/rhythm-four-observation-layers.md",
+      "original_sha256": "49f4d09c88513f9a9512a6749979f4a11437a0a0ca0dae9f263a9fc298afbaec",
+      "packaged_sha256": "586e1c72953ae6bb05ff6ee009b931fb45701d6d316ac6a0c0de31426d99a544",
+      "link_edits": 10
+    },
+    {
+      "original_path": "screenwriting-narrative-method/frameworks/scene-endings.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/frameworks/scene-endings.md",
+      "original_sha256": "d412af906ede42bf5c70a837575b5d2c17998edf0079b0d5c725b423bec69d11",
+      "packaged_sha256": "ebbc0421fbd6d6fa5598d0f1a6df053a1aa027eeee4acc3259399301a4bc9177",
+      "link_edits": 7
+    },
+    {
+      "original_path": "screenwriting-narrative-method/frameworks/scene-entry-process-exit-model.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/frameworks/scene-entry-process-exit-model.md",
+      "original_sha256": "b527c863b309b0ff37e1c846be65c60fa39a05a22484985758eb4eede1d56f92",
+      "packaged_sha256": "a38f00769b9deaa6b7685df57cd8db9ce4e444228303b04501c2947ca8eb69bc",
+      "link_edits": 9
+    },
+    {
+      "original_path": "screenwriting-narrative-method/frameworks/scene-purpose-and-functions.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/frameworks/scene-purpose-and-functions.md",
+      "original_sha256": "5674c76cc75d554a569460639cadfc69e989846d6d12fd1ddc1c01c31d94a325",
+      "packaged_sha256": "e343784f0261d15b09f2ff863a154a99836237cb0691ba8011cf4d367e3c5dbe",
+      "link_edits": 8
+    },
+    {
+      "original_path": "screenwriting-narrative-method/frameworks/seven-creative-starting-points.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/frameworks/seven-creative-starting-points.md",
+      "original_sha256": "01d42a698cbb9c990a1563c319a0b6cd275a8a9f02402a67995910798b6442ab",
+      "packaged_sha256": "2a3a1fbe7d789ab59ab5eab06a3a4fdd9b58d3540aa50fd0eb176f818594602b",
+      "link_edits": 8
+    },
+    {
+      "original_path": "screenwriting-narrative-method/frameworks/showing-and-telling-as-carriers.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/frameworks/showing-and-telling-as-carriers.md",
+      "original_sha256": "207b60b3146ae062e1cd9d9b30f98b951c7c4f9a15ded730445d65e5bbf97869",
+      "packaged_sha256": "cc5b0a005eb104a682cda995862de5b07aa18acfec8daf8ca452ac3b40b716ec",
+      "link_edits": 9
+    },
+    {
+      "original_path": "screenwriting-narrative-method/frameworks/silence-and-action-instead-of-lines.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/frameworks/silence-and-action-instead-of-lines.md",
+      "original_sha256": "6285083ce1d4364aada511e0e2497e44d2e4a8225bc657b27216526720933561",
+      "packaged_sha256": "73f857940e280fffd7896b436149d82de9b785f2d77c314d187f86be3bcaf8fc",
+      "link_edits": 8
+    },
+    {
+      "original_path": "screenwriting-narrative-method/frameworks/single-image-narrative-conditions.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/frameworks/single-image-narrative-conditions.md",
+      "original_sha256": "5f94e7ece1b0d27f7f7df1341c88d4f389598cc49fff86d1bd3a67a0c8c4fe83",
+      "packaged_sha256": "d3b6c4e87d677265f30ecbdc2c4a9076005f7bb706ab5d0d6a32165cdd7c583a",
+      "link_edits": 8
+    },
+    {
+      "original_path": "screenwriting-narrative-method/frameworks/six-levels-subject-to-form.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/frameworks/six-levels-subject-to-form.md",
+      "original_sha256": "64b50723865b4539c248384842297ea9b9bf186ecc47b82f7a993a4f5d521116",
+      "packaged_sha256": "cea4a08a4770897089e28d2d7ff40ba168603d8a91eebd9dc1bc3f86aa365f2a",
+      "link_edits": 8
+    },
+    {
+      "original_path": "screenwriting-narrative-method/frameworks/six-screenwriting-work-types.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/frameworks/six-screenwriting-work-types.md",
+      "original_sha256": "1d2e936f9b0e25941c133dd59c883434c46536169b369dce2108804f7c5f60a2",
+      "packaged_sha256": "14ddf2d82e4fa1d2494b94e3e1849f052d8559264fb96d23613cc4b9a858fd8b",
+      "link_edits": 14
+    },
+    {
+      "original_path": "screenwriting-narrative-method/frameworks/space-and-objects-in-scene.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/frameworks/space-and-objects-in-scene.md",
+      "original_sha256": "475cda5c8424759f90ad6a54814adcaff68d2cbedf8ae5fcc4de90aca6595421",
+      "packaged_sha256": "66f3dc94ef42d9e3275deaeb71adcdfc4169a27ba7ea4b21d8c0a6654ba1a4fc",
+      "link_edits": 8
+    },
+    {
+      "original_path": "screenwriting-narrative-method/frameworks/story-form-layers.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/frameworks/story-form-layers.md",
+      "original_sha256": "ce36b4ece2ebb015b6b2bf61cc0e6e455f71745dba06c8e77b21469f53ff7ef0",
+      "packaged_sha256": "8c1485bf7d0f6cae4e14bba5ef24a80336c7cc70d97ff750c3c30e02aa87d3db",
+      "link_edits": 7
+    },
+    {
+      "original_path": "screenwriting-narrative-method/frameworks/storyworld-plot-narration-distinction.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/frameworks/storyworld-plot-narration-distinction.md",
+      "original_sha256": "a5b8ac8947caff81c88b80a226437d0b1f0cab656b111ee551c16728fd22eb01",
+      "packaged_sha256": "e217125e3cfed19be063a34952daa84cb6e09775e2a25775d63b5bd5a226d80f",
+      "link_edits": 8
+    },
+    {
+      "original_path": "screenwriting-narrative-method/frameworks/subtext-and-conversational-implicature.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/frameworks/subtext-and-conversational-implicature.md",
+      "original_sha256": "c2316c2d5dc7ec9dc7c51233cef3fdbbeaff635ada28d39d6e12fd6bb4efaaab",
+      "packaged_sha256": "969c10e42186775876700c56f10a651088dcaa4ee713e7ee5d626a34714acf4e",
+      "link_edits": 8
+    },
+    {
+      "original_path": "screenwriting-narrative-method/frameworks/tellability-and-producibility.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/frameworks/tellability-and-producibility.md",
+      "original_sha256": "f338791308a395e65baa2ce4405a4e43f1e27e6642c308222458ff721209c624",
+      "packaged_sha256": "6abe7faf215f10892b3275771df692cfa8468f7c80af228394d42665d664dffe",
+      "link_edits": 7
+    },
+    {
+      "original_path": "screenwriting-narrative-method/frameworks/thesis-driven-vs-discovery-driven.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/frameworks/thesis-driven-vs-discovery-driven.md",
+      "original_sha256": "766d41a7b626930819345391c2ff8e2ebddd371d7ec4dfd400483e0227025121",
+      "packaged_sha256": "f72141aa12d77c0f4f91778400cd31e1f4f143a2850b921da442f82f3be3efd6",
+      "link_edits": 8
+    },
+    {
+      "original_path": "screenwriting-narrative-method/frameworks/time-order-duration-frequency.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/frameworks/time-order-duration-frequency.md",
+      "original_sha256": "c8d262dd2285aaf7a68bca5afe3b9b8519f2b41b3c89096fe6971d88fa1ec5b9",
+      "packaged_sha256": "34a9d8548ba791ba3ae919f835170a3f5a7df842c26ca3dc41c66b2657f30db2",
+      "link_edits": 9
+    },
+    {
+      "original_path": "screenwriting-narrative-method/frameworks/understanding-empathy-identification-liking.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/frameworks/understanding-empathy-identification-liking.md",
+      "original_sha256": "e5729d94cb3938cf422bd4604578f5b78a70e426e677cc0a2c00412615d0bfbc",
+      "packaged_sha256": "65a40077c5cc4b5af3bc92482587218a2f9e90c5bd0eaeca52f299de6008295b",
+      "link_edits": 7
+    },
+    {
+      "original_path": "screenwriting-narrative-method/frameworks/unreliability-report-interpretation-evaluation.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/frameworks/unreliability-report-interpretation-evaluation.md",
+      "original_sha256": "cefa11c9e2b4afee9eda8968675a391a29da17172300b823597cd2c7172c78be",
+      "packaged_sha256": "977f59a955fc5890ea126b562f4a09be30221ffb6c8ae379ab8433ee9b51830d",
+      "link_edits": 7
+    },
+    {
+      "original_path": "screenwriting-narrative-method/frameworks/voiceover-captions-and-phone-text.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/frameworks/voiceover-captions-and-phone-text.md",
+      "original_sha256": "3ba3aaab932750cb424ffddb3c9bcda5c72135cc0eb3aecde5a7fec18c260e23",
+      "packaged_sha256": "1ff5689cbb3ac1a3ebb592d88378d076358a94540b2f30528f98165f218a5a1b",
+      "link_edits": 10
+    },
+    {
+      "original_path": "screenwriting-narrative-method/frameworks/work-granularity-by-project.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/frameworks/work-granularity-by-project.md",
+      "original_sha256": "175ded1c6358b658668ff29e67c630e8acab5eb271ff1bdc040bd73685dac016",
+      "packaged_sha256": "3df46e5b123ae5ecd5c76d6cb32b80eb85c4845f1fd9af11cc04f27d55196942",
+      "link_edits": 8
+    },
+    {
+      "original_path": "screenwriting-narrative-method/frameworks/world-rules-four-questions.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/frameworks/world-rules-four-questions.md",
+      "original_sha256": "8309e36b46d9ab3624c88ea3c581f3536b209455e429f366c2a0cdc2c860de6e",
+      "packaged_sha256": "a81f22247a9b19b8b24f9ba7746adc365d075af0c43c6ac88712c33520c44474",
+      "link_edits": 7
+    },
+    {
+      "original_path": "screenwriting-narrative-method/index.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/index.md",
+      "original_sha256": "a30f7a9932dc5b0026175cd0fcf41c99fb64af6e462726c17ce21f958e8d15b3",
+      "packaged_sha256": "8d3c39a7e9ead44fff28efd21583723daf03ba3e50f032f60693215da3b3016f",
+      "link_edits": 9
+    },
+    {
+      "original_path": "screenwriting-narrative-method/log.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/log.md",
+      "original_sha256": "4d5a452f4e28a91df4424a6f3e737b48876790191f1a448bbef8c61770b63b0c",
+      "packaged_sha256": "80d23b43f4906b70570011c4e99015cfe48e9e4ed00d219333df9ada6c7ad3f3",
+      "link_edits": 3
+    },
+    {
+      "original_path": "screenwriting-narrative-method/methods/action-basis-without-model-determinism.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/methods/action-basis-without-model-determinism.md",
+      "original_sha256": "23566aef01d03d63fca8dfeeb0b49f1aedc452dd2207d6548e877da658bd0d42",
+      "packaged_sha256": "527aab7498fc21983622b3c326355e79be6102a78047aed0965fb5e4c5ffff40",
+      "link_edits": 7
+    },
+    {
+      "original_path": "screenwriting-narrative-method/methods/actionable-feedback.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/methods/actionable-feedback.md",
+      "original_sha256": "db817d91a3b06f9c572f13a1934b6d99736f4ae6125781f3f83a65e4953dbc7f",
+      "packaged_sha256": "0eb4878c0cfc830cb36fc4fe553bf2fa8b1fb6d3497a416d539be08d01558e00",
+      "link_edits": 8
+    },
+    {
+      "original_path": "screenwriting-narrative-method/methods/analysis-material-boundary.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/methods/analysis-material-boundary.md",
+      "original_sha256": "7c5f3b21a2c528a7c5165835169b7f030b9135235265bea2da995af730f66d5b",
+      "packaged_sha256": "fc45f215f335ff1f862ab185587f34111bad2c7ff92624ef9396f4d2c5e7daf2",
+      "link_edits": 7
+    },
+    {
+      "original_path": "screenwriting-narrative-method/methods/asset-set-design.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/methods/asset-set-design.md",
+      "original_sha256": "50bb358e9696635b0f4a07ee422e2037c3314d0ed695f9836ca79033a628acff",
+      "packaged_sha256": "f2714d34976e9fe364f659173680415938b30bc8efed84c77a32c0c43407ce80",
+      "link_edits": 7
+    },
+    {
+      "original_path": "screenwriting-narrative-method/methods/call-modules-by-problem.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/methods/call-modules-by-problem.md",
+      "original_sha256": "b70ba8873633d5c1d5757884e6d4f0e003be52a93acea8bfb0b13d4f028559e2",
+      "packaged_sha256": "cf70cd7b842ef0a2fd432302d4d2d85d976cca053eb587221bc8fe6ad8b97158",
+      "link_edits": 27
+    },
+    {
+      "original_path": "screenwriting-narrative-method/methods/competing-interpretations.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/methods/competing-interpretations.md",
+      "original_sha256": "94578732aeb595f185a3b98cbe00563ab420688bd9acbd801149d39149b08cd9",
+      "packaged_sha256": "cb0d052df5bcbf9963e3483acae453e208d4f22484c39b4ae45213a4e2e20d7a",
+      "link_edits": 9
+    },
+    {
+      "original_path": "screenwriting-narrative-method/methods/cross-abstraction-equivalence-check.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/methods/cross-abstraction-equivalence-check.md",
+      "original_sha256": "1e5a067071517690917077895df8504b4ec681713ccf71bc1028788dfc9928bf",
+      "packaged_sha256": "ce0b8e9396317c8c17aa94279601266802a0e4b627f9ce1f8cb2ba08da31dcc7",
+      "link_edits": 10
+    },
+    {
+      "original_path": "screenwriting-narrative-method/methods/detect-author-knows-too-much.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/methods/detect-author-knows-too-much.md",
+      "original_sha256": "93621a6d6ed25894a3cf9bcce6d314a3fa0fd2e2200ab10a182e2e2b95868d03",
+      "packaged_sha256": "be20541352fb2cd279e1214c0ea595726ad129c3c79cf6dc64d269a742e98bf4",
+      "link_edits": 7
+    },
+    {
+      "original_path": "screenwriting-narrative-method/methods/dialogue-rewrite-three-rounds.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/methods/dialogue-rewrite-three-rounds.md",
+      "original_sha256": "0ce3ce903bb37a37d13daa8b9933697a79068be8f177a7b9d737f59fa7f15f54",
+      "packaged_sha256": "9336f73241d6b44e652b8e0b5cea0bc26fef7faf6844f65755a3a7033ff713b8",
+      "link_edits": 11
+    },
+    {
+      "original_path": "screenwriting-narrative-method/methods/dominant-organizing-principle-test.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/methods/dominant-organizing-principle-test.md",
+      "original_sha256": "e037621f8a9bf7664abd6032d0c2e63aadceb8bc8228fcfe0899e3d36d1f9690",
+      "packaged_sha256": "4f98dec99cd9d2bacf689961fea372e10a4c1cffd8e19d9c0f6f299c932783f0",
+      "link_edits": 7
+    },
+    {
+      "original_path": "screenwriting-narrative-method/methods/double-diamond-for-screenwriting.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/methods/double-diamond-for-screenwriting.md",
+      "original_sha256": "766466de9abe2df78ff269cdc926c8ca05fcc47c2c0cff18b2ec58094fb7e9a3",
+      "packaged_sha256": "32df4c8e3c2121d05af4679584a5398cf09e50707ba171efdd0c2aba74c32e41",
+      "link_edits": 9
+    },
+    {
+      "original_path": "screenwriting-narrative-method/methods/dual-scale-evaluation.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/methods/dual-scale-evaluation.md",
+      "original_sha256": "863c799878031b0fba481866e5a64b5626088acbb078ab369a1e4344a0ced676",
+      "packaged_sha256": "360a7cea5fe78830d0788743a5e66ebc4aed9d9694255541839f3a636a9656d1",
+      "link_edits": 7
+    },
+    {
+      "original_path": "screenwriting-narrative-method/methods/exposition-dialogue-decisions.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/methods/exposition-dialogue-decisions.md",
+      "original_sha256": "217e0bae27a092cce95a03fd69c765363b8446e99f8b009b521f622979485ff7",
+      "packaged_sha256": "2a4dfeba2d8b8bea5a98852bbc7939959636f696e994149d3a49eb240e00ec58",
+      "link_edits": 7
+    },
+    {
+      "original_path": "screenwriting-narrative-method/methods/first-pass-viewing-record.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/methods/first-pass-viewing-record.md",
+      "original_sha256": "d8c4ed3a6c99443dc6164f8c469385554169fd1ce5d95be7b778dd859cfcc522",
+      "packaged_sha256": "7550a9a31e5820fbe0c04e9de971b02598a2047536bbd647d53e6bc444581266",
+      "link_edits": 7
+    },
+    {
+      "original_path": "screenwriting-narrative-method/methods/five-transformations-material-to-question.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/methods/five-transformations-material-to-question.md",
+      "original_sha256": "d7d4216a3a7644a2168c191ecae8676d9957281d7c7da04b2eeaac6d7f94a361",
+      "packaged_sha256": "c11461eb0472e12a1271e79878f086c56ab4d4a8c8f6d20f140dd087478e19ad",
+      "link_edits": 9
+    },
+    {
+      "original_path": "screenwriting-narrative-method/methods/four-language-forms-comparison.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/methods/four-language-forms-comparison.md",
+      "original_sha256": "8d2ea3acd4fff615024396a7db18c7c099b47b21cc012cc6a6a4c578aae4ebd9",
+      "packaged_sha256": "7597d83a515103c7306f7e6fabb8ad198b800d1a36b9b7d4c644f8a916f92e27",
+      "link_edits": 8
+    },
+    {
+      "original_path": "screenwriting-narrative-method/methods/hybrid-work-combination-analysis.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/methods/hybrid-work-combination-analysis.md",
+      "original_sha256": "95f196d41afacc3dc745ab38e6022b97daed3282a5cb7bd3046b58762baaf6de",
+      "packaged_sha256": "9792e810a1b1a9c522ab48d73d876b117bb1281309a9ac1ae03c05b79c4a944d",
+      "link_edits": 7
+    },
+    {
+      "original_path": "screenwriting-narrative-method/methods/index.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/methods/index.md",
+      "original_sha256": "e93f798a8736f6236c970fcbf044325c5d362627b50df7287f3586e27ab39142",
+      "packaged_sha256": "e93f798a8736f6236c970fcbf044325c5d362627b50df7287f3586e27ab39142",
+      "link_edits": 0
+    },
+    {
+      "original_path": "screenwriting-narrative-method/methods/minimal-character-world-model.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/methods/minimal-character-world-model.md",
+      "original_sha256": "89dfe3ae51273c6b7dace4e27a179dc069148fc55db341efdc08baa796cb8e7d",
+      "packaged_sha256": "57b90a6b91b99f52b1a706b8d2cb4c241c172ae07bf4a8b0b482d2d8e0902151",
+      "link_edits": 8
+    },
+    {
+      "original_path": "screenwriting-narrative-method/methods/organize-content-from-desired-scenes.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/methods/organize-content-from-desired-scenes.md",
+      "original_sha256": "d32150a7f9e7e5d316d79e3dd25a3bf84ae2b7cab1907adaffc89d5918cb65cf",
+      "packaged_sha256": "d871784f9abbdad436d6668e8a1770b2f046119bbe1e44650ca1d5d45251dbaa",
+      "link_edits": 8
+    },
+    {
+      "original_path": "screenwriting-narrative-method/methods/research-as-judgment-changing-questions.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/methods/research-as-judgment-changing-questions.md",
+      "original_sha256": "cfe7a6836949c589858a5a5927aa6b614e05d2196d03ee01507165e8de90e33d",
+      "packaged_sha256": "a5b1ad0d54f2e540da5b8b634005a24f83911dca96d00f600e8ef7177efbce6f",
+      "link_edits": 6
+    },
+    {
+      "original_path": "screenwriting-narrative-method/methods/review-disagreement-to-decision.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/methods/review-disagreement-to-decision.md",
+      "original_sha256": "8b1e7b653b36eec09db928b9b5abe066402429b02cf15ccc92a1e5c501204207",
+      "packaged_sha256": "b2ee6386b0ad672fdda38d9fe3066096b932397387cee7792207483f0e52a1fa",
+      "link_edits": 9
+    },
+    {
+      "original_path": "screenwriting-narrative-method/methods/reviewable-analysis-coding.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/methods/reviewable-analysis-coding.md",
+      "original_sha256": "a93cd3ceaa4ef9153bee9c1d6724ebcf6c4350bc1e8a1f076d2a1599b43b06eb",
+      "packaged_sha256": "15785676fc74183db33355f3e107a18f47ea6b3c6442a027567eb0f72c8a678a",
+      "link_edits": 7
+    },
+    {
+      "original_path": "screenwriting-narrative-method/methods/second-pass-structure-reconstruction.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/methods/second-pass-structure-reconstruction.md",
+      "original_sha256": "fc050d0c69dd81a7b5a843caf24d31ff596151c4788d854495f999f725bc3c62",
+      "packaged_sha256": "1ed881e4dcaa20c057d4a8982ce7cbfd3098c367a0e70c54cb6195e5658938e8",
+      "link_edits": 12
+    },
+    {
+      "original_path": "screenwriting-narrative-method/methods/sequence-promise-payoff-rewrite.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/methods/sequence-promise-payoff-rewrite.md",
+      "original_sha256": "b6a46a6c1b36b366b0483c7d06aa794348866dc3d7dd36cd2db5bd9e7c68f800",
+      "packaged_sha256": "c7c3b5a8e8aa59c86e28a9ac335726b9293f7f1e9d85fc6f5ee324c622f7e9da",
+      "link_edits": 8
+    },
+    {
+      "original_path": "screenwriting-narrative-method/methods/stage-a-problem-material-boundary.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/methods/stage-a-problem-material-boundary.md",
+      "original_sha256": "526191f185779f9a1717d4e16139dc2c5221673ab26499d3f2c9bc5f096765bc",
+      "packaged_sha256": "0eff77203a3fb8a6f7b9459c75773384fe6a04ce4921a068a1e3edd926aaa95e",
+      "link_edits": 9
+    },
+    {
+      "original_path": "screenwriting-narrative-method/methods/stage-b-form-and-representative-fragment.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/methods/stage-b-form-and-representative-fragment.md",
+      "original_sha256": "fb0f14a618b1e44b11c525aeec98421bfe5337054d936ca9b3e5842e494cb67c",
+      "packaged_sha256": "6e6ca9ee676017f427ed56462ab33879d8d6874bf60e135128475c9269ef3a89",
+      "link_edits": 8
+    },
+    {
+      "original_path": "screenwriting-narrative-method/methods/stage-c-joint-skeleton.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/methods/stage-c-joint-skeleton.md",
+      "original_sha256": "f3a22c4af4787c2ddd466d38c611e8babd96d6e5bdc96d204622eed697e5db76",
+      "packaged_sha256": "3b4cd1cc8a7f272c0d924592a8c47440abb53ab336b4caf644b1cbdf927c5532",
+      "link_edits": 10
+    },
+    {
+      "original_path": "screenwriting-narrative-method/methods/stage-d-performable-draft.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/methods/stage-d-performable-draft.md",
+      "original_sha256": "a4ea9b22de99ffab6c05e80e20b3c21a954ba5e929dc6da914f0d2b70ca86105",
+      "packaged_sha256": "94ac533b9d10536fc8487befb32e757dd8c8f3b141dc98cb70080e47aad5ed49",
+      "link_edits": 10
+    },
+    {
+      "original_path": "screenwriting-narrative-method/methods/stage-e-prototype-testing.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/methods/stage-e-prototype-testing.md",
+      "original_sha256": "83161b94d62a89dfb0466ef9547f7e312b646207f31a4430b24de5ad43d43200",
+      "packaged_sha256": "b6ff352392b7d064fe3b1be77eafb9fcc135b26d374359e8ebb83bdbae3a6c17",
+      "link_edits": 8
+    },
+    {
+      "original_path": "screenwriting-narrative-method/methods/stage-f-feedback-and-revision.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/methods/stage-f-feedback-and-revision.md",
+      "original_sha256": "0a12f5fb0eabf1b853621b650e3c7b29b78ef7126e975052d590996d8296fd7f",
+      "packaged_sha256": "5f20f83b56829e0cc274caeb8f0699ad595ed4108671ece98aa2cb64bb70ba3e",
+      "link_edits": 9
+    },
+    {
+      "original_path": "screenwriting-narrative-method/methods/stage-g-production-protection.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/methods/stage-g-production-protection.md",
+      "original_sha256": "e53938a6c45d36813380cc03a9f91217945373c4ddf6165af796d91c68240332",
+      "packaged_sha256": "8dbf67644d3c902635931feba15a7a31d4f6e048dfec992451aba1373f24cd4b",
+      "link_edits": 9
+    },
+    {
+      "original_path": "screenwriting-narrative-method/methods/symptom-cause-solution-diagnosis.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/methods/symptom-cause-solution-diagnosis.md",
+      "original_sha256": "d7079c1b7646cc7d36cf723d5ee5f8215c0c3074ef2483e6302973e12a33be29",
+      "packaged_sha256": "1c96e79291085dad5285399a0d8471d20eaf20ae41a87cf7ac691d6820318867",
+      "link_edits": 9
+    },
+    {
+      "original_path": "screenwriting-narrative-method/methods/tell-or-withhold-by-task.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/methods/tell-or-withhold-by-task.md",
+      "original_sha256": "912c39c9d87b849ec2dacb6c69dd9de6b48af9ab2e98a39bfcf9bf9f08ffe244",
+      "packaged_sha256": "a7132c82e1209881ba4272f2dac1d59819e3c258a6f6f6f204ae28d01cb426eb",
+      "link_edits": 7
+    },
+    {
+      "original_path": "screenwriting-narrative-method/methods/test-feedback-into-analysis.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/methods/test-feedback-into-analysis.md",
+      "original_sha256": "52b37ee377005621033ec0e9b75ed314ff40e7f181278dcd660e28d0dcb88508",
+      "packaged_sha256": "683e96c2994e63ffcc424fc444c63e2c9b77c0cd0d2e785cfab3b99b69ef25d1",
+      "link_edits": 8
+    },
+    {
+      "original_path": "screenwriting-narrative-method/methods/third-pass-counterfactual-tests.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/methods/third-pass-counterfactual-tests.md",
+      "original_sha256": "92868b91635b4565d6a8222e9940ae49ac67f993af94b923245368c402829317",
+      "packaged_sha256": "527d0d72b227eae1df3955a4c97a6f1b3667e9683ba52e4d98a558a1d0517a7e",
+      "link_edits": 11
+    },
+    {
+      "original_path": "screenwriting-narrative-method/principles/ai-assisted-review-boundaries.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/principles/ai-assisted-review-boundaries.md",
+      "original_sha256": "8cf8f062663f8426c15cdb5a9ef651fcc91cb99e7f22fa35f8d3045833f18c80",
+      "packaged_sha256": "12133087d84c4a9a26256cdda572f84810d96abeb80ed6c910f942d75d7340fa",
+      "link_edits": 9
+    },
+    {
+      "original_path": "screenwriting-narrative-method/principles/collaboration-and-author-intent.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/principles/collaboration-and-author-intent.md",
+      "original_sha256": "17c344d76d74956bed7abeb4760abaf4fdfc645e5104b8dae31339d6aeb73991",
+      "packaged_sha256": "6838b28f2554fef2f01087543efa5ed116e641ef1a8828738c66af55b33efc16",
+      "link_edits": 11
+    },
+    {
+      "original_path": "screenwriting-narrative-method/principles/criteria-conflict-no-summation.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/principles/criteria-conflict-no-summation.md",
+      "original_sha256": "11b74d0422b9b55f8fbf9dab43f1f33bd785799597043e8b6f2505ab298ab139",
+      "packaged_sha256": "0123a170a0f4a1c22c8e72d8b06bc4d4020289699e57675098e9714528f739df",
+      "link_edits": 11
+    },
+    {
+      "original_path": "screenwriting-narrative-method/principles/decision-granularity-rework-stop.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/principles/decision-granularity-rework-stop.md",
+      "original_sha256": "09ecf6a71200003f48c894902325461093f9466915790d673cac50f259bb221a",
+      "packaged_sha256": "35a1894e7f35acd48e0c268b0fb09ef3dbe09a6640d792cd058dd6087280ad07",
+      "link_edits": 7
+    },
+    {
+      "original_path": "screenwriting-narrative-method/principles/form-first-working-principle.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/principles/form-first-working-principle.md",
+      "original_sha256": "f40f1a6a81872a6e47eea3ecdf686ffc328ad4c9d58f4a6a08ca4b5401883793",
+      "packaged_sha256": "d8d9d1e30bdbd35f31cb6c3ffbd3c12f68701257d2b4bc95022e8ac37deb47d8",
+      "link_edits": 19
+    },
+    {
+      "original_path": "screenwriting-narrative-method/principles/human-ai-collaboration-conditions.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/principles/human-ai-collaboration-conditions.md",
+      "original_sha256": "a4627e74859e270848873e981b2e8cf24ef5708db7174a579185803dab9fea72",
+      "packaged_sha256": "f7f6efd927a6390df84da135ae4d3f7f8ba6103d3bfc6073e72b34a0edf4b23d",
+      "link_edits": 8
+    },
+    {
+      "original_path": "screenwriting-narrative-method/principles/index.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/principles/index.md",
+      "original_sha256": "28081195918201f684cd36eedfd15bb293e310d65d0f39e403b20fa49634e9d5",
+      "packaged_sha256": "28081195918201f684cd36eedfd15bb293e310d65d0f39e403b20fa49634e9d5",
+      "link_edits": 0
+    },
+    {
+      "original_path": "screenwriting-narrative-method/principles/misdirection-and-reversal-rules.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/principles/misdirection-and-reversal-rules.md",
+      "original_sha256": "5ba7b47542d554da8d70357852b624d2c0adf3b00ef06cebb1e8cac6c0db8a16",
+      "packaged_sha256": "8cca408dae32cc1f9bd7201a0d083e8957cb93e30d2709416145a24ff0580577",
+      "link_edits": 6
+    },
+    {
+      "original_path": "screenwriting-narrative-method/principles/narrative-force-vs-statement-legitimacy.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/principles/narrative-force-vs-statement-legitimacy.md",
+      "original_sha256": "fbd61dbc47327bc33baedc7872838117af56914fe2e4f062e423cc8cf61803dc",
+      "packaged_sha256": "e3a6023b7214cd05cb036be295b6312b6f155e56304deed2c4230dba1db8762c",
+      "link_edits": 8
+    },
+    {
+      "original_path": "screenwriting-narrative-method/principles/non-commercial-film-not-efficiency-tool.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/principles/non-commercial-film-not-efficiency-tool.md",
+      "original_sha256": "34d67500f8735ab9827e034c601b91e7464b28c293b80b578c4e0614182fe6b7",
+      "packaged_sha256": "8f0f16299ad6922fecca00eaf1e8b53ba0738219da552eb2c5f151d3d5c97ff0",
+      "link_edits": 5
+    },
+    {
+      "original_path": "screenwriting-narrative-method/principles/nonfiction-material-responsibility.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/principles/nonfiction-material-responsibility.md",
+      "original_sha256": "2fcdefaaca7c2ce4082d3a3a5ac3bda3c2abb7cbf1adca6ef05306cff5ef48a2",
+      "packaged_sha256": "beeaaf05e1fd77d83358947f1d5b934a6a13dec1e3bd0ba37c82980cedc82e48",
+      "link_edits": 9
+    },
+    {
+      "original_path": "screenwriting-narrative-method/principles/novelty-by-changing-relations.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/principles/novelty-by-changing-relations.md",
+      "original_sha256": "c1e7159739a7c82009a82c93795a0e53721b67037e83618218f9277c462a7cd1",
+      "packaged_sha256": "4d05eb2f6f610a19f5b80daaea4976b33b4ab56e015a4753b9097b3c9b6cb0a7",
+      "link_edits": 7
+    },
+    {
+      "original_path": "screenwriting-narrative-method/principles/product-causality-caution.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/principles/product-causality-caution.md",
+      "original_sha256": "0097af5d2244dc9161f6929986400b5b67b68693d21a8f066d9f09ae6009560d",
+      "packaged_sha256": "ac37dee5cb7517dec98c3d55abb13c6c8b05b0deaf8bed467692b88db22d6c9e",
+      "link_edits": 5
+    },
+    {
+      "original_path": "screenwriting-narrative-method/principles/source-use-and-evidence-boundaries.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/principles/source-use-and-evidence-boundaries.md",
+      "original_sha256": "253940dfc1282ec1d4e6e1050b1859fef0444ef2b5b28bde409efa0bee82fd11",
+      "packaged_sha256": "5ff7d4faa5336a4eb9ff1561f9c77ea9f6de56bea1242be33848e8e73381ece8",
+      "link_edits": 15
+    },
+    {
+      "original_path": "screenwriting-narrative-method/principles/three-non-mergeable-information-classes.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/principles/three-non-mergeable-information-classes.md",
+      "original_sha256": "28cf19b614a0384dc19b12189fa626503dda02773b8080d74329cacb765c31d5",
+      "packaged_sha256": "2ee8615b6cfcc15d58331ca6b793182a741519dcca37916e80f9282a2bc3e560",
+      "link_edits": 9
+    },
+    {
+      "original_path": "screenwriting-narrative-method/principles/what-two-ai-studies-show.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/principles/what-two-ai-studies-show.md",
+      "original_sha256": "d2cceebf5fc7eca1b410d2c110d94f5b1a903ad55fc9047ac42f8ef5e12136bf",
+      "packaged_sha256": "6793fa1a90ee4c7414295650c61ff8cee77b6d63c6336e55aea8f614a46ac4cd",
+      "link_edits": 8
+    },
+    {
+      "original_path": "screenwriting-narrative-method/references/alber-unnatural-narrative.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/references/alber-unnatural-narrative.md",
+      "original_sha256": "7fbed9f6487e1d9b36e4679a1652f7f2b2b13ee4ce078e110b1ae10f497f4594",
+      "packaged_sha256": "9e0e20b99147a0e008c9b4c2671c42aba2bdfc38edcb78ebd862b389a9b97ee4",
+      "link_edits": 3
+    },
+    {
+      "original_path": "screenwriting-narrative-method/references/august-how-to-write-a-scene.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/references/august-how-to-write-a-scene.md",
+      "original_sha256": "94ba0ce62da77dea4154cf5e2f68eb04d2cde1ce76eda59f740a1ef951154ac1",
+      "packaged_sha256": "4c4f30c27fc708689271daff9899a315522b1bb95c1c8e9a193b8016c9986bb9",
+      "link_edits": 4
+    },
+    {
+      "original_path": "screenwriting-narrative-method/references/august-how-to-write-dialogue.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/references/august-how-to-write-dialogue.md",
+      "original_sha256": "8d9afb793a92e53fadb06bd7c35c69118e1197ff060c4721de6426f0bbf54609",
+      "packaged_sha256": "bafcb41b1f73b386db7f08ca0538ebf93f487d815e4838e974c6e938d85b929c",
+      "link_edits": 3
+    },
+    {
+      "original_path": "screenwriting-narrative-method/references/baroni-tellability.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/references/baroni-tellability.md",
+      "original_sha256": "f534dbe66f7b9bc97158ca2bdc29c7e677b097ed2e22763968abd367e5fbeed0",
+      "packaged_sha256": "31507c4b985b3f4c923a350ca7b650a4b5c4c0993286ef2f527dab0c62d0b8cf",
+      "link_edits": 3
+    },
+    {
+      "original_path": "screenwriting-narrative-method/references/bordwell-how-to-tell-a-movie-story.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/references/bordwell-how-to-tell-a-movie-story.md",
+      "original_sha256": "8514cb9a15e788ba07db5afc5ff38bbec9b991855659a03cc284e51696b06a5c",
+      "packaged_sha256": "b22d8a0e076f579e0a03bfe84e57a33d07f311a15494972c46b22301ee1ac738",
+      "link_edits": 4
+    },
+    {
+      "original_path": "screenwriting-narrative-method/references/caracciolo-experientiality.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/references/caracciolo-experientiality.md",
+      "original_sha256": "1352c3abb2d60248de82c5a329386db3307de7a0f83cc837ad9e93161369c186",
+      "packaged_sha256": "545bc83ea6b692aa6f5e4ff24bd43267668fcac9a44a1efd4ab196bee167c967",
+      "link_edits": 3
+    },
+    {
+      "original_path": "screenwriting-narrative-method/references/clark-brennan-grounding-1991.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/references/clark-brennan-grounding-1991.md",
+      "original_sha256": "6fdfbaf9e6822080990131120dc406e79f588e30e7150b29787354bf87f05cad",
+      "packaged_sha256": "5587f5e29eda8b76b66141483c529e4c7877cdaa73e6b016e22e7c2a932e3523",
+      "link_edits": 4
+    },
+    {
+      "original_path": "screenwriting-narrative-method/references/cutting-dynamics-of-popular-movies-2016.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/references/cutting-dynamics-of-popular-movies-2016.md",
+      "original_sha256": "51801664a790db8f10eefd055888262fbe805429972b1a874471fbe29ca5803d",
+      "packaged_sha256": "29aca0e962bb0edd240aa1044c2a7e78fb67099c237eca08bfbd6c7864b3d075",
+      "link_edits": 3
+    },
+    {
+      "original_path": "screenwriting-narrative-method/references/dawg-from-reflection-to-release.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/references/dawg-from-reflection-to-release.md",
+      "original_sha256": "c9e7c1155d6b5ca6cefee4370ba5fda6e67318f5baa16aba3fc84d22c502d1af",
+      "packaged_sha256": "81794976c631897def3e379a9900b6c0884d42073603f7d8a8fc2b29c58a76fa",
+      "link_edits": 3
+    },
+    {
+      "original_path": "screenwriting-narrative-method/references/design-council-double-diamond.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/references/design-council-double-diamond.md",
+      "original_sha256": "e04d4ddb7a480864abfff989d4b0061754dc9440a1f42749c8ec96f06e68ad4a",
+      "packaged_sha256": "7b2396ce962eb19a5d157fd3126fc274585856193dc9dfdae0f6b734779e5029",
+      "link_edits": 5
+    },
+    {
+      "original_path": "screenwriting-narrative-method/references/emmott-schemata.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/references/emmott-schemata.md",
+      "original_sha256": "21a58c582ccde8e772c33e5ef51a3213ebff7fb4462a36cc87a79eb81561f6e2",
+      "packaged_sha256": "3b9b2cab7ba5b68fc7ba48de3bca66f00a7b5791f98e68ffdafcec52007a1770",
+      "link_edits": 3
+    },
+    {
+      "original_path": "screenwriting-narrative-method/references/escalas-narrative-processing-2004.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/references/escalas-narrative-processing-2004.md",
+      "original_sha256": "fba34c071dc678588983664db05c3aff2d0ee1badcdbec77f64c47c8aaad6ea1",
+      "packaged_sha256": "8d905e5a780ace8018d437c2b66c3bf0d10a9f67d153cac53b2304b30c76bf32",
+      "link_edits": 3
+    },
+    {
+      "original_path": "screenwriting-narrative-method/references/gilroy-bafta-lecture-2013.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/references/gilroy-bafta-lecture-2013.md",
+      "original_sha256": "ef20d449372ba4c6c1874ceb1ee57223fb7258e0ff020e2fff085bca8bb38fe6",
+      "packaged_sha256": "1e32e8853588db0e1530178600780348881fb2a05eef43eeaecb748ed24a2ab7",
+      "link_edits": 3
+    },
+    {
+      "original_path": "screenwriting-narrative-method/references/grice-logic-and-conversation-1975.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/references/grice-logic-and-conversation-1975.md",
+      "original_sha256": "a13166aa0d46d52633fa28457746ac22e13488d6e0138ef38250186c5dff0970",
+      "packaged_sha256": "7a5284377db74e7f94b0e39a4963d67c68f3b4a505b0f700e5a41703d2be72c5",
+      "link_edits": 3
+    },
+    {
+      "original_path": "screenwriting-narrative-method/references/hartner-multiperspectivity.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/references/hartner-multiperspectivity.md",
+      "original_sha256": "3ff2eff0b12887c01aaa27b5b0c754f0ce39f97adf83447dd3ab7359d31eacab",
+      "packaged_sha256": "ebdb9db6d1240a843533feaa964185d16cf63f25d7fe02d16a7b8fd3930d0d6e",
+      "link_edits": 4
+    },
+    {
+      "original_path": "screenwriting-narrative-method/references/herman-cognitive-narratology.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/references/herman-cognitive-narratology.md",
+      "original_sha256": "a612fc175018ca77c6a5046b6c7c9d771cf49bd58be4663d92903187291cd453",
+      "packaged_sha256": "05dee3c88c611ae7f6d12ce8f9ee45e45fd57433c9142662f9865e5238254b93",
+      "link_edits": 3
+    },
+    {
+      "original_path": "screenwriting-narrative-method/references/huhn-event-eventfulness.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/references/huhn-event-eventfulness.md",
+      "original_sha256": "118c5e694aafc2877e2ea9f9b094057bee48ba8fac307ef5fcdd99b638fa47ca",
+      "packaged_sha256": "417017c63a89e1d31ffd03b7003d462542d6b0331058a96b1585a515d5458162",
+      "link_edits": 3
+    },
+    {
+      "original_path": "screenwriting-narrative-method/references/index.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/references/index.md",
+      "original_sha256": "482c094c7804994ebad18e1f60445f8d8036d87b81404bf1c6768e0189891939",
+      "packaged_sha256": "482c094c7804994ebad18e1f60445f8d8036d87b81404bf1c6768e0189891939",
+      "link_edits": 0
+    },
+    {
+      "original_path": "screenwriting-narrative-method/references/jannidis-character.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/references/jannidis-character.md",
+      "original_sha256": "8036383fd565c2a83ec1bd244004f541ae1e2fb6fab9f1006296a24e24eb4d64",
+      "packaged_sha256": "2c66113198a543fc792ece5425d5e3dc3e4090e2c897867e8253950993ca1757",
+      "link_edits": 3
+    },
+    {
+      "original_path": "screenwriting-narrative-method/references/jenkins-transmedia-storytelling-101.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/references/jenkins-transmedia-storytelling-101.md",
+      "original_sha256": "9fdde614c72a4a771b4d5553eceba50f65c8bef175cf60015a47c9fdcdf3e37d",
+      "packaged_sha256": "4f968e1d2dfa1cecb5f87b57fed5bb41202a80ed58dad119404a60369c523d8e",
+      "link_edits": 3
+    },
+    {
+      "original_path": "screenwriting-narrative-method/references/kaufman-bafta-lecture-2011.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/references/kaufman-bafta-lecture-2011.md",
+      "original_sha256": "35cb094e4bd8dbbae0805bb5574c2d2ecc8572d5175f6c41b87dea1ec6201e40",
+      "packaged_sha256": "401246ef0f718b0c466ad7e3b9c4ae002434a04735f0ace86bd92cbf3fc1e2e2",
+      "link_edits": 3
+    },
+    {
+      "original_path": "screenwriting-narrative-method/references/keen-narrative-empathy.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/references/keen-narrative-empathy.md",
+      "original_sha256": "0d541ac196d9135c66871f56a84d86537925f67f58c1d1d75056399752585037",
+      "packaged_sha256": "8872bcabfba23cec868d2dfdd43be376a8997b6c0a70775e963eb2fe08e5a79c",
+      "link_edits": 4
+    },
+    {
+      "original_path": "screenwriting-narrative-method/references/klauk-telling-showing.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/references/klauk-telling-showing.md",
+      "original_sha256": "0d525f8f617cbea550ff134a0d9b9a9c4cfe5855fce6f4277e817cc41c25da5b",
+      "packaged_sha256": "018468b83b80fe7ec564324785955012960fc58e10ab30537d612ae69757554a",
+      "link_edits": 3
+    },
+    {
+      "original_path": "screenwriting-narrative-method/references/kuhn-narration-film.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/references/kuhn-narration-film.md",
+      "original_sha256": "9ae8b2ae8994a7ee039d416d67db6ce1c86b8f0c42bcfa5d0e95b20041ff28fa",
+      "packaged_sha256": "4fee349996fba9584fac2a2b77bd937865b7b9cbcffc7ae793210388027d35dc",
+      "link_edits": 5
+    },
+    {
+      "original_path": "screenwriting-narrative-method/references/macdonald-screenwriting-poetics-2013.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/references/macdonald-screenwriting-poetics-2013.md",
+      "original_sha256": "1e70444481f0c0f92fc36143dfb4d759369a2cb885904a01f184b39d50aa9c7f",
+      "packaged_sha256": "2fc2d731c7c5d3b41d1a3cab2e6eb920bb5cd6626e713f69d77dec670440d473",
+      "link_edits": 3
+    },
+    {
+      "original_path": "screenwriting-narrative-method/references/magliano-zacks-continuity-editing-2011.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/references/magliano-zacks-continuity-editing-2011.md",
+      "original_sha256": "a62027f3feb019611d5d5e4ba399ec837aec46002a2311cbf6cceb550f2d8a31",
+      "packaged_sha256": "0bf7dec3c16c61107de9b332c68319db5e6945e8a0655e0304c5ac28aded6bae",
+      "link_edits": 3
+    },
+    {
+      "original_path": "screenwriting-narrative-method/references/mchale-speech-representation.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/references/mchale-speech-representation.md",
+      "original_sha256": "e1912a34cdbd8088003280dfc8d250b829a94d9329008ae0eca37953cd9e8adc",
+      "packaged_sha256": "3a82955246a617b138af3794e6eb1fb0f2ff2b7d54c70bc243a6cd31db6aaa2b",
+      "link_edits": 3
+    },
+    {
+      "original_path": "screenwriting-narrative-method/references/niederhoff-focalization.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/references/niederhoff-focalization.md",
+      "original_sha256": "cd29c3b435bbef6dadc184f1c7c03a9c66e79db2f17fd862241c3dde691af7b4",
+      "packaged_sha256": "7dd733976400cedae86e81979e34fb4c7266775c0cb091e78087b4124dec3729",
+      "link_edits": 3
+    },
+    {
+      "original_path": "screenwriting-narrative-method/references/oha-principles-best-practices.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/references/oha-principles-best-practices.md",
+      "original_sha256": "a72e3f00aaeed3c9d48aaeb7697caf0c33095f0beb8dd21658fcd393543788d6",
+      "packaged_sha256": "d5a89e7e9b40b63414af73db16446750561177c4f8161f760cbd269289f68f54",
+      "link_edits": 4
+    },
+    {
+      "original_path": "screenwriting-narrative-method/references/phelan-narrative-ethics.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/references/phelan-narrative-ethics.md",
+      "original_sha256": "49eb685dc6eb790afed461621933e7c48010e1c5d18b8ea61b488e475910f03e",
+      "packaged_sha256": "a6bb02fa7402540e3f4fbb1c958bb04859c417357f60250b6a49d6e61a9b88e6",
+      "link_edits": 4
+    },
+    {
+      "original_path": "screenwriting-narrative-method/references/rashkin-help-me-write-a-story-2025.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/references/rashkin-help-me-write-a-story-2025.md",
+      "original_sha256": "d825f8f2396a7b50aae4aa450642b9b9496f6a0942a3aaf7f7caddae9c9d9515",
+      "packaged_sha256": "8a71e4a1d8cc8d9e619ff9367c87560d1b19de89beec85b381662c918bb7142f",
+      "link_edits": 4
+    },
+    {
+      "original_path": "screenwriting-narrative-method/references/ryan-narration-various-media.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/references/ryan-narration-various-media.md",
+      "original_sha256": "5f6df1fae3cbc8b499aaef8b5b074229bca52cc12db0e0209685f5aedba9c603",
+      "packaged_sha256": "3a5ff43ef298c902034c5cabc25d629d4eec0336ca8fdd3e69c05019a6abdb56",
+      "link_edits": 4
+    },
+    {
+      "original_path": "screenwriting-narrative-method/references/ryan-possible-worlds.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/references/ryan-possible-worlds.md",
+      "original_sha256": "2a3bfb29d687272cbcc0c132278a51d0d9b43c9baf9d14919cd2ce7433c2fa51",
+      "packaged_sha256": "ee746931faca9efc980f30ef028ac7974107c8119d9b97fa5bc253ebf5840d62",
+      "link_edits": 3
+    },
+    {
+      "original_path": "screenwriting-narrative-method/references/ryan-space.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/references/ryan-space.md",
+      "original_sha256": "056741e29b0c326a02ceb319141842179020cfa06ca8a0ed8747208c7e17dd31",
+      "packaged_sha256": "15c4f8b69569a971f2d5ee62bb29923b3975250e2d56fcb08620fd06f1d21043",
+      "link_edits": 3
+    },
+    {
+      "original_path": "screenwriting-narrative-method/references/schaeffer-fictional-factual-narration.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/references/schaeffer-fictional-factual-narration.md",
+      "original_sha256": "60bb9ee97de369a934a2e17f7b8608a4ceb68e104685f80b719b3902c6e20c68",
+      "packaged_sha256": "8b9ec3acf0bec29e9a3d268921f96abe4b89febaf24a80ecced15a3b159da17f",
+      "link_edits": 3
+    },
+    {
+      "original_path": "screenwriting-narrative-method/references/scheffel-time.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/references/scheffel-time.md",
+      "original_sha256": "69baaca32a936c3e087fc23fd754a1f1e24e9355b02f089c19c757db4348edbd",
+      "packaged_sha256": "58f3b4bf2c552bef3d4bb9647f1382ab0eb172720e311aaa302a0d8a00b2207b",
+      "link_edits": 3
+    },
+    {
+      "original_path": "screenwriting-narrative-method/references/schmid-non-temporal-linking-narration.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/references/schmid-non-temporal-linking-narration.md",
+      "original_sha256": "6c007bbc130dcbc369e8cbf6718480948d79dbdee65fce742e4497b633093a06",
+      "packaged_sha256": "eacf2aae2e2eaa79f43976cbffc3dc26a1d95260213560b036bd5e57449988f8",
+      "link_edits": 4
+    },
+    {
+      "original_path": "screenwriting-narrative-method/references/schonert-author.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/references/schonert-author.md",
+      "original_sha256": "a08231e213ca011e9a522a5ef44abe21b5de746e017289aa06815d97fb5487fc",
+      "packaged_sha256": "a33b613c448ea6ee003d2f0a36c78090fff98e3e5a497ea62e725d886a6d051c",
+      "link_edits": 4
+    },
+    {
+      "original_path": "screenwriting-narrative-method/references/sciamma-bafta-lecture-2019.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/references/sciamma-bafta-lecture-2019.md",
+      "original_sha256": "7abc5f627709b838052598f48cc1cc48c22657d09657c23052387cf389d06053",
+      "packaged_sha256": "7a3725c94a340721576577152fd1560e8c0ee24983b7ef14ddd6974329eae179",
+      "link_edits": 4
+    },
+    {
+      "original_path": "screenwriting-narrative-method/references/scriptnotes-357-exposition.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/references/scriptnotes-357-exposition.md",
+      "original_sha256": "46b3d139e8034709fb60ffab1e63152d62d104dc5b9e7bde8146ac12f4ee130d",
+      "packaged_sha256": "196e75ab37e73818ab66d5539261205630406c42f3df069e9e96722f3df36713",
+      "link_edits": 4
+    },
+    {
+      "original_path": "screenwriting-narrative-method/references/scriptnotes-696-guide-to-directors.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/references/scriptnotes-696-guide-to-directors.md",
+      "original_sha256": "2d9afa542e9b2c5488038cb22e8e1a8a4466af78bfb1b8e6b9d2086f04d76f96",
+      "packaged_sha256": "a6dd765aaac866f8916dc5c1a1dd09bee32c83fd199851a5c5b0a33091db4501",
+      "link_edits": 5
+    },
+    {
+      "original_path": "screenwriting-narrative-method/references/scriptnotes-728-beats-to-scenes.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/references/scriptnotes-728-beats-to-scenes.md",
+      "original_sha256": "7cce5557466d99e1541fa773fbf8d1c5d82ad91494f1659bd1e3e5335ef7aade",
+      "packaged_sha256": "f2c9c48596c34784a4c5530fed4cf557c1e4f15c84d9d88e3aa0459620408e17",
+      "link_edits": 4
+    },
+    {
+      "original_path": "screenwriting-narrative-method/references/shen-unreliability.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/references/shen-unreliability.md",
+      "original_sha256": "227ec9b85b03db86a2cd2454989a6d9573224665ffadf73d0177ef0c95f4dc35",
+      "packaged_sha256": "2b1470e9b416751b11e1399d435d62a1077e3409e6e5eac90b002be7fa9561bb",
+      "link_edits": 3
+    },
+    {
+      "original_path": "screenwriting-narrative-method/references/straughan-bafta-lecture-2012.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/references/straughan-bafta-lecture-2012.md",
+      "original_sha256": "549bb3d2bdb896aa7fe38257852f2d51e8ea5fac07f9f6aa81345303dcc74c6b",
+      "packaged_sha256": "15c864288333d373a7d5dc0f3ecdf7fc5ea6179cceee60921851f676d0bfba2d",
+      "link_edits": 3
+    },
+    {
+      "original_path": "screenwriting-narrative-method/references/tang-duodrama-2026.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/references/tang-duodrama-2026.md",
+      "original_sha256": "30e37594f2f92688cad3636fab416b2e97c3e8a0aaddb6d13bcc3adaa0c05494",
+      "packaged_sha256": "605fc7e4d5e4fdac22496d14dce0e061c8993612d18a4313fcc6dec21ddbc877",
+      "link_edits": 3
+    },
+    {
+      "original_path": "screenwriting-narrative-method/references/toolan-coherence.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/references/toolan-coherence.md",
+      "original_sha256": "84b08927a2c97796e136626852495d9d5d69522c1cf339facf3c9d19faa50604",
+      "packaged_sha256": "bb835e2e9e63bb793fc3aafdbe3384128e95e6396d2df8271397b94e273b2f63",
+      "link_edits": 4
+    },
+    {
+      "original_path": "screenwriting-narrative-method/references/wga-screen-credits-manual.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/references/wga-screen-credits-manual.md",
+      "original_sha256": "3679fae2131941eb21ed033c4b08f324d1866e5acc46895a4c2acb456205a5cd",
+      "packaged_sha256": "835e52ff0bcee615e06b8d2287abed4aaefe90b4076d023276dbb8026638a707",
+      "link_edits": 3
+    },
+    {
+      "original_path": "screenwriting-narrative-method/references/wolf-illusion-aesthetic.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/references/wolf-illusion-aesthetic.md",
+      "original_sha256": "37f4f8341c0af93c56f7cdb07f996d65aca3c66589a09c8eb04f7103e1aa0123",
+      "packaged_sha256": "5b2b06be579747daaf8c91eabb70a2ffa15eff2961348a8e51ea4c6c5fde23b1",
+      "link_edits": 3
+    },
+    {
+      "original_path": "screenwriting-narrative-method/skills/character-relation-world-model.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/skills/character-relation-world-model.md",
+      "original_sha256": "c35eecc51bfc3d842f885f60494a371c7cedd5ef0d4b1d5abb2fb08b4ac6a978",
+      "packaged_sha256": "dec831a83d120eb746e54e7bb1909e0228c629eee37cd9ec0960b06722c9b6e1",
+      "link_edits": 12
+    },
+    {
+      "original_path": "screenwriting-narrative-method/skills/close-reading-and-diagnostic-review.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/skills/close-reading-and-diagnostic-review.md",
+      "original_sha256": "fa32c3ccf7ec2e9befca938f0deca0d1f406e2c9f6a29d23793d938f32f56d10",
+      "packaged_sha256": "1ccb2cc88d3e01019b2e9de2e7cc7aebfed2ffe5287bee58048f37cd400f6e31",
+      "link_edits": 17
+    },
+    {
+      "original_path": "screenwriting-narrative-method/skills/creative-origin-and-question-framing.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/skills/creative-origin-and-question-framing.md",
+      "original_sha256": "491c493aca672f39fb1f66b5ebedcb7ed7e6644c5b3919d39d967492231a7594",
+      "packaged_sha256": "ccfb09b8e387a32c28f2a27c8435d69e2cd74d0981353d8ab6a49763b9045883",
+      "link_edits": 14
+    },
+    {
+      "original_path": "screenwriting-narrative-method/skills/dialogue-as-interaction.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/skills/dialogue-as-interaction.md",
+      "original_sha256": "908cd0e1e35e785401ea298c68550c349cf4c25bedc68f2b88decf7b840bca9b",
+      "packaged_sha256": "8118120b64271d022746503ab13ae6982b0b5540241c7e2034c16fd66277629b",
+      "link_edits": 12
+    },
+    {
+      "original_path": "screenwriting-narrative-method/skills/evidence-based-expression-review.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/skills/evidence-based-expression-review.md",
+      "original_sha256": "27532b1d6455b4b52de5cf5bd2087e82e898da69180319fec2f27b375edb162d",
+      "packaged_sha256": "088379778c5b3a640c0e7548bbf7633e8952103cf2a3f0bf49a2326cde879548",
+      "link_edits": 10
+    },
+    {
+      "original_path": "screenwriting-narrative-method/skills/index.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/skills/index.md",
+      "original_sha256": "8fb51875b24706b528f1ce2acf4ac68d151b71555c1f223197dea2b408351c9d",
+      "packaged_sha256": "8fb51875b24706b528f1ce2acf4ac68d151b71555c1f223197dea2b408351c9d",
+      "link_edits": 0
+    },
+    {
+      "original_path": "screenwriting-narrative-method/skills/information-design-and-reveal.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/skills/information-design-and-reveal.md",
+      "original_sha256": "6b0060d05cac257565d28a0989a31c6da7b925423810e964955b4ce62cc1ea04",
+      "packaged_sha256": "83ec6c07be13bcf8d1f200f6394c283a835a5e860cb64e89111b3b6692d14b7a",
+      "link_edits": 14
+    },
+    {
+      "original_path": "screenwriting-narrative-method/skills/medium-purpose-adaptation.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/skills/medium-purpose-adaptation.md",
+      "original_sha256": "6fc2a4e245a41c7b9eba280462cbd22a6639434322c1e92d5195278360d551ac",
+      "packaged_sha256": "3b350709305bc54429358a17ea46c9a68b4de427b6103217d6c9017c5b215406",
+      "link_edits": 14
+    },
+    {
+      "original_path": "screenwriting-narrative-method/skills/narrative-form-identification.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/skills/narrative-form-identification.md",
+      "original_sha256": "3d417abc7f2d3a27243d5d3cc05713742d52f7148a5eb025ffa04e55411d36cb",
+      "packaged_sha256": "1afdefd741e0dd1edb715a66f2dcf2d058889d77bf0b7f4868f3987e3592a9bc",
+      "link_edits": 11
+    },
+    {
+      "original_path": "screenwriting-narrative-method/skills/scene-plot-and-rhythm-design.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/skills/scene-plot-and-rhythm-design.md",
+      "original_sha256": "071020bc07a2e0f638d682a42bf8132dc0ab263e67fa88c2b89fae752962b33b",
+      "packaged_sha256": "522bb0b98434a5e18192982d4e86b0cf74baeefa1e7db48e9baa6b05c44e810c",
+      "link_edits": 15
+    },
+    {
+      "original_path": "screenwriting-narrative-method/skills/screenwriting-work-and-contribution-map.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/skills/screenwriting-work-and-contribution-map.md",
+      "original_sha256": "6856738ce583110cff4406c9d17701563c6d9d745cb3fc641324e1fdba9de118",
+      "packaged_sha256": "6a4f6d15076633ff900aa56a99bdcf75fccecc2f5cb0daf04cbb5998469b5a84",
+      "link_edits": 9
+    },
+    {
+      "original_path": "screenwriting-narrative-method/skills/skincare-case-teaching-use.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/skills/skincare-case-teaching-use.md",
+      "original_sha256": "53f0dcd9ac14ede6440b1a1d236f1e37adad4ca627533e94ca5f68f3633da5d0",
+      "packaged_sha256": "9623af945b4aab5bd1a6c7801ea15f97442495c05c2c361977c96bf368402582",
+      "link_edits": 22
+    },
+    {
+      "original_path": "screenwriting-narrative-method/skills/unified-skill-interface.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/skills/unified-skill-interface.md",
+      "original_sha256": "cda4912a8ce1ce2194a557a48192a8abd1fad3c7d9c113a4a18b3046ddc8f5c0",
+      "packaged_sha256": "f8a9974412577b899e634760eca61cde1cd49ef3505df31066a12eb4327689ac",
+      "link_edits": 8
+    },
+    {
+      "original_path": "screenwriting-narrative-method/templates/analysis-report-structure.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/templates/analysis-report-structure.md",
+      "original_sha256": "00ada1f92a93a74b9b25786e746f0ba58a2cea6446182518aab679a3f2066f32",
+      "packaged_sha256": "eeda099738ca72814f0bd4e7d7ed47fbd575619f2f3817cc3843bf07b8171c34",
+      "link_edits": 15
+    },
+    {
+      "original_path": "screenwriting-narrative-method/templates/cross-version-handoff.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/templates/cross-version-handoff.md",
+      "original_sha256": "cbf0faeb9a81ca63071669486c204aeaa2efb8757189c87794c57311a060b1a8",
+      "packaged_sha256": "43075996ae146907982cab8ba930e6ff8bda6475408b27bca2985bb5d6528ecc",
+      "link_edits": 7
+    },
+    {
+      "original_path": "screenwriting-narrative-method/templates/decision-record.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/templates/decision-record.md",
+      "original_sha256": "d209ef71da75ad28e7f1a7d5d86bd622ea7347d1bbe4df2e1349024e9be1d1a6",
+      "packaged_sha256": "42c9af1a8703c01149112709fe7086e14fe4c2d70dc668acdeb7793a5fe3953f",
+      "link_edits": 6
+    },
+    {
+      "original_path": "screenwriting-narrative-method/templates/diagnostic-report-card.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/templates/diagnostic-report-card.md",
+      "original_sha256": "dc518a23ad669571a5522b49ddc3725895f1ca300a7b14baeca2f12d69681efa",
+      "packaged_sha256": "9c3cbaf518bb7635e58f57633abf96d6512bab099e8f884bae79c3c5c2bef1bd",
+      "link_edits": 7
+    },
+    {
+      "original_path": "screenwriting-narrative-method/templates/dialogue-handoff-to-execution.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/templates/dialogue-handoff-to-execution.md",
+      "original_sha256": "8ee007f6652580818d8bc3d8f2aef3648e1126e832b511d3c603d26641c93de3",
+      "packaged_sha256": "76aef044b8b7f7119931f718d006a4d17677eed596ca8556c07691807051c3d5",
+      "link_edits": 10
+    },
+    {
+      "original_path": "screenwriting-narrative-method/templates/evidence-ledger.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/templates/evidence-ledger.md",
+      "original_sha256": "7de1d009805791e0be9b7b0a6553acd6b4ccb23554973a2076f36d48139f0041",
+      "packaged_sha256": "a7938625ae5c1890a0a61084cb569d283011b7a3de502eb142c22e6c88ba9742",
+      "link_edits": 8
+    },
+    {
+      "original_path": "screenwriting-narrative-method/templates/index.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/templates/index.md",
+      "original_sha256": "126bbe91982375c02bf8eac683137e82f1ff76974530919f935e2be34a936440",
+      "packaged_sha256": "126bbe91982375c02bf8eac683137e82f1ff76974530919f935e2be34a936440",
+      "link_edits": 0
+    },
+    {
+      "original_path": "screenwriting-narrative-method/templates/information-dependency-table.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/templates/information-dependency-table.md",
+      "original_sha256": "f83563184e83cb8d57db14450cba8db7776bbb91ab153b4549abc13d50dfa8b9",
+      "packaged_sha256": "d541d3814fba7fd8fad4adad89ceb3fa0d54d74c5ec942bfd41716aed8716068",
+      "link_edits": 8
+    },
+    {
+      "original_path": "screenwriting-narrative-method/templates/minimal-handoff-card.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/templates/minimal-handoff-card.md",
+      "original_sha256": "bc011da767d68d1bad47371369e801870e1df2ac580f53c96cb4eb276b5839fa",
+      "packaged_sha256": "edd3849ddb64eaa5afd40b152bd2c01381327de6b45169073aaa966661e4f3fa",
+      "link_edits": 9
+    },
+    {
+      "original_path": "screenwriting-narrative-method/topics/01-narrative-form-identification.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/topics/01-narrative-form-identification.md",
+      "original_sha256": "0c9fac5b699c89a7a38b316a5c0a7161e59783b900a6587f26a21f40067c6a03",
+      "packaged_sha256": "5ff97b27ed5f70d3dd7b0e515d4eff2e066ec8e1e96d1df13fd3a80d42d87eb5",
+      "link_edits": 23
+    },
+    {
+      "original_path": "screenwriting-narrative-method/topics/02-screenwriting-work-and-contribution.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/topics/02-screenwriting-work-and-contribution.md",
+      "original_sha256": "a25839753d933cf86b41d737a1aec3d69e45ea6e092ec93190c37e74350f928a",
+      "packaged_sha256": "68d94725b95ecb1da5077a1d2bca51c08398f51f8a0cffdba4edefda8d58eff9",
+      "link_edits": 29
+    },
+    {
+      "original_path": "screenwriting-narrative-method/topics/03-creative-origin-and-question.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/topics/03-creative-origin-and-question.md",
+      "original_sha256": "d3699563570e34cf6e2619c1814817df33044ec5b45fe8afaf1b8d442c2e6ced",
+      "packaged_sha256": "d8ad2efdd5eba9604025640bbed41259fae58c4d63aa559c6ca818d973059ceb",
+      "link_edits": 28
+    },
+    {
+      "original_path": "screenwriting-narrative-method/topics/04-character-relation-world.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/topics/04-character-relation-world.md",
+      "original_sha256": "68ec6fbf85d14a48466db80867982c662084f3af1298b2bdb015b7f0694b3169",
+      "packaged_sha256": "2c93525ad912ff2fde5105cfbe6a6691920add918456f81e144164f27fbd8dbb",
+      "link_edits": 30
+    },
+    {
+      "original_path": "screenwriting-narrative-method/topics/05-scene-plot-rhythm.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/topics/05-scene-plot-rhythm.md",
+      "original_sha256": "24e6cb10bb0156b9eaef3becbeaa685c3c9cc7f67573a1827557ed89b74398c5",
+      "packaged_sha256": "2c29fdeaa0505838128bfdb3eb61d7e29b17da7cf21f35b1e4c3dd0f5742c551",
+      "link_edits": 33
+    },
+    {
+      "original_path": "screenwriting-narrative-method/topics/06-dialogue-as-interaction.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/topics/06-dialogue-as-interaction.md",
+      "original_sha256": "ebb11ecb9f7953a89a968458ccb790ff77deefe789276682946f3d645c1b0020",
+      "packaged_sha256": "97c8df6d3ec36c5fae7a304ff8237653cf2cba0deba4f20d2c6a1326f11cb553",
+      "link_edits": 30
+    },
+    {
+      "original_path": "screenwriting-narrative-method/topics/07-information-design.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/topics/07-information-design.md",
+      "original_sha256": "b52156f2d47eafab0c2cbd24f8c0acc438c4cb14b0884b2a0176e9c12ef43c5c",
+      "packaged_sha256": "b737d9ae95c31643a359e39c204bc27f4a432c4fc5ef9584ba68538c69e71432",
+      "link_edits": 31
+    },
+    {
+      "original_path": "screenwriting-narrative-method/topics/08-expression-evaluation.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/topics/08-expression-evaluation.md",
+      "original_sha256": "da42752096c8e7efdf15d3b7745f6abd5456a136aacf1c4c7c6a865534c43839",
+      "packaged_sha256": "dfdb7c5f0b11b011b11211766f5d786de7e6e894e0170a4bf1f9efcbd3ad75c9",
+      "link_edits": 32
+    },
+    {
+      "original_path": "screenwriting-narrative-method/topics/09-medium-purpose-adaptation.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/topics/09-medium-purpose-adaptation.md",
+      "original_sha256": "9233c883a9dbef75fbeaec7a9d2f8b7679dab41cf4c3c2494ac0a7f44caa8071",
+      "packaged_sha256": "df4dd9eaf686036254ba59c05b559ca63d0a018a3e6663832db76116ffd732fc",
+      "link_edits": 32
+    },
+    {
+      "original_path": "screenwriting-narrative-method/topics/10-skincare-film-case.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/topics/10-skincare-film-case.md",
+      "original_sha256": "1ec03876ecc3e1cdc0670999f58b0dd8d81a49f9c836804b8fe5fb47400f5ae0",
+      "packaged_sha256": "239242d6d73911e34567ba7c45dfc2aa6daa211680fac792d2ae6a90926171a2",
+      "link_edits": 32
+    },
+    {
+      "original_path": "screenwriting-narrative-method/topics/11-close-reading-diagnosis.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/topics/11-close-reading-diagnosis.md",
+      "original_sha256": "be258d1ec687bee774b14e163870730d15605d426eaf34693c70bd19d10302f7",
+      "packaged_sha256": "82b42979a5122dc5af8934759e52e8c9aea494905be4a0769944c97e0a8a5c4d",
+      "link_edits": 37
+    },
+    {
+      "original_path": "screenwriting-narrative-method/topics/12-iteration-and-handoff.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/topics/12-iteration-and-handoff.md",
+      "original_sha256": "bf9d77d8132437088b7eb7d2315e13b781a1f44aaf64880337185495e3d599ae",
+      "packaged_sha256": "d0500b57405cbee1b39a0207d79a2be2746d34ff0ac22a250551573d382f2e04",
+      "link_edits": 41
+    },
+    {
+      "original_path": "screenwriting-narrative-method/topics/index.md",
+      "packaged_path": "references/knowledge/screenwriting-narrative-method/topics/index.md",
+      "original_sha256": "a7438c968664dacc5ea65066a90886a1a319efe263ceb51d2df65aae75039264",
+      "packaged_sha256": "a7438c968664dacc5ea65066a90886a1a319efe263ceb51d2df65aae75039264",
+      "link_edits": 0
+    }
+  ]
+}

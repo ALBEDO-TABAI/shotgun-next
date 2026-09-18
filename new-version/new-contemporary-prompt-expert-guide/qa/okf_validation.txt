@@ -1,0 +1,2 @@
+[CONFORMANT] /Users/bai/实验田/shotgun-next/new-version/new-contemporary-prompt-expert-guide/knowledge/contemporary-prompting
+  concepts=49 types={'Technique': 13, 'Reference': 8, 'CaseStudy': 8, 'Playbook': 11, 'Lexicon': 2, 'Framework': 6, 'Exercise': 1} index=yes log=yes

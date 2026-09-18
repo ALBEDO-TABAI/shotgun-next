@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-18",
+  "fixture": "synthetic only; no real approval or generation",
+  "paired_cli": {
+    "exit_code": 0,
+    "result": {
+      "ok": true,
+      "state": "paired_structural",
+      "structural_pair_valid": true,
+      "errors": [],
+      "not_checked": [
+        "user identity and approval meaning",
+        "unmarked text and semantic equivalence",
+        "aesthetic quality",
+        "actual model settings, generated media and audience effect"
+      ],
+      "scene_count": 2,
+      "protected_text_count": 2
+    }
+  },
+  "hash_cli": {
+    "exit_code": 0,
+    "matches_actual_sha256": true
+  },
+  "unfilled_template_cli": {
+    "exit_code": 1,
+    "rejected_as_expected": true
+  }
+}

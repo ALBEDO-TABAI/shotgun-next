@@ -1,0 +1,51 @@
+---
+type: Method
+title: "阶段F：反馈诊断与修订"
+description: 分开体验报告、问题假设与方案；按事实→依赖→局部→打磨的顺序修订；小改优先但不拒绝重构；修改要有反证；有明确停止条件。
+tags: [topic-12, 阶段F, 修订, 停止条件]
+timestamp: 2026-09-18T00:00:00Z
+source: new-version/script/12_创作迭代验证与协作交付流程.md#九、阶段F：反馈诊断与修订
+---
+
+# 要点
+
+先分**体验报告、问题假设、方案**三层。有人说看不懂，不自动执行他建议的闪回；有人提议删镜头，也不证明场景没有作用。
+
+## 修订顺序
+
+1. 核实重要事实和核心任务
+2. 处理人物与结构依赖
+3. 处理局部信息和执行
+4. 语言与形式打磨
+
+实际项目可以调整顺序，但应说明理由。
+
+## 小改优先，不等于拒绝重构
+
+能用明确期限解决，就不新增童年史；当前前提不成立，就承认需要重构，不用十个补丁维持。
+
+## 修改需要反证
+
+- 预期解决什么？
+- 出现哪种结果说明没有解决？
+- 新方案引入什么成本？
+- 原来有效的关系是否仍被保留？
+
+## 停止条件
+
+必要理解已获得相应支持，关键事实与执行已核对，剩余差异属于允许开放或已接受的取舍。不等全部人一致喜欢，也不追求零疑问；过度解释和过度防御同样损害作品。
+
+# 适用边界 / 不应自动做什么
+
+- 不默默从分析跳到重写。
+- 反馈冲突不一定要消除。
+
+# 关系
+
+- 上位主题：[本篇枢纽](/topics/12-iteration-and-handoff.md)
+- 三层分开的方法来自 [症状、原因与方案分开](/methods/symptom-cause-solution-diagnosis.md) 与 [把反馈写成可行动的判断](/methods/actionable-feedback.md)；评审分歧的处理见 [从评审分歧到决策](/methods/review-disagreement-to-decision.md)。
+- 停止权与粒度见 [决定粒度、返工成本与停止权](/principles/decision-granularity-rework-stop.md)；最终检查见 [最终交付检查与停止条件](/checklists/final-delivery-and-stop-conditions.md)。
+- 前后阶段：[阶段E](/methods/stage-e-prototype-testing.md) → 本阶段 → [阶段G](/methods/stage-g-production-protection.md)。
+
+# Citations
+[1] [12 创作迭代验证与协作交付流程 §九](../../../12_创作迭代验证与协作交付流程.md)

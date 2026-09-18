@@ -1,0 +1,273 @@
+{
+  "created": "2026-09-18",
+  "task": "当代提示词专家指南：教程文字复审材料的系统提炼与原创延展",
+  "direct_source_scope": [
+    {
+      "scope": "tutorial-text-review",
+      "path": "00_复审说明与覆盖指南.md",
+      "bytes": 10571,
+      "sha256": "ccf176341e6740055ea4e360d080b4c3375c0a6b57f45f0b3d31059d12cde877",
+      "role": "source_document"
+    },
+    {
+      "scope": "tutorial-text-review",
+      "path": "00_技术依据与术语校正.md",
+      "bytes": 5738,
+      "sha256": "c7c63be645d1617d2bc09041710a10786b36a2f394b84463eaded6739a6179c4",
+      "role": "source_document"
+    },
+    {
+      "scope": "tutorial-text-review",
+      "path": "00_跨教程生产工作流.md",
+      "bytes": 6887,
+      "sha256": "a5089dcac376c44905458aaec75322935afc742911dd00f4768558eb7721012a",
+      "role": "source_document"
+    },
+    {
+      "scope": "tutorial-text-review",
+      "path": "01-6aabb8c8000000002a0265bf-拒绝抽卡！一招教你用Codex精准控制AI运镜/提示词提取.md",
+      "bytes": 5379,
+      "sha256": "0ae450af5e270521ff85bfd0cef7b367c16f0b6c80cd29d910b66872243e3ad2",
+      "role": "source_document"
+    },
+    {
+      "scope": "tutorial-text-review",
+      "path": "01-6aabb8c8000000002a0265bf-拒绝抽卡！一招教你用Codex精准控制AI运镜/方法论与技术要点.md",
+      "bytes": 6743,
+      "sha256": "3e46fa52795a83e335c83c03b3d387ed67fb73b1a3c899270f1222a949df7284",
+      "role": "source_document"
+    },
+    {
+      "scope": "tutorial-text-review",
+      "path": "02-6aaa15ec00000000290187a9-一开口就露馅？3招去掉AI配音的“机器味”/提示词提取.md",
+      "bytes": 4601,
+      "sha256": "4029b8e74a6c231f7e5cf7a629fdc6ce1cd80ec0f16059366ba1ec800f6267d3",
+      "role": "source_document"
+    },
+    {
+      "scope": "tutorial-text-review",
+      "path": "02-6aaa15ec00000000290187a9-一开口就露馅？3招去掉AI配音的“机器味”/方法论与技术要点.md",
+      "bytes": 6005,
+      "sha256": "0e1896eff6de35c8919bf89d7847bd32f9534e484a3249bdb73c097c07004b81",
+      "role": "source_document"
+    },
+    {
+      "scope": "tutorial-text-review",
+      "path": "03-6aa13956000000002b01fe4c-邪修！3步让你的AI视频彻底摆脱AI味/提示词提取.md",
+      "bytes": 4327,
+      "sha256": "e082df4c7f46c3ce49f80a956843a6fa9a758e5d92fe3b248c41ba7c2e89fe5a",
+      "role": "source_document"
+    },
+    {
+      "scope": "tutorial-text-review",
+      "path": "03-6aa13956000000002b01fe4c-邪修！3步让你的AI视频彻底摆脱AI味/方法论与技术要点.md",
+      "bytes": 6065,
+      "sha256": "908a905f872c6ab117eb4fa9256f27786f85fbfa380a5c0cee9d4115e6694700",
+      "role": "source_document"
+    },
+    {
+      "scope": "tutorial-text-review",
+      "path": "04-6a9aa3ca000000002a02fef4-AI人物演技太用力？教你写“反向表演”/提示词提取.md",
+      "bytes": 4599,
+      "sha256": "34ccf206f3c8e1177cee09b97247dc4e7d7818a9953fbb92fbeac9dfd801c1ad",
+      "role": "source_document"
+    },
+    {
+      "scope": "tutorial-text-review",
+      "path": "04-6a9aa3ca000000002a02fef4-AI人物演技太用力？教你写“反向表演”/方法论与技术要点.md",
+      "bytes": 5540,
+      "sha256": "232b7a3b861157a7311a20447d6f68dfce671d77e9c3cbb1cb35b4881e7b0351",
+      "role": "source_document"
+    },
+    {
+      "scope": "tutorial-text-review",
+      "path": "05-6a96a9b90000000026033e1d-AI生图假？那是因为你的提示词过期了/提示词提取.md",
+      "bytes": 4947,
+      "sha256": "03dead2e514f256a1795ff50052fe65ac053cd770aadb91cb9c1eab54013c8c6",
+      "role": "source_document"
+    },
+    {
+      "scope": "tutorial-text-review",
+      "path": "05-6a96a9b90000000026033e1d-AI生图假？那是因为你的提示词过期了/方法论与技术要点.md",
+      "bytes": 5777,
+      "sha256": "78136f337a24e55927f9e6d46b9e7a6e29b4c46a99bf390a0d12e28be77aa9de",
+      "role": "source_document"
+    },
+    {
+      "scope": "tutorial-text-review",
+      "path": "06-6a9169a3000000002502577e-AI电影大拆解！8大AI技巧一次性讲完！/提示词提取.md",
+      "bytes": 4964,
+      "sha256": "07e2e1bc49f4eefa5d57fbcf12416c874582e3288a54ea4ec69460df654e8350",
+      "role": "source_document"
+    },
+    {
+      "scope": "tutorial-text-review",
+      "path": "06-6a9169a3000000002502577e-AI电影大拆解！8大AI技巧一次性讲完！/方法论与技术要点.md",
+      "bytes": 6455,
+      "sha256": "824131f05ca90c751f42143a05dae0cb42b9b4a0b698e3884ea0f558fc4af6a7",
+      "role": "source_document"
+    },
+    {
+      "scope": "tutorial-text-review",
+      "path": "07-6a82f4180000000033031ffb-小白必看！seedance2_活人感提示词怎么写？/提示词提取.md",
+      "bytes": 5347,
+      "sha256": "f583ce9793bae30881b906f747681a2dc5c9462ed5f8933d2c09c3752fdc5d60",
+      "role": "source_document"
+    },
+    {
+      "scope": "tutorial-text-review",
+      "path": "07-6a82f4180000000033031ffb-小白必看！seedance2_活人感提示词怎么写？/方法论与技术要点.md",
+      "bytes": 6634,
+      "sha256": "f278578afbd47fddc33b466b53bc3d5cce73186dfa1464ab629461ee63e70596",
+      "role": "source_document"
+    },
+    {
+      "scope": "tutorial-text-review",
+      "path": "08-6a44fd700000000007020a39-0基础教学!AI短剧的“资产库”到底怎么做？/提示词提取.md",
+      "bytes": 5301,
+      "sha256": "662af129b0c9a9e350afb763b479098785454888f3c177a80fd22a3e80ac907f",
+      "role": "source_document"
+    },
+    {
+      "scope": "tutorial-text-review",
+      "path": "08-6a44fd700000000007020a39-0基础教学!AI短剧的“资产库”到底怎么做？/方法论与技术要点.md",
+      "bytes": 6278,
+      "sha256": "9a4f9e50c7e28275493121029044e1e4b351a93628b74d1e91e4b4083dd2d802",
+      "role": "source_document"
+    },
+    {
+      "scope": "tutorial-text-review",
+      "path": "09-69d62fa80000000021006bc4-秘籍！一招教你指定描述AI图里的元素/提示词提取.md",
+      "bytes": 4326,
+      "sha256": "d0da30998c406cc8c40b5aacfb65f718eda93ec5665845a46570a8a227391abc",
+      "role": "source_document"
+    },
+    {
+      "scope": "tutorial-text-review",
+      "path": "09-69d62fa80000000021006bc4-秘籍！一招教你指定描述AI图里的元素/方法论与技术要点.md",
+      "bytes": 5581,
+      "sha256": "243b0fdccbc47f14db81daeb641609b0dae24fbc6586b047a5606df674ba31c2",
+      "role": "source_document"
+    },
+    {
+      "scope": "tutorial-text-review",
+      "path": "10-69ca589d0000000023010bdf-一个提示词技巧，让AI视频瞬间有实拍感！/提示词提取.md",
+      "bytes": 4229,
+      "sha256": "423a2a6ffbd24e8b161a458aef03bb2bc5ed1242c46cbbf8e726457ffcfc7a16",
+      "role": "source_document"
+    },
+    {
+      "scope": "tutorial-text-review",
+      "path": "10-69ca589d0000000023010bdf-一个提示词技巧，让AI视频瞬间有实拍感！/方法论与技术要点.md",
+      "bytes": 5780,
+      "sha256": "6bbe34c8888fd1ad3736c7b4f8ca4e0dae0676ed510434feb409ad15b8e4b490",
+      "role": "source_document"
+    },
+    {
+      "scope": "tutorial-text-review",
+      "path": "11-6a1435c4000000003601d24b-全网独家！如何用妆造让你的ai角色更高级？/提示词提取.md",
+      "bytes": 4786,
+      "sha256": "b84ed34b699b1e4f9829aa1d02516f5d377098ac402896568f0ab1a8c4307217",
+      "role": "source_document"
+    },
+    {
+      "scope": "tutorial-text-review",
+      "path": "11-6a1435c4000000003601d24b-全网独家！如何用妆造让你的ai角色更高级？/方法论与技术要点.md",
+      "bytes": 5757,
+      "sha256": "fa3b37f0db12dc2c7fd32b9d485fe30d9fff434fb3bdd6e1d3658385538cf5c1",
+      "role": "source_document"
+    },
+    {
+      "scope": "tutorial-text-review",
+      "path": "12-6a26b978000000001702fb5c-进阶教程！如何让AI女频短剧更有生命力？/提示词提取.md",
+      "bytes": 5200,
+      "sha256": "318287aa18a1611d465d8fac9bc231edf6fabee60e61be5b5ac10462806cd71a",
+      "role": "source_document"
+    },
+    {
+      "scope": "tutorial-text-review",
+      "path": "12-6a26b978000000001702fb5c-进阶教程！如何让AI女频短剧更有生命力？/方法论与技术要点.md",
+      "bytes": 5952,
+      "sha256": "a4dd2dbcd75fc5366c5b762dde830c3c01d2760c0087af1975ea9e5db02ca1dc",
+      "role": "source_document"
+    },
+    {
+      "scope": "tutorial-text-review",
+      "path": "13-6a3a6ca9000000000f006cc9-小白必看！如何用光线提升AI视频质感？/提示词提取.md",
+      "bytes": 5200,
+      "sha256": "487ae3e6762f3a68279bf00817479e8e913bfd58dcce15606ed58d85c4800b03",
+      "role": "source_document"
+    },
+    {
+      "scope": "tutorial-text-review",
+      "path": "13-6a3a6ca9000000000f006cc9-小白必看！如何用光线提升AI视频质感？/方法论与技术要点.md",
+      "bytes": 6572,
+      "sha256": "8b024ec87c0e69a778fd6b54d12b3cdc9a0a127feca9de4c31dded792588ffa4",
+      "role": "source_document"
+    },
+    {
+      "scope": "tutorial-text-review",
+      "path": "SHA256SUMS.txt",
+      "bytes": 4866,
+      "sha256": "f77e6d7e92f535d1d9a559117c28ec94a1e9ff290a8e1e46eadc92719df897d1",
+      "role": "inventory_or_checksum"
+    },
+    {
+      "scope": "tutorial-text-review",
+      "path": "复审覆盖清单.json",
+      "bytes": 16246,
+      "sha256": "05b26730ea693e55ffc3f4cd0719772467b8eb55c9dda9fd11acfed8d71b0752",
+      "role": "inventory_or_checksum"
+    },
+    {
+      "scope": "uploaded-okf-skill",
+      "path": "SKILL.md",
+      "bytes": 7872,
+      "sha256": "247860a902e0ccca36729f5c0baf7992432fa4021c01eebbbf759aed42dfdb4c",
+      "role": "source_document"
+    },
+    {
+      "scope": "uploaded-okf-skill",
+      "path": "references/okf-spec.md",
+      "bytes": 8905,
+      "sha256": "f38d2e0feab470b079f24091f6ff3b15cb26aac6e02c13927f9054286e3a8204",
+      "role": "source_document"
+    },
+    {
+      "scope": "uploaded-okf-skill",
+      "path": "references/templates.md",
+      "bytes": 4327,
+      "sha256": "f61c02f0e2ccf33d99b899e60b79a0e0e5cd3bdc1aed6c06fbbf5fe1a2b427b8",
+      "role": "source_document"
+    },
+    {
+      "scope": "uploaded-okf-skill",
+      "path": "scripts/okf_tools.py",
+      "bytes": 19529,
+      "sha256": "2ee96ec27a9407c0d1bd8d98889f98a5636d6c5d7e9f876ac762ce62df9a30f4",
+      "role": "source_document"
+    }
+  ],
+  "source_archives": [
+    {
+      "filename": "ciwei-ai-shortfilm-notes-text-review-overlay-20260917.zip",
+      "bytes": 101492,
+      "sha256": "2945496c430a9cb7439a93fbd56fcc409f353343a5dd55098b980ad8fe1a6d56"
+    },
+    {
+      "filename": "okf-bundle-ready.zip",
+      "bytes": 23015,
+      "sha256": "e350220a62421c956c5fdbb2f2838e0a3feba9d83c5f1b3c47840a31a53d2ef3"
+    }
+  ],
+  "source_repository_commit": "5887b2040f642782ce29473bd6cb8b2f8129458b",
+  "direct_tutorial_markdown_count": 29,
+  "tutorial_groups": 13,
+  "generation_tests_run": false,
+  "raw_screenshot_pixel_review_in_this_task": false,
+  "notes": [
+    "范围为会话已提供的文字复审包，不混同原始截图/音视频。",
+    "不把原有复审的1027条OCR记录记为本次新增的像素阅读。",
+    "来源文件未被修改；原校验器复制字节未修改。"
+  ]
+}

@@ -1,0 +1,2 @@
+tutorial-text-review-source.zip 为上一轮文字复审输入的同字节副本，仅用于追溯。不是本指南入口，不是原仓库完整备份；原包的视觉核验限制继续有效。
+用户上传的OKF skill仅复制其中校验器供使用；输入文件清单与摘要见qa/scope_manifest.json。

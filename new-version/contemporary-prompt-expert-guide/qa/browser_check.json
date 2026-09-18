@@ -1,0 +1,32 @@
+{
+  "engine": "Chromium (system binary)",
+  "scope": "offline_reader_navigation_search_layout_not_media_generation",
+  "load_method": "set_content from generated local HTML; file:// navigation blocked by container browser policy",
+  "checks": {
+    "homepage_title": true,
+    "embedded_pages_56": true,
+    "concept_count_47": true,
+    "all_56_routes_have_one_heading": true,
+    "search_rear_camera_returns_vlog": true,
+    "multi_term_search_returns_results": true,
+    "search_clear_restores_nav": true,
+    "article_outside_metadata_header": true,
+    "desktop_article_readable_width": true,
+    "desktop_no_global_overflow": true,
+    "code_copy_provides_feedback": true,
+    "dark_theme_switch": true,
+    "fullbook_has_47_articles": true,
+    "fullbook_unique_heading_ids": true,
+    "print_expands_citations": true,
+    "no_automatic_network_requests": true,
+    "mobile_home_no_global_overflow": true,
+    "mobile_drawer_opens": true,
+    "mobile_drawer_closes_after_navigation": true,
+    "mobile_article_no_global_overflow": true,
+    "mobile_table_no_global_overflow": true
+  },
+  "errors": [],
+  "route_failures": [],
+  "copy_feedback": "已复制",
+  "passed": true
+}

@@ -1,0 +1,23 @@
+Actual deterministic test run — 2026-09-18
+Not a model/host/media test.
+
+test_actual_package (test_package.PackageTests.test_actual_package) ... ok
+test_bad_quoted_value (test_package.PackageTests.test_bad_quoted_value) ... ok
+test_boundary_check (test_package.PackageTests.test_boundary_check) ... ok
+test_broken_link (test_package.PackageTests.test_broken_link) ... ok
+test_duplicate_eval_id (test_package.PackageTests.test_duplicate_eval_id) ... ok
+test_duplicate_frontmatter (test_package.PackageTests.test_duplicate_frontmatter) ... ok
+test_frontmatter_valid (test_package.PackageTests.test_frontmatter_valid) ... ok
+test_hash_tampering (test_package.PackageTests.test_hash_tampering) ... ok
+test_link_decode (test_package.PackageTests.test_link_decode) ... ok
+test_links_skip_code_and_remote (test_package.PackageTests.test_links_skip_code_and_remote) ... ok
+test_metadata_folder_mismatch (test_package.PackageTests.test_metadata_folder_mismatch) ... ok
+test_missing_frontmatter (test_package.PackageTests.test_missing_frontmatter) ... ok
+test_missing_root (test_package.PackageTests.test_missing_root) ... ok
+test_name_rules (test_package.PackageTests.test_name_rules) ... ok
+test_unclosed_frontmatter (test_package.PackageTests.test_unclosed_frontmatter) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.384s
+
+OK

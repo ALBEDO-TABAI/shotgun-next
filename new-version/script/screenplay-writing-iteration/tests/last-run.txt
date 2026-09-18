@@ -1,0 +1,64 @@
+Actual deterministic test run — 2026-09-18
+Not a model/host/media test.
+
+test_absolute_path (test_delivery.DeliveryTests.test_absolute_path) ... ok
+test_added_utterance (test_delivery.DeliveryTests.test_added_utterance) ... ok
+test_alignment_wrong_header (test_delivery.DeliveryTests.test_alignment_wrong_header) ... ok
+test_approved_pending (test_delivery.DeliveryTests.test_approved_pending) ... ok
+test_bad_schema_bool (test_delivery.DeliveryTests.test_bad_schema_bool) ... ok
+test_blank_confirmation (test_delivery.DeliveryTests.test_blank_confirmation) ... ok
+test_blank_context (test_delivery.DeliveryTests.test_blank_context) ... ok
+test_changed_channel (test_delivery.DeliveryTests.test_changed_channel) ... ok
+test_changed_parent_scene (test_delivery.DeliveryTests.test_changed_parent_scene) ... ok
+test_changed_prompts_bytes (test_delivery.DeliveryTests.test_changed_prompts_bytes) ... ok
+test_changed_screen_text (test_delivery.DeliveryTests.test_changed_screen_text) ... ok
+test_changed_speaker (test_delivery.DeliveryTests.test_changed_speaker) ... ok
+test_changed_spoken_text (test_delivery.DeliveryTests.test_changed_spoken_text) ... ok
+test_changed_standard_bytes (test_delivery.DeliveryTests.test_changed_standard_bytes) ... ok
+test_draft_not_final (test_delivery.DeliveryTests.test_draft_not_final) ... ok
+test_duplicate_json_key (test_delivery.DeliveryTests.test_duplicate_json_key) ... ok
+test_duplicate_scene (test_delivery.DeliveryTests.test_duplicate_scene) ... ok
+test_duplicate_utterance (test_delivery.DeliveryTests.test_duplicate_utterance) ... ok
+test_extra_state_field (test_delivery.DeliveryTests.test_extra_state_field) ... ok
+test_fake_hash (test_delivery.DeliveryTests.test_fake_hash) ... ok
+test_immutable_approval_on_new_current (test_delivery.DeliveryTests.test_immutable_approval_on_new_current) ... ok
+test_malformed_line (test_delivery.DeliveryTests.test_malformed_line) ... ok
+test_missing_alignment (test_delivery.DeliveryTests.test_missing_alignment) ... ok
+test_missing_file (test_delivery.DeliveryTests.test_missing_file) ... ok
+test_missing_scene (test_delivery.DeliveryTests.test_missing_scene) ... ok
+test_no_approval_derived (test_delivery.DeliveryTests.test_no_approval_derived) ... ok
+test_no_marker_format (test_delivery.DeliveryTests.test_no_marker_format) ... ok
+test_path_escape (test_delivery.DeliveryTests.test_path_escape) ... ok
+test_pending_not_final (test_delivery.DeliveryTests.test_pending_not_final) ... ok
+test_prompts_wrong_header (test_delivery.DeliveryTests.test_prompts_wrong_header) ... ok
+test_real_teaching_pair_markers (test_delivery.DeliveryTests.test_real_teaching_pair_markers) ... ok
+test_scene_order (test_delivery.DeliveryTests.test_scene_order) ... ok
+test_script_checker_does_not_write (test_delivery.DeliveryTests.test_script_checker_does_not_write) ... ok
+test_stale_approval_hash (test_delivery.DeliveryTests.test_stale_approval_hash) ... ok
+test_stale_approval_version (test_delivery.DeliveryTests.test_stale_approval_version) ... ok
+test_stale_source_hash (test_delivery.DeliveryTests.test_stale_source_hash) ... ok
+test_stale_source_version (test_delivery.DeliveryTests.test_stale_source_version) ... ok
+test_unmarked_semantics_are_not_verified (test_delivery.DeliveryTests.test_unmarked_semantics_are_not_verified) ... ok
+test_valid_draft (test_delivery.DeliveryTests.test_valid_draft) ... ok
+test_valid_pair (test_delivery.DeliveryTests.test_valid_pair) ... ok
+test_wrong_id_prefix (test_delivery.DeliveryTests.test_wrong_id_prefix) ... ok
+test_actual_package (test_package.PackageTests.test_actual_package) ... ok
+test_bad_quoted_value (test_package.PackageTests.test_bad_quoted_value) ... ok
+test_boundary_check (test_package.PackageTests.test_boundary_check) ... ok
+test_broken_link (test_package.PackageTests.test_broken_link) ... ok
+test_duplicate_eval_id (test_package.PackageTests.test_duplicate_eval_id) ... ok
+test_duplicate_frontmatter (test_package.PackageTests.test_duplicate_frontmatter) ... ok
+test_frontmatter_valid (test_package.PackageTests.test_frontmatter_valid) ... ok
+test_hash_tampering (test_package.PackageTests.test_hash_tampering) ... ok
+test_link_decode (test_package.PackageTests.test_link_decode) ... ok
+test_links_skip_code_and_remote (test_package.PackageTests.test_links_skip_code_and_remote) ... ok
+test_metadata_folder_mismatch (test_package.PackageTests.test_metadata_folder_mismatch) ... ok
+test_missing_frontmatter (test_package.PackageTests.test_missing_frontmatter) ... ok
+test_missing_root (test_package.PackageTests.test_missing_root) ... ok
+test_name_rules (test_package.PackageTests.test_name_rules) ... ok
+test_unclosed_frontmatter (test_package.PackageTests.test_unclosed_frontmatter) ... ok
+
+----------------------------------------------------------------------
+Ran 56 tests in 0.431s
+
+OK

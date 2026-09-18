@@ -1,0 +1,8 @@
+{
+  "scope": "index_relocation_of_copied_local_workspace",
+  "passed": true,
+  "bundle_count": 1,
+  "preserved_human_fields": true,
+  "external_writes": false,
+  "relocated_key": "/private/tmp/cpeg-reloc/pkg/knowledge/contemporary-prompting"
+}

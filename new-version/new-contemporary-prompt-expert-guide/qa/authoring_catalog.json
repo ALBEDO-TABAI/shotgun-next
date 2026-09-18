@@ -1,0 +1,855 @@
+{
+  "edition": "2 (plain-language rewrite)",
+  "concepts": [
+    {
+      "path": "cases/01-brand-film.md",
+      "type": "CaseStudy",
+      "title": "29｜完整案例：30 秒洗发水品牌片《留一点空隙》",
+      "description": "从一句\"清爽治愈\"到 30 秒的镜头表。感受稿、三方案比较、声音结构、两段执行稿、验收清单，全程走一遍。",
+      "tags": [
+        "完整案例",
+        "品牌",
+        "音乐",
+        "洗护",
+        "通感"
+      ],
+      "timestamp": "2026-09-18",
+      "source": [
+        "/references/corpus.md",
+        "/references/tutorial-map.md"
+      ]
+    },
+    {
+      "path": "cases/02-relationship.md",
+      "type": "CaseStudy",
+      "title": "30｜完整案例：餐桌上，一句没问出口的话",
+      "description": "用普通台词、一只杯子和听者的反应表现关系。同时给出\"直接问\"的版本——它不比潜台词版低级。",
+      "tags": [
+        "完整案例",
+        "关系",
+        "对白",
+        "表演"
+      ],
+      "timestamp": "2026-09-18",
+      "source": [
+        "/references/corpus.md"
+      ]
+    },
+    {
+      "path": "cases/03-big-emotion.md",
+      "type": "CaseStudy",
+      "title": "31｜完整案例：喜悦真的可以冲出来",
+      "description": "用强动作和真实接触表现外放情绪。纠正\"自然就是克制\"的偏见——大笑、奔跑、拥抱同样可以写得好。",
+      "tags": [
+        "完整案例",
+        "喜悦",
+        "强情绪",
+        "动作"
+      ],
+      "timestamp": "2026-09-18",
+      "source": [
+        "/references/corpus.md"
+      ]
+    },
+    {
+      "path": "cases/04-vlog.md",
+      "type": "CaseStudy",
+      "title": "32｜完整案例：谁在拍谁——12 秒咖啡馆 Vlog",
+      "description": "Vlog 的生活感来自\"镜头是一个物件\"：谁拿着它、朝哪拍、什么时候放下。不是靠统一的晃动滤镜。",
+      "tags": [
+        "完整案例",
+        "Vlog",
+        "视点",
+        "道具"
+      ],
+      "timestamp": "2026-09-18",
+      "source": [
+        "/references/corpus.md",
+        "/references/tutorial-map.md"
+      ]
+    },
+    {
+      "path": "cases/05-empty-corridor.md",
+      "type": "CaseStudy",
+      "title": "33｜完整案例：空走廊为什么会让人等下去",
+      "description": "不用人脸、不用重型音乐，靠声音、遮挡和延迟组织悬念。同一条走廊换一组声音，就变成等开饭。",
+      "tags": [
+        "完整案例",
+        "悬疑",
+        "声音",
+        "空镜"
+      ],
+      "timestamp": "2026-09-18",
+      "source": [
+        "/references/corpus.md"
+      ]
+    },
+    {
+      "path": "cases/06-surreal-perfume.md",
+      "type": "CaseStudy",
+      "title": "34｜完整案例：不追求实拍的香水图与短动效",
+      "description": "风格化不是\"不够真实的失败品\"，它有自己的世界规则。只偏离一条规则，其余保持稳定。",
+      "tags": [
+        "完整案例",
+        "香水",
+        "超现实",
+        "主视觉"
+      ],
+      "timestamp": "2026-09-18",
+      "source": [
+        "/references/corpus.md"
+      ]
+    },
+    {
+      "path": "cases/07-comedy.md",
+      "type": "CaseStudy",
+      "title": "35｜完整案例：安静自习室里的零食袋",
+      "description": "喜剧来自目标、阻力和反应，不是给角色加夸张表情。一个可以反复用的小结构。",
+      "tags": [
+        "完整案例",
+        "喜剧",
+        "节奏",
+        "音效"
+      ],
+      "timestamp": "2026-09-18",
+      "source": [
+        "/references/corpus.md"
+      ]
+    },
+    {
+      "path": "cases/08-object-exchange.md",
+      "type": "CaseStudy",
+      "title": "36｜完整案例：两份文件，谁最后拿着哪一份",
+      "description": "用\"状态表\"规划一镜到底，让观众看清交换结果。同时给出更省力的三镜头方案。",
+      "tags": [
+        "完整案例",
+        "预演",
+        "道具",
+        "一镜到底"
+      ],
+      "timestamp": "2026-09-18",
+      "source": [
+        "/references/corpus.md",
+        "/references/tutorial-map.md"
+      ]
+    },
+    {
+      "path": "craft/01-acting.md",
+      "type": "Technique",
+      "title": "12｜表演：先问\"他想让谁怎么样\"，再写表情",
+      "description": "情绪不是表情包。从人物正在做的事出发，写一个刺激、一次反应、一处看得见的变化。",
+      "tags": [
+        "表演",
+        "情绪",
+        "角色"
+      ],
+      "timestamp": "2026-09-18",
+      "source": [
+        "/references/corpus.md",
+        "/references/tutorial-map.md"
+      ]
+    },
+    {
+      "path": "craft/02-dialogue-voice.md",
+      "type": "Technique",
+      "title": "13｜台词与配音：不是换一副嗓子，是换一种说话的关系",
+      "description": "声音有四层：这个人一直是什么声音、这次想干什么、句子怎么走、在什么空间里。分开写，AI 才不会念成播音腔。",
+      "tags": [
+        "声音",
+        "配音",
+        "对白",
+        "节奏"
+      ],
+      "timestamp": "2026-09-18",
+      "source": [
+        "/references/corpus.md",
+        "/references/official-voice-light.md"
+      ]
+    },
+    {
+      "path": "craft/03-action-blocking.md",
+      "type": "Technique",
+      "title": "14｜动作与调度：东西从哪来、到哪去，手上拿着什么",
+      "description": "动作的丰富不在动词数量，而在状态真的变了。关键的接触要写清，走路的每一步不用管。",
+      "tags": [
+        "动作",
+        "调度",
+        "道具",
+        "连续性"
+      ],
+      "timestamp": "2026-09-18",
+      "source": [
+        "/references/corpus.md",
+        "/references/tutorial-map.md"
+      ]
+    },
+    {
+      "path": "craft/04-camera-attention.md",
+      "type": "Technique",
+      "title": "15｜镜头：先决定观众站在哪里，再决定镜头怎么动",
+      "description": "一条镜头先选一件主要的活。把\"推、拉、摇、移、环绕、拉焦\"串在一起，往往没说清最重要的观看任务。",
+      "tags": [
+        "镜头",
+        "机位",
+        "注意力",
+        "运镜"
+      ],
+      "timestamp": "2026-09-18",
+      "source": [
+        "/references/corpus.md",
+        "/references/official-video.md",
+        "/references/theory.md"
+      ]
+    },
+    {
+      "path": "craft/05-light-material.md",
+      "type": "Technique",
+      "title": "16｜光与材质：光从哪来、落在哪、什么东西怎么反应",
+      "description": "光不是画面亮度的开关。分清方向、软硬、影响区域，把\"质感\"落到具体的表面上。",
+      "tags": [
+        "光线",
+        "材质",
+        "产品",
+        "连续性"
+      ],
+      "timestamp": "2026-09-18",
+      "source": [
+        "/references/corpus.md",
+        "/references/official-voice-light.md"
+      ]
+    },
+    {
+      "path": "craft/06-world-art-costume.md",
+      "type": "Technique",
+      "title": "17｜美术与妆造：世界不是背景板，身份不只是一张脸",
+      "description": "用\"这个人怎么生活、这个东西怎么被用过\"来设计世界和人物，别套性别模板和年代标签。",
+      "tags": [
+        "美术",
+        "妆造",
+        "世界观",
+        "资产"
+      ],
+      "timestamp": "2026-09-18",
+      "source": [
+        "/references/corpus.md",
+        "/references/tutorial-map.md"
+      ]
+    },
+    {
+      "path": "craft/07-sound-music.md",
+      "type": "Technique",
+      "title": "18｜音乐与声音：先决定声音在干哪件事",
+      "description": "声音可以撑起空间、给动作重量、引导注意、改变理解、连接段落。别只填\"流派 + 情绪 + BPM\"。",
+      "tags": [
+        "音乐",
+        "音效",
+        "声音",
+        "通感"
+      ],
+      "timestamp": "2026-09-18",
+      "source": [
+        "/references/corpus.md",
+        "/references/tutorial-map.md"
+      ]
+    },
+    {
+      "path": "craft/08-still-graphic-style.md",
+      "type": "Technique",
+      "title": "19｜静态图、平面设计与风格化：一张图不必写成电影",
+      "description": "没有时间轴的时候，怎么组织主次、关系、材料和阅读顺序。允许一张图没有故事，但不允许没有选择。",
+      "tags": [
+        "平面",
+        "生图",
+        "插画",
+        "风格"
+      ],
+      "timestamp": "2026-09-18",
+      "source": [
+        "/references/corpus.md",
+        "/references/official-image.md"
+      ]
+    },
+    {
+      "path": "craft/09-time-montage.md",
+      "type": "Technique",
+      "title": "20｜时间与剪辑：提示词里发生了，不代表观众来得及看懂",
+      "description": "三种时间要一起算：事情做完的时间、观众看懂的时间、感受形成的时间。先给段落功能，再给秒数。",
+      "tags": [
+        "剪辑",
+        "时间",
+        "叙事",
+        "节奏"
+      ],
+      "timestamp": "2026-09-18",
+      "source": [
+        "/references/corpus.md",
+        "/references/tutorial-map.md"
+      ]
+    },
+    {
+      "path": "foundations/00-ten-minute-start.md",
+      "type": "Framework",
+      "title": "00｜十分钟上手：写提示词之前，先想清楚三件事",
+      "description": "只用一个例子，把全书最核心的方法走一遍。读完这一篇，你已经能写出比大多数人更好的提示词。",
+      "tags": [
+        "入门",
+        "核心方法",
+        "快速上手"
+      ],
+      "timestamp": "2026-09-18",
+      "source": [
+        "/references/corpus.md",
+        "/references/tutorial-map.md"
+      ]
+    },
+    {
+      "path": "foundations/01-what-this-field-is.md",
+      "type": "Framework",
+      "title": "01｜这门手艺到底在做什么：从\"堆关键词\"到\"说人话\"",
+      "description": "解释为什么现在的提示词和几年前完全不同，以及\"人话\"到底指什么、不指什么。",
+      "tags": [
+        "总论",
+        "人话",
+        "边界"
+      ],
+      "timestamp": "2026-09-18",
+      "source": [
+        "/references/corpus.md",
+        "/references/official-image.md",
+        "/references/official-video.md",
+        "/references/theory.md"
+      ]
+    },
+    {
+      "path": "foundations/02-six-layer-method.md",
+      "type": "Framework",
+      "title": "02｜六个问题：从\"我想要的感觉\"到\"AI 能用的话\"",
+      "description": "全书的核心方法。从观众的感受出发，一路问到具体提交什么，中间的每一步都可以单独检查。",
+      "tags": [
+        "核心方法",
+        "六个问题",
+        "感受落点"
+      ],
+      "timestamp": "2026-09-18",
+      "source": [
+        "/references/corpus.md",
+        "/references/tutorial-map.md"
+      ]
+    },
+    {
+      "path": "foundations/03-three-drafts.md",
+      "type": "Framework",
+      "title": "03｜三种稿子：给自己看的、给团队看的、给 AI 看的",
+      "description": "诗意和工程别挤在一段话里。分成三种稿子，各干各的活。",
+      "tags": [
+        "写作方法",
+        "感受稿",
+        "执行稿"
+      ],
+      "timestamp": "2026-09-18",
+      "source": [
+        "/references/corpus.md",
+        "/references/official-image.md",
+        "/references/official-video.md"
+      ]
+    },
+    {
+      "path": "foundations/04-freedom-and-constraints.md",
+      "type": "Framework",
+      "title": "04｜哪些必须说死，哪些可以放手：分配确定性",
+      "description": "写提示词的专业性，不在于把每个细节都锁住，而在于知道锁什么、放什么。",
+      "tags": [
+        "约束",
+        "留白",
+        "迭代"
+      ],
+      "timestamp": "2026-09-18",
+      "source": [
+        "/references/corpus.md",
+        "/references/official-video.md"
+      ]
+    },
+    {
+      "path": "foundations/05-how-to-know.md",
+      "type": "Framework",
+      "title": "05｜别被自己的提示词骗了：怎么判断一句话真的有用",
+      "description": "写得漂亮不等于有效。区分\"我看见了什么\"\"我以为什么\"\"工具承诺了什么\"\"实际测出了什么\"。",
+      "tags": [
+        "判断",
+        "证据",
+        "评价"
+      ],
+      "timestamp": "2026-09-18",
+      "source": [
+        "/references/corpus.md",
+        "/references/tutorial-map.md",
+        "/references/theory.md"
+      ]
+    },
+    {
+      "path": "language/01-sensory-translation.md",
+      "type": "Technique",
+      "title": "06｜通感怎么用：借一种感觉的形状，去描述另一种感觉",
+      "description": "通感不是堆比喻。它是把重量、温度、触感、距离、节奏这些身体经验，搬到画面和声音里，同时防止比喻被 AI 当真。",
+      "tags": [
+        "通感",
+        "比喻",
+        "声音",
+        "材质"
+      ],
+      "timestamp": "2026-09-18",
+      "source": [
+        "/references/corpus.md",
+        "/references/theory.md"
+      ]
+    },
+    {
+      "path": "language/02-association-workshop.md",
+      "type": "Technique",
+      "title": "07｜联想工作坊：怎么想出不落俗套的点子",
+      "description": "六条从生活经验里长出联想的路径。不是换同义词，是换问法。",
+      "tags": [
+        "联想",
+        "创意",
+        "生活观察"
+      ],
+      "timestamp": "2026-09-18",
+      "source": [
+        "/references/corpus.md",
+        "/references/theory.md"
+      ]
+    },
+    {
+      "path": "language/03-scene-grammar.md",
+      "type": "Technique",
+      "title": "08｜用人话组织画面：名词之外，还有动词、介词和连词",
+      "description": "一句话里的每种词都有自己的活。选对动词，常比追加\"自然真实\"有用。",
+      "tags": [
+        "自然语言",
+        "句法",
+        "关系",
+        "动作"
+      ],
+      "timestamp": "2026-09-18",
+      "source": [
+        "/references/corpus.md",
+        "/references/official-image.md",
+        "/references/official-video.md"
+      ]
+    },
+    {
+      "path": "language/04-emotion-atlas.md",
+      "type": "Lexicon",
+      "title": "09｜情绪图谱：16 种情绪，每种都不止一种身体",
+      "description": "同一个\"高兴\"，有人急着分享，有人怕被看见。这张图谱帮你选：这个人、这一刻，情绪从哪里露出来。",
+      "tags": [
+        "情绪",
+        "表演",
+        "台词",
+        "图谱"
+      ],
+      "timestamp": "2026-09-18",
+      "source": [
+        "/references/corpus.md"
+      ]
+    },
+    {
+      "path": "language/05-atmosphere-atlas.md",
+      "type": "Lexicon",
+      "title": "10｜氛围图谱：16 种抽象感觉，各自可以落在什么材料上",
+      "description": "清爽、高级、梦幻这些词不是撒在画面上的粉。它们来自东西怎么靠近、怎么发声、怎么留下时间。",
+      "tags": [
+        "氛围",
+        "通感",
+        "风格",
+        "词汇"
+      ],
+      "timestamp": "2026-09-18",
+      "source": [
+        "/references/corpus.md",
+        "/references/theory.md",
+        "/references/official-voice-light.md"
+      ]
+    },
+    {
+      "path": "language/06-rewrite-clinic.md",
+      "type": "Technique",
+      "title": "11｜改写诊所：12 组\"写成这样 → 改成这样\"",
+      "description": "三种常见病：只有标签、写成散文、控制过度。每组对照都告诉你改了什么、为什么。",
+      "tags": [
+        "改写",
+        "例子",
+        "自然语言"
+      ],
+      "timestamp": "2026-09-18",
+      "source": [
+        "/references/corpus.md",
+        "/references/tutorial-map.md"
+      ]
+    },
+    {
+      "path": "practice/01-templates.md",
+      "type": "Playbook",
+      "title": "37｜六张可以直接抄的模板",
+      "description": "拿去改就能用。方括号是要替换的地方。用完记得删掉没用的字段。",
+      "tags": [
+        "模板",
+        "工具箱",
+        "助手"
+      ],
+      "timestamp": "2026-09-18",
+      "source": [
+        "/references/corpus.md",
+        "/references/official-image.md",
+        "/references/official-video.md"
+      ]
+    },
+    {
+      "path": "practice/02-exercises.md",
+      "type": "Exercise",
+      "title": "38｜练习册：12 道题，从会写到会选、会看、会改",
+      "description": "每道题有题目、提示和\"做到什么算过\"。先在纸上做，要生成的时候自己选工具。",
+      "tags": [
+        "练习",
+        "学习",
+        "通感",
+        "评价"
+      ],
+      "timestamp": "2026-09-18",
+      "source": [
+        "/references/corpus.md"
+      ]
+    },
+    {
+      "path": "practice/03-review-rubric.md",
+      "type": "Playbook",
+      "title": "39｜评价表：做对了吗，还能往下做吗",
+      "description": "不用一个总分。先分\"任务\"和\"审美\"，再分三轮看，最后留一份明确的结论。",
+      "tags": [
+        "评价",
+        "验收",
+        "复盘",
+        "交付"
+      ],
+      "timestamp": "2026-09-18",
+      "source": [
+        "/references/corpus.md"
+      ]
+    },
+    {
+      "path": "practice/04-agent-use.md",
+      "type": "Playbook",
+      "title": "40｜给 AI 助手和团队的用法",
+      "description": "按任务取用，不要每次把整本书塞进去。角色分工、最小工作顺序、对参考和参数保持诚实。",
+      "tags": [
+        "Agent",
+        "协作",
+        "知识维护",
+        "使用"
+      ],
+      "timestamp": "2026-09-18",
+      "source": [
+        "/references/corpus.md",
+        "/references/okf.md"
+      ]
+    },
+    {
+      "path": "references/corpus.md",
+      "type": "Reference",
+      "title": "这本书依据什么写成",
+      "description": "说清楚三层来源：用户的教程资料、外部官方文档、这次新写的方法。哪些是证据，哪些是设计，不混着说。",
+      "tags": [
+        "来源",
+        "范围",
+        "证据"
+      ],
+      "timestamp": "2026-09-18",
+      "source": [
+        "会话附件：ciwei-ai-shortfilm-notes-text-review-overlay-20260917.zip",
+        "会话附件：okf-bundle-ready.zip"
+      ]
+    },
+    {
+      "path": "references/glossary.md",
+      "type": "Reference",
+      "title": "术语表：书里反复出现的词，一句话解释",
+      "description": "读到不认识的词来这里查。按\"写提示词的词\"\"影视的词\"\"工具的词\"\"这本书自创的词\"分四组。",
+      "tags": [
+        "术语",
+        "查阅",
+        "入门"
+      ],
+      "timestamp": "2026-09-18",
+      "source": [
+        "本书各章"
+      ]
+    },
+    {
+      "path": "references/official-image.md",
+      "type": "Reference",
+      "title": "图像工具的官方说法",
+      "description": "四家图像工具的官方文档各说了什么，这本书用了哪一句，没有推出哪些结论。",
+      "tags": [
+        "官方",
+        "生图",
+        "编辑"
+      ],
+      "timestamp": "2026-09-18",
+      "source": [
+        "Midjourney 官方文档",
+        "Google 官方文档",
+        "OpenAI 官方文档",
+        "Runway 官方文档"
+      ]
+    },
+    {
+      "path": "references/official-video.md",
+      "type": "Reference",
+      "title": "视频工具的官方说法",
+      "description": "视频工具的官方指南各说了什么，哪些是当前建议、哪些已经归档，这本书主动不推出哪些结论。",
+      "tags": [
+        "官方",
+        "视频",
+        "版本"
+      ],
+      "timestamp": "2026-09-18",
+      "source": [
+        "Runway 官方文档",
+        "Google 官方文档",
+        "OpenAI 归档创作指南"
+      ]
+    },
+    {
+      "path": "references/official-voice-light.md",
+      "type": "Reference",
+      "title": "配音和灯光的官方说法",
+      "description": "两个容易被误传的技术点：省略号不等于固定停顿秒数；硬光不等于亮。只校准概念，不用软件文档证明艺术效果。",
+      "tags": [
+        "官方",
+        "配音",
+        "光线"
+      ],
+      "timestamp": "2026-09-18",
+      "source": [
+        "ElevenLabs 官方文档",
+        "Blender 5.2 LTS Manual"
+      ]
+    },
+    {
+      "path": "references/okf.md",
+      "type": "Reference",
+      "title": "OKF 封装说明",
+      "description": "这个知识包按 OKF v0.1 组织。哪些是规范要求、哪些是这本书自己的约定、怎么校验和更新。",
+      "tags": [
+        "OKF",
+        "维护",
+        "格式",
+        "skill"
+      ],
+      "timestamp": "2026-09-18",
+      "source": [
+        "用户上传：okf-bundle-ready.zip",
+        "Open Knowledge Format 公开规范"
+      ]
+    },
+    {
+      "path": "references/theory.md",
+      "type": "Reference",
+      "title": "借用了哪些理论，借到什么程度",
+      "description": "四篇原研究或原作者文章，各支持一座小桥。再加五条这本书自己的推论，标明\"待检验\"。",
+      "tags": [
+        "理论",
+        "研究",
+        "假设",
+        "通感"
+      ],
+      "timestamp": "2026-09-18",
+      "source": [
+        "Palmer 等 2013 原研究",
+        "Don Norman 作者文章",
+        "Tim J. Smith 原始分析",
+        "David Bordwell 作者文章"
+      ]
+    },
+    {
+      "path": "references/tutorial-map.md",
+      "type": "Reference",
+      "title": "13 组教程进入了哪些章节",
+      "description": "每组教程原本讲什么、这本书保留并校准了什么、去了哪几章。全组覆盖，附原仓库链接。",
+      "tags": [
+        "13组",
+        "追溯",
+        "映射"
+      ],
+      "timestamp": "2026-09-18",
+      "source": [
+        "文字复审包：13 个教程目录，共 26 份核心 Markdown"
+      ]
+    },
+    {
+      "path": "workflows/01-brief-to-options.md",
+      "type": "Playbook",
+      "title": "21｜从一句需求到几个真正不同的方向",
+      "description": "收到\"做得梦幻一点、高级一点\"之后，先别写提示词。五步：翻译形容词、发展方向、选方向、先试最危险的、冻结。",
+      "tags": [
+        "需求",
+        "创意",
+        "流程"
+      ],
+      "timestamp": "2026-09-18",
+      "source": [
+        "/references/corpus.md"
+      ]
+    },
+    {
+      "path": "workflows/02-text-to-image.md",
+      "type": "Playbook",
+      "title": "22｜文字生图：先造一个能看懂的画面，再谈细节",
+      "description": "先判断你在做哪一种图，再按\"结构 → 关系 → 细节\"的顺序推进。别用高分辨率把错误的构图做得更精细。",
+      "tags": [
+        "生图",
+        "构图",
+        "首帧"
+      ],
+      "timestamp": "2026-09-18",
+      "source": [
+        "/references/corpus.md",
+        "/references/official-image.md"
+      ]
+    },
+    {
+      "path": "workflows/03-image-edit.md",
+      "type": "Playbook",
+      "title": "23｜改图：说清改哪里，也要说清改完之后是什么样",
+      "description": "改图的核心结构是：原图 + 目标区域 + 操作 + 预期结果 + 重要保留项。红箭头是提示，不是精确蒙版。",
+      "tags": [
+        "改图",
+        "蒙版",
+        "定位",
+        "产品"
+      ],
+      "timestamp": "2026-09-18",
+      "source": [
+        "/references/corpus.md",
+        "/references/official-image.md"
+      ]
+    },
+    {
+      "path": "workflows/04-image-to-video.md",
+      "type": "Playbook",
+      "title": "24｜图生视频：让已经存在的画面继续发生",
+      "description": "上传图片之前先想清楚它是\"第一帧\"还是\"这个人长什么样\"。写接续，不重复；写结尾状态，给下一镜留起点。",
+      "tags": [
+        "图生视频",
+        "首帧",
+        "动作",
+        "执行"
+      ],
+      "timestamp": "2026-09-18",
+      "source": [
+        "/references/corpus.md",
+        "/references/official-video.md"
+      ]
+    },
+    {
+      "path": "workflows/05-assets-multishot.md",
+      "type": "Playbook",
+      "title": "25｜多镜头与资产：准备时可以丰富，提交时要克制",
+      "description": "资产库不是每次都要一起上传的文件夹。身份、造型、状态、本镜姿态四样分开管。已通过的画面才是接续的依据。",
+      "tags": [
+        "资产",
+        "多镜头",
+        "交接",
+        "一致性"
+      ],
+      "timestamp": "2026-09-18",
+      "source": [
+        "/references/corpus.md",
+        "/references/tutorial-map.md"
+      ]
+    },
+    {
+      "path": "workflows/06-previs.md",
+      "type": "Playbook",
+      "title": "26｜复杂镜头：什么时候该放下文字，先做预演",
+      "description": "文字不擅长精确的空间控制。多人同步、复杂遮挡、长路线、关键交接——这些先用草图、计时、粗模把空间变成能播放的东西。",
+      "tags": [
+        "预演",
+        "Previs",
+        "复杂动作",
+        "控制"
+      ],
+      "timestamp": "2026-09-18",
+      "source": [
+        "/references/corpus.md",
+        "/references/tutorial-map.md",
+        "/references/official-video.md"
+      ]
+    },
+    {
+      "path": "workflows/07-evaluate-repair.md",
+      "type": "Playbook",
+      "title": "27｜评价与修复：别用\"AI 味\"三个字掩盖问题在哪",
+      "description": "看成片之前先写两个判断点。失败分层，一次改一件主要的事。停止条件也要写。",
+      "tags": [
+        "评价",
+        "修复",
+        "试验",
+        "停止条件"
+      ],
+      "timestamp": "2026-09-18",
+      "source": [
+        "/references/corpus.md",
+        "/references/official-video.md"
+      ]
+    },
+    {
+      "path": "workflows/08-model-adaptation.md",
+      "type": "Playbook",
+      "title": "28｜工具适配：同一个创意，不必用同一段提示词",
+      "description": "创意层不变，输入方式随工具变。查六项能力，防三个假精确。附同一镜头的四种提交方式。",
+      "tags": [
+        "工具",
+        "适配",
+        "模型",
+        "接口"
+      ],
+      "timestamp": "2026-09-18",
+      "source": [
+        "/references/corpus.md",
+        "/references/official-image.md",
+        "/references/official-video.md"
+      ]
+    }
+  ],
+  "group_labels": {
+    "foundations": [
+      "I · 基础方法",
+      "先搞清楚这门手艺在做什么，再掌握从\"感觉\"到\"提示词\"的方法。"
+    ],
+    "language": [
+      "II · 通感与表达",
+      "把情绪、氛围和联想变成有主次的人话。"
+    ],
+    "craft": [
+      "III · 视听专业",
+      "表演、摄影、美术、声音、剪辑、平面——每个部门分别怎么写。"
+    ],
+    "workflows": [
+      "IV · 生成与迭代",
+      "把创作说明适配到具体任务：出图、改图、生视频、多镜头、预演、修复。"
+    ],
+    "cases": [
+      "V · 完整案例",
+      "八个从头走到尾的例子：第一稿 → 问题 → 怎么想 → 执行稿 → 验收 → 失败了怎么办。"
+    ],
+    "practice": [
+      "VI · 工具与练习",
+      "拿来就用：模板、练习、评价表、给 AI 助手的用法。"
+    ],
+    "references": [
+      "VII · 来源与理论",
+      "术语表、这本书依据什么写成、借了哪些理论、每组教程去了哪一章。"
+    ]
+  }
+}

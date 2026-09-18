@@ -1,0 +1,56 @@
+{
+  "scope": "symbolic MIDI format/timing/note comparison only; no audio rendering, DAW import or listening test",
+  "format": 1,
+  "tracks": 4,
+  "ticks_per_quarter": 480,
+  "requested_bpm": 118,
+  "encoded_tempo_us_per_quarter": 508475,
+  "realized_bpm": 117.99990166674861,
+  "quarter_notes": 16,
+  "duration_seconds": 8.1356,
+  "all_track_end_ticks": [
+    7680,
+    7680,
+    7680,
+    7680
+  ],
+  "checks": {
+    "balanced_note_events": true,
+    "four_bar_length": true,
+    "matching_accompaniment_and_programs": true,
+    "vo_variant_omits_only_middle_two_bars_melody": true,
+    "ending_variant_changes_only_final_pitch": true
+  },
+  "files": [
+    {
+      "name": "01_motif_base.mid",
+      "note_count": 33,
+      "notes_by_track": {
+        "1": 13,
+        "2": 16,
+        "3": 4
+      },
+      "sha256": "8afd05d2d21b155adb7385bc92f5a00cf3ca537e4018dfa80e0be9552d291b7d"
+    },
+    {
+      "name": "02_motif_vo_space.mid",
+      "note_count": 26,
+      "notes_by_track": {
+        "1": 6,
+        "2": 16,
+        "3": 4
+      },
+      "sha256": "44edc2014df3b68c9d89511a3156284aa7fdee8f4f2fa4ec82925e1fa3b25f9a"
+    },
+    {
+      "name": "03_motif_open_ending.mid",
+      "note_count": 33,
+      "notes_by_track": {
+        "1": 13,
+        "2": 16,
+        "3": 4
+      },
+      "sha256": "6dc74408f128140723faa52ad5bf2d07fded5ba9845ecfac3ede2b414984511e"
+    }
+  ]
+}
